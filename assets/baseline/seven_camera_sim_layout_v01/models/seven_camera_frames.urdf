@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!-- SIM-V0.1 nominal TF tree only; meters; NOT factory calibration. -->
+<robot name="seven_camera_nominal_frames">
+  <link name="rig_body"/>
+  <link name="C0_optical"/>
+  <joint name="rig_to_C0_optical" type="fixed"><parent link="rig_body"/><child link="C0_optical"/><origin xyz="0 0 0" rpy="-1.57079632679 0 -1.57079632679"/></joint>
+  <link name="C1_optical"/>
+  <joint name="rig_to_C1_optical" type="fixed"><parent link="rig_body"/><child link="C1_optical"/><origin xyz="0 0.0315 0" rpy="-1.57079632679 0 -1.57079632679"/></joint>
+  <link name="C2_optical"/>
+  <joint name="rig_to_C2_optical" type="fixed"><parent link="rig_body"/><child link="C2_optical"/><origin xyz="0 -0.0315 0" rpy="-1.57079632679 0 -1.57079632679"/></joint>
+  <link name="C3_optical"/>
+  <joint name="rig_to_C3_optical" type="fixed"><parent link="rig_body"/><child link="C3_optical"/><origin xyz="-0.016 0.055 0.02" rpy="0 0 -1.57079632679"/></joint>
+  <link name="C4_optical"/>
+  <joint name="rig_to_C4_optical" type="fixed"><parent link="rig_body"/><child link="C4_optical"/><origin xyz="-0.016 0.055 -0.02" rpy="3.14159265359 0 -1.57079632679"/></joint>
+  <link name="C5_optical"/>
+  <joint name="rig_to_C5_optical" type="fixed"><parent link="rig_body"/><child link="C5_optical"/><origin xyz="-0.016 -0.055 0.02" rpy="0 0 -1.57079632679"/></joint>
+  <link name="C6_optical"/>
+  <joint name="rig_to_C6_optical" type="fixed"><parent link="rig_body"/><child link="C6_optical"/><origin xyz="-0.016 -0.055 -0.02" rpy="3.14159265359 0 -1.57079632679"/></joint>
+  <link name="imu_link"/>
+  <joint name="rig_to_imu" type="fixed"><parent link="rig_body"/><child link="imu_link"/><origin xyz="-0.018 0 0" rpy="0 0 0"/></joint>
+</robot>

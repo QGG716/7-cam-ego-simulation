@@ -1,0 +1,50 @@
+    def _set_lens_distortion_properties(
+        self,
+        distortion_model: str,
+        distortion_model_attr: str,
+        coefficient_map: list[str],
+        coefficients: list[float],
+        **kwargs: object,
+    ) -> None:
+        """Sets lens distortion model parameters if camera prim is using lens distortion model.
+
+        Args:
+            distortion_model: Name of the distortion model to apply.
+            distortion_model_attr: Attribute name for the distortion model.
+            coefficient_map: List of coefficient names to map to the distortion model.
+            coefficients: List of coefficient values to set for the distortion model.
+            **kwargs: Additional keyword arguments passed to the parent class.
+
+        Returns:
+            None.
+
+        """
+        self.prim.ApplyAPI(f"OmniLensDistortion{distortion_model}API")
+        self.prim.GetAttribute("omni:lensdistortion:model").Set(distortion_model_attr)
+        for coefficient_name, coefficient_value in zip(coefficient_map or [], coefficients or []):
+            if coefficient_value is None:
+                continue
+            self.prim.GetAttribute(f"omni:lensdistortion:{distortion_model_attr}:{coefficient_name}").Set(
+                coefficient_value
+            )
+        for attr_name, attr_value in kwargs.items():
+            if attr_value is None:
+                continue
+            tokens = attr_name.split("_")
+            updated_attr_name = tokens[0]
+            for i in tokens[1:]:
+                updated_attr_name += i.capitalize()
+            self.prim.GetAttribute(f"omni:lensdistortion:{distortion_model_attr}:{updated_attr_name}").Set(attr_value)
+        return
+
+    def _get_lens_distortion_properties(
+        self, distortion_model_attr: str, attr_names: list[str], coefficient_map: list[str]
+    ) -> tuple[float]:
+        """Gets lens distortion model parameters if camera prim is using lens distortion model.
+
+        Args:
+            distortion_model_attr: Attribute name for the distortion model.
+            attr_names: List of attribute names to retrieve.
+/root/autodl-tmp/envs/isaacsim-clean/lib/python3.12/site-packages/isaacsim/exts/isaacsim.sensors.experimental.rtx/isaacsim/sensors/experimental/rtx/tests/data/structured_light_camera/projector_opencv_pinhole_4000x2880_2025_10_08_10_51_18.exr
+2.3.1 1.17.0
+

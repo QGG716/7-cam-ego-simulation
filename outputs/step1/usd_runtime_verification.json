@@ -1,0 +1,152 @@
+[
+  {
+    "id": "C0",
+    "schemas": [
+      "OmniLensDistortionOpenCvPinholeAPI"
+    ],
+    "attributes": {
+      "omni:lensdistortion:model": "opencvPinhole",
+      "omni:lensdistortion:opencvPinhole:cx": "960.0",
+      "omni:lensdistortion:opencvPinhole:cy": "540.0",
+      "omni:lensdistortion:opencvPinhole:fx": "554.2562866210938",
+      "omni:lensdistortion:opencvPinhole:fy": "251.80613708496094",
+      "omni:lensdistortion:opencvPinhole:imageSize": "(1920, 1080)",
+      "omni:lensdistortion:opencvPinhole:k1": "0.0",
+      "omni:lensdistortion:opencvPinhole:k2": "0.0",
+      "omni:lensdistortion:opencvPinhole:k3": "0.0",
+      "omni:lensdistortion:opencvPinhole:k4": "0.0",
+      "omni:lensdistortion:opencvPinhole:k5": "0.0",
+      "omni:lensdistortion:opencvPinhole:k6": "0.0",
+      "omni:lensdistortion:opencvPinhole:p1": "0.0",
+      "omni:lensdistortion:opencvPinhole:p2": "0.0",
+      "omni:lensdistortion:opencvPinhole:s1": "0.0",
+      "omni:lensdistortion:opencvPinhole:s2": "0.0",
+      "omni:lensdistortion:opencvPinhole:s3": "0.0",
+      "omni:lensdistortion:opencvPinhole:s4": "0.0",
+      "sim:configSha256": "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d",
+      "sim:fx": "554.2562584220409",
+      "sim:fy": "251.80613540369924",
+      "sim:vfov": "130.0"
+    }
+  },
+  {
+    "id": "C1",
+    "schemas": [],
+    "attributes": {
+      "fthetaCx": "800.0",
+      "fthetaCy": "650.0",
+      "fthetaHeight": "1300.0",
+      "fthetaMaxFov": "160.0",
+      "fthetaPolyA": "0.0",
+      "fthetaPolyB": "0.001745329238474369",
+      "fthetaPolyC": "0.0",
+      "fthetaPolyD": "0.0",
+      "fthetaPolyE": "0.0",
+      "fthetaWidth": "1600.0",
+      "sim:configSha256": "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d",
+      "sim:fx": "572.9577951308232",
+      "sim:fy": "572.9577951308232",
+      "sim:vfov": "130.0"
+    }
+  },
+  {
+    "id": "C2",
+    "schemas": [],
+    "attributes": {
+      "fthetaCx": "800.0",
+      "fthetaCy": "650.0",
+      "fthetaHeight": "1300.0",
+      "fthetaMaxFov": "160.0",
+      "fthetaPolyA": "0.0",
+      "fthetaPolyB": "0.001745329238474369",
+      "fthetaPolyC": "0.0",
+      "fthetaPolyD": "0.0",
+      "fthetaPolyE": "0.0",
+      "fthetaWidth": "1600.0",
+      "sim:configSha256": "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d",
+      "sim:fx": "572.9577951308232",
+      "sim:fy": "572.9577951308232",
+      "sim:vfov": "130.0"
+    }
+  },
+  {
+    "id": "C3",
+    "schemas": [],
+    "attributes": {
+      "fthetaCx": "540.0",
+      "fthetaCy": "480.0",
+      "fthetaHeight": "960.0",
+      "fthetaMaxFov": "220.0",
+      "fthetaPolyA": "0.0",
+      "fthetaPolyB": "0.003999712876975536",
+      "fthetaPolyC": "0.0",
+      "fthetaPolyD": "0.0",
+      "fthetaPolyE": "0.0",
+      "fthetaWidth": "1080.0",
+      "sim:configSha256": "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d",
+      "sim:fx": "250.0179469661774",
+      "sim:fy": "250.0179469661774",
+      "sim:vfov": "220.0"
+    }
+  },
+  {
+    "id": "C4",
+    "schemas": [],
+    "attributes": {
+      "fthetaCx": "540.0",
+      "fthetaCy": "480.0",
+      "fthetaHeight": "960.0",
+      "fthetaMaxFov": "220.0",
+      "fthetaPolyA": "0.0",
+      "fthetaPolyB": "0.003999712876975536",
+      "fthetaPolyC": "0.0",
+      "fthetaPolyD": "0.0",
+      "fthetaPolyE": "0.0",
+      "fthetaWidth": "1080.0",
+      "sim:configSha256": "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d",
+      "sim:fx": "250.0179469661774",
+      "sim:fy": "250.0179469661774",
+      "sim:vfov": "220.0"
+    }
+  },
+  {
+    "id": "C5",
+    "schemas": [],
+    "attributes": {
+      "fthetaCx": "540.0",
+      "fthetaCy": "480.0",
+      "fthetaHeight": "960.0",
+      "fthetaMaxFov": "220.0",
+      "fthetaPolyA": "0.0",
+      "fthetaPolyB": "0.003999712876975536",
+      "fthetaPolyC": "0.0",
+      "fthetaPolyD": "0.0",
+      "fthetaPolyE": "0.0",
+      "fthetaWidth": "1080.0",
+      "sim:configSha256": "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d",
+      "sim:fx": "250.0179469661774",
+      "sim:fy": "250.0179469661774",
+      "sim:vfov": "220.0"
+    }
+  },
+  {
+    "id": "C6",
+    "schemas": [],
+    "attributes": {
+      "fthetaCx": "540.0",
+      "fthetaCy": "480.0",
+      "fthetaHeight": "960.0",
+      "fthetaMaxFov": "220.0",
+      "fthetaPolyA": "0.0",
+      "fthetaPolyB": "0.003999712876975536",
+      "fthetaPolyC": "0.0",
+      "fthetaPolyD": "0.0",
+      "fthetaPolyE": "0.0",
+      "fthetaWidth": "1080.0",
+      "sim:configSha256": "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d",
+      "sim:fx": "250.0179469661774",
+      "sim:fy": "250.0179469661774",
+      "sim:vfov": "220.0"
+    }
+  }
+]

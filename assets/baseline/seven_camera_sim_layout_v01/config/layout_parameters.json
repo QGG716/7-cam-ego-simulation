@@ -1,0 +1,238 @@
+{
+  "schema_version": "1.0",
+  "design_revision": "SIM-V0.1",
+  "status": "PROPOSED_SIMULATION_LAYOUT_NOT_MANUFACTURING_OR_MEASURED_CALIBRATION",
+  "units": "mm",
+  "frame_convention": {
+    "body_origin": "C0 front-main nominal optical projection center",
+    "body_axes": "+X forward, +Y wearer's left, +Z up; right handed",
+    "camera_optical_axes": "+x image right, +y image down, +z optical forward",
+    "imu_axes": "aligned with body in this simulation assumption",
+    "transform": "p_B = R_B_S * p_S + t_B_S; column vectors; matrix values stored as rows",
+    "quaternion": "wxyz"
+  },
+  "customer_source": {
+    "file": "七目相机IMU模组需求文档 (1).pdf",
+    "version": "V0.2",
+    "quotes": [
+      {
+        "page": 2,
+        "section": "3. 配置差异项",
+        "text": "三颗相机水平排列；左右相机中心距 63 mm；中间相机位于中心线中点"
+      },
+      {
+        "page": 2,
+        "section": "3. 配置差异项",
+        "text": "四路相机按方案布局；上下相机光心尽可能对齐"
+      },
+      {
+        "page": 2,
+        "section": "3. 配置差异项",
+        "text": "中间 HFOV 120 deg；左右 HFOV 160 deg"
+      },
+      {
+        "page": 2,
+        "section": "3. 配置差异项",
+        "text": "广角/鱼眼镜头；供应商需明确 D/H/V FOV 与有效成像区域"
+      },
+      {
+        "page": 6,
+        "section": "9. IMU 需求",
+        "text": "输出频率 >=200 Hz。"
+      }
+    ]
+  },
+  "source_image_observations": {
+    "layout": "front trio and left/right upper/lower surround cameras, two controllers and SYNC",
+    "surround_fov_label_deg": 220,
+    "surround_fov_axis_not_specified": true,
+    "front_right_width_label_px": 1630,
+    "imu_label": "IMUx1000",
+    "image_is_not_dimensioned": true
+  },
+  "layout": {
+    "front_baseline_mm": 63.0,
+    "surround_baseline_mm": 110.0,
+    "surround_x_mm": -16.0,
+    "surround_z_half_mm": 20.0,
+    "front_down_pitch_deg": 0.0,
+    "imu_position_mm": [
+      -18.0,
+      0.0,
+      0.0
+    ]
+  },
+  "nominal_acquisition": {
+    "camera_fps": 30.0,
+    "imu_output_hz": 200.0,
+    "time_offset_seconds": 0.0,
+    "synchronization_model": "ideal nominal simultaneous capture; does not validate customer hardware synchronization",
+    "imu_noise_parameters": null
+  },
+  "optics": {
+    "front_main": {
+      "model": "ideal_pinhole",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "hfov_deg": 120.0,
+      "provenance": "resolution chosen at PDF minimum; HFOV from PDF; pinhole model, square pixels and centered principal point are assumptions"
+    },
+    "front_stereo": {
+      "model": "ideal_equidistant",
+      "resolution": [
+        1600,
+        1300
+      ],
+      "hfov_deg": 160.0,
+      "radial_full_fov_deg": 160.0,
+      "provenance": "resolution chosen at PDF minimum for both cameras; HFOV from PDF; equidistant model and circular cut-off are assumptions, not lens calibration"
+    },
+    "surround": {
+      "model": "ideal_equidistant",
+      "resolution": [
+        1080,
+        960
+      ],
+      "radial_full_fov_deg": 220.0,
+      "image_circle_diameter_px": 960.0,
+      "provenance": "resolution chosen at PDF minimum; 220 comes only from composition image; interpretation as full circular angle with 960 px diameter is an assumption"
+    }
+  },
+  "geometry": {
+    "central_housing": {
+      "center_mm": [
+        -17,
+        0,
+        0
+      ],
+      "size_mm": [
+        26,
+        86,
+        26
+      ]
+    },
+    "side_pod_size_mm": [
+      28,
+      24,
+      28
+    ],
+    "right_heatsink": {
+      "center_mm": [
+        -24,
+        -75.5,
+        0
+      ],
+      "size_mm": [
+        32,
+        17,
+        24
+      ]
+    },
+    "front_barrel": {
+      "radius_mm": 6.0,
+      "back_start_mm": 8.0,
+      "back_end_mm": 1.0
+    },
+    "surround_barrel": {
+      "radius_mm": 6.0,
+      "back_start_mm": 8.0,
+      "back_end_mm": 5.0
+    },
+    "strap_left": {
+      "center_mm": [
+        -120,
+        78,
+        0
+      ],
+      "size_mm": [
+        180,
+        5,
+        16
+      ]
+    },
+    "strap_right": {
+      "center_mm": [
+        -120,
+        -78,
+        0
+      ],
+      "size_mm": [
+        180,
+        5,
+        16
+      ]
+    },
+    "strap_rear": {
+      "center_mm": [
+        -212.5,
+        0,
+        0
+      ],
+      "size_mm": [
+        5,
+        161,
+        16
+      ]
+    },
+    "usb_cable": {
+      "points_mm": [
+        [
+          -38,
+          -76,
+          -4
+        ],
+        [
+          -52,
+          -86,
+          -4
+        ],
+        [
+          -190,
+          -86,
+          -14
+        ]
+      ],
+      "radius_mm": 2.5
+    },
+    "head_proxy": {
+      "center_mm": [
+        -120,
+        0,
+        -25
+      ],
+      "radii_mm": [
+        85,
+        72,
+        105
+      ],
+      "scale": 1.0,
+      "not_an_anthropometric_standard": true
+    },
+    "strap_left_bracket": {
+      "center_mm": [
+        -32,
+        71.5,
+        0
+      ],
+      "size_mm": [
+        8,
+        9,
+        16
+      ]
+    }
+  },
+  "assumptions": [
+    "All layout values other than the front 63 mm spacing and midpoint relation are proposed simulation values.",
+    "PDF center spacing is interpreted as nominal optical projection-center spacing for this simulation; real mechanical/optical offset requires supplier data.",
+    "Left and right refer to the wearer; this orientation convention is newly defined for unambiguous simulation.",
+    "Upper cameras look +Z and lower cameras look -Z; image roll is defined by explicit up vectors, not recovered from the picture.",
+    "All sensors are on one rigid assembly; no flex, thermal drift or structural dynamics are simulated.",
+    "Housing, lens barrels, heatsink, straps, cable and head are unmeasured occlusion proxies, not actual part geometry.",
+    "No opaque lens cap or decorative glass is placed in front of the virtual camera origin; lens refraction, entrance-pupil shift and internal vignetting are not simulated.",
+    "No machining holes, tolerances, material, mass, center of mass or PCB design are frozen by this model.",
+    "The 220 degree and 1000 IMU image labels do not replace the PDF technical requirements.",
+    "Results apply only to this configuration and its declared optical/geometry assumptions."
+  ]
+}

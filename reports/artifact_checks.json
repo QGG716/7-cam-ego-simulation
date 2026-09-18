@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "cameras": 7,
+  "angle_checks": 22,
+  "max_residual_px": 0.27132276261901794,
+  "config_sha256": "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d"
+}

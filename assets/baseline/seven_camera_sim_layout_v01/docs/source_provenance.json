@@ -1,0 +1,8 @@
+{
+  "design_revision": "SIM-V0.1",
+  "source_files_unchanged": {
+    "sources/customer_requirements_V0.2.pdf": "9c2e60171be58426ddfb73ecec1dd56b8ef60d692407a4d2af1e52e9d77a6b22",
+    "sources/device_composition.jpg": "3590d5e36813562a24382e74bda953bfe753520ab77e35166b901f1c64301c89"
+  },
+  "artifact_warning": "Nominal simulation design; not manufacturing or measured calibration."
+}

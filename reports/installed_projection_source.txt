@@ -1,0 +1,122 @@
+
+        """
+        return self._get_lens_distortion_properties(
+            distortion_model_attr="lut",
+            attr_names=[
+                "nominalHeight",
+                "nominalWidth",
+                "opticalCenter",
+                "rayEnterDirectionTexture",
+                "rayExitPositionTexture",
+            ],
+            coefficient_map=None,
+        )
+
+    def set_opencv_pinhole_properties(
+        self,
+        cx: float | None = None,
+        cy: float | None = None,
+        fx: float | None = None,
+        fy: float | None = None,
+        pinhole: list[float] | None = None,
+    ) -> None:
+        """Applies OpenCV pinhole distortion model to camera prim, then sets distortion parameters.
+
+        Args:
+            cx: Horizontal Render Position (pixels).
+            cy: Vertical Render Position (pixels).
+            fx: Horizontal Focal Length (pixels).
+            fy: Vertical Focal Length (pixels).
+            pinhole: OpenCV pinhole parameters [k1, k2, p1, p2, k3, k4, k5, k6, s1, s2, s3, s4].
+
+        Returns:
+            None.
+
+        """
+        image_size = Gf.Vec2i(self.get_resolution())
+        return self._set_lens_distortion_properties(
+            distortion_model="OpenCvPinhole",
+            distortion_model_attr="opencvPinhole",
+            coefficient_map=OPENCV_PINHOLE_ATTRIBUTE_MAP,
+            coefficients=pinhole,
+            cx=cx,
+            cy=cy,
+            fx=fx,
+            fy=fy,
+            image_size=image_size,
+        )
+
+    def get_opencv_pinhole_properties(self) -> tuple[float, float, float, float, list]:
+        """If camera prim is using OpenCV pinhole distortion model, returns corresponding distortion parameters.
+
+        Returns:
+            A tuple containing (cx, cy, fx, fy, OpenCV pinhole parameters [k1, k2, p1, p2, k3, k4, k5, k6,
+            s1, s2, s3, s4]).
+
+        """
+        return self._get_lens_distortion_properties(
+            distortion_model_attr="opencvPinhole",
+            attr_names=["cx", "cy", "fx", "fy"],
+            coefficient_map=OPENCV_PINHOLE_ATTRIBUTE_MAP,
+        )
+
+    def set_opencv_fisheye_properties(
+        self,
+        cx: float | None = None,
+        cy: float | None = None,
+        fx: float | None = None,
+        fy: float | None = None,
+        fisheye: list[float] | None = None,
+    ) -> None:
+        """Applies OpenCV fisheye distortion model to camera prim, then sets distortion parameters.
+
+        Args:
+            cx: Horizontal Render Position (pixels).
+            cy: Vertical Render Position (pixels).
+            fx: Horizontal Focal Length (pixels).
+            fy: Vertical Focal Length (pixels).
+            fisheye: OpenCV fisheye parameters [k1, k2, k3, k4].
+
+        Returns:
+            None.
+
+        """
+        image_size = Gf.Vec2i(self.get_resolution())
+        return self._set_lens_distortion_properties(
+            distortion_model="OpenCvFisheye",
+            distortion_model_attr="opencvFisheye",
+            coefficient_map=OPENCV_FISHEYE_ATTRIBUTE_MAP,
+            coefficients=fisheye,
+            cx=cx,
+            cy=cy,
+            fx=fx,
+            fy=fy,
+            image_size=image_size,
+        )
+
+    def get_opencv_fisheye_properties(self) -> tuple[float, float, float, float, list]:
+        """If camera prim is using OpenCV fisheye distortion model, returns corresponding distortion parameters.
+
+        Returns:
+            A tuple containing (cx, cy, fx, fy, OpenCV fisheye parameters [k1, k2, k3, k4]).
+
+        """
+        return self._get_lens_distortion_properties(
+            distortion_model_attr="opencvFisheye",
+            attr_names=["cx", "cy", "fx", "fy"],
+            coefficient_map=OPENCV_FISHEYE_ATTRIBUTE_MAP,
+        )
+
+
+def get_all_camera_objects(root_prim: str = "/") -> list[Camera]:
+    """Retrieve isaacsim.sensors.camera Camera objects for each camera in the scene.
+
+    Args:
+        root_prim: Root prim where the world exists.
+
+    Returns:
+        A list of isaacsim.sensors.camera Camera objects
+
+    """
+    # Get the paths of prims that are of type "Camera" from scene
+

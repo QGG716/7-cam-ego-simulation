@@ -1,0 +1,18 @@
+.cache/
+.venv/
+__pycache__/
+*.pyc
+.ssh/
+config/*secrets*
+config/environment.local.json
+# Original customer material stays local; generated simulation assets are tracked.
+/*SIM-V0.1.zip
+assets/baseline/seven_camera_sim_layout_v01/sources/
+reports/source_review/
+reports/preflight_initial/
+reports/local_preflight.log
+
+# Exclude original drawings and CAD from the public repository.
+assets/baseline/seven_camera_sim_layout_v01/drawings/
+assets/baseline/seven_camera_sim_layout_v01/models/*.step
+assets/baseline/seven_camera_sim_layout_v01/models/*.stl

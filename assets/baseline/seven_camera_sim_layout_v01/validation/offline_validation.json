@@ -1,0 +1,465 @@
+{
+  "scope": "OFFLINE_CAD_AND_NUMERICAL_LAYOUT_ONLY",
+  "configuration": "SIM-V0.1",
+  "checks": [
+    {
+      "name": "seven_camera_count",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "front_baseline_exact_63_mm",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "main_camera_is_midpoint",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C3_C4_same_xy",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C5_C6_same_xy",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "yaml_json_equivalent",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "geometry_valid_central_housing",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "geometry_valid_left_pod",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "geometry_valid_right_pod",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "geometry_valid_C0_barrel",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "geometry_valid_C1_barrel",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "geometry_valid_C2_barrel",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "geometry_valid_C3_barrel",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "geometry_valid_C4_barrel",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "geometry_valid_C5_barrel",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "geometry_valid_C6_barrel",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "geometry_valid_right_heatsink",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "geometry_valid_strap_left",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "geometry_valid_strap_right",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "geometry_valid_strap_rear",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "geometry_valid_strap_left_bracket",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "geometry_valid_usb_cable_0",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "geometry_valid_usb_cable_1",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "geometry_valid_head_ellipsoid",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C0_rotation_orthonormal",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C0_usd_optical_forward_mapping",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C0_usd_optical_up_mapping",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C0_quaternion_to_matrix",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C0_extrinsic_inverse",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C0_imu_chain",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C0_optical_origin_outside_opaque_solids",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C0_nominal_unit_rays",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C1_rotation_orthonormal",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C1_usd_optical_forward_mapping",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C1_usd_optical_up_mapping",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C1_quaternion_to_matrix",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C1_extrinsic_inverse",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C1_imu_chain",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C1_optical_origin_outside_opaque_solids",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C1_nominal_unit_rays",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C2_rotation_orthonormal",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C2_usd_optical_forward_mapping",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C2_usd_optical_up_mapping",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C2_quaternion_to_matrix",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C2_extrinsic_inverse",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C2_imu_chain",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C2_optical_origin_outside_opaque_solids",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C2_nominal_unit_rays",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C3_rotation_orthonormal",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C3_usd_optical_forward_mapping",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C3_usd_optical_up_mapping",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C3_quaternion_to_matrix",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C3_extrinsic_inverse",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C3_imu_chain",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C3_optical_origin_outside_opaque_solids",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C3_nominal_unit_rays",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C4_rotation_orthonormal",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C4_usd_optical_forward_mapping",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C4_usd_optical_up_mapping",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C4_quaternion_to_matrix",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C4_extrinsic_inverse",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C4_imu_chain",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C4_optical_origin_outside_opaque_solids",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C4_nominal_unit_rays",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C5_rotation_orthonormal",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C5_usd_optical_forward_mapping",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C5_usd_optical_up_mapping",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C5_quaternion_to_matrix",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C5_extrinsic_inverse",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C5_imu_chain",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C5_optical_origin_outside_opaque_solids",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C5_nominal_unit_rays",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C6_rotation_orthonormal",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C6_usd_optical_forward_mapping",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C6_usd_optical_up_mapping",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C6_quaternion_to_matrix",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C6_extrinsic_inverse",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C6_imu_chain",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C6_optical_origin_outside_opaque_solids",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "C6_nominal_unit_rays",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "step_roundtrip_seven_camera_rig_proxy.step",
+      "status": "PASS",
+      "detail": "13 valid solids"
+    },
+    {
+      "name": "step_roundtrip_wearer_proxy.step",
+      "status": "PASS",
+      "detail": "5 valid solids"
+    },
+    {
+      "name": "step_roundtrip_complete_occlusion_proxy.step",
+      "status": "PASS",
+      "detail": "18 valid solids"
+    },
+    {
+      "name": "dxf_audit",
+      "status": "PASS",
+      "detail": "0 errors"
+    },
+    {
+      "name": "dxf_units_mm",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "urdf_fixed_tf_tree",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "usda_text_has_seven_camera_definitions",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "usda_text_units_one_meter",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "usda_text_z_up",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "no_lut_schema_authored",
+      "status": "PASS",
+      "detail": ""
+    }
+  ],
+  "passed": 90,
+  "failed": 0,
+  "not_executed": [
+    "USD runtime/pxr parser (not installed in build environment)",
+    "NVIDIA Isaac RTX rendering",
+    "Camera / IMU motion-time acquisition",
+    "SLAM or VIO estimation",
+    "real hardware optical or structural validation"
+  ]
+}

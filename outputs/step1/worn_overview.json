@@ -1,0 +1,38 @@
+{
+  "version": "SIM-V0.2-vfov130",
+  "config_sha256": "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d",
+  "mode": "worn",
+  "width": 1600,
+  "height": 1200,
+  "simulation_time_seconds": 0.0,
+  "camera_position_world_m": [
+    0.38,
+    -0.48,
+    1.94
+  ],
+  "camera_R_world_optical": [
+    [
+      0.7182402227891738,
+      0.3228090122743407,
+      -0.6163808270559872
+    ],
+    [
+      0.695795215827012,
+      -0.33322220621867427,
+      0.6362640795416642
+    ],
+    [
+      2.7755575615628914e-17,
+      -0.8858652848358062,
+      -0.46394255799913
+    ]
+  ],
+  "annotation": "post-render projection of exact camera centers/axis; never present in sensor images",
+  "intrinsics_px": {
+    "fx": 1866.6666666666667,
+    "fy": 1866.6666666666667,
+    "cx": 800,
+    "cy": 600
+  },
+  "annotation_script": "scripts/finalize_step1.py"
+}

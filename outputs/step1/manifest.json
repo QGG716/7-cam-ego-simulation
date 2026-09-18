@@ -1,0 +1,184 @@
+{
+  "version": "SIM-V0.2-vfov130",
+  "config_sha256": "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d",
+  "status": "PASS",
+  "artifact_checks": "7 native RGB/masks/metadata + overview + 22 rendered angle cases verified",
+  "offline": {
+    "scope": "OFFLINE_MATH_NOT_RENDERING",
+    "tests_run": 10,
+    "failures": 0,
+    "errors": 0,
+    "status": "PASS"
+  },
+  "angle_checks": 22,
+  "max_residual_px": 0.27132276261901794,
+  "frames": [
+    {
+      "camera_id": "C0",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "mode": "ideal",
+      "simulation_time_seconds": 0.0,
+      "image": "ideal/C0.png",
+      "mask": "ideal/C0_valid_mask.png",
+      "metadata": "ideal/C0.json"
+    },
+    {
+      "camera_id": "C1",
+      "resolution": [
+        1600,
+        1300
+      ],
+      "mode": "ideal",
+      "simulation_time_seconds": 0.0,
+      "image": "ideal/C1.png",
+      "mask": "ideal/C1_valid_mask.png",
+      "metadata": "ideal/C1.json"
+    },
+    {
+      "camera_id": "C2",
+      "resolution": [
+        1600,
+        1300
+      ],
+      "mode": "ideal",
+      "simulation_time_seconds": 0.0,
+      "image": "ideal/C2.png",
+      "mask": "ideal/C2_valid_mask.png",
+      "metadata": "ideal/C2.json"
+    },
+    {
+      "camera_id": "C3",
+      "resolution": [
+        1080,
+        960
+      ],
+      "mode": "ideal",
+      "simulation_time_seconds": 0.0,
+      "image": "ideal/C3.png",
+      "mask": "ideal/C3_valid_mask.png",
+      "metadata": "ideal/C3.json"
+    },
+    {
+      "camera_id": "C4",
+      "resolution": [
+        1080,
+        960
+      ],
+      "mode": "ideal",
+      "simulation_time_seconds": 0.0,
+      "image": "ideal/C4.png",
+      "mask": "ideal/C4_valid_mask.png",
+      "metadata": "ideal/C4.json"
+    },
+    {
+      "camera_id": "C5",
+      "resolution": [
+        1080,
+        960
+      ],
+      "mode": "ideal",
+      "simulation_time_seconds": 0.0,
+      "image": "ideal/C5.png",
+      "mask": "ideal/C5_valid_mask.png",
+      "metadata": "ideal/C5.json"
+    },
+    {
+      "camera_id": "C6",
+      "resolution": [
+        1080,
+        960
+      ],
+      "mode": "ideal",
+      "simulation_time_seconds": 0.0,
+      "image": "ideal/C6.png",
+      "mask": "ideal/C6_valid_mask.png",
+      "metadata": "ideal/C6.json"
+    }
+  ],
+  "limitations": [
+    "sequential static capture, not parallel 30 FPS",
+    "no hardware synchronization validation",
+    "IMU mount only",
+    "no SLAM/VIO",
+    "legacy RTX ftheta on Isaac 6.0.1.0"
+  ],
+  "files": {
+    "angle_checks_preview.png": "349db4031d8814d6c15bee20170e17c333297e43595541c5d4a4a0dd6eb14b58",
+    "angle_results.csv": "9425cc58bb7768792857b6dd9fc2d61d74320d87605241d6b6dcb93e9abad63c",
+    "angle_results.json": "fad22951db5ba19ea487aaa9fd0e300792bbfea01b3d6b44163aab69f4f51b52",
+    "run_status.json": "4f1574186d4e7007276335be2e593f3a3ed2f0d53e237836f0461c3512bda536",
+    "seven_camera_preview.png": "b0d47024316dcca9507cfbb9d6cb682e8b0046004b2e3b04ff6940ee0198a26c",
+    "usd_runtime_verification.json": "98f126598b214534a6cfdfe3db02a75a5c5bb8f51ac218201b327d036d7dd1c5",
+    "worn_overview.json": "a420af5de02a107680e949a3d40b05a019023dc42e173dcb8697e65f65184692",
+    "worn_overview.png": "1a686e6c63154d6d7e876132f4833d4b52f87ea04514f4faef25d28ce9cb7f1b",
+    "worn_overview_raw.png": "3aba5685fb0b35dfdadc179314cf4ee589c606c7fd41f34c00310dbd2d126e47",
+    "angles\\C0\\horizontal_+59.png": "1b2c461d4ffb1f2280333865c04282f639de7460d006fd6138c09517d4b0191c",
+    "angles\\C0\\horizontal_+59_raw.png": "1b2c461d4ffb1f2280333865c04282f639de7460d006fd6138c09517d4b0191c",
+    "angles\\C0\\horizontal_+61.png": "51e457f4207c6361d8d22571976947233d81f61b45221f4e79f79d25d0d56cf1",
+    "angles\\C0\\horizontal_+61_raw.png": "51e457f4207c6361d8d22571976947233d81f61b45221f4e79f79d25d0d56cf1",
+    "angles\\C0\\horizontal_-59.png": "9d6fea252a51dcd0bac9a5458a1143cf431b3c55a814f8598aa724f22c57ef79",
+    "angles\\C0\\horizontal_-59_raw.png": "9d6fea252a51dcd0bac9a5458a1143cf431b3c55a814f8598aa724f22c57ef79",
+    "angles\\C0\\horizontal_-61.png": "51e457f4207c6361d8d22571976947233d81f61b45221f4e79f79d25d0d56cf1",
+    "angles\\C0\\horizontal_-61_raw.png": "51e457f4207c6361d8d22571976947233d81f61b45221f4e79f79d25d0d56cf1",
+    "angles\\C0\\vertical_+64.png": "58f4acc93089ae5b44d14750cebb36f5fe093d2d839f446849c90b8e9b042916",
+    "angles\\C0\\vertical_+64_raw.png": "58f4acc93089ae5b44d14750cebb36f5fe093d2d839f446849c90b8e9b042916",
+    "angles\\C0\\vertical_+66.png": "51e457f4207c6361d8d22571976947233d81f61b45221f4e79f79d25d0d56cf1",
+    "angles\\C0\\vertical_+66_raw.png": "51e457f4207c6361d8d22571976947233d81f61b45221f4e79f79d25d0d56cf1",
+    "angles\\C0\\vertical_-64.png": "050d4d5ffa36dee8cb7a9642d98442fec3d321963fdfde389962bc6f4c1d170f",
+    "angles\\C0\\vertical_-64_raw.png": "050d4d5ffa36dee8cb7a9642d98442fec3d321963fdfde389962bc6f4c1d170f",
+    "angles\\C0\\vertical_-66.png": "51e457f4207c6361d8d22571976947233d81f61b45221f4e79f79d25d0d56cf1",
+    "angles\\C0\\vertical_-66_raw.png": "51e457f4207c6361d8d22571976947233d81f61b45221f4e79f79d25d0d56cf1",
+    "angles\\C1\\horizontal_+79.png": "cfc327592d9d265d410fb40e1fee021b8dc0319f9893fa3d631af040272fd8d3",
+    "angles\\C1\\horizontal_+79_raw.png": "cfc327592d9d265d410fb40e1fee021b8dc0319f9893fa3d631af040272fd8d3",
+    "angles\\C1\\horizontal_+81.png": "353ab3a83e343501fe665f6c9f320acbdbcf395d876fb97c61d5d24bad9f25df",
+    "angles\\C1\\horizontal_+81_raw.png": "353ab3a83e343501fe665f6c9f320acbdbcf395d876fb97c61d5d24bad9f25df",
+    "angles\\C1\\horizontal_-79.png": "5125526acefd99115ee3850101e1003715981fe747d340e394c2c28a8d4a02fc",
+    "angles\\C1\\horizontal_-79_raw.png": "5125526acefd99115ee3850101e1003715981fe747d340e394c2c28a8d4a02fc",
+    "angles\\C1\\horizontal_-81.png": "353ab3a83e343501fe665f6c9f320acbdbcf395d876fb97c61d5d24bad9f25df",
+    "angles\\C1\\horizontal_-81_raw.png": "353ab3a83e343501fe665f6c9f320acbdbcf395d876fb97c61d5d24bad9f25df",
+    "angles\\C1\\vertical_+64.png": "8749d7c67c183cced0a6275f2bbfd9b751aca3d514e4ac7f0f7c52d0f71136ed",
+    "angles\\C1\\vertical_+64_raw.png": "8749d7c67c183cced0a6275f2bbfd9b751aca3d514e4ac7f0f7c52d0f71136ed",
+    "angles\\C1\\vertical_+66.png": "353ab3a83e343501fe665f6c9f320acbdbcf395d876fb97c61d5d24bad9f25df",
+    "angles\\C1\\vertical_+66_raw.png": "353ab3a83e343501fe665f6c9f320acbdbcf395d876fb97c61d5d24bad9f25df",
+    "angles\\C1\\vertical_-64.png": "3e5e7ae1f4a72948432013da7fe16a5dbf4805276b06e34b8b28cd28c91d97e2",
+    "angles\\C1\\vertical_-64_raw.png": "3e5e7ae1f4a72948432013da7fe16a5dbf4805276b06e34b8b28cd28c91d97e2",
+    "angles\\C1\\vertical_-66.png": "353ab3a83e343501fe665f6c9f320acbdbcf395d876fb97c61d5d24bad9f25df",
+    "angles\\C1\\vertical_-66_raw.png": "353ab3a83e343501fe665f6c9f320acbdbcf395d876fb97c61d5d24bad9f25df",
+    "angles\\C3\\theta0_az0.png": "399da33412925271aa5ce1ce8a7559121e8261f4422899167bc77b175921445f",
+    "angles\\C3\\theta0_az0_raw.png": "399da33412925271aa5ce1ce8a7559121e8261f4422899167bc77b175921445f",
+    "angles\\C3\\theta105_az0.png": "f90f98e65666078726ab2118bfe5bbb8ce89bebee582c154f1727d0e911db3f4",
+    "angles\\C3\\theta105_az0_raw.png": "f90f98e65666078726ab2118bfe5bbb8ce89bebee582c154f1727d0e911db3f4",
+    "angles\\C3\\theta105_az135.png": "12ac27889929217196b87dd235589bd8472e6690f73c01c4ea0d60dd1fb3510a",
+    "angles\\C3\\theta105_az135_raw.png": "12ac27889929217196b87dd235589bd8472e6690f73c01c4ea0d60dd1fb3510a",
+    "angles\\C3\\theta115_az0.png": "45e50fb21efd22047a88ac3f152c9a6554702db0ae8e07b259be1badecca94e1",
+    "angles\\C3\\theta115_az0_raw.png": "45e50fb21efd22047a88ac3f152c9a6554702db0ae8e07b259be1badecca94e1",
+    "angles\\C3\\theta60_az0.png": "a496ce70d781fcd277a74e081b1c1631fc9670b156453e3b74de2fd01ef0a1ed",
+    "angles\\C3\\theta60_az0_raw.png": "a496ce70d781fcd277a74e081b1c1631fc9670b156453e3b74de2fd01ef0a1ed",
+    "angles\\C3\\theta95_az0.png": "a5a4fafbf32890ff985661467278d1a89b3212fd0b190c47e864a08011c59fb2",
+    "angles\\C3\\theta95_az0_raw.png": "a5a4fafbf32890ff985661467278d1a89b3212fd0b190c47e864a08011c59fb2",
+    "ideal\\C0.json": "8df5c2535dfdbfac6486916f741226e9ef3772a55a8581e6c9dc841db24323ec",
+    "ideal\\C0.png": "59c4c678a339c04d31d87e0febc7a39fd749ac1415b424866c9612c074d2c8b3",
+    "ideal\\C0_valid_mask.png": "6ae2cfa8276a1bd642b45a5401579b8a93bc9506299ae41171573adff763f9f6",
+    "ideal\\C1.json": "ff7622320b21b0e2d08154fc90fd12ae42d8f85f7358c087e62a88a5fd445faa",
+    "ideal\\C1.png": "7773b06347e7adf226a934eef9f861d1b6246e5508c6d70a192c3a0d4b9ed6b1",
+    "ideal\\C1_valid_mask.png": "41b055e2d4800d422b4cb547b2b5e771ee2c15084d2c0653e0dcda5ab35cecc3",
+    "ideal\\C2.json": "0958a462d3623244a554001e42b0985bfd1b422c21258a32e1f23295f6355d5a",
+    "ideal\\C2.png": "326714720ae6dd6300506976533d036ff2e070b4796d194cf9051351084482f0",
+    "ideal\\C2_valid_mask.png": "41b055e2d4800d422b4cb547b2b5e771ee2c15084d2c0653e0dcda5ab35cecc3",
+    "ideal\\C3.json": "e44ef20b32e5edacaf3f295dd1bd0add6ae4a8de6181e0d28a08e3de00227cfc",
+    "ideal\\C3.png": "5abafddf3af0ef3524829bf25c0c8ab69ad3aadcb9a24f4ba9d71b7f0be0eea2",
+    "ideal\\C3_valid_mask.png": "7d58a3e77a7d766ae7cbb9c07403bfc108ef2209936184b154352387d6cf6427",
+    "ideal\\C4.json": "e5b9f0dfc302e090715024070189f0bd4a2a6d2a99448dc8c8b532e976196cd0",
+    "ideal\\C4.png": "a5187ea797289215f710dbbcdd18dcff1d5cc90ce8da0f770ddcd0bef2ccf9a3",
+    "ideal\\C4_valid_mask.png": "7d58a3e77a7d766ae7cbb9c07403bfc108ef2209936184b154352387d6cf6427",
+    "ideal\\C5.json": "557aed294730ecd12ee25381cfc821fef14f5fbcac384b9ed49a8a0e2cbf14d9",
+    "ideal\\C5.png": "ca35040f571dad282678b40001caec45bdd1f9ceddf7b5e2caf2df7b24364051",
+    "ideal\\C5_valid_mask.png": "7d58a3e77a7d766ae7cbb9c07403bfc108ef2209936184b154352387d6cf6427",
+    "ideal\\C6.json": "1313139ecd1b07d48005a440e9fd682a658750702cfe7fd967b77aa59c17c949",
+    "ideal\\C6.png": "e1d62ff59a85ca803a957d3238cce76a57939bc910493a264ae049f65f8fadf9",
+    "ideal\\C6_valid_mask.png": "7d58a3e77a7d766ae7cbb9c07403bfc108ef2209936184b154352387d6cf6427"
+  }
+}

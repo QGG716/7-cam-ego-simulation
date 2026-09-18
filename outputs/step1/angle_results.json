@@ -1,0 +1,893 @@
+[
+  {
+    "camera_id": "C0",
+    "name": "horizontal_-59",
+    "angle_deg": -59,
+    "azimuth_deg": 0,
+    "ray": [
+      -0.8571673007021123,
+      0,
+      0.5150380749100542
+    ],
+    "theoretical_uv_px": [
+      37.56268114383067,
+      540.0
+    ],
+    "theoretical_visible": true,
+    "distance_m": 1.0,
+    "radius_m": 0.006,
+    "detected_uv_px": [
+      37.371512564131365,
+      539.9954374664519
+    ],
+    "actual_visible": true,
+    "residual_px": 0.19122301790482313,
+    "blobs": [
+      {
+        "area": 126,
+        "uv": [
+          37.371512564131365,
+          539.9954374664519
+        ]
+      }
+    ],
+    "status": "PASS",
+    "image": "outputs/step1/angles/C0/horizontal_-59.png",
+    "simulation_time_seconds": 0.0,
+    "version": "SIM-V0.2-vfov130",
+    "config_sha256": "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "projection_model": "ideal_pinhole",
+    "backend": "native OpenCV pinhole",
+    "raw_image": "outputs\\step1\\angles\\C0\\horizontal_-59_raw.png"
+  },
+  {
+    "camera_id": "C0",
+    "name": "horizontal_+59",
+    "angle_deg": 59,
+    "azimuth_deg": 0,
+    "ray": [
+      0.8571673007021123,
+      0,
+      0.5150380749100542
+    ],
+    "theoretical_uv_px": [
+      1882.4373188561694,
+      540.0
+    ],
+    "theoretical_visible": true,
+    "distance_m": 1.0,
+    "radius_m": 0.006,
+    "detected_uv_px": [
+      1882.7084912051787,
+      539.990966803001
+    ],
+    "actual_visible": true,
+    "residual_px": 0.27132276261901794,
+    "blobs": [
+      {
+        "area": 124,
+        "uv": [
+          1882.7084912051787,
+          539.990966803001
+        ]
+      }
+    ],
+    "status": "PASS",
+    "image": "outputs/step1/angles/C0/horizontal_+59.png",
+    "simulation_time_seconds": 0.0,
+    "version": "SIM-V0.2-vfov130",
+    "config_sha256": "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "projection_model": "ideal_pinhole",
+    "backend": "native OpenCV pinhole",
+    "raw_image": "outputs\\step1\\angles\\C0\\horizontal_+59_raw.png"
+  },
+  {
+    "camera_id": "C0",
+    "name": "horizontal_-61",
+    "angle_deg": -61,
+    "azimuth_deg": 0,
+    "ray": [
+      -0.8746197071393957,
+      0,
+      0.4848096202463371
+    ],
+    "theoretical_uv_px": [
+      -39.90475885142098,
+      540.0
+    ],
+    "theoretical_visible": false,
+    "distance_m": 1.0,
+    "radius_m": 0.006,
+    "detected_uv_px": null,
+    "actual_visible": false,
+    "residual_px": null,
+    "blobs": [],
+    "status": "PASS",
+    "image": "outputs/step1/angles/C0/horizontal_-61.png",
+    "simulation_time_seconds": 0.0,
+    "version": "SIM-V0.2-vfov130",
+    "config_sha256": "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "projection_model": "ideal_pinhole",
+    "backend": "native OpenCV pinhole",
+    "raw_image": "outputs\\step1\\angles\\C0\\horizontal_-61_raw.png"
+  },
+  {
+    "camera_id": "C0",
+    "name": "horizontal_+61",
+    "angle_deg": 61,
+    "azimuth_deg": 0,
+    "ray": [
+      0.8746197071393957,
+      0,
+      0.4848096202463371
+    ],
+    "theoretical_uv_px": [
+      1959.9047588514209,
+      540.0
+    ],
+    "theoretical_visible": false,
+    "distance_m": 1.0,
+    "radius_m": 0.006,
+    "detected_uv_px": null,
+    "actual_visible": false,
+    "residual_px": null,
+    "blobs": [],
+    "status": "PASS",
+    "image": "outputs/step1/angles/C0/horizontal_+61.png",
+    "simulation_time_seconds": 0.0,
+    "version": "SIM-V0.2-vfov130",
+    "config_sha256": "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "projection_model": "ideal_pinhole",
+    "backend": "native OpenCV pinhole",
+    "raw_image": "outputs\\step1\\angles\\C0\\horizontal_+61_raw.png"
+  },
+  {
+    "camera_id": "C0",
+    "name": "vertical_-64",
+    "angle_deg": -64,
+    "azimuth_deg": 90,
+    "ray": [
+      0,
+      -0.898794046299167,
+      0.43837114678907746
+    ],
+    "theoretical_uv_px": [
+      960.0,
+      23.7209132485591
+    ],
+    "theoretical_visible": true,
+    "distance_m": 1.0,
+    "radius_m": 0.006,
+    "detected_uv_px": [
+      960.0120531528961,
+      23.584237557575513
+    ],
+    "actual_visible": true,
+    "residual_px": 0.13720613324694267,
+    "blobs": [
+      {
+        "area": 184,
+        "uv": [
+          960.0120531528961,
+          23.584237557575513
+        ]
+      }
+    ],
+    "status": "PASS",
+    "image": "outputs/step1/angles/C0/vertical_-64.png",
+    "simulation_time_seconds": 0.0,
+    "version": "SIM-V0.2-vfov130",
+    "config_sha256": "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "projection_model": "ideal_pinhole",
+    "backend": "native OpenCV pinhole",
+    "raw_image": "outputs\\step1\\angles\\C0\\vertical_-64_raw.png"
+  },
+  {
+    "camera_id": "C0",
+    "name": "vertical_+64",
+    "angle_deg": 64,
+    "azimuth_deg": 90,
+    "ray": [
+      0,
+      0.898794046299167,
+      0.43837114678907746
+    ],
+    "theoretical_uv_px": [
+      960.0,
+      1056.279086751441
+    ],
+    "theoretical_visible": true,
+    "distance_m": 1.0,
+    "radius_m": 0.006,
+    "detected_uv_px": [
+      959.9826626606905,
+      1056.462427555862
+    ],
+    "actual_visible": true,
+    "residual_px": 0.18415871931594952,
+    "blobs": [
+      {
+        "area": 182,
+        "uv": [
+          959.9826626606905,
+          1056.462427555862
+        ]
+      }
+    ],
+    "status": "PASS",
+    "image": "outputs/step1/angles/C0/vertical_+64.png",
+    "simulation_time_seconds": 0.0,
+    "version": "SIM-V0.2-vfov130",
+    "config_sha256": "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "projection_model": "ideal_pinhole",
+    "backend": "native OpenCV pinhole",
+    "raw_image": "outputs\\step1\\angles\\C0\\vertical_+64_raw.png"
+  },
+  {
+    "camera_id": "C0",
+    "name": "vertical_-66",
+    "angle_deg": -66,
+    "azimuth_deg": 90,
+    "ray": [
+      0,
+      -0.9135454576426009,
+      0.4067366430758002
+    ],
+    "theoretical_uv_px": [
+      960.0,
+      -25.565840011412774
+    ],
+    "theoretical_visible": false,
+    "distance_m": 1.0,
+    "radius_m": 0.006,
+    "detected_uv_px": null,
+    "actual_visible": false,
+    "residual_px": null,
+    "blobs": [],
+    "status": "PASS",
+    "image": "outputs/step1/angles/C0/vertical_-66.png",
+    "simulation_time_seconds": 0.0,
+    "version": "SIM-V0.2-vfov130",
+    "config_sha256": "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "projection_model": "ideal_pinhole",
+    "backend": "native OpenCV pinhole",
+    "raw_image": "outputs\\step1\\angles\\C0\\vertical_-66_raw.png"
+  },
+  {
+    "camera_id": "C0",
+    "name": "vertical_+66",
+    "angle_deg": 66,
+    "azimuth_deg": 90,
+    "ray": [
+      0,
+      0.9135454576426009,
+      0.4067366430758002
+    ],
+    "theoretical_uv_px": [
+      960.0,
+      1105.5658400114128
+    ],
+    "theoretical_visible": false,
+    "distance_m": 1.0,
+    "radius_m": 0.006,
+    "detected_uv_px": null,
+    "actual_visible": false,
+    "residual_px": null,
+    "blobs": [],
+    "status": "PASS",
+    "image": "outputs/step1/angles/C0/vertical_+66.png",
+    "simulation_time_seconds": 0.0,
+    "version": "SIM-V0.2-vfov130",
+    "config_sha256": "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "projection_model": "ideal_pinhole",
+    "backend": "native OpenCV pinhole",
+    "raw_image": "outputs\\step1\\angles\\C0\\vertical_+66_raw.png"
+  },
+  {
+    "camera_id": "C1",
+    "name": "horizontal_-79",
+    "angle_deg": -79,
+    "azimuth_deg": 0,
+    "ray": [
+      -0.981627183447664,
+      0,
+      0.19080899537654492
+    ],
+    "theoretical_uv_px": [
+      10.0,
+      650.0
+    ],
+    "theoretical_visible": true,
+    "distance_m": 1.0,
+    "radius_m": 0.006,
+    "detected_uv_px": [
+      10.125807877147434,
+      650.053775617301
+    ],
+    "actual_visible": true,
+    "residual_px": 0.13681900075809755,
+    "blobs": [
+      {
+        "area": 58,
+        "uv": [
+          10.125807877147434,
+          650.053775617301
+        ]
+      }
+    ],
+    "status": "PASS",
+    "image": "outputs/step1/angles/C1/horizontal_-79.png",
+    "simulation_time_seconds": 0.0,
+    "version": "SIM-V0.2-vfov130",
+    "config_sha256": "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d",
+    "resolution": [
+      1600,
+      1300
+    ],
+    "projection_model": "ideal_equidistant",
+    "backend": "legacy RTX fisheyePolynomial",
+    "raw_image": "outputs\\step1\\angles\\C1\\horizontal_-79_raw.png"
+  },
+  {
+    "camera_id": "C1",
+    "name": "horizontal_+79",
+    "angle_deg": 79,
+    "azimuth_deg": 0,
+    "ray": [
+      0.981627183447664,
+      0,
+      0.19080899537654492
+    ],
+    "theoretical_uv_px": [
+      1590.0,
+      650.0
+    ],
+    "theoretical_visible": true,
+    "distance_m": 1.0,
+    "radius_m": 0.006,
+    "detected_uv_px": [
+      1590.0711151187256,
+      650.0194469492035
+    ],
+    "actual_visible": true,
+    "residual_px": 0.07372614152851904,
+    "blobs": [
+      {
+        "area": 52,
+        "uv": [
+          1590.0711151187256,
+          650.0194469492035
+        ]
+      }
+    ],
+    "status": "PASS",
+    "image": "outputs/step1/angles/C1/horizontal_+79.png",
+    "simulation_time_seconds": 0.0,
+    "version": "SIM-V0.2-vfov130",
+    "config_sha256": "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d",
+    "resolution": [
+      1600,
+      1300
+    ],
+    "projection_model": "ideal_equidistant",
+    "backend": "legacy RTX fisheyePolynomial",
+    "raw_image": "outputs\\step1\\angles\\C1\\horizontal_+79_raw.png"
+  },
+  {
+    "camera_id": "C1",
+    "name": "horizontal_-81",
+    "angle_deg": -81,
+    "azimuth_deg": 0,
+    "ray": [
+      -0.9876883405951378,
+      0,
+      0.15643446504023092
+    ],
+    "theoretical_uv_px": [
+      -10.0,
+      650.0
+    ],
+    "theoretical_visible": false,
+    "distance_m": 1.0,
+    "radius_m": 0.006,
+    "detected_uv_px": null,
+    "actual_visible": false,
+    "residual_px": null,
+    "blobs": [],
+    "status": "PASS",
+    "image": "outputs/step1/angles/C1/horizontal_-81.png",
+    "simulation_time_seconds": 0.0,
+    "version": "SIM-V0.2-vfov130",
+    "config_sha256": "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d",
+    "resolution": [
+      1600,
+      1300
+    ],
+    "projection_model": "ideal_equidistant",
+    "backend": "legacy RTX fisheyePolynomial",
+    "raw_image": "outputs\\step1\\angles\\C1\\horizontal_-81_raw.png"
+  },
+  {
+    "camera_id": "C1",
+    "name": "horizontal_+81",
+    "angle_deg": 81,
+    "azimuth_deg": 0,
+    "ray": [
+      0.9876883405951378,
+      0,
+      0.15643446504023092
+    ],
+    "theoretical_uv_px": [
+      1610.0,
+      650.0
+    ],
+    "theoretical_visible": false,
+    "distance_m": 1.0,
+    "radius_m": 0.006,
+    "detected_uv_px": null,
+    "actual_visible": false,
+    "residual_px": null,
+    "blobs": [],
+    "status": "PASS",
+    "image": "outputs/step1/angles/C1/horizontal_+81.png",
+    "simulation_time_seconds": 0.0,
+    "version": "SIM-V0.2-vfov130",
+    "config_sha256": "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d",
+    "resolution": [
+      1600,
+      1300
+    ],
+    "projection_model": "ideal_equidistant",
+    "backend": "legacy RTX fisheyePolynomial",
+    "raw_image": "outputs\\step1\\angles\\C1\\horizontal_+81_raw.png"
+  },
+  {
+    "camera_id": "C1",
+    "name": "vertical_-64",
+    "angle_deg": -64,
+    "azimuth_deg": 90,
+    "ray": [
+      0,
+      -0.898794046299167,
+      0.43837114678907746
+    ],
+    "theoretical_uv_px": [
+      800.0,
+      10.0
+    ],
+    "theoretical_visible": true,
+    "distance_m": 1.0,
+    "radius_m": 0.006,
+    "detected_uv_px": [
+      799.9999651446497,
+      9.981840362495642
+    ],
+    "actual_visible": true,
+    "residual_px": 0.018159670954759004,
+    "blobs": [
+      {
+        "area": 44,
+        "uv": [
+          799.9999651446497,
+          9.981840362495642
+        ]
+      }
+    ],
+    "status": "PASS",
+    "image": "outputs/step1/angles/C1/vertical_-64.png",
+    "simulation_time_seconds": 0.0,
+    "version": "SIM-V0.2-vfov130",
+    "config_sha256": "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d",
+    "resolution": [
+      1600,
+      1300
+    ],
+    "projection_model": "ideal_equidistant",
+    "backend": "legacy RTX fisheyePolynomial",
+    "raw_image": "outputs\\step1\\angles\\C1\\vertical_-64_raw.png"
+  },
+  {
+    "camera_id": "C1",
+    "name": "vertical_+64",
+    "angle_deg": 64,
+    "azimuth_deg": 90,
+    "ray": [
+      0,
+      0.898794046299167,
+      0.43837114678907746
+    ],
+    "theoretical_uv_px": [
+      800.0,
+      1290.0
+    ],
+    "theoretical_visible": true,
+    "distance_m": 1.0,
+    "radius_m": 0.006,
+    "detected_uv_px": [
+      799.9711396151948,
+      1289.9792797237294
+    ],
+    "actual_visible": true,
+    "residual_px": 0.03552818120636488,
+    "blobs": [
+      {
+        "area": 44,
+        "uv": [
+          799.9711396151948,
+          1289.9792797237294
+        ]
+      }
+    ],
+    "status": "PASS",
+    "image": "outputs/step1/angles/C1/vertical_+64.png",
+    "simulation_time_seconds": 0.0,
+    "version": "SIM-V0.2-vfov130",
+    "config_sha256": "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d",
+    "resolution": [
+      1600,
+      1300
+    ],
+    "projection_model": "ideal_equidistant",
+    "backend": "legacy RTX fisheyePolynomial",
+    "raw_image": "outputs\\step1\\angles\\C1\\vertical_+64_raw.png"
+  },
+  {
+    "camera_id": "C1",
+    "name": "vertical_-66",
+    "angle_deg": -66,
+    "azimuth_deg": 90,
+    "ray": [
+      0,
+      -0.9135454576426009,
+      0.4067366430758002
+    ],
+    "theoretical_uv_px": [
+      800.0,
+      -10.0
+    ],
+    "theoretical_visible": false,
+    "distance_m": 1.0,
+    "radius_m": 0.006,
+    "detected_uv_px": null,
+    "actual_visible": false,
+    "residual_px": null,
+    "blobs": [],
+    "status": "PASS",
+    "image": "outputs/step1/angles/C1/vertical_-66.png",
+    "simulation_time_seconds": 0.0,
+    "version": "SIM-V0.2-vfov130",
+    "config_sha256": "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d",
+    "resolution": [
+      1600,
+      1300
+    ],
+    "projection_model": "ideal_equidistant",
+    "backend": "legacy RTX fisheyePolynomial",
+    "raw_image": "outputs\\step1\\angles\\C1\\vertical_-66_raw.png"
+  },
+  {
+    "camera_id": "C1",
+    "name": "vertical_+66",
+    "angle_deg": 66,
+    "azimuth_deg": 90,
+    "ray": [
+      0,
+      0.9135454576426009,
+      0.4067366430758002
+    ],
+    "theoretical_uv_px": [
+      800.0,
+      1310.0
+    ],
+    "theoretical_visible": false,
+    "distance_m": 1.0,
+    "radius_m": 0.006,
+    "detected_uv_px": null,
+    "actual_visible": false,
+    "residual_px": null,
+    "blobs": [],
+    "status": "PASS",
+    "image": "outputs/step1/angles/C1/vertical_+66.png",
+    "simulation_time_seconds": 0.0,
+    "version": "SIM-V0.2-vfov130",
+    "config_sha256": "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d",
+    "resolution": [
+      1600,
+      1300
+    ],
+    "projection_model": "ideal_equidistant",
+    "backend": "legacy RTX fisheyePolynomial",
+    "raw_image": "outputs\\step1\\angles\\C1\\vertical_+66_raw.png"
+  },
+  {
+    "camera_id": "C3",
+    "name": "theta0_az0",
+    "angle_deg": 0,
+    "azimuth_deg": 0,
+    "ray": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "theoretical_uv_px": [
+      540.0,
+      480.0
+    ],
+    "theoretical_visible": true,
+    "distance_m": 1.0,
+    "radius_m": 0.006,
+    "detected_uv_px": [
+      540.2281276717013,
+      479.8764605300655
+    ],
+    "actual_visible": true,
+    "residual_px": 0.2594305980942319,
+    "blobs": [
+      {
+        "area": 7,
+        "uv": [
+          540.2281276717013,
+          479.8764605300655
+        ]
+      }
+    ],
+    "status": "PASS",
+    "image": "outputs/step1/angles/C3/theta0_az0.png",
+    "simulation_time_seconds": 0.0,
+    "version": "SIM-V0.2-vfov130",
+    "config_sha256": "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d",
+    "resolution": [
+      1080,
+      960
+    ],
+    "projection_model": "ideal_equidistant",
+    "backend": "legacy RTX fisheyePolynomial",
+    "raw_image": "outputs\\step1\\angles\\C3\\theta0_az0_raw.png"
+  },
+  {
+    "camera_id": "C3",
+    "name": "theta60_az0",
+    "angle_deg": 60,
+    "azimuth_deg": 0,
+    "ray": [
+      0.8660254037844386,
+      0.0,
+      0.5000000000000001
+    ],
+    "theoretical_uv_px": [
+      801.8181818181818,
+      480.0
+    ],
+    "theoretical_visible": true,
+    "distance_m": 1.0,
+    "radius_m": 0.006,
+    "detected_uv_px": [
+      801.6540259188444,
+      480.14414701508395
+    ],
+    "actual_visible": true,
+    "residual_px": 0.2184617157418716,
+    "blobs": [
+      {
+        "area": 9,
+        "uv": [
+          801.6540259188444,
+          480.14414701508395
+        ]
+      }
+    ],
+    "status": "PASS",
+    "image": "outputs/step1/angles/C3/theta60_az0.png",
+    "simulation_time_seconds": 0.0,
+    "version": "SIM-V0.2-vfov130",
+    "config_sha256": "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d",
+    "resolution": [
+      1080,
+      960
+    ],
+    "projection_model": "ideal_equidistant",
+    "backend": "legacy RTX fisheyePolynomial",
+    "raw_image": "outputs\\step1\\angles\\C3\\theta60_az0_raw.png"
+  },
+  {
+    "camera_id": "C3",
+    "name": "theta95_az0",
+    "angle_deg": 95,
+    "azimuth_deg": 0,
+    "ray": [
+      0.9961946980917455,
+      0.0,
+      -0.08715574274765824
+    ],
+    "theoretical_uv_px": [
+      954.5454545454545,
+      480.0
+    ],
+    "theoretical_visible": true,
+    "distance_m": 1.0,
+    "radius_m": 0.006,
+    "detected_uv_px": [
+      954.533051498847,
+      479.97901614142955
+    ],
+    "actual_visible": true,
+    "residual_px": 0.024375354062070736,
+    "blobs": [
+      {
+        "area": 12,
+        "uv": [
+          954.533051498847,
+          479.97901614142955
+        ]
+      }
+    ],
+    "status": "PASS",
+    "image": "outputs/step1/angles/C3/theta95_az0.png",
+    "simulation_time_seconds": 0.0,
+    "version": "SIM-V0.2-vfov130",
+    "config_sha256": "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d",
+    "resolution": [
+      1080,
+      960
+    ],
+    "projection_model": "ideal_equidistant",
+    "backend": "legacy RTX fisheyePolynomial",
+    "raw_image": "outputs\\step1\\angles\\C3\\theta95_az0_raw.png"
+  },
+  {
+    "camera_id": "C3",
+    "name": "theta105_az0",
+    "angle_deg": 105,
+    "azimuth_deg": 0,
+    "ray": [
+      0.9659258262890683,
+      0.0,
+      -0.25881904510252085
+    ],
+    "theoretical_uv_px": [
+      998.1818181818182,
+      480.0
+    ],
+    "theoretical_visible": true,
+    "distance_m": 1.0,
+    "radius_m": 0.006,
+    "detected_uv_px": [
+      998.3136304062912,
+      479.8515072083879
+    ],
+    "actual_visible": true,
+    "residual_px": 0.19855621793653072,
+    "blobs": [
+      {
+        "area": 15,
+        "uv": [
+          998.3136304062912,
+          479.8515072083879
+        ]
+      }
+    ],
+    "status": "PASS",
+    "image": "outputs/step1/angles/C3/theta105_az0.png",
+    "simulation_time_seconds": 0.0,
+    "version": "SIM-V0.2-vfov130",
+    "config_sha256": "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d",
+    "resolution": [
+      1080,
+      960
+    ],
+    "projection_model": "ideal_equidistant",
+    "backend": "legacy RTX fisheyePolynomial",
+    "raw_image": "outputs\\step1\\angles\\C3\\theta105_az0_raw.png"
+  },
+  {
+    "camera_id": "C3",
+    "name": "theta115_az0",
+    "angle_deg": 115,
+    "azimuth_deg": 0,
+    "ray": [
+      0.90630778703665,
+      0.0,
+      -0.42261826174069933
+    ],
+    "theoretical_uv_px": [
+      1041.8181818181818,
+      480.0
+    ],
+    "theoretical_visible": false,
+    "distance_m": 1.0,
+    "radius_m": 0.006,
+    "detected_uv_px": null,
+    "actual_visible": false,
+    "residual_px": null,
+    "blobs": [],
+    "status": "PASS",
+    "image": "outputs/step1/angles/C3/theta115_az0.png",
+    "simulation_time_seconds": 0.0,
+    "version": "SIM-V0.2-vfov130",
+    "config_sha256": "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d",
+    "resolution": [
+      1080,
+      960
+    ],
+    "projection_model": "ideal_equidistant",
+    "backend": "legacy RTX fisheyePolynomial",
+    "raw_image": "outputs\\step1\\angles\\C3\\theta115_az0_raw.png"
+  },
+  {
+    "camera_id": "C3",
+    "name": "theta105_az135",
+    "angle_deg": 105,
+    "azimuth_deg": 135,
+    "ray": [
+      -0.6830127018922193,
+      0.6830127018922194,
+      -0.25881904510252085
+    ],
+    "theoretical_uv_px": [
+      216.01652934725462,
+      803.9834706527454
+    ],
+    "theoretical_visible": true,
+    "distance_m": 1.0,
+    "radius_m": 0.006,
+    "detected_uv_px": [
+      215.89557855126998,
+      803.9706020696143
+    ],
+    "actual_visible": true,
+    "residual_px": 0.12163344721383039,
+    "blobs": [
+      {
+        "area": 15,
+        "uv": [
+          215.89557855126998,
+          803.9706020696143
+        ]
+      }
+    ],
+    "status": "PASS",
+    "image": "outputs/step1/angles/C3/theta105_az135.png",
+    "simulation_time_seconds": 0.0,
+    "version": "SIM-V0.2-vfov130",
+    "config_sha256": "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d",
+    "resolution": [
+      1080,
+      960
+    ],
+    "projection_model": "ideal_equidistant",
+    "backend": "legacy RTX fisheyePolynomial",
+    "raw_image": "outputs\\step1\\angles\\C3\\theta105_az135_raw.png"
+  }
+]

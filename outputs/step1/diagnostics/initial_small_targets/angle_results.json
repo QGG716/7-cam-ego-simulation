@@ -1,0 +1,651 @@
+[
+  {
+    "camera_id": "C0",
+    "name": "horizontal_-59",
+    "angle_deg": -59,
+    "azimuth_deg": 0,
+    "ray": [
+      -0.8571673007021123,
+      0,
+      0.5150380749100542
+    ],
+    "theoretical_uv_px": [
+      37.56268114383067,
+      540.0
+    ],
+    "theoretical_visible": true,
+    "distance_m": 1.0,
+    "radius_m": 0.0025,
+    "detected_uv_px": [
+      37.475600873998545,
+      539.9467407137655
+    ],
+    "actual_visible": true,
+    "residual_px": 0.10207607439671615,
+    "blobs": [
+      {
+        "area": 19,
+        "uv": [
+          37.475600873998545,
+          539.9467407137655
+        ]
+      }
+    ],
+    "status": "PASS",
+    "image": "outputs/step1/angles/C0/horizontal_-59.png",
+    "simulation_time_seconds": 0.0
+  },
+  {
+    "camera_id": "C0",
+    "name": "horizontal_+59",
+    "angle_deg": 59,
+    "azimuth_deg": 0,
+    "ray": [
+      0.8571673007021123,
+      0,
+      0.5150380749100542
+    ],
+    "theoretical_uv_px": [
+      1882.4373188561694,
+      540.0
+    ],
+    "theoretical_visible": true,
+    "distance_m": 1.0,
+    "radius_m": 0.0025,
+    "detected_uv_px": [
+      1882.8660700015982,
+      539.8758989931276
+    ],
+    "actual_visible": true,
+    "residual_px": 0.44635031602234504,
+    "blobs": [
+      {
+        "area": 23,
+        "uv": [
+          1882.8660700015982,
+          539.8758989931276
+        ]
+      }
+    ],
+    "status": "PASS",
+    "image": "outputs/step1/angles/C0/horizontal_+59.png",
+    "simulation_time_seconds": 0.0
+  },
+  {
+    "camera_id": "C0",
+    "name": "horizontal_-61",
+    "angle_deg": -61,
+    "azimuth_deg": 0,
+    "ray": [
+      -0.8746197071393957,
+      0,
+      0.4848096202463371
+    ],
+    "theoretical_uv_px": [
+      -39.90475885142098,
+      540.0
+    ],
+    "theoretical_visible": false,
+    "distance_m": 1.0,
+    "radius_m": 0.0025,
+    "detected_uv_px": null,
+    "actual_visible": false,
+    "residual_px": null,
+    "blobs": [],
+    "status": "PASS",
+    "image": "outputs/step1/angles/C0/horizontal_-61.png",
+    "simulation_time_seconds": 0.0
+  },
+  {
+    "camera_id": "C0",
+    "name": "horizontal_+61",
+    "angle_deg": 61,
+    "azimuth_deg": 0,
+    "ray": [
+      0.8746197071393957,
+      0,
+      0.4848096202463371
+    ],
+    "theoretical_uv_px": [
+      1959.9047588514209,
+      540.0
+    ],
+    "theoretical_visible": false,
+    "distance_m": 1.0,
+    "radius_m": 0.0025,
+    "detected_uv_px": null,
+    "actual_visible": false,
+    "residual_px": null,
+    "blobs": [],
+    "status": "PASS",
+    "image": "outputs/step1/angles/C0/horizontal_+61.png",
+    "simulation_time_seconds": 0.0
+  },
+  {
+    "camera_id": "C0",
+    "name": "vertical_-64",
+    "angle_deg": -64,
+    "azimuth_deg": 90,
+    "ray": [
+      0,
+      -0.898794046299167,
+      0.43837114678907746
+    ],
+    "theoretical_uv_px": [
+      960.0,
+      23.7209132485591
+    ],
+    "theoretical_visible": true,
+    "distance_m": 1.0,
+    "radius_m": 0.0025,
+    "detected_uv_px": [
+      959.9959174472774,
+      23.819240595100936
+    ],
+    "actual_visible": true,
+    "residual_px": 0.09841206386765365,
+    "blobs": [
+      {
+        "area": 33,
+        "uv": [
+          959.9959174472774,
+          23.819240595100936
+        ]
+      }
+    ],
+    "status": "PASS",
+    "image": "outputs/step1/angles/C0/vertical_-64.png",
+    "simulation_time_seconds": 0.0
+  },
+  {
+    "camera_id": "C0",
+    "name": "vertical_+64",
+    "angle_deg": 64,
+    "azimuth_deg": 90,
+    "ray": [
+      0,
+      0.898794046299167,
+      0.43837114678907746
+    ],
+    "theoretical_uv_px": [
+      960.0,
+      1056.279086751441
+    ],
+    "theoretical_visible": true,
+    "distance_m": 1.0,
+    "radius_m": 0.0025,
+    "detected_uv_px": [
+      960.0458467094704,
+      1056.3047251203852
+    ],
+    "actual_visible": true,
+    "residual_px": 0.05252853254557017,
+    "blobs": [
+      {
+        "area": 33,
+        "uv": [
+          960.0458467094704,
+          1056.3047251203852
+        ]
+      }
+    ],
+    "status": "PASS",
+    "image": "outputs/step1/angles/C0/vertical_+64.png",
+    "simulation_time_seconds": 0.0
+  },
+  {
+    "camera_id": "C0",
+    "name": "vertical_-66",
+    "angle_deg": -66,
+    "azimuth_deg": 90,
+    "ray": [
+      0,
+      -0.9135454576426009,
+      0.4067366430758002
+    ],
+    "theoretical_uv_px": [
+      960.0,
+      -25.565840011412774
+    ],
+    "theoretical_visible": false,
+    "distance_m": 1.0,
+    "radius_m": 0.0025,
+    "detected_uv_px": null,
+    "actual_visible": false,
+    "residual_px": null,
+    "blobs": [],
+    "status": "PASS",
+    "image": "outputs/step1/angles/C0/vertical_-66.png",
+    "simulation_time_seconds": 0.0
+  },
+  {
+    "camera_id": "C0",
+    "name": "vertical_+66",
+    "angle_deg": 66,
+    "azimuth_deg": 90,
+    "ray": [
+      0,
+      0.9135454576426009,
+      0.4067366430758002
+    ],
+    "theoretical_uv_px": [
+      960.0,
+      1105.5658400114128
+    ],
+    "theoretical_visible": false,
+    "distance_m": 1.0,
+    "radius_m": 0.0025,
+    "detected_uv_px": null,
+    "actual_visible": false,
+    "residual_px": null,
+    "blobs": [],
+    "status": "PASS",
+    "image": "outputs/step1/angles/C0/vertical_+66.png",
+    "simulation_time_seconds": 0.0
+  },
+  {
+    "camera_id": "C1",
+    "name": "horizontal_-79",
+    "angle_deg": -79,
+    "azimuth_deg": 0,
+    "ray": [
+      -0.981627183447664,
+      0,
+      0.19080899537654492
+    ],
+    "theoretical_uv_px": [
+      10.0,
+      650.0
+    ],
+    "theoretical_visible": true,
+    "distance_m": 1.0,
+    "radius_m": 0.0025,
+    "detected_uv_px": [
+      9.97282005768804,
+      649.975038828489
+    ],
+    "actual_visible": true,
+    "residual_px": 0.036902701083833915,
+    "blobs": [
+      {
+        "area": 8,
+        "uv": [
+          9.97282005768804,
+          649.975038828489
+        ]
+      }
+    ],
+    "status": "PASS",
+    "image": "outputs/step1/angles/C1/horizontal_-79.png",
+    "simulation_time_seconds": 0.0
+  },
+  {
+    "camera_id": "C1",
+    "name": "horizontal_+79",
+    "angle_deg": 79,
+    "azimuth_deg": 0,
+    "ray": [
+      0.981627183447664,
+      0,
+      0.19080899537654492
+    ],
+    "theoretical_uv_px": [
+      1590.0,
+      650.0
+    ],
+    "theoretical_visible": true,
+    "distance_m": 1.0,
+    "radius_m": 0.0025,
+    "detected_uv_px": [
+      1589.9940639269405,
+      649.9762557077624
+    ],
+    "actual_visible": true,
+    "residual_px": 0.024475056225267824,
+    "blobs": [
+      {
+        "area": 8,
+        "uv": [
+          1589.9940639269405,
+          649.9762557077624
+        ]
+      }
+    ],
+    "status": "PASS",
+    "image": "outputs/step1/angles/C1/horizontal_+79.png",
+    "simulation_time_seconds": 0.0
+  },
+  {
+    "camera_id": "C1",
+    "name": "horizontal_-81",
+    "angle_deg": -81,
+    "azimuth_deg": 0,
+    "ray": [
+      -0.9876883405951378,
+      0,
+      0.15643446504023092
+    ],
+    "theoretical_uv_px": [
+      -10.0,
+      650.0
+    ],
+    "theoretical_visible": false,
+    "distance_m": 1.0,
+    "radius_m": 0.0025,
+    "detected_uv_px": null,
+    "actual_visible": false,
+    "residual_px": null,
+    "blobs": [],
+    "status": "PASS",
+    "image": "outputs/step1/angles/C1/horizontal_-81.png",
+    "simulation_time_seconds": 0.0
+  },
+  {
+    "camera_id": "C1",
+    "name": "horizontal_+81",
+    "angle_deg": 81,
+    "azimuth_deg": 0,
+    "ray": [
+      0.9876883405951378,
+      0,
+      0.15643446504023092
+    ],
+    "theoretical_uv_px": [
+      1610.0,
+      650.0
+    ],
+    "theoretical_visible": false,
+    "distance_m": 1.0,
+    "radius_m": 0.0025,
+    "detected_uv_px": null,
+    "actual_visible": false,
+    "residual_px": null,
+    "blobs": [],
+    "status": "PASS",
+    "image": "outputs/step1/angles/C1/horizontal_+81.png",
+    "simulation_time_seconds": 0.0
+  },
+  {
+    "camera_id": "C1",
+    "name": "vertical_-64",
+    "angle_deg": -64,
+    "azimuth_deg": 90,
+    "ray": [
+      0,
+      -0.898794046299167,
+      0.43837114678907746
+    ],
+    "theoretical_uv_px": [
+      800.0,
+      10.0
+    ],
+    "theoretical_visible": true,
+    "distance_m": 1.0,
+    "radius_m": 0.0025,
+    "detected_uv_px": [
+      799.9789322166973,
+      9.975791677571317
+    ],
+    "actual_visible": true,
+    "residual_px": 0.03209196734541671,
+    "blobs": [
+      {
+        "area": 8,
+        "uv": [
+          799.9789322166973,
+          9.975791677571317
+        ]
+      }
+    ],
+    "status": "PASS",
+    "image": "outputs/step1/angles/C1/vertical_-64.png",
+    "simulation_time_seconds": 0.0
+  },
+  {
+    "camera_id": "C1",
+    "name": "vertical_+64",
+    "angle_deg": 64,
+    "azimuth_deg": 90,
+    "ray": [
+      0,
+      0.898794046299167,
+      0.43837114678907746
+    ],
+    "theoretical_uv_px": [
+      800.0,
+      1290.0
+    ],
+    "theoretical_visible": true,
+    "distance_m": 1.0,
+    "radius_m": 0.0025,
+    "detected_uv_px": [
+      799.8810218978103,
+      1290.0220437956204
+    ],
+    "actual_visible": true,
+    "residual_px": 0.12100296577360715,
+    "blobs": [
+      {
+        "area": 7,
+        "uv": [
+          799.8810218978103,
+          1290.0220437956204
+        ]
+      }
+    ],
+    "status": "PASS",
+    "image": "outputs/step1/angles/C1/vertical_+64.png",
+    "simulation_time_seconds": 0.0
+  },
+  {
+    "camera_id": "C1",
+    "name": "vertical_-66",
+    "angle_deg": -66,
+    "azimuth_deg": 90,
+    "ray": [
+      0,
+      -0.9135454576426009,
+      0.4067366430758002
+    ],
+    "theoretical_uv_px": [
+      800.0,
+      -10.0
+    ],
+    "theoretical_visible": false,
+    "distance_m": 1.0,
+    "radius_m": 0.0025,
+    "detected_uv_px": null,
+    "actual_visible": false,
+    "residual_px": null,
+    "blobs": [],
+    "status": "PASS",
+    "image": "outputs/step1/angles/C1/vertical_-66.png",
+    "simulation_time_seconds": 0.0
+  },
+  {
+    "camera_id": "C1",
+    "name": "vertical_+66",
+    "angle_deg": 66,
+    "azimuth_deg": 90,
+    "ray": [
+      0,
+      0.9135454576426009,
+      0.4067366430758002
+    ],
+    "theoretical_uv_px": [
+      800.0,
+      1310.0
+    ],
+    "theoretical_visible": false,
+    "distance_m": 1.0,
+    "radius_m": 0.0025,
+    "detected_uv_px": null,
+    "actual_visible": false,
+    "residual_px": null,
+    "blobs": [],
+    "status": "PASS",
+    "image": "outputs/step1/angles/C1/vertical_+66.png",
+    "simulation_time_seconds": 0.0
+  },
+  {
+    "camera_id": "C3",
+    "name": "theta0_az0",
+    "angle_deg": 0,
+    "azimuth_deg": 0,
+    "ray": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "theoretical_uv_px": [
+      540.0,
+      480.0
+    ],
+    "theoretical_visible": true,
+    "distance_m": 1.0,
+    "radius_m": 0.0025,
+    "detected_uv_px": null,
+    "actual_visible": false,
+    "residual_px": null,
+    "blobs": [],
+    "status": "FAIL",
+    "image": "outputs/step1/angles/C3/theta0_az0.png",
+    "simulation_time_seconds": 0.0
+  },
+  {
+    "camera_id": "C3",
+    "name": "theta60_az0",
+    "angle_deg": 60,
+    "azimuth_deg": 0,
+    "ray": [
+      0.8660254037844386,
+      0.0,
+      0.5000000000000001
+    ],
+    "theoretical_uv_px": [
+      801.8181818181818,
+      480.0
+    ],
+    "theoretical_visible": true,
+    "distance_m": 1.0,
+    "radius_m": 0.0025,
+    "detected_uv_px": null,
+    "actual_visible": false,
+    "residual_px": null,
+    "blobs": [],
+    "status": "FAIL",
+    "image": "outputs/step1/angles/C3/theta60_az0.png",
+    "simulation_time_seconds": 0.0
+  },
+  {
+    "camera_id": "C3",
+    "name": "theta95_az0",
+    "angle_deg": 95,
+    "azimuth_deg": 0,
+    "ray": [
+      0.9961946980917455,
+      0.0,
+      -0.08715574274765824
+    ],
+    "theoretical_uv_px": [
+      954.5454545454545,
+      480.0
+    ],
+    "theoretical_visible": true,
+    "distance_m": 1.0,
+    "radius_m": 0.0025,
+    "detected_uv_px": null,
+    "actual_visible": false,
+    "residual_px": null,
+    "blobs": [],
+    "status": "FAIL",
+    "image": "outputs/step1/angles/C3/theta95_az0.png",
+    "simulation_time_seconds": 0.0
+  },
+  {
+    "camera_id": "C3",
+    "name": "theta105_az0",
+    "angle_deg": 105,
+    "azimuth_deg": 0,
+    "ray": [
+      0.9659258262890683,
+      0.0,
+      -0.25881904510252085
+    ],
+    "theoretical_uv_px": [
+      998.1818181818182,
+      480.0
+    ],
+    "theoretical_visible": true,
+    "distance_m": 1.0,
+    "radius_m": 0.0025,
+    "detected_uv_px": null,
+    "actual_visible": false,
+    "residual_px": null,
+    "blobs": [],
+    "status": "FAIL",
+    "image": "outputs/step1/angles/C3/theta105_az0.png",
+    "simulation_time_seconds": 0.0
+  },
+  {
+    "camera_id": "C3",
+    "name": "theta115_az0",
+    "angle_deg": 115,
+    "azimuth_deg": 0,
+    "ray": [
+      0.90630778703665,
+      0.0,
+      -0.42261826174069933
+    ],
+    "theoretical_uv_px": [
+      1041.8181818181818,
+      480.0
+    ],
+    "theoretical_visible": false,
+    "distance_m": 1.0,
+    "radius_m": 0.0025,
+    "detected_uv_px": null,
+    "actual_visible": false,
+    "residual_px": null,
+    "blobs": [],
+    "status": "PASS",
+    "image": "outputs/step1/angles/C3/theta115_az0.png",
+    "simulation_time_seconds": 0.0
+  },
+  {
+    "camera_id": "C3",
+    "name": "theta105_az135",
+    "angle_deg": 105,
+    "azimuth_deg": 135,
+    "ray": [
+      -0.6830127018922193,
+      0.6830127018922194,
+      -0.25881904510252085
+    ],
+    "theoretical_uv_px": [
+      216.01652934725462,
+      803.9834706527454
+    ],
+    "theoretical_visible": true,
+    "distance_m": 1.0,
+    "radius_m": 0.0025,
+    "detected_uv_px": [
+      216.11513859275055,
+      803.8518123667378
+    ],
+    "actual_visible": true,
+    "residual_px": 0.16449221127982738,
+    "blobs": [
+      {
+        "area": 3,
+        "uv": [
+          216.11513859275055,
+          803.8518123667378
+        ]
+      }
+    ],
+    "status": "PASS",
+    "image": "outputs/step1/angles/C3/theta105_az135.png",
+    "simulation_time_seconds": 0.0
+  }
+]

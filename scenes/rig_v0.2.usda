@@ -1,0 +1,147 @@
+#usda 1.0
+(defaultPrim = "World"
+ metersPerUnit = 1
+ upAxis = "Z")
+def Xform "World" {
+def Xform "Rig" (prepend references = @../assets/baseline/seven_camera_sim_layout_v01/models/seven_camera_rig.usda@</SevenCameraRig>) {
+double3 xformOp:translate = (0, 0, 1.6)
+uniform token[] xformOpOrder = ["xformOp:translate"]
+custom string sim:version = "SIM-V0.2-vfov130"
+custom string sim:configSha256 = "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d"
+over "Sensors" {
+over "C0_front_main" (prepend apiSchemas = ["OmniLensDistortionOpenCvPinholeAPI"]) {
+custom double sim:fx = 554.2562584220409
+custom double sim:fy = 251.80613540369924
+custom double sim:vfov = 130.0
+custom string sim:configSha256 = "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d"
+float2 clippingRange = (0.0001, 100.0)
+uniform token omni:lensdistortion:model = "opencvPinhole"
+float omni:lensdistortion:opencvPinhole:fx = 554.2562584220409
+float omni:lensdistortion:opencvPinhole:fy = 251.80613540369924
+float omni:lensdistortion:opencvPinhole:cx = 960.0
+float omni:lensdistortion:opencvPinhole:cy = 540.0
+int2 omni:lensdistortion:opencvPinhole:imageSize = (1920, 1080)
+float omni:lensdistortion:opencvPinhole:k1 = 0
+float omni:lensdistortion:opencvPinhole:k2 = 0
+float omni:lensdistortion:opencvPinhole:p1 = 0
+float omni:lensdistortion:opencvPinhole:p2 = 0
+float omni:lensdistortion:opencvPinhole:k3 = 0
+float omni:lensdistortion:opencvPinhole:k4 = 0
+float omni:lensdistortion:opencvPinhole:k5 = 0
+float omni:lensdistortion:opencvPinhole:k6 = 0
+float omni:lensdistortion:opencvPinhole:s1 = 0
+float omni:lensdistortion:opencvPinhole:s2 = 0
+float omni:lensdistortion:opencvPinhole:s3 = 0
+float omni:lensdistortion:opencvPinhole:s4 = 0
+}
+over "C1_front_left" {
+custom double sim:fx = 572.9577951308232
+custom double sim:fy = 572.9577951308232
+custom double sim:vfov = 130.0
+custom string sim:configSha256 = "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d"
+float2 clippingRange = (0.0001, 100.0)
+custom token cameraProjectionType = "fisheyePolynomial"
+custom float fthetaWidth = 1600
+custom float fthetaHeight = 1300
+custom float fthetaCx = 800.0
+custom float fthetaCy = 650.0
+custom float fthetaMaxFov = 160.0
+custom float fthetaPolyA = 0
+custom float fthetaPolyB = 0.0017453292519943296
+custom float fthetaPolyC = 0
+custom float fthetaPolyD = 0
+custom float fthetaPolyE = 0
+}
+over "C2_front_right" {
+custom double sim:fx = 572.9577951308232
+custom double sim:fy = 572.9577951308232
+custom double sim:vfov = 130.0
+custom string sim:configSha256 = "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d"
+float2 clippingRange = (0.0001, 100.0)
+custom token cameraProjectionType = "fisheyePolynomial"
+custom float fthetaWidth = 1600
+custom float fthetaHeight = 1300
+custom float fthetaCx = 800.0
+custom float fthetaCy = 650.0
+custom float fthetaMaxFov = 160.0
+custom float fthetaPolyA = 0
+custom float fthetaPolyB = 0.0017453292519943296
+custom float fthetaPolyC = 0
+custom float fthetaPolyD = 0
+custom float fthetaPolyE = 0
+}
+over "C3_surround_left_up" {
+custom double sim:fx = 250.0179469661774
+custom double sim:fy = 250.0179469661774
+custom double sim:vfov = 220.0
+custom string sim:configSha256 = "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d"
+float2 clippingRange = (0.0001, 100.0)
+custom token cameraProjectionType = "fisheyePolynomial"
+custom float fthetaWidth = 1080
+custom float fthetaHeight = 960
+custom float fthetaCx = 540.0
+custom float fthetaCy = 480.0
+custom float fthetaMaxFov = 220.0
+custom float fthetaPolyA = 0
+custom float fthetaPolyB = 0.0039997128691536725
+custom float fthetaPolyC = 0
+custom float fthetaPolyD = 0
+custom float fthetaPolyE = 0
+}
+over "C4_surround_left_down" {
+custom double sim:fx = 250.0179469661774
+custom double sim:fy = 250.0179469661774
+custom double sim:vfov = 220.0
+custom string sim:configSha256 = "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d"
+float2 clippingRange = (0.0001, 100.0)
+custom token cameraProjectionType = "fisheyePolynomial"
+custom float fthetaWidth = 1080
+custom float fthetaHeight = 960
+custom float fthetaCx = 540.0
+custom float fthetaCy = 480.0
+custom float fthetaMaxFov = 220.0
+custom float fthetaPolyA = 0
+custom float fthetaPolyB = 0.0039997128691536725
+custom float fthetaPolyC = 0
+custom float fthetaPolyD = 0
+custom float fthetaPolyE = 0
+}
+over "C5_surround_right_up" {
+custom double sim:fx = 250.0179469661774
+custom double sim:fy = 250.0179469661774
+custom double sim:vfov = 220.0
+custom string sim:configSha256 = "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d"
+float2 clippingRange = (0.0001, 100.0)
+custom token cameraProjectionType = "fisheyePolynomial"
+custom float fthetaWidth = 1080
+custom float fthetaHeight = 960
+custom float fthetaCx = 540.0
+custom float fthetaCy = 480.0
+custom float fthetaMaxFov = 220.0
+custom float fthetaPolyA = 0
+custom float fthetaPolyB = 0.0039997128691536725
+custom float fthetaPolyC = 0
+custom float fthetaPolyD = 0
+custom float fthetaPolyE = 0
+}
+over "C6_surround_right_down" {
+custom double sim:fx = 250.0179469661774
+custom double sim:fy = 250.0179469661774
+custom double sim:vfov = 220.0
+custom string sim:configSha256 = "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d"
+float2 clippingRange = (0.0001, 100.0)
+custom token cameraProjectionType = "fisheyePolynomial"
+custom float fthetaWidth = 1080
+custom float fthetaHeight = 960
+custom float fthetaCx = 540.0
+custom float fthetaCy = 480.0
+custom float fthetaMaxFov = 220.0
+custom float fthetaPolyA = 0
+custom float fthetaPolyB = 0.0039997128691536725
+custom float fthetaPolyC = 0
+custom float fthetaPolyD = 0
+custom float fthetaPolyE = 0
+}
+}
+}
+}

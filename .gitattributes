@@ -1,0 +1,3 @@
+# Preserve byte-for-byte baseline and artifact hashes on Windows checkouts.
+assets/baseline/** -text
+outputs/step1/** -text

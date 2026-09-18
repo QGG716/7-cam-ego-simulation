@@ -1,0 +1,7 @@
+numpy
+scipy
+PyYAML
+cadquery
+ezdxf
+reportlab
+# Isaac capture runs in NVIDIA Isaac's own Python, not this ordinary CAD environment.

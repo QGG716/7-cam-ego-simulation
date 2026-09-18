@@ -1,0 +1,5 @@
+{
+  "status": "FAILED",
+  "error": "\n\tError in 'pxrInternal_v0_25_11__pxrReserved__::UsdStage::_GetAttributeValueType' at line 7012 in file /builds/omniverse/usd-ci/conan/src/0.25.11.kit.2/pxr/usd/usd/stage.cpp : 'Empty typeName for </World/Environment.visibility>'",
+  "traceback": "Traceback (most recent call last):\n  File \"/root/autodl-tmp/7-cam-ego-simulation-step1/scripts/isaac_step1.py\", line 234, in <module>\n    overview(stage)\n  File \"/root/autodl-tmp/7-cam-ego-simulation-step1/scripts/isaac_step1.py\", line 192, in overview\n    UsdGeom.Imageable(stage.GetPrimAtPath('/World/Environment')).GetVisibilityAttr().Set('invisible')\npxr.Tf.ErrorException: \n\tError in 'pxrInternal_v0_25_11__pxrReserved__::UsdStage::_GetAttributeValueType' at line 7012 in file /builds/omniverse/usd-ci/conan/src/0.25.11.kit.2/pxr/usd/usd/stage.cpp : 'Empty typeName for </World/Environment.visibility>'\n"
+}

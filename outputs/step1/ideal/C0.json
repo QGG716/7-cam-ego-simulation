@@ -1,0 +1,30 @@
+{
+  "camera_id": "C0",
+  "width": 1920,
+  "height": 1080,
+  "version": "SIM-V0.2-vfov130",
+  "config_sha256": "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d",
+  "projection": {
+    "model": "ideal_pinhole",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "hfov_deg": 120.0,
+    "provenance": "HFOV/resolution inherited from PDF-based baseline; explicit VFOV=130 from current user; independent fx/fy and centered principal point are simulation assumptions, not confirmed physical lens",
+    "vfov_deg": 130.0,
+    "fx_px": 554.2562584220409,
+    "fy_px": 251.80613540369924,
+    "cx_px": 960.0,
+    "cy_px": 540.0,
+    "derived_vfov_deg": 130.0,
+    "radial_full_fov_deg": 140.12208804690772,
+    "valid_radius_px": null
+  },
+  "simulation_time_seconds": 0.0,
+  "static_scene_id": "step1-static-0",
+  "pixel_convention": "continuous image edges [0,W] x [0,H]; pixel centers (column+0.5,row+0.5); principal point (W/2,H/2)",
+  "invalid_region": "masked to black; not structural occlusion",
+  "backend": "native OpenCV pinhole",
+  "mode": "ideal"
+}

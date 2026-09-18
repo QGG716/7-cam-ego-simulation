@@ -1,0 +1,23 @@
+﻿camera_id,name,angle_deg,azimuth_deg,theoretical_visible,theoretical_uv_px,actual_visible,detected_uv_px,residual_px,status,image
+C0,horizontal_-59,-59,0,True,"[37.56268114383067, 540.0]",True,"[37.371512564131365, 539.9954374664519]",0.19122301790482313,PASS,outputs/step1/angles/C0/horizontal_-59.png
+C0,horizontal_+59,59,0,True,"[1882.4373188561694, 540.0]",True,"[1882.7084912051787, 539.990966803001]",0.27132276261901794,PASS,outputs/step1/angles/C0/horizontal_+59.png
+C0,horizontal_-61,-61,0,False,"[-39.90475885142098, 540.0]",False,,,PASS,outputs/step1/angles/C0/horizontal_-61.png
+C0,horizontal_+61,61,0,False,"[1959.9047588514209, 540.0]",False,,,PASS,outputs/step1/angles/C0/horizontal_+61.png
+C0,vertical_-64,-64,90,True,"[960.0, 23.7209132485591]",True,"[960.0120531528961, 23.584237557575513]",0.13720613324694267,PASS,outputs/step1/angles/C0/vertical_-64.png
+C0,vertical_+64,64,90,True,"[960.0, 1056.279086751441]",True,"[959.9826626606905, 1056.462427555862]",0.18415871931594952,PASS,outputs/step1/angles/C0/vertical_+64.png
+C0,vertical_-66,-66,90,False,"[960.0, -25.565840011412774]",False,,,PASS,outputs/step1/angles/C0/vertical_-66.png
+C0,vertical_+66,66,90,False,"[960.0, 1105.5658400114128]",False,,,PASS,outputs/step1/angles/C0/vertical_+66.png
+C1,horizontal_-79,-79,0,True,"[10.0, 650.0]",True,"[10.125807877147434, 650.053775617301]",0.13681900075809755,PASS,outputs/step1/angles/C1/horizontal_-79.png
+C1,horizontal_+79,79,0,True,"[1590.0, 650.0]",True,"[1590.0711151187256, 650.0194469492035]",0.07372614152851904,PASS,outputs/step1/angles/C1/horizontal_+79.png
+C1,horizontal_-81,-81,0,False,"[-10.0, 650.0]",False,,,PASS,outputs/step1/angles/C1/horizontal_-81.png
+C1,horizontal_+81,81,0,False,"[1610.0, 650.0]",False,,,PASS,outputs/step1/angles/C1/horizontal_+81.png
+C1,vertical_-64,-64,90,True,"[800.0, 10.0]",True,"[799.9999651446497, 9.981840362495642]",0.018159670954759004,PASS,outputs/step1/angles/C1/vertical_-64.png
+C1,vertical_+64,64,90,True,"[800.0, 1290.0]",True,"[799.9711396151948, 1289.9792797237294]",0.03552818120636488,PASS,outputs/step1/angles/C1/vertical_+64.png
+C1,vertical_-66,-66,90,False,"[800.0, -10.0]",False,,,PASS,outputs/step1/angles/C1/vertical_-66.png
+C1,vertical_+66,66,90,False,"[800.0, 1310.0]",False,,,PASS,outputs/step1/angles/C1/vertical_+66.png
+C3,theta0_az0,0,0,True,"[540.0, 480.0]",True,"[540.2281276717013, 479.8764605300655]",0.2594305980942319,PASS,outputs/step1/angles/C3/theta0_az0.png
+C3,theta60_az0,60,0,True,"[801.8181818181818, 480.0]",True,"[801.6540259188444, 480.14414701508395]",0.2184617157418716,PASS,outputs/step1/angles/C3/theta60_az0.png
+C3,theta95_az0,95,0,True,"[954.5454545454545, 480.0]",True,"[954.533051498847, 479.97901614142955]",0.024375354062070736,PASS,outputs/step1/angles/C3/theta95_az0.png
+C3,theta105_az0,105,0,True,"[998.1818181818182, 480.0]",True,"[998.3136304062912, 479.8515072083879]",0.19855621793653072,PASS,outputs/step1/angles/C3/theta105_az0.png
+C3,theta115_az0,115,0,False,"[1041.8181818181818, 480.0]",False,,,PASS,outputs/step1/angles/C3/theta115_az0.png
+C3,theta105_az135,105,135,True,"[216.01652934725462, 803.9834706527454]",True,"[215.89557855126998, 803.9706020696143]",0.12163344721383039,PASS,outputs/step1/angles/C3/theta105_az135.png

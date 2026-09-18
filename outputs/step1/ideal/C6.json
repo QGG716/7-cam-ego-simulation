@@ -1,0 +1,29 @@
+{
+  "camera_id": "C6",
+  "width": 1080,
+  "height": 960,
+  "version": "SIM-V0.2-vfov130",
+  "config_sha256": "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d",
+  "projection": {
+    "model": "ideal_equidistant",
+    "resolution": [
+      1080,
+      960
+    ],
+    "radial_full_fov_deg": 220.0,
+    "image_circle_diameter_px": 960.0,
+    "provenance": "resolution chosen at PDF minimum; 220 comes only from composition image; interpretation as full circular angle with 960 px diameter is an assumption",
+    "fx_px": 250.0179469661774,
+    "fy_px": 250.0179469661774,
+    "cx_px": 540.0,
+    "cy_px": 480.0,
+    "derived_vfov_deg": 220.0,
+    "valid_radius_px": 480.0
+  },
+  "simulation_time_seconds": 0.0,
+  "static_scene_id": "step1-static-0",
+  "pixel_convention": "continuous image edges [0,W] x [0,H]; pixel centers (column+0.5,row+0.5); principal point (W/2,H/2)",
+  "invalid_region": "masked to black; not structural occlusion",
+  "backend": "legacy RTX fisheyePolynomial",
+  "mode": "ideal"
+}

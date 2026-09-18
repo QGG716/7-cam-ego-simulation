@@ -1,0 +1,10 @@
+{
+  "local_python": ".venv/Scripts/python.exe",
+  "ssh_host": "YOUR_GPU_HOST",
+  "ssh_port": 22,
+  "ssh_user": "YOUR_SSH_USER",
+  "remote_python": "/path/to/existing/isaacsim/bin/python",
+  "remote_isaac_entrypoint": "/path/to/existing/isaacsim/bin/isaacsim",
+  "remote_project": "/root/autodl-tmp/7-cam-ego-simulation-step1",
+  "runtime_status": "CONFIGURE_EXISTING_RUNTIME_BEFORE_RENDERING"
+}

@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "angle_checks": 22,
+  "angle_pass": 22,
+  "task": "all",
+  "version": "SIM-V0.2-vfov130",
+  "config_sha256": "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d",
+  "isaac_version": "6.0.1.0",
+  "note": "Static sequential capture only; no FPS/sync/IMU/SLAM validation"
+}

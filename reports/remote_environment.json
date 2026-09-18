@@ -1,0 +1,137 @@
+{
+  "platform": "Linux-5.15.0-78-generic-x86_64-with-glibc2.35",
+  "python": "3.12.3 | packaged by Anaconda, Inc. | (main, May  6 2024, 19:46:43) [GCC 11.2.0]",
+  "executable": "/root/autodl-tmp/envs/isaacsim-clean/bin/python",
+  "prefix": "/root/autodl-tmp/envs/isaacsim-clean",
+  "os_release": "PRETTY_NAME=\"Ubuntu 22.04.5 LTS\"\nNAME=\"Ubuntu\"\nVERSION_ID=\"22.04\"\nVERSION=\"22.04.5 LTS (Jammy Jellyfish)\"\nVERSION_CODENAME=jammy\nID=ubuntu\nID_LIKE=debian\nHOME_URL=\"https://www.ubuntu.com/\"\nSUPPORT_URL=\"https://help.ubuntu.com/\"\nBUG_REPORT_URL=\"https://bugs.launchpad.net/ubuntu/\"\nPRIVACY_POLICY_URL=\"https://www.ubuntu.com/legal/terms-and-policies/privacy-policy\"\nUBUNTU_CODENAME=jammy\n",
+  "gpu": {
+    "argv": [
+      "nvidia-smi",
+      "--query-gpu=name,memory.total,driver_version",
+      "--format=csv"
+    ],
+    "returncode": 0,
+    "stdout": "name, memory.total [MiB], driver_version\nNVIDIA RTX PRO 6000 Blackwell Server Edition, 97887 MiB, 580.95.05",
+    "stderr": ""
+  },
+  "packages": {
+    "isaacsim": "6.0.1.0",
+    "isaacsim-sensor": "6.0.1.0",
+    "isaacsim-kernel": "6.0.1.0",
+    "isaacsim-replicator": "6.0.1.0"
+  },
+  "camera_source_inventory": [
+    {
+      "path": "/root/autodl-tmp/envs/isaacsim-clean/lib/python3.12/site-packages/isaacsim/extsDeprecated/isaacsim.sensors.camera/isaacsim/sensors/camera/camera.py",
+      "methods": [
+        {
+          "name": "get_lens_aperture",
+          "line": 1561,
+          "arguments": "self",
+          "doc": "Gets value of camera prim fStop attribute, which controls distance blurring. Lower numbers decrease focus.\n\n        range, larger numbers increase it.\n\nReturns:\n    Value of camera prim fStop attribute. 0 turns off focusing."
+        },
+        {
+          "name": "set_lens_aperture",
+          "line": 1572,
+          "arguments": "self, value: float",
+          "doc": "Sets value of camera prim fStop attribute, which controls distance blurring. Lower numbers decrease focus.\n\n        range, larger numbers increase it.\n\nArgs:\n    value: Sets value of camera prim fStop attribute. 0 turns off focusing.\n\nReturns:\n    None."
+        },
+        {
+          "name": "get_projection_type",
+          "line": 1675,
+          "arguments": "self",
+          "doc": "[DEPRECATED] Gets the `cameraProjectionType` property of the camera prim.\n\nReturns:\n    omni:lensdistortion:model attribute of camera prim. If unset, returns \"pinhole\"."
+        },
+        {
+          "name": "set_projection_type",
+          "line": 1690,
+          "arguments": "self, value: str",
+          "doc": "[DEPRECATED] Sets the `cameraProjectionType` property of the camera prim.\n\nArgs:\n    value: Name of the projection type to apply, or \"pinhole\" to remove any distortion schemas and unset `omni:lensdistortion:model`.\n\nReturns:\n    None."
+        },
+        {
+          "name": "get_lens_distortion_model",
+          "line": 1720,
+          "arguments": "self",
+          "doc": "Gets the `omni:lensdistortion:model` property of the camera prim.\n\nReturns:\n    The lens distortion model name or \"pinhole\" if unset."
+        },
+        {
+          "name": "set_lens_distortion_model",
+          "line": 1729,
+          "arguments": "self, value: str",
+          "doc": "Sets the `omni:lensdistortion:model` property of the camera prim and applies the corresponding schema.\n\nNote: `cameraProjectionType` has been deprecated in favor of `omni:lensdistortion:model`. `fisheyeOrthographic`, `fisheyeEquidistant`, `fisheyeEquisolid`, and `fisheyeSpherical` are no longer supported.\n\nArgs:\n    value: Name of the distortion schema to apply, or \"pinhole\" to remove any distortion schemas and unset `omni:lensdistortion:model`.\n\nReturns:\n    None."
+        },
+        {
+          "name": "get_projection_mode",
+          "line": 1773,
+          "arguments": "self",
+          "doc": "Gets projection model of the camera prim.\n\nReturns:\n    perspective or orthographic."
+        },
+        {
+          "name": "set_projection_mode",
+          "line": 1782,
+          "arguments": "self, value: str",
+          "doc": "Sets projection model of the camera prim to perspective or orthographic.\n\nArgs:\n    value: \"perspective\" or \"orthographic\".\n\nReturns:\n    None."
+        },
+        {
+          "name": "set_fisheye_polynomial_properties",
+          "line": 1823,
+          "arguments": "self, nominal_width: float | None, nominal_height: float | None, optical_centre_x: float | None, optical_centre_y: float | None, max_fov: float | None, polynomial: Sequence[float] | None",
+          "doc": "[DEPRECATED] Sets distortion parameters for the fisheyePolynomial projection model.\n\nArgs:\n    nominal_width: Rendered Width (pixels)\n    nominal_height: Rendered Height (pixels)\n    optical_centre_x: Horizontal Render Position (pixels)\n    optical_centre_y: Vertical Render Position (pixels)\n    max_fov: maximum field of view (pixels)\n    polynomial: polynomial equation coefficients (sequence of 5 numbers) starting from A0, A1, A2, A3, A4\n\nReturns:\n    None."
+        },
+        {
+          "name": "set_matching_fisheye_polynomial_properties",
+          "line": 1872,
+          "arguments": "self, nominal_width: float, nominal_height: float, optical_centre_x: float, optical_centre_y: float, max_fov: float | None, distortion_model: Sequence[float], distortion_fn: Callable",
+          "doc": "[DEPRECATED] Approximates provided OpenCV fisheye distortion with ftheta fisheye polynomial coefficients.\n\nArgs:\n    nominal_width: Rendered Width (pixels)\n    nominal_height: Rendered Height (pixels)\n    optical_centre_x: Horizontal Render Position (pixels)\n    optical_centre_y: Vertical Render Position (pixels)\n    max_fov: maximum field of view (pixels)\n    distortion_model: distortion model coefficients\n    distortion_fn: distortion function that takes points and returns distorted points\n\nReturns:\n    None."
+        },
+        {
+          "name": "get_fisheye_polynomial_properties",
+          "line": 2021,
+          "arguments": "self",
+          "doc": "nominal_width, nominal_height, optical_centre_x, optical_centre_y, max_fov and polynomial respectively.\n\nReturns:\n    nominal_width, nominal_height, optical_centre_x, optical_centre_y, max_fov and polynomial respectively."
+        },
+        {
+          "name": "_set_lens_distortion_properties",
+          "line": 2294,
+          "arguments": "self, distortion_model: str, distortion_model_attr: str, coefficient_map: list[str], coefficients: list[float], **kwargs: object",
+          "doc": "Sets lens distortion model parameters if camera prim is using lens distortion model.\n\nArgs:\n    distortion_model: Name of the distortion model to apply.\n    distortion_model_attr: Attribute name for the distortion model.\n    coefficient_map: List of coefficient names to map to the distortion model.\n    coefficients: List of coefficient values to set for the distortion model.\n    **kwargs: Additional keyword arguments passed to the parent class.\n\nReturns:\n    None."
+        },
+        {
+          "name": "_get_lens_distortion_properties",
+          "line": 2333,
+          "arguments": "self, distortion_model_attr: str, attr_names: list[str], coefficient_map: list[str]",
+          "doc": "Gets lens distortion model parameters if camera prim is using lens distortion model.\n\nArgs:\n    distortion_model_attr: Attribute name for the distortion model.\n    attr_names: List of attribute names to retrieve.\n    coefficient_map: List of coefficient names to retrieve from the distortion model.\n\nReturns:\n    A tuple containing (nominal_height, nominal_width, optical_center, max_fov, distortion_coefficients)\n    where distortion_coefficients are in order:"
+        },
+        {
+          "name": "set_opencv_pinhole_properties",
+          "line": 2574,
+          "arguments": "self, cx: float | None=None, cy: float | None=None, fx: float | None=None, fy: float | None=None, pinhole: list[float] | None=None",
+          "doc": "Applies OpenCV pinhole distortion model to camera prim, then sets distortion parameters.\n\nArgs:\n    cx: Horizontal Render Position (pixels).\n    cy: Vertical Render Position (pixels).\n    fx: Horizontal Focal Length (pixels).\n    fy: Vertical Focal Length (pixels).\n    pinhole: OpenCV pinhole parameters [k1, k2, p1, p2, k3, k4, k5, k6, s1, s2, s3, s4].\n\nReturns:\n    None."
+        },
+        {
+          "name": "get_opencv_pinhole_properties",
+          "line": 2608,
+          "arguments": "self",
+          "doc": "If camera prim is using OpenCV pinhole distortion model, returns corresponding distortion parameters.\n\nReturns:\n    A tuple containing (cx, cy, fx, fy, OpenCV pinhole parameters [k1, k2, p1, p2, k3, k4, k5, k6,\n    s1, s2, s3, s4])."
+        },
+        {
+          "name": "set_opencv_fisheye_properties",
+          "line": 2622,
+          "arguments": "self, cx: float | None=None, cy: float | None=None, fx: float | None=None, fy: float | None=None, fisheye: list[float] | None=None",
+          "doc": "Applies OpenCV fisheye distortion model to camera prim, then sets distortion parameters.\n\nArgs:\n    cx: Horizontal Render Position (pixels).\n    cy: Vertical Render Position (pixels).\n    fx: Horizontal Focal Length (pixels).\n    fy: Vertical Focal Length (pixels).\n    fisheye: OpenCV fisheye parameters [k1, k2, k3, k4].\n\nReturns:\n    None."
+        },
+        {
+          "name": "get_opencv_fisheye_properties",
+          "line": 2656,
+          "arguments": "self",
+          "doc": "If camera prim is using OpenCV fisheye distortion model, returns corresponding distortion parameters.\n\nReturns:\n    A tuple containing (cx, cy, fx, fy, OpenCV fisheye parameters [k1, k2, k3, k4])."
+        }
+      ]
+    }
+  ],
+  "entrypoint": {
+    "path": "/root/autodl-tmp/envs/isaacsim-clean/bin/isaacsim",
+    "exists": true
+  },
+  "runtime_launch": "NOT_RUN: baseline model package missing; inventory only"
+}

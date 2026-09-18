@@ -1,0 +1,1390 @@
+{
+  "design_revision": "SIM-V0.2-vfov130",
+  "config_sha256": "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d",
+  "conventions": {
+    "body_origin": "C0 front-main nominal optical projection center",
+    "body_axes": "+X forward, +Y wearer's left, +Z up; right handed",
+    "camera_optical_axes": "+x image right, +y image down, +z optical forward",
+    "imu_axes": "aligned with body in this simulation assumption",
+    "transform": "p_B = R_B_S * p_S + t_B_S; column vectors; matrix values stored as rows",
+    "quaternion": "wxyz"
+  },
+  "cameras": [
+    {
+      "id": "C0",
+      "name": "front_main",
+      "name_cn": "前向主相机",
+      "position_mm": [
+        0,
+        0,
+        0
+      ],
+      "forward_B": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "up_B": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "R_B_optical": [
+        [
+          0.0,
+          -0.0,
+          1.0
+        ],
+        [
+          -1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      ],
+      "R_B_usd": [
+        [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "q_B_optical_wxyz": [
+        0.5,
+        -0.5,
+        0.5,
+        -0.5
+      ],
+      "q_B_usd_wxyz": [
+        0.5,
+        0.5,
+        -0.5,
+        -0.5
+      ],
+      "optics": {
+        "model": "ideal_pinhole",
+        "resolution": [
+          1920,
+          1080
+        ],
+        "hfov_deg": 120.0,
+        "provenance": "HFOV/resolution inherited from PDF-based baseline; explicit VFOV=130 from current user; independent fx/fy and centered principal point are simulation assumptions, not confirmed physical lens",
+        "vfov_deg": 130.0,
+        "fx_px": 554.2562584220409,
+        "fy_px": 251.80613540369924,
+        "cx_px": 960.0,
+        "cy_px": 540.0,
+        "derived_vfov_deg": 130.0,
+        "radial_full_fov_deg": 140.12208804690772,
+        "valid_radius_px": null
+      },
+      "controller": "MCU1",
+      "prim_path": "/SevenCameraRig/Sensors/C0_front_main",
+      "T_B_cameraOptical_m": [
+        [
+          0.0,
+          -0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          -0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T_cameraOptical_B_m": [
+        [
+          -0.0,
+          -1.0,
+          -0.0,
+          -0.0
+        ],
+        [
+          -0.0,
+          -0.0,
+          -1.0,
+          -0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T_IMU_cameraOptical_m": [
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.018000000000000002
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T_cameraOptical_IMU_m": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.018000000000000002
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "C1",
+      "name": "front_left",
+      "name_cn": "前向左副相机",
+      "position_mm": [
+        0,
+        31.5,
+        0
+      ],
+      "forward_B": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "up_B": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "R_B_optical": [
+        [
+          0.0,
+          -0.0,
+          1.0
+        ],
+        [
+          -1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      ],
+      "R_B_usd": [
+        [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "q_B_optical_wxyz": [
+        0.5,
+        -0.5,
+        0.5,
+        -0.5
+      ],
+      "q_B_usd_wxyz": [
+        0.5,
+        0.5,
+        -0.5,
+        -0.5
+      ],
+      "optics": {
+        "model": "ideal_equidistant",
+        "resolution": [
+          1600,
+          1300
+        ],
+        "hfov_deg": 160.0,
+        "radial_full_fov_deg": 160.0,
+        "provenance": "resolution chosen at PDF minimum for both cameras; HFOV from PDF; equidistant model and circular cut-off are assumptions, not lens calibration",
+        "vfov_deg": 130.0,
+        "fx_px": 572.9577951308232,
+        "fy_px": 572.9577951308232,
+        "cx_px": 800.0,
+        "cy_px": 650.0,
+        "derived_vfov_deg": 130.0,
+        "valid_radius_px": 800.0
+      },
+      "controller": "MCU1",
+      "prim_path": "/SevenCameraRig/Sensors/C1_front_left",
+      "T_B_cameraOptical_m": [
+        [
+          0.0,
+          -0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          -0.0,
+          0.0,
+          0.0315
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T_cameraOptical_B_m": [
+        [
+          -0.0,
+          -1.0,
+          -0.0,
+          0.0315
+        ],
+        [
+          -0.0,
+          -0.0,
+          -1.0,
+          -0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T_IMU_cameraOptical_m": [
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.018000000000000002
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0315
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T_cameraOptical_IMU_m": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0315
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.018000000000000002
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "C2",
+      "name": "front_right",
+      "name_cn": "前向右副相机",
+      "position_mm": [
+        0,
+        -31.5,
+        0
+      ],
+      "forward_B": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "up_B": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "R_B_optical": [
+        [
+          0.0,
+          -0.0,
+          1.0
+        ],
+        [
+          -1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      ],
+      "R_B_usd": [
+        [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "q_B_optical_wxyz": [
+        0.5,
+        -0.5,
+        0.5,
+        -0.5
+      ],
+      "q_B_usd_wxyz": [
+        0.5,
+        0.5,
+        -0.5,
+        -0.5
+      ],
+      "optics": {
+        "model": "ideal_equidistant",
+        "resolution": [
+          1600,
+          1300
+        ],
+        "hfov_deg": 160.0,
+        "radial_full_fov_deg": 160.0,
+        "provenance": "resolution chosen at PDF minimum for both cameras; HFOV from PDF; equidistant model and circular cut-off are assumptions, not lens calibration",
+        "vfov_deg": 130.0,
+        "fx_px": 572.9577951308232,
+        "fy_px": 572.9577951308232,
+        "cx_px": 800.0,
+        "cy_px": 650.0,
+        "derived_vfov_deg": 130.0,
+        "valid_radius_px": 800.0
+      },
+      "controller": "MCU1",
+      "prim_path": "/SevenCameraRig/Sensors/C2_front_right",
+      "T_B_cameraOptical_m": [
+        [
+          0.0,
+          -0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          -0.0,
+          0.0,
+          -0.0315
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T_cameraOptical_B_m": [
+        [
+          -0.0,
+          -1.0,
+          -0.0,
+          -0.0315
+        ],
+        [
+          -0.0,
+          -0.0,
+          -1.0,
+          -0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T_IMU_cameraOptical_m": [
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.018000000000000002
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          -0.0315
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T_cameraOptical_IMU_m": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -0.0315
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.018000000000000002
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "C3",
+      "name": "surround_left_up",
+      "name_cn": "左上环视相机",
+      "position_mm": [
+        -16.0,
+        55.0,
+        20.0
+      ],
+      "forward_B": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "up_B": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "R_B_optical": [
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -0.0,
+          1.0
+        ]
+      ],
+      "R_B_usd": [
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "q_B_optical_wxyz": [
+        0.7071067811865475,
+        0.0,
+        0.0,
+        -0.7071067811865475
+      ],
+      "q_B_usd_wxyz": [
+        0.0,
+        0.7071067811865475,
+        -0.7071067811865475,
+        0.0
+      ],
+      "optics": {
+        "model": "ideal_equidistant",
+        "resolution": [
+          1080,
+          960
+        ],
+        "radial_full_fov_deg": 220.0,
+        "image_circle_diameter_px": 960.0,
+        "provenance": "resolution chosen at PDF minimum; 220 comes only from composition image; interpretation as full circular angle with 960 px diameter is an assumption",
+        "fx_px": 250.0179469661774,
+        "fy_px": 250.0179469661774,
+        "cx_px": 540.0,
+        "cy_px": 480.0,
+        "derived_vfov_deg": 220.0,
+        "valid_radius_px": 480.0
+      },
+      "controller": "MCU2",
+      "prim_path": "/SevenCameraRig/Sensors/C3_surround_left_up",
+      "T_B_cameraOptical_m": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.016
+        ],
+        [
+          -1.0,
+          -0.0,
+          0.0,
+          0.055
+        ],
+        [
+          0.0,
+          -0.0,
+          1.0,
+          0.02
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T_cameraOptical_B_m": [
+        [
+          -0.0,
+          -1.0,
+          -0.0,
+          0.055
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.016
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.02
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T_IMU_cameraOptical_m": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0020000000000000018
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.055
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.02
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T_cameraOptical_IMU_m": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.055
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.0020000000000000018
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.02
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "C4",
+      "name": "surround_left_down",
+      "name_cn": "左下环视相机",
+      "position_mm": [
+        -16.0,
+        55.0,
+        -20.0
+      ],
+      "forward_B": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "up_B": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "R_B_optical": [
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -0.0,
+          -1.0
+        ]
+      ],
+      "R_B_usd": [
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "q_B_optical_wxyz": [
+        0.0,
+        0.7071067811865475,
+        -0.7071067811865475,
+        0.0
+      ],
+      "q_B_usd_wxyz": [
+        0.7071067811865475,
+        0.0,
+        0.0,
+        -0.7071067811865475
+      ],
+      "optics": {
+        "model": "ideal_equidistant",
+        "resolution": [
+          1080,
+          960
+        ],
+        "radial_full_fov_deg": 220.0,
+        "image_circle_diameter_px": 960.0,
+        "provenance": "resolution chosen at PDF minimum; 220 comes only from composition image; interpretation as full circular angle with 960 px diameter is an assumption",
+        "fx_px": 250.0179469661774,
+        "fy_px": 250.0179469661774,
+        "cx_px": 540.0,
+        "cy_px": 480.0,
+        "derived_vfov_deg": 220.0,
+        "valid_radius_px": 480.0
+      },
+      "controller": "MCU2",
+      "prim_path": "/SevenCameraRig/Sensors/C4_surround_left_down",
+      "T_B_cameraOptical_m": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -0.016
+        ],
+        [
+          -1.0,
+          -0.0,
+          0.0,
+          0.055
+        ],
+        [
+          0.0,
+          -0.0,
+          -1.0,
+          -0.02
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T_cameraOptical_B_m": [
+        [
+          -0.0,
+          -1.0,
+          -0.0,
+          0.055
+        ],
+        [
+          -1.0,
+          -0.0,
+          -0.0,
+          -0.016
+        ],
+        [
+          -0.0,
+          -0.0,
+          -1.0,
+          -0.02
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T_IMU_cameraOptical_m": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0020000000000000018
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.055
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          -0.02
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T_cameraOptical_IMU_m": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.055
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0020000000000000018
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          -0.02
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "C5",
+      "name": "surround_right_up",
+      "name_cn": "右上环视相机",
+      "position_mm": [
+        -16.0,
+        -55.0,
+        20.0
+      ],
+      "forward_B": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "up_B": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "R_B_optical": [
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -0.0,
+          1.0
+        ]
+      ],
+      "R_B_usd": [
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "q_B_optical_wxyz": [
+        0.7071067811865475,
+        0.0,
+        0.0,
+        -0.7071067811865475
+      ],
+      "q_B_usd_wxyz": [
+        0.0,
+        0.7071067811865475,
+        -0.7071067811865475,
+        0.0
+      ],
+      "optics": {
+        "model": "ideal_equidistant",
+        "resolution": [
+          1080,
+          960
+        ],
+        "radial_full_fov_deg": 220.0,
+        "image_circle_diameter_px": 960.0,
+        "provenance": "resolution chosen at PDF minimum; 220 comes only from composition image; interpretation as full circular angle with 960 px diameter is an assumption",
+        "fx_px": 250.0179469661774,
+        "fy_px": 250.0179469661774,
+        "cx_px": 540.0,
+        "cy_px": 480.0,
+        "derived_vfov_deg": 220.0,
+        "valid_radius_px": 480.0
+      },
+      "controller": "MCU2",
+      "prim_path": "/SevenCameraRig/Sensors/C5_surround_right_up",
+      "T_B_cameraOptical_m": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.016
+        ],
+        [
+          -1.0,
+          -0.0,
+          0.0,
+          -0.055
+        ],
+        [
+          0.0,
+          -0.0,
+          1.0,
+          0.02
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T_cameraOptical_B_m": [
+        [
+          -0.0,
+          -1.0,
+          -0.0,
+          -0.055
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.016
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.02
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T_IMU_cameraOptical_m": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0020000000000000018
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          -0.055
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.02
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T_cameraOptical_IMU_m": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -0.055
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.0020000000000000018
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.02
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "C6",
+      "name": "surround_right_down",
+      "name_cn": "右下环视相机",
+      "position_mm": [
+        -16.0,
+        -55.0,
+        -20.0
+      ],
+      "forward_B": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "up_B": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "R_B_optical": [
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -0.0,
+          -1.0
+        ]
+      ],
+      "R_B_usd": [
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "q_B_optical_wxyz": [
+        0.0,
+        0.7071067811865475,
+        -0.7071067811865475,
+        0.0
+      ],
+      "q_B_usd_wxyz": [
+        0.7071067811865475,
+        0.0,
+        0.0,
+        -0.7071067811865475
+      ],
+      "optics": {
+        "model": "ideal_equidistant",
+        "resolution": [
+          1080,
+          960
+        ],
+        "radial_full_fov_deg": 220.0,
+        "image_circle_diameter_px": 960.0,
+        "provenance": "resolution chosen at PDF minimum; 220 comes only from composition image; interpretation as full circular angle with 960 px diameter is an assumption",
+        "fx_px": 250.0179469661774,
+        "fy_px": 250.0179469661774,
+        "cx_px": 540.0,
+        "cy_px": 480.0,
+        "derived_vfov_deg": 220.0,
+        "valid_radius_px": 480.0
+      },
+      "controller": "MCU2",
+      "prim_path": "/SevenCameraRig/Sensors/C6_surround_right_down",
+      "T_B_cameraOptical_m": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -0.016
+        ],
+        [
+          -1.0,
+          -0.0,
+          0.0,
+          -0.055
+        ],
+        [
+          0.0,
+          -0.0,
+          -1.0,
+          -0.02
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T_cameraOptical_B_m": [
+        [
+          -0.0,
+          -1.0,
+          -0.0,
+          -0.055
+        ],
+        [
+          -1.0,
+          -0.0,
+          -0.0,
+          -0.016
+        ],
+        [
+          -0.0,
+          -0.0,
+          -1.0,
+          -0.02
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T_IMU_cameraOptical_m": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0020000000000000018
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          -0.055
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          -0.02
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T_cameraOptical_IMU_m": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -0.055
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0020000000000000018
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          -0.02
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "imu": {
+    "id": "I0",
+    "T_B_IMU_m": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -0.018000000000000002
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T_IMU_B_m": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.018000000000000002
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "output_hz": 200.0,
+    "sampling_status": "NOT_IMPLEMENTED"
+  }
+}
