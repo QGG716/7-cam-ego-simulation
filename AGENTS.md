@@ -1,6 +1,6 @@
 # 七目相机与 IMU 仿真工程
 
-- 本轮仅限 Step 2：逐相机 ideal/body/worn 有效像素遮挡、最近命中归因和真实 RTX 核对。保持第一步产物、场景和活动配置只读；新增产物限 outputs/step2、reports/step2、scenes/step2。不进入联合覆盖率、优化、运动、IMU 采样、SLAM/VIO。
+- 当前仅限 Step 2.1：NVIDIA 官方室内场景、1.800 m 完整人物、额头刚体佩戴、七路单目实图和 room_only/device_only/worn_full 标签对照。允许本轮覆盖层隐藏旧椭球并放置真实人物；相机内部结构和光学不变。保护 Step 1/2 及已有 Step 3 文件，新增场景/产物/报告使用 step2_1 目录。不进入联合覆盖、优化、运动、IMU 时序或 SLAM/VIO。
 - 原始 ZIP、assets/baseline/ 下客户资料、PDF、图纸、模型和代码只读使用，不改写。缺少基线包时只做独立环境检查，不另造结构替代。
 - 活动配置唯一来源为 config/rig_sim_v0.2.json；必须读取原始 layout_parameters.json 后继承生成。内参、射线、掩膜、USD 和元数据均从活动配置派生。
 - 第一步已授权并冻结的光学变更（第二步不得继续修改）：C0/C1/C2 VFOV=130°；C0 独立 fx/fy。版本 SIM-V0.2-vfov130。不得将用户变更归为客户 PDF 原文要求。

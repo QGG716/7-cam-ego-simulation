@@ -1,0 +1,109 @@
+{
+  "isaac_version": "6.0.1.0",
+  "renderer": "RayTracedLighting / existing RTX camera backend",
+  "source_log_sha256": "c1baa21b484b8202caf9895fa2c6d5302fa5d7799e45d0ebb67b7acdef1f179f",
+  "capture_order": [
+    [
+      "C0",
+      "worn_full"
+    ],
+    [
+      "C1",
+      "worn_full"
+    ],
+    [
+      "C2",
+      "worn_full"
+    ],
+    [
+      "C3",
+      "worn_full"
+    ],
+    [
+      "C4",
+      "worn_full"
+    ],
+    [
+      "C5",
+      "worn_full"
+    ],
+    [
+      "C6",
+      "worn_full"
+    ],
+    [
+      "C0",
+      "room_only"
+    ],
+    [
+      "C1",
+      "room_only"
+    ],
+    [
+      "C2",
+      "room_only"
+    ],
+    [
+      "C3",
+      "room_only"
+    ],
+    [
+      "C4",
+      "room_only"
+    ],
+    [
+      "C5",
+      "room_only"
+    ],
+    [
+      "C6",
+      "room_only"
+    ],
+    [
+      "C0",
+      "device_only"
+    ],
+    [
+      "C1",
+      "device_only"
+    ],
+    [
+      "C2",
+      "device_only"
+    ],
+    [
+      "C3",
+      "device_only"
+    ],
+    [
+      "C4",
+      "device_only"
+    ],
+    [
+      "C5",
+      "device_only"
+    ],
+    [
+      "C6",
+      "device_only"
+    ]
+  ],
+  "first_worn_ready_marker": true,
+  "native_captures": 21,
+  "external_views": 4,
+  "stage_loading_status": [
+    "",
+    0,
+    0
+  ],
+  "error_lines": [],
+  "missing_asset_error_lines": [],
+  "warnings": [
+    "Headless X/GLFW initialization warnings; RTX rendering completed.",
+    "MDL MI_Blinds_transp.mdl annotations and unused temporary warnings; no missing-texture error detected.",
+    "Existing fisheyePolynomial backend deprecation warning; intentionally preserved validated Step 1 projection.",
+    "90-second faulthandler stack dumps diagnose shader warmup, not fatal timeouts."
+  ],
+  "initial_attempt": "Synchronous material loading stopped advancing; only that task process was terminated. Successful run uses sync_loads=False, with no software upgrade.",
+  "raw_log_policy": "Raw diagnostics stay local; this summary excludes connection information."
+}

@@ -1,0 +1,395 @@
+{
+  "config_sha256": "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d",
+  "person_height_before_m": 1.7881112113431357,
+  "uniform_person_scale": 1.0066487971114135,
+  "person_height_after_m": 1.7999999674635137,
+  "person_translation_m": [
+    0.0,
+    0.0,
+    0.009998225332330968
+  ],
+  "feet_world": [
+    -0.05234816762180472,
+    -0.06957789587722552,
+    0.009998463852552947
+  ],
+  "head_top_world": [
+    0.00215066746839615,
+    0.04439377887309082,
+    1.8099984313160666
+  ],
+  "height_method": "evaluated UsdSkel skinned vertices including shoes and outer head, excluding device",
+  "floor": {
+    "path": "/World/Room/SM_FloorCarpetPath_13/SM_CarpetPath_01",
+    "z": 0.00999846385255726
+  },
+  "ceiling": {
+    "path": "/World/Room/SM_Ceiling_6m16/SM_Ceiling_6m",
+    "z": 3.000000000000008
+  },
+  "nearby_object_bounds": [],
+  "forehead_reference_world_m": [
+    0.0,
+    -0.05979039782569495,
+    1.7414341563639621
+  ],
+  "head_rear_reference_world_m": [
+    0.0,
+    0.13648866708912166,
+    1.7414341563639621
+  ],
+  "forehead_method": "first actual skinned head triangle intersection of +Y ray at x=0, source z=1.72 m",
+  "rig_translation_world_m": [
+    0.0,
+    -0.09479039782569496,
+    1.7414341563639621
+  ],
+  "R_world_B": [
+    [
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      -1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "rig_scale": 1.0,
+  "camera_records": [
+    {
+      "camera_id": "C0",
+      "world_position_m": [
+        0.0,
+        -0.09479039782569496,
+        1.7414341563639621
+      ],
+      "height_above_floor_m": 1.731435692511405,
+      "forward_world": [
+        4.930380657631324e-32,
+        -1.0000000000000002,
+        4.440892098500626e-16
+      ],
+      "image_up_world": [
+        -4.440892098500626e-16,
+        2.220446049250312e-16,
+        1.0000000000000002
+      ],
+      "skin_ray_crossing_counts": [
+        2,
+        0,
+        2
+      ],
+      "projection": {
+        "model": "ideal_pinhole",
+        "resolution": [
+          1920,
+          1080
+        ],
+        "hfov_deg": 120.0,
+        "provenance": "HFOV/resolution inherited from PDF-based baseline; explicit VFOV=130 from current user; independent fx/fy and centered principal point are simulation assumptions, not confirmed physical lens",
+        "vfov_deg": 130.0,
+        "fx_px": 554.2562584220409,
+        "fy_px": 251.80613540369924,
+        "cx_px": 960.0,
+        "cy_px": 540.0,
+        "derived_vfov_deg": 130.0,
+        "radial_full_fov_deg": 140.12208804690772,
+        "valid_radius_px": null
+      }
+    },
+    {
+      "camera_id": "C1",
+      "world_position_m": [
+        0.0315,
+        -0.09479039782569494,
+        1.7414341563639621
+      ],
+      "height_above_floor_m": 1.731435692511405,
+      "forward_world": [
+        4.930380657631324e-32,
+        -1.0000000000000002,
+        4.440892098500626e-16
+      ],
+      "image_up_world": [
+        -4.440892098500626e-16,
+        2.220446049250312e-16,
+        1.0000000000000002
+      ],
+      "skin_ray_crossing_counts": [
+        2,
+        0,
+        2
+      ],
+      "projection": {
+        "model": "ideal_equidistant",
+        "resolution": [
+          1600,
+          1300
+        ],
+        "hfov_deg": 160.0,
+        "radial_full_fov_deg": 160.0,
+        "provenance": "resolution chosen at PDF minimum for both cameras; HFOV from PDF; equidistant model and circular cut-off are assumptions, not lens calibration",
+        "vfov_deg": 130.0,
+        "fx_px": 572.9577951308232,
+        "fy_px": 572.9577951308232,
+        "cx_px": 800.0,
+        "cy_px": 650.0,
+        "derived_vfov_deg": 130.0,
+        "valid_radius_px": 800.0
+      }
+    },
+    {
+      "camera_id": "C2",
+      "world_position_m": [
+        -0.0315,
+        -0.09479039782569497,
+        1.7414341563639621
+      ],
+      "height_above_floor_m": 1.731435692511405,
+      "forward_world": [
+        4.930380657631324e-32,
+        -1.0000000000000002,
+        4.440892098500626e-16
+      ],
+      "image_up_world": [
+        -4.440892098500626e-16,
+        2.220446049250312e-16,
+        1.0000000000000002
+      ],
+      "skin_ray_crossing_counts": [
+        2,
+        0,
+        2
+      ],
+      "projection": {
+        "model": "ideal_equidistant",
+        "resolution": [
+          1600,
+          1300
+        ],
+        "hfov_deg": 160.0,
+        "radial_full_fov_deg": 160.0,
+        "provenance": "resolution chosen at PDF minimum for both cameras; HFOV from PDF; equidistant model and circular cut-off are assumptions, not lens calibration",
+        "vfov_deg": 130.0,
+        "fx_px": 572.9577951308232,
+        "fy_px": 572.9577951308232,
+        "cx_px": 800.0,
+        "cy_px": 650.0,
+        "derived_vfov_deg": 130.0,
+        "valid_radius_px": 800.0
+      }
+    },
+    {
+      "camera_id": "C3",
+      "world_position_m": [
+        0.05499999999999999,
+        -0.07879039782569494,
+        1.7614341563639622
+      ],
+      "height_above_floor_m": 1.751435692511405,
+      "forward_world": [
+        8.659560562354938e-17,
+        -8.659560562354933e-17,
+        1.0000000000000004
+      ],
+      "image_up_world": [
+        -4.440892098500626e-16,
+        1.0000000000000002,
+        8.659560562354935e-17
+      ],
+      "skin_ray_crossing_counts": [
+        2,
+        0,
+        2
+      ],
+      "projection": {
+        "model": "ideal_equidistant",
+        "resolution": [
+          1080,
+          960
+        ],
+        "radial_full_fov_deg": 220.0,
+        "image_circle_diameter_px": 960.0,
+        "provenance": "resolution chosen at PDF minimum; 220 comes only from composition image; interpretation as full circular angle with 960 px diameter is an assumption",
+        "fx_px": 250.0179469661774,
+        "fy_px": 250.0179469661774,
+        "cx_px": 540.0,
+        "cy_px": 480.0,
+        "derived_vfov_deg": 220.0,
+        "valid_radius_px": 480.0
+      }
+    },
+    {
+      "camera_id": "C4",
+      "world_position_m": [
+        0.05499999999999999,
+        -0.07879039782569494,
+        1.7214341563639621
+      ],
+      "height_above_floor_m": 1.711435692511405,
+      "forward_world": [
+        -0.0,
+        -0.0,
+        -1.0
+      ],
+      "image_up_world": [
+        1.279976125090343e-12,
+        -1.0,
+        0.0
+      ],
+      "skin_ray_crossing_counts": [
+        2,
+        0,
+        2
+      ],
+      "projection": {
+        "model": "ideal_equidistant",
+        "resolution": [
+          1080,
+          960
+        ],
+        "radial_full_fov_deg": 220.0,
+        "image_circle_diameter_px": 960.0,
+        "provenance": "resolution chosen at PDF minimum; 220 comes only from composition image; interpretation as full circular angle with 960 px diameter is an assumption",
+        "fx_px": 250.0179469661774,
+        "fy_px": 250.0179469661774,
+        "cx_px": 540.0,
+        "cy_px": 480.0,
+        "derived_vfov_deg": 220.0,
+        "valid_radius_px": 480.0
+      }
+    },
+    {
+      "camera_id": "C5",
+      "world_position_m": [
+        -0.05500000000000001,
+        -0.07879039782569497,
+        1.7614341563639622
+      ],
+      "height_above_floor_m": 1.751435692511405,
+      "forward_world": [
+        8.659560562354938e-17,
+        -8.659560562354933e-17,
+        1.0000000000000004
+      ],
+      "image_up_world": [
+        -4.440892098500626e-16,
+        1.0000000000000002,
+        8.659560562354935e-17
+      ],
+      "skin_ray_crossing_counts": [
+        2,
+        0,
+        0
+      ],
+      "projection": {
+        "model": "ideal_equidistant",
+        "resolution": [
+          1080,
+          960
+        ],
+        "radial_full_fov_deg": 220.0,
+        "image_circle_diameter_px": 960.0,
+        "provenance": "resolution chosen at PDF minimum; 220 comes only from composition image; interpretation as full circular angle with 960 px diameter is an assumption",
+        "fx_px": 250.0179469661774,
+        "fy_px": 250.0179469661774,
+        "cx_px": 540.0,
+        "cy_px": 480.0,
+        "derived_vfov_deg": 220.0,
+        "valid_radius_px": 480.0
+      }
+    },
+    {
+      "camera_id": "C6",
+      "world_position_m": [
+        -0.05500000000000001,
+        -0.07879039782569497,
+        1.7214341563639621
+      ],
+      "height_above_floor_m": 1.711435692511405,
+      "forward_world": [
+        -0.0,
+        -0.0,
+        -1.0
+      ],
+      "image_up_world": [
+        1.279976125090343e-12,
+        -1.0,
+        0.0
+      ],
+      "skin_ray_crossing_counts": [
+        2,
+        0,
+        2
+      ],
+      "projection": {
+        "model": "ideal_equidistant",
+        "resolution": [
+          1080,
+          960
+        ],
+        "radial_full_fov_deg": 220.0,
+        "image_circle_diameter_px": 960.0,
+        "provenance": "resolution chosen at PDF minimum; 220 comes only from composition image; interpretation as full circular angle with 960 px diameter is an assumption",
+        "fx_px": 250.0179469661774,
+        "fy_px": 250.0179469661774,
+        "cx_px": 540.0,
+        "cy_px": 480.0,
+        "derived_vfov_deg": 220.0,
+        "valid_radius_px": 480.0
+      }
+    }
+  ],
+  "imu_world_position_m": [
+    0.0,
+    -0.07679039782569495,
+    1.7414341563639621
+  ],
+  "imu_height_above_floor_m": 1.731435692511405,
+  "headband_fit_samples": [
+    {
+      "z": 1.7334341563639621,
+      "skin_front_y": -0.06277322461962054,
+      "skin_rear_y": 0.1388637648769,
+      "rear_strap_inner_y": 0.11520960217430504,
+      "rear_penetration_m": 0.02365416270259496
+    },
+    {
+      "z": 1.7414341563639621,
+      "skin_front_y": -0.05979039782569495,
+      "skin_rear_y": 0.13648866708912166,
+      "rear_strap_inner_y": 0.11520960217430504,
+      "rear_penetration_m": 0.021279064914816626
+    },
+    {
+      "z": 1.7494341563639622,
+      "skin_front_y": -0.056824121878492395,
+      "skin_rear_y": 0.13411356930134333,
+      "rear_strap_inner_y": 0.11520960217430504,
+      "rear_penetration_m": 0.01890396712703829
+    }
+  ],
+  "original_ellipsoid_visibility": "invisible",
+  "standing_pose": [
+    {
+      "joint": "RL_BoneRoot/Hip/Waist/Spine01/Spine02/L_Clavicle/L_Upperarm",
+      "rotation_skeleton_Y_deg": 82.0
+    },
+    {
+      "joint": "RL_BoneRoot/Hip/Waist/Spine01/Spine02/R_Clavicle/R_Upperarm",
+      "rotation_skeleton_Y_deg": -82.0
+    }
+  ],
+  "lighting": {
+    "use_official_lights": true,
+    "film_iso": 100,
+    "exposure": 0
+  }
+}

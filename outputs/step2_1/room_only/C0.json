@@ -1,0 +1,77 @@
+{
+  "camera_id": "C0",
+  "mode": "room_only",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "projection": {
+    "model": "ideal_pinhole",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "hfov_deg": 120.0,
+    "provenance": "HFOV/resolution inherited from PDF-based baseline; explicit VFOV=130 from current user; independent fx/fy and centered principal point are simulation assumptions, not confirmed physical lens",
+    "vfov_deg": 130.0,
+    "fx_px": 554.2562584220409,
+    "fy_px": 251.80613540369924,
+    "cx_px": 960.0,
+    "cy_px": 540.0,
+    "derived_vfov_deg": 130.0,
+    "radial_full_fov_deg": 140.12208804690772,
+    "valid_radius_px": null
+  },
+  "config_sha256": "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d",
+  "placement": {
+    "camera_id": "C0",
+    "world_position_m": [
+      0.0,
+      -0.09479039782569496,
+      1.7414341563639621
+    ],
+    "height_above_floor_m": 1.731435692511405,
+    "forward_world": [
+      4.930380657631324e-32,
+      -1.0000000000000002,
+      4.440892098500626e-16
+    ],
+    "image_up_world": [
+      -4.440892098500626e-16,
+      2.220446049250312e-16,
+      1.0000000000000002
+    ],
+    "skin_ray_crossing_counts": [
+      2,
+      0,
+      2
+    ],
+    "projection": {
+      "model": "ideal_pinhole",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "hfov_deg": 120.0,
+      "provenance": "HFOV/resolution inherited from PDF-based baseline; explicit VFOV=130 from current user; independent fx/fy and centered principal point are simulation assumptions, not confirmed physical lens",
+      "vfov_deg": 130.0,
+      "fx_px": 554.2562584220409,
+      "fy_px": 251.80613540369924,
+      "cx_px": 960.0,
+      "cy_px": 540.0,
+      "derived_vfov_deg": 130.0,
+      "radial_full_fov_deg": 140.12208804690772,
+      "valid_radius_px": null
+    }
+  },
+  "time_seconds": 0.0,
+  "isaac_version": "6.0.1.0",
+  "same_render_product_rgb_labels": true,
+  "lighting": {
+    "use_official_lights": true,
+    "film_iso": 100,
+    "exposure": 0
+  },
+  "execution": "static sequential RTX; no 30 FPS claim",
+  "original_ellipsoid_hidden": true
+}

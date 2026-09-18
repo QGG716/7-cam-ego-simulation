@@ -1,0 +1,5302 @@
+{
+  "asset_root": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0",
+  "assets": {
+    "office": {
+      "url": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Environments/Office/office.usd",
+      "upAxis": "Z",
+      "metersPerUnit": 1.0,
+      "defaultPrim": "/Root",
+      "start": -1.0,
+      "end": 0.0,
+      "prims": [
+        {
+          "path": "/Root/BP_Elevator_frame2/SK_Elevator_doors_outside/SK_Elevator_doors_outside/Mesh",
+          "type": "Mesh",
+          "vertices": 32,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -15.000322233073662,
+              -1.5066773481783864,
+              -8.182342570681381e-10
+            ],
+            [
+              -14.999804002420515,
+              -1.4933334443628763,
+              0.022999996434152195
+            ]
+          ]
+        },
+        {
+          "path": "/Root/BP_Elevator_frame2/SK_Elevator_doors_outside/SK_Elevator_doors_outside/Skeleton",
+          "type": "Skeleton",
+          "joints": [
+            "Doors_outside",
+            "Doors_outside/Door_L_01",
+            "Doors_outside/Door_L_01/Door_L_02",
+            "Doors_outside/Door_R_01",
+            "Doors_outside/Door_R_01/Door_R_02"
+          ],
+          "animations": []
+        },
+        {
+          "path": "/Root/BP_Elevator_frame4/SK_Elevator_doors_outside/SK_Elevator_doors_outside/Mesh",
+          "type": "Mesh",
+          "vertices": 32,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -15.000322233073662,
+              -1.5066773481783864,
+              -3.3000000008182346
+            ],
+            [
+              -14.999804002420515,
+              -1.4933334443628763,
+              -3.277000003565848
+            ]
+          ]
+        },
+        {
+          "path": "/Root/BP_Elevator_frame4/SK_Elevator_doors_outside/SK_Elevator_doors_outside/Skeleton",
+          "type": "Skeleton",
+          "joints": [
+            "Doors_outside",
+            "Doors_outside/Door_L_01",
+            "Doors_outside/Door_L_01/Door_L_02",
+            "Doors_outside/Door_R_01",
+            "Doors_outside/Door_R_01/Door_R_02"
+          ],
+          "animations": []
+        },
+        {
+          "path": "/Root/BP_Elevator_162/SM_Elevator/SK_Elevator_doors_inside/SK_Elevator_doors_inside_Anim",
+          "type": "SkelAnimation",
+          "joints": [
+            "Doors_inside",
+            "Doors_inside/Door_L_01",
+            "Doors_inside/Door_L_01/Door_L_02",
+            "Doors_inside/Door_R_01",
+            "Doors_inside/Door_R_01/Door_R_02"
+          ],
+          "rotation_times": [
+            -1.0,
+            0.0
+          ]
+        },
+        {
+          "path": "/Root/BP_Elevator_162/SM_Elevator/SK_Elevator_doors_inside/SK_Elevator_doors_inside/Mesh",
+          "type": "Mesh",
+          "vertices": 32,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -15.00084046066313,
+              -4.506677223819258,
+              -3.300000000656189
+            ],
+            [
+              -15.00032222611184,
+              -4.493333564907307,
+              -3.277000002039969
+            ]
+          ]
+        },
+        {
+          "path": "/Root/BP_Elevator_162/SM_Elevator/SK_Elevator_doors_inside/SK_Elevator_doors_inside/Skeleton",
+          "type": "Skeleton",
+          "joints": [
+            "Doors_inside",
+            "Doors_inside/Door_L_01",
+            "Doors_inside/Door_L_01/Door_L_02",
+            "Doors_inside/Door_R_01",
+            "Doors_inside/Door_R_01/Door_R_02"
+          ],
+          "animations": []
+        },
+        {
+          "path": "/Root/BP_Elevator_162/SM_Frame_Floor2/SK_DoorsOutside_Floor2/SK_Elevator_doors_outside/Mesh",
+          "type": "Mesh",
+          "vertices": 32,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -15.000322233073662,
+              -4.506677348178386,
+              -8.182342570681381e-10
+            ],
+            [
+              -14.999804002420515,
+              -4.493333444362876,
+              0.022999996434152195
+            ]
+          ]
+        },
+        {
+          "path": "/Root/BP_Elevator_162/SM_Frame_Floor2/SK_DoorsOutside_Floor2/SK_Elevator_doors_outside/Skeleton",
+          "type": "Skeleton",
+          "joints": [
+            "Doors_outside",
+            "Doors_outside/Door_L_01",
+            "Doors_outside/Door_L_01/Door_L_02",
+            "Doors_outside/Door_R_01",
+            "Doors_outside/Door_R_01/Door_R_02"
+          ],
+          "animations": []
+        },
+        {
+          "path": "/Root/BP_Elevator_162/SM_Frame_Floor1/SK_DoorsOutside_Floor1/SK_Elevator_doors_outside/Mesh",
+          "type": "Mesh",
+          "vertices": 32,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -15.000322233073662,
+              -4.506677348178386,
+              -3.3000000008182346
+            ],
+            [
+              -14.999804002420515,
+              -4.493333444362876,
+              -3.277000003565848
+            ]
+          ]
+        },
+        {
+          "path": "/Root/BP_Elevator_162/SM_Frame_Floor1/SK_DoorsOutside_Floor1/SK_Elevator_doors_outside/Skeleton",
+          "type": "Skeleton",
+          "joints": [
+            "Doors_outside",
+            "Doors_outside/Door_L_01",
+            "Doors_outside/Door_L_01/Door_L_02",
+            "Doors_outside/Door_R_01",
+            "Doors_outside/Door_R_01/Door_R_02"
+          ],
+          "animations": []
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight18",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight18/InstancedBP_CeilingLightB_NoLight18",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight18/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light4_145",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light4_145/InstancedBP_CeilingLightB_Light4_145",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light4_145/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light4_145/SpotLight",
+          "type": "SphereLight"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light10_154",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light10_154/InstancedBP_CeilingLightB_Light10_154",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light10_154/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light10_154/SpotLight",
+          "type": "SphereLight"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight19",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight19/InstancedBP_CeilingLightB_NoLight19",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight19/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light11_163",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light11_163/InstancedBP_CeilingLightB_Light11_163",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light11_163/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light11_163/SpotLight",
+          "type": "SphereLight"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light12_172",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light12_172/InstancedBP_CeilingLightB_Light12_172",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light12_172/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light12_172/SpotLight",
+          "type": "SphereLight"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight20",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight20/InstancedBP_CeilingLightB_NoLight20",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight20/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light13_181",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light13_181/InstancedBP_CeilingLightB_Light13_181",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light13_181/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light13_181/SpotLight",
+          "type": "SphereLight"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light14_190",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light14_190/InstancedBP_CeilingLightB_Light14_190",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light14_190/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light14_190/SpotLight",
+          "type": "SphereLight"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight21",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight21/InstancedBP_CeilingLightB_NoLight21",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight21/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light15_199",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light15_199/InstancedBP_CeilingLightB_Light15_199",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light15_199/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light15_199/SpotLight",
+          "type": "SphereLight"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light16_208",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light16_208/InstancedBP_CeilingLightB_Light16_208",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light16_208/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light16_208/SpotLight",
+          "type": "SphereLight"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight22",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight22/InstancedBP_CeilingLightB_NoLight22",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight22/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light17_217",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light17_217/InstancedBP_CeilingLightB_Light17_217",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light17_217/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light17_217/SpotLight",
+          "type": "SphereLight"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light18_226",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light18_226/InstancedBP_CeilingLightB_Light18_226",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light18_226/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light18_226/SpotLight",
+          "type": "SphereLight"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight23",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight23/InstancedBP_CeilingLightB_NoLight23",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight23/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light19",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light19/InstancedBP_CeilingLightB_Light19",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light19/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light19/SpotLight",
+          "type": "SphereLight"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light20",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light20/InstancedBP_CeilingLightB_Light20",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light20/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light20/SpotLight",
+          "type": "SphereLight"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight24",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight24/InstancedBP_CeilingLightB_NoLight24",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight24/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light21",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light21/InstancedBP_CeilingLightB_Light21",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light21/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light21/SpotLight",
+          "type": "SphereLight"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light22",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light22/InstancedBP_CeilingLightB_Light22",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light22/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light22/SpotLight",
+          "type": "SphereLight"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight25",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight25/InstancedBP_CeilingLightB_NoLight25",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight25/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light23",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light23/InstancedBP_CeilingLightB_Light23",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light23/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light23/SpotLight",
+          "type": "SphereLight"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light24",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light24/InstancedBP_CeilingLightB_Light24",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light24/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light24/SpotLight",
+          "type": "SphereLight"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight26",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight26/InstancedBP_CeilingLightB_NoLight26",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight26/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light25",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light25/InstancedBP_CeilingLightB_Light25",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light25/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light25/SpotLight",
+          "type": "SphereLight"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight27",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight27/InstancedBP_CeilingLightB_NoLight27",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight27/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light26",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light26/InstancedBP_CeilingLightB_Light26",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light26/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light26/SpotLight",
+          "type": "SphereLight"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_NoLight3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_NoLight3/InstancedBP_CeilingLightC_NoLight3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_NoLight3/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_NoLight3/SM_CeilingLight2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_NoLight3/SM_CeilingLight3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_OFF6",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_OFF6/InstancedBP_CeilingLightB_OFF6",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_OFF6/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_OFF7",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_OFF7/InstancedBP_CeilingLightB_OFF7",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_OFF7/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight28",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight28/InstancedBP_CeilingLightB_NoLight28",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight28/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight29",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight29/InstancedBP_CeilingLightB_NoLight29",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight29/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF_858",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF_858/InstancedBP_CeilingLightC_OFF_858",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF_858/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF_858/SM_CeilingLight2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF_858/SM_CeilingLight3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF2/InstancedBP_CeilingLightC_OFF2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF2/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF2/SM_CeilingLight2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF2/SM_CeilingLight3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF3/InstancedBP_CeilingLightC_OFF3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF3/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF3/SM_CeilingLight2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF3/SM_CeilingLight3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF4",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF4/InstancedBP_CeilingLightC_OFF4",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF4/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF4/SM_CeilingLight2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF4/SM_CeilingLight3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF5",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF5/InstancedBP_CeilingLightC_OFF5",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF5/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF5/SM_CeilingLight2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF5/SM_CeilingLight3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF6",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF6/InstancedBP_CeilingLightC_OFF6",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF6/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF6/SM_CeilingLight2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF6/SM_CeilingLight3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF7",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF7/InstancedBP_CeilingLightC_OFF7",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF7/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF7/SM_CeilingLight2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF7/SM_CeilingLight3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF8",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF8/InstancedBP_CeilingLightC_OFF8",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF8/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF8/SM_CeilingLight2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF8/SM_CeilingLight3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight30",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight30/InstancedBP_CeilingLightB_NoLight30",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight30/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight31",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight31/InstancedBP_CeilingLightB_NoLight31",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight31/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_NoLight4",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_NoLight4/InstancedBP_CeilingLightC_NoLight4",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_NoLight4/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_NoLight4/SM_CeilingLight2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_NoLight4/SM_CeilingLight3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight32",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight32/InstancedBP_CeilingLightB_NoLight32",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight32/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF9",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF9/InstancedBP_CeilingLightC_OFF9",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF9/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF9/SM_CeilingLight2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF9/SM_CeilingLight3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF10",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF10/InstancedBP_CeilingLightC_OFF10",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF10/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF10/SM_CeilingLight2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF10/SM_CeilingLight3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF11",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF11/InstancedBP_CeilingLightC_OFF11",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF11/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF11/SM_CeilingLight2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF11/SM_CeilingLight3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF12",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF12/InstancedBP_CeilingLightC_OFF12",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF12/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF12/SM_CeilingLight2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF12/SM_CeilingLight3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF13",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF13/InstancedBP_CeilingLightC_OFF13",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF13/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF13/SM_CeilingLight2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF13/SM_CeilingLight3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF14",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF14/InstancedBP_CeilingLightC_OFF14",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF14/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF14/SM_CeilingLight2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF14/SM_CeilingLight3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF15",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF15/InstancedBP_CeilingLightC_OFF15",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF15/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF15/SM_CeilingLight2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF15/SM_CeilingLight3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF16",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF16/InstancedBP_CeilingLightC_OFF16",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF16/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF16/SM_CeilingLight2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF16/SM_CeilingLight3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF17",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF17/InstancedBP_CeilingLightC_OFF17",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF17/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF17/SM_CeilingLight2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF17/SM_CeilingLight3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF18_8921",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF18_8921/InstancedBP_CeilingLightC_OFF18_8921",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF18_8921/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF18_8921/SM_CeilingLight2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF18_8921/SM_CeilingLight3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF19",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF19/InstancedBP_CeilingLightC_OFF19",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF19/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF19/SM_CeilingLight2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_OFF19/SM_CeilingLight3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight_210",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight_210/InstancedBP_CeilingLightB_NoLight_210",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight_210/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight2/InstancedBP_CeilingLightB_NoLight2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight2/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight3/InstancedBP_CeilingLightB_NoLight3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight3/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight4",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight4/InstancedBP_CeilingLightB_NoLight4",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight4/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight5",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight5/InstancedBP_CeilingLightB_NoLight5",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight5/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight6",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight6/InstancedBP_CeilingLightB_NoLight6",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight6/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight7",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight7/InstancedBP_CeilingLightB_NoLight7",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight7/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight8",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight8/InstancedBP_CeilingLightB_NoLight8",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight8/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight9",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight9/InstancedBP_CeilingLightB_NoLight9",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight9/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight10",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight10/InstancedBP_CeilingLightB_NoLight10",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight10/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight12",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight12/InstancedBP_CeilingLightB_NoLight12",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight12/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight11_1937",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight11_1937/InstancedBP_CeilingLightB_NoLight11_1937",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight11_1937/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight13",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight13/InstancedBP_CeilingLightB_NoLight13",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight13/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight14",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight14/InstancedBP_CeilingLightB_NoLight14",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight14/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight15",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight15/InstancedBP_CeilingLightB_NoLight15",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight15/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight16",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight16/InstancedBP_CeilingLightB_NoLight16",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight16/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight17",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight17/InstancedBP_CeilingLightB_NoLight17",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_NoLight17/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light_1270",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light_1270/InstancedBP_CeilingLightB_Light_1270",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light_1270/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light_1270/SpotLight",
+          "type": "SphereLight"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light2/InstancedBP_CeilingLightB_Light2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light2/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light2/SpotLight",
+          "type": "SphereLight"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light3/InstancedBP_CeilingLightB_Light3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light3/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light3/SpotLight",
+          "type": "SphereLight"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light5",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light5/InstancedBP_CeilingLightB_Light5",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light5/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light5/SpotLight",
+          "type": "SphereLight"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_OFF_304",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_OFF_304/InstancedBP_CeilingLightB_OFF_304",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_OFF_304/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_OFF2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_OFF2/InstancedBP_CeilingLightB_OFF2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_OFF2/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_OFF3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_OFF3/InstancedBP_CeilingLightB_OFF3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_OFF3/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light6",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light6/InstancedBP_CeilingLightB_Light6",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light6/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light6/SpotLight",
+          "type": "SphereLight"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_NoLight5",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_NoLight5/InstancedBP_CeilingLightC_NoLight5",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_NoLight5/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_NoLight5/SM_CeilingLight2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_NoLight5/SM_CeilingLight3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_NoLight7_2772",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_NoLight7_2772/InstancedBP_CeilingLightC_NoLight7_2772",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_NoLight7_2772/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_NoLight7_2772/SM_CeilingLight2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_NoLight7_2772/SM_CeilingLight3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_NoLight8",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_NoLight8/InstancedBP_CeilingLightC_NoLight8",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_NoLight8/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_NoLight8/SM_CeilingLight2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_NoLight8/SM_CeilingLight3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_NoLight9",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_NoLight9/InstancedBP_CeilingLightC_NoLight9",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_NoLight9/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_NoLight9/SM_CeilingLight2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_NoLight9/SM_CeilingLight3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light7_4515",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light7_4515/InstancedBP_CeilingLightB_Light7_4515",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light7_4515/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light7_4515/SpotLight",
+          "type": "SphereLight"
+        },
+        {
+          "path": "/Root/BP_CeilingLightA_NoLight_356",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightA_NoLight2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightA_NoLight3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightA_NoLight4",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightA_NoLight5",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightA_NoLight6",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightA_NoLight7",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightA_NoLight8",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light8_5106",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light8_5106/InstancedBP_CeilingLightB_Light8_5106",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light8_5106/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light8_5106/SpotLight",
+          "type": "SphereLight"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_NoLight10_2085",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_NoLight10_2085/InstancedBP_CeilingLightC_NoLight10_2085",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_NoLight10_2085/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_NoLight10_2085/SM_CeilingLight2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_NoLight10_2085/SM_CeilingLight3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_NoLight11",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_NoLight11/InstancedBP_CeilingLightC_NoLight11",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_NoLight11/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_NoLight11/SM_CeilingLight2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_NoLight11/SM_CeilingLight3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightA_NoLight9_179",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightA_NoLight10",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightA_NoLight11",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightA_NoLight12",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightA_NoLight13",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightA_NoLight14",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightA_NoLight15",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightA_NoLight16",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightA_NoLight17",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightA_NoLight18",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightA_NoLight19",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightA_NoLight20",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightA_NoLight21",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightA_NoLight22",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightA_NoLight23",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightA_NoLight24",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightA_NoLight25",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light9_794",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light9_794/InstancedBP_CeilingLightB_Light9_794",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light9_794/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_Light9_794/SpotLight",
+          "type": "SphereLight"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_OFF4_666",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_OFF4_666/InstancedBP_CeilingLightB_OFF4_666",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_OFF4_666/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_OFF5",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_OFF5/InstancedBP_CeilingLightB_OFF5",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightB_OFF5/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightA_Light2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightA_Light2/InstancedBP_CeilingLightA_Light2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightA_Light2/SpotLight",
+          "type": "SphereLight"
+        },
+        {
+          "path": "/Root/BP_CeilingLightA_Light3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightA_Light3/InstancedBP_CeilingLightA_Light3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightA_Light3/SpotLight",
+          "type": "SphereLight"
+        },
+        {
+          "path": "/Root/BP_CeilingLightA_Light_662",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightA_Light_662/InstancedBP_CeilingLightA_Light_662",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightA_Light_662/SpotLight",
+          "type": "SphereLight"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light10",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light10/InstancedBP_CeilingLightC_Light10",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light10/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light10/SM_CeilingLight2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light10/SM_CeilingLight3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light10/SpotLight",
+          "type": "SphereLight"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light11",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light11/InstancedBP_CeilingLightC_Light11",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light11/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light11/SM_CeilingLight2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light11/SM_CeilingLight3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light11/SpotLight",
+          "type": "SphereLight"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light12",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light12/InstancedBP_CeilingLightC_Light12",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light12/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light12/SM_CeilingLight2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light12/SM_CeilingLight3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light12/SpotLight",
+          "type": "SphereLight"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light13",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light13/InstancedBP_CeilingLightC_Light13",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light13/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light13/SM_CeilingLight2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light13/SM_CeilingLight3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light13/SpotLight",
+          "type": "SphereLight"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light14",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light14/InstancedBP_CeilingLightC_Light14",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light14/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light14/SM_CeilingLight2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light14/SM_CeilingLight3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light14/SpotLight",
+          "type": "SphereLight"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light15",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light15/InstancedBP_CeilingLightC_Light15",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light15/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light15/SM_CeilingLight2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light15/SM_CeilingLight3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light15/SpotLight",
+          "type": "SphereLight"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light16",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light16/InstancedBP_CeilingLightC_Light16",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light16/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light16/SM_CeilingLight2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light16/SM_CeilingLight3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light16/SpotLight",
+          "type": "SphereLight"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light17",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light17/InstancedBP_CeilingLightC_Light17",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light17/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light17/SM_CeilingLight2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light17/SM_CeilingLight3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light17/SpotLight",
+          "type": "SphereLight"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light2_1938",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light2_1938/InstancedBP_CeilingLightC_Light2_1938",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light2_1938/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light2_1938/SM_CeilingLight2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light2_1938/SM_CeilingLight3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light2_1938/SpotLight",
+          "type": "SphereLight"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light3/InstancedBP_CeilingLightC_Light3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light3/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light3/SM_CeilingLight2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light3/SM_CeilingLight3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light3/SpotLight",
+          "type": "SphereLight"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light4",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light4/InstancedBP_CeilingLightC_Light4",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light4/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light4/SM_CeilingLight2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light4/SM_CeilingLight3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light4/SpotLight",
+          "type": "SphereLight"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light5",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light5/InstancedBP_CeilingLightC_Light5",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light5/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light5/SM_CeilingLight2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light5/SM_CeilingLight3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light5/SpotLight",
+          "type": "SphereLight"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light6",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light6/InstancedBP_CeilingLightC_Light6",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light6/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light6/SM_CeilingLight2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light6/SM_CeilingLight3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light6/SpotLight",
+          "type": "SphereLight"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light7_97",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light7_97/InstancedBP_CeilingLightC_Light7_97",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light7_97/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light7_97/SM_CeilingLight2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light7_97/SM_CeilingLight3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light7_97/SpotLight",
+          "type": "SphereLight"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light8_110",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light8_110/InstancedBP_CeilingLightC_Light8_110",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light8_110/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light8_110/SM_CeilingLight2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light8_110/SM_CeilingLight3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light8_110/SpotLight",
+          "type": "SphereLight"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light9",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light9/InstancedBP_CeilingLightC_Light9",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light9/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light9/SM_CeilingLight2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light9/SM_CeilingLight3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light9/SpotLight",
+          "type": "SphereLight"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light_1443",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light_1443/InstancedBP_CeilingLightC_Light_1443",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light_1443/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light_1443/SM_CeilingLight2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light_1443/SM_CeilingLight3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_Light_1443/SpotLight",
+          "type": "SphereLight"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_NoLight2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_NoLight2/InstancedBP_CeilingLightC_NoLight2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_NoLight2/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_NoLight2/SM_CeilingLight2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_NoLight2/SM_CeilingLight3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_NoLight2/SpotLight",
+          "type": "SphereLight"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_NoLight_314",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_NoLight_314/InstancedBP_CeilingLightC_NoLight_314",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_NoLight_314/SM_CeilingLight1",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_NoLight_314/SM_CeilingLight2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_NoLight_314/SM_CeilingLight3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/BP_CeilingLightC_NoLight_314/SpotLight",
+          "type": "SphereLight"
+        },
+        {
+          "path": "/Root/SM_Floor_6m24/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -6.000001293189473,
+              11.999998917215047,
+              -3.496911007514348e-07
+            ],
+            [
+              -1.3411050581169093e-07,
+              18.000000338562284,
+              1.2797255373641862e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m25/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -1.2931894727293338e-06,
+              11.999998917215047,
+              -3.496911007514348e-07
+            ],
+            [
+              5.999999865889494,
+              18.000000338562284,
+              1.2797255373641862e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m26/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -6.000001293189473,
+              17.999998917215045,
+              -3.496911007514348e-07
+            ],
+            [
+              -1.3411050581169093e-07,
+              24.000000338562284,
+              1.2797255373641862e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m27/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -1.2931894727293338e-06,
+              17.999998917215045,
+              -3.496911007514348e-07
+            ],
+            [
+              5.999999865889494,
+              24.000000338562284,
+              1.2797255373641862e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m28",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m30",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m31",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m29",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Floor_3m_2/SM_Floor_3m/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -7.980000207428107,
+              20.999999923706056,
+              0.0019999035133745307
+            ],
+            [
+              -4.980000067055226,
+              23.999999932944775,
+              0.002000122070325114
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m2/SM_Floor_3m/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -7.980000207428107,
+              17.999999923706056,
+              0.0019999014272119634
+            ],
+            [
+              -4.980000067055226,
+              20.999999932944775,
+              0.0020001199841625465
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m3/SM_Floor_3m/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -10.980000207428107,
+              20.999999923706056,
+              0.0019999014272119634
+            ],
+            [
+              -7.980000067055226,
+              23.999999932944775,
+              0.0020001199841625465
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m4/SM_Floor_3m/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -10.980000207428107,
+              17.999999923706056,
+              0.0019999014272119634
+            ],
+            [
+              -7.980000067055226,
+              20.999999932944775,
+              0.0020001199841625465
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m5/SM_Floor_3m/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -13.980000207428107,
+              20.999999923706056,
+              0.0019999014272119634
+            ],
+            [
+              -10.980000067055226,
+              23.999999932944775,
+              0.0020001199841625465
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m6/SM_Floor_3m/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -13.980000207428107,
+              17.999999923706056,
+              0.0019999014272119634
+            ],
+            [
+              -10.980000067055226,
+              20.999999932944775,
+              0.0020001199841625465
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m32",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_3m_205",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_3m2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Floor_6m28/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -6.000001293189473,
+              23.999998917215045,
+              -3.496911007514348e-07
+            ],
+            [
+              -1.3411050581169093e-07,
+              30.000000338562284,
+              1.2797255373641862e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m29/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -1.2931894727293338e-06,
+              23.999998917215045,
+              -3.496911007514348e-07
+            ],
+            [
+              5.999999865889494,
+              30.000000338562284,
+              1.2797255373641862e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m30/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -6.000001293189473,
+              29.999998917215045,
+              -3.496911007514348e-07
+            ],
+            [
+              -1.3411050581169093e-07,
+              36.00000033856228,
+              1.2797255373641862e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m31/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -1.2931894727293338e-06,
+              29.999998917215045,
+              -3.496911007514348e-07
+            ],
+            [
+              5.999999865889494,
+              36.00000033856228,
+              1.2797255373641862e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m32/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -6.000001293189473,
+              35.999998917215045,
+              -3.496911007514348e-07
+            ],
+            [
+              -1.3411050581169093e-07,
+              42.00000033856228,
+              1.2797255373641862e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m33/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -1.2931894727293338e-06,
+              35.999998917215045,
+              -3.496911007514348e-07
+            ],
+            [
+              5.999999865889494,
+              42.00000033856228,
+              1.2797255373641862e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m34/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -6.000001293189473,
+              41.999998917215045,
+              -3.496911007514348e-07
+            ],
+            [
+              -1.3411050581169093e-07,
+              48.00000033856228,
+              1.2797255373641862e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m35/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -1.2931894727293338e-06,
+              41.999998917215045,
+              -3.496911007514348e-07
+            ],
+            [
+              5.999999865889494,
+              48.00000033856228,
+              1.2797255373641862e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m36/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -18.000001293189474,
+              23.999998917215045,
+              -3.496911007514348e-07
+            ],
+            [
+              -12.000000134110508,
+              30.000000338562284,
+              1.2797255373641862e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m37/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -12.000001293189472,
+              23.999998917215045,
+              -3.496911007514348e-07
+            ],
+            [
+              -6.000000134110505,
+              30.000000338562284,
+              1.2797255373641862e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m38/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -24.000001293189474,
+              23.999998917215045,
+              -3.496911007514348e-07
+            ],
+            [
+              -18.000000134110508,
+              30.000000338562284,
+              1.2797255373641862e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m39/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -18.000001293189474,
+              29.999998917215045,
+              -3.496911007514348e-07
+            ],
+            [
+              -12.000000134110508,
+              36.00000033856228,
+              1.2797255373641862e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m40/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -12.000001293189472,
+              29.999998917215045,
+              -3.496911007514348e-07
+            ],
+            [
+              -6.000000134110505,
+              36.00000033856228,
+              1.2797255373641862e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m41/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -24.000001293189474,
+              29.999998917215045,
+              -3.496911007514348e-07
+            ],
+            [
+              -18.000000134110508,
+              36.00000033856228,
+              1.2797255373641862e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m42/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -18.000001293189474,
+              35.999998917215045,
+              -3.496911007514348e-07
+            ],
+            [
+              -12.000000134110508,
+              42.00000033856228,
+              1.2797255373641862e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m43/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -12.000001293189472,
+              35.999998917215045,
+              -3.496911007514348e-07
+            ],
+            [
+              -6.000000134110505,
+              42.00000033856228,
+              1.2797255373641862e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m44/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -24.000001293189474,
+              35.999998917215045,
+              -3.496911007514348e-07
+            ],
+            [
+              -18.000000134110508,
+              42.00000033856228,
+              1.2797255373641862e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m45/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -18.000001293189474,
+              41.999998917215045,
+              -3.496911007514348e-07
+            ],
+            [
+              -12.000000134110508,
+              48.00000033856228,
+              1.2797255373641862e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m46/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -12.000001293189472,
+              41.999998917215045,
+              -3.496911007514348e-07
+            ],
+            [
+              -6.000000134110505,
+              48.00000033856228,
+              1.2797255373641862e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m47/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -24.000001293189474,
+              41.999998917215045,
+              -3.496911007514348e-07
+            ],
+            [
+              -18.000000134110508,
+              48.00000033856228,
+              1.2797255373641862e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m48/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -6.000001293189473,
+              47.999998917215045,
+              -3.496911007514348e-07
+            ],
+            [
+              -1.3411050581169093e-07,
+              54.00000033856228,
+              1.2797255373641862e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m49/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -1.2931894727293338e-06,
+              47.999998917215045,
+              -3.496911007514348e-07
+            ],
+            [
+              5.999999865889494,
+              54.00000033856228,
+              1.2797255373641862e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m50/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -18.000001293189474,
+              47.999998917215045,
+              -3.496911007514348e-07
+            ],
+            [
+              -12.000000134110508,
+              54.00000033856228,
+              1.2797255373641862e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m51/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -12.000001293189472,
+              47.999998917215045,
+              -3.496911007514348e-07
+            ],
+            [
+              -6.000000134110505,
+              54.00000033856228,
+              1.2797255373641862e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m52/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -24.000001293189474,
+              47.999998917215045,
+              -3.496911007514348e-07
+            ],
+            [
+              -18.000000134110508,
+              54.00000033856228,
+              1.2797255373641862e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m53/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -6.000001293189473,
+              53.999998917215045,
+              -3.496911007514348e-07
+            ],
+            [
+              -1.3411050581169093e-07,
+              60.00000033856228,
+              1.2797255373641862e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m54/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -1.2931894727293338e-06,
+              53.999998917215045,
+              -3.496911007514348e-07
+            ],
+            [
+              5.999999865889494,
+              60.00000033856228,
+              1.2797255373641862e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m55/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -18.000001293189474,
+              53.999998917215045,
+              -3.496911007514348e-07
+            ],
+            [
+              -12.000000134110508,
+              60.00000033856228,
+              1.2797255373641862e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m57/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -24.000001293189474,
+              53.999998917215045,
+              -3.496911007514348e-07
+            ],
+            [
+              -18.000000134110508,
+              60.00000033856228,
+              1.2797255373641862e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m7_351/SM_Floor_3m/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -9.000000684741709,
+              53.999999458607526,
+              -2.1855693796964676e-07
+            ],
+            [
+              -6.000000067055245,
+              57.00000020742812,
+              1.2613557919461428e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m8/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -9.000000684741709,
+              56.999999458607526,
+              -2.1855693796964676e-07
+            ],
+            [
+              -6.000000067055245,
+              60.00000020742812,
+              1.2613557919461428e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m9/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -12.000000684741709,
+              56.999999458607526,
+              -2.1855693796964676e-07
+            ],
+            [
+              -9.000000067055245,
+              60.00000020742812,
+              1.2613557919461428e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m10/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -12.000000684741709,
+              53.999999458607526,
+              -2.1855693796964676e-07
+            ],
+            [
+              -9.000000067055245,
+              57.00000020742812,
+              1.2613557919461428e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m33",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m34",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m35",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m36",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m37",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m38",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m39",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m40",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m41",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m42",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m43",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m44",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m45",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m46",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m47",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m48",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m49",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m50",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m51",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m52",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m53",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m54",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m55",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m56",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m57",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m58",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m59",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m60",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m61",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m62",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_FloorCarpetPath_02/SM_CarpetPath_02",
+          "type": "Mesh",
+          "vertices": 36,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              2.309999419870472,
+              12.529999999999887,
+              -0.002899878021056086
+            ],
+            [
+              5.16031098145651,
+              23.265007743023055,
+              0.007102463021819165
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_FloorCarpetPath_3/SM_CarpetPath_02",
+          "type": "Mesh",
+          "vertices": 36,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -0.5403442539716261,
+              12.529477120307961,
+              -0.00289903968172732
+            ],
+            [
+              2.310000580129528,
+              23.264493697653588,
+              0.007103301361147931
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_FloorCarpetPath_5/SM_CarpetPath_01",
+          "type": "Mesh",
+          "vertices": 20,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -3.951071586805748,
+              11.839997692559345,
+              -0.0004429626364960247
+            ],
+            [
+              -2.0419032101076655,
+              17.840000835372045,
+              0.009995684443227074
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_FloorCarpetPath_6/SM_CarpetPath_01",
+          "type": "Mesh",
+          "vertices": 20,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -3.951071586805748,
+              17.839997692559347,
+              -0.0004429626364960247
+            ],
+            [
+              -2.0419032101076655,
+              23.840000835372045,
+              0.009995684443227074
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_FloorCarpetPath_7/SM_CarpetPath_01",
+          "type": "Mesh",
+          "vertices": 20,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -3.951071586805748,
+              23.843997936699974,
+              -0.0004429626364960247
+            ],
+            [
+              -2.0419032101076655,
+              29.844001079512672,
+              0.009995684443227074
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_FloorCarpetPath_8/SM_CarpetPath_01",
+          "type": "Mesh",
+          "vertices": 20,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -3.951071586805748,
+              29.84399793669997,
+              -0.0004429626364960247
+            ],
+            [
+              -2.0419032101076655,
+              35.84400107951267,
+              0.009995684443227074
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_FloorCarpetPath_9/SM_CarpetPath_01",
+          "type": "Mesh",
+          "vertices": 20,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -3.951071586805748,
+              35.843996715996845,
+              -0.0004429626364960247
+            ],
+            [
+              -2.0419032101076655,
+              41.843999858809546,
+              0.009995684443227074
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_FloorCarpetPath_10/SM_CarpetPath_01",
+          "type": "Mesh",
+          "vertices": 20,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -3.951071586805748,
+              41.84399671599685,
+              -0.0004429626364960247
+            ],
+            [
+              -2.0419032101076655,
+              47.84399985880955,
+              0.009995684443227074
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_FloorCarpetPath_03/SM_CarpetPath_03",
+          "type": "Mesh",
+          "vertices": 24,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -4.528713245626751,
+              47.74591143419068,
+              2.455751353202171e-07
+            ],
+            [
+              -2.038547609424348,
+              53.39592895508085,
+              0.010002586618010876
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_FloorCarpetPath_01/SM_CarpetPath_01",
+          "type": "Mesh",
+          "vertices": 20,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -10.52843541614968,
+              51.096878281511444,
+              -0.0034428864618473655
+            ],
+            [
+              -4.528432759717112,
+              53.39707697495411,
+              0.006995446458562378
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_FloorCarpetPath_4/SM_CarpetPath_02",
+          "type": "Mesh",
+          "vertices": 36,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              1.3177606920173333,
+              37.019365598488264,
+              0.0020001387636118828
+            ],
+            [
+              2.9620152211075674,
+              43.21200012250839,
+              0.012002750494835943
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_FloorCarpetPath_11/SM_CarpetPath_02",
+          "type": "Mesh",
+          "vertices": 36,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              2.9603890696415163,
+              37.01882934570306,
+              0.0020012474100047054
+            ],
+            [
+              4.604628834354527,
+              43.2114599491305,
+              0.012003588452879957
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m11_213/SM_Floor_3m/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -9.000000684741709,
+              -15.000000541392478,
+              -3.300000218556938
+            ],
+            [
+              -6.000000067055245,
+              -11.999999792571877,
+              -3.299999999999988
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m_17/SM_Floor_6m/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -15.000001293189472,
+              -15.000001082784953,
+              -3.3000003496911012
+            ],
+            [
+              -9.000000134110504,
+              -8.999999661437714,
+              -3.2999999999999874
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m12_214/SM_Floor_3m/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -9.000000684741709,
+              -12.000000541392478,
+              -3.300000218556938
+            ],
+            [
+              -6.000000067055245,
+              -8.999999792571877,
+              -3.299999999999988
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m13_215/SM_Floor_3m/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -9.000000684741709,
+              -9.000000541392478,
+              -3.300000218556938
+            ],
+            [
+              -6.000000067055245,
+              -5.999999792571878,
+              -3.299999999999988
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m14_216/SM_Floor_3m/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -9.000000684741709,
+              -6.000000541392477,
+              -3.300000218556938
+            ],
+            [
+              -6.000000067055245,
+              -2.999999792571878,
+              -3.299999999999988
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m15_217/SM_Floor_3m/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -9.000000684741709,
+              -3.0000005413924775,
+              -3.300000218556938
+            ],
+            [
+              -6.000000067055245,
+              2.0742812186260802e-07,
+              -3.299999999999988
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m16_218/SM_Floor_3m/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -9.000000684741709,
+              -5.413924774603543e-07,
+              -3.300000218556938
+            ],
+            [
+              -6.000000067055245,
+              3.000000207428122,
+              -3.299999999999988
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m2/SM_Floor_6m/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -15.000001293189472,
+              -9.000001082784953,
+              -3.3000003496911012
+            ],
+            [
+              -9.000000134110504,
+              -2.999999661437715,
+              -3.2999999999999874
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m3/SM_Floor_6m/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -15.000001293189472,
+              -3.000001082784955,
+              -3.3000003496911012
+            ],
+            [
+              -9.000000134110504,
+              3.000000338562285,
+              -3.2999999999999874
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m17_219/SM_Floor_3m/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -15.000000684741709,
+              2.9999994586075225,
+              -3.300000218556938
+            ],
+            [
+              -12.000000067055245,
+              6.000000207428122,
+              -3.299999999999988
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m18_220/SM_Floor_3m/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -15.000000684741709,
+              5.999999458607523,
+              -3.300000218556938
+            ],
+            [
+              -12.000000067055245,
+              9.000000207428123,
+              -3.299999999999988
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m19_221/SM_Floor_3m/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -15.000000684741709,
+              8.999999458607522,
+              -3.300000218556938
+            ],
+            [
+              -12.000000067055245,
+              12.000000207428123,
+              -3.299999999999988
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m20_222/SM_Floor_3m/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -15.000000684741709,
+              11.999999458607522,
+              -3.300000218556938
+            ],
+            [
+              -12.000000067055245,
+              15.000000207428123,
+              -3.299999999999988
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m21_223/SM_Floor_3m/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -12.000000684741709,
+              11.999999458607522,
+              -3.300000218556938
+            ],
+            [
+              -9.000000067055245,
+              15.000000207428123,
+              -3.299999999999988
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m22_224/SM_Floor_3m/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -9.000000684741709,
+              11.999999458607522,
+              -3.300000218556938
+            ],
+            [
+              -6.000000067055245,
+              15.000000207428123,
+              -3.299999999999988
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m23_225/SM_Floor_3m/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -6.000000684741708,
+              -6.000000541392477,
+              -3.300000218556938
+            ],
+            [
+              -3.0000000670552454,
+              -2.999999792571878,
+              -3.299999999999988
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m24_226/SM_Floor_3m/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -6.000000684741708,
+              -3.0000005413924775,
+              -3.300000218556938
+            ],
+            [
+              -3.0000000670552454,
+              2.0742812186260802e-07,
+              -3.299999999999988
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m25_227/SM_Floor_3m/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              2.9999993152582918,
+              -12.000000541392478,
+              -3.300000218556938
+            ],
+            [
+              5.999999932944755,
+              -8.999999792571877,
+              -3.299999999999988
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m4/SM_Floor_6m/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -3.000001293189473,
+              -12.000001082784953,
+              -3.3000003496911012
+            ],
+            [
+              2.9999998658894946,
+              -5.999999661437716,
+              -3.2999999999999874
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m26/SM_Floor_3m/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              2.9999993152582918,
+              -9.000000541392478,
+              -3.300000218556938
+            ],
+            [
+              5.999999932944755,
+              -5.999999792571878,
+              -3.299999999999988
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m27_228/SM_Floor_3m/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              2.9999993152582918,
+              -6.000000541392477,
+              -3.300000218556938
+            ],
+            [
+              5.999999932944755,
+              -2.999999792571878,
+              -3.299999999999988
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m28_229/SM_Floor_3m/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              2.9999993152582918,
+              -3.0000005413924775,
+              -3.300000218556938
+            ],
+            [
+              5.999999932944755,
+              2.0742812186260802e-07,
+              -3.299999999999988
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m29_230/SM_Floor_3m/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              2.9999993152582918,
+              -5.413924774603543e-07,
+              -3.300000218556938
+            ],
+            [
+              5.999999932944755,
+              3.000000207428122,
+              -3.299999999999988
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m30_231/SM_Floor_3m/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              2.9999993152582918,
+              2.9999994586075225,
+              -3.300000218556938
+            ],
+            [
+              5.999999932944755,
+              6.000000207428122,
+              -3.299999999999988
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m5/SM_Floor_6m/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -3.000001293189473,
+              -6.000001082784955,
+              -3.3000003496911012
+            ],
+            [
+              2.9999998658894946,
+              3.385622846443934e-07,
+              -3.2999999999999874
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m6/SM_Floor_6m/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -3.000001293189473,
+              -1.0827849549207086e-06,
+              -3.3000003496911012
+            ],
+            [
+              2.9999998658894946,
+              6.000000338562284,
+              -3.2999999999999874
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m31_232/SM_Floor_3m/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -6.000000684741708,
+              -12.000000541392478,
+              -3.300000218556938
+            ],
+            [
+              -3.0000000670552454,
+              -8.999999792571877,
+              -3.299999999999988
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m7/SM_Floor_6m/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -12.000001293189472,
+              2.999998917215045,
+              -3.3000003496911012
+            ],
+            [
+              -6.000000134110505,
+              9.000000338562286,
+              -3.2999999999999874
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m32_233/SM_Floor_3m/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -12.000000684741709,
+              8.999999458607522,
+              -3.300000218556938
+            ],
+            [
+              -9.000000067055245,
+              12.000000207428123,
+              -3.299999999999988
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m33_234/SM_Floor_3m/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -9.000000684741709,
+              8.999999458607522,
+              -3.300000218556938
+            ],
+            [
+              -6.000000067055245,
+              12.000000207428123,
+              -3.299999999999988
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m34_245/SM_Floor_3m/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -18.000000684741707,
+              -12.000000541392478,
+              -3.300000218556938
+            ],
+            [
+              -15.000000067055245,
+              -8.999999792571877,
+              -3.299999999999988
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m_122",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m2",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m3",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_3m3_278",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_3m4_279",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_3m5_280",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_3m6_281",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_3m7_282",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_3m8_283",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_3m9_284",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_3m10_285",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_3m11_286",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_3m12_287",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_3m13_288",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_3m14_289",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_3m15_290",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_3m16_291",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m4",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m5",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m6",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_3m17_292",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_3m18_293",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_3m19_294",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_3m20_295",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_3m21_296",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_3m22_297",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m7",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_3m23_298",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_3m24_299",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_3m25_300",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_3m26_301",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Floor_3m35_320/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -18.000000684741707,
+              -12.000000541392478,
+              -2.1855693796964676e-07
+            ],
+            [
+              -15.000000067055245,
+              -8.999999792571877,
+              1.2613557919461428e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m36_321/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -15.000000684741709,
+              -12.000000541392478,
+              -2.1855693796964676e-07
+            ],
+            [
+              -12.000000067055245,
+              -8.999999792571877,
+              1.2613557919461428e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m37_322/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -15.000000684741709,
+              -9.000000541392478,
+              -2.1855693796964676e-07
+            ],
+            [
+              -12.000000067055245,
+              -5.999999792571878,
+              1.2613557919461428e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m38_323/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -15.000000684741709,
+              -6.000000541392477,
+              -2.1855693796964676e-07
+            ],
+            [
+              -12.000000067055245,
+              -2.999999792571878,
+              1.2613557919461428e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m39_324/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -15.000000684741709,
+              -3.0000005413924775,
+              -2.1855693796964676e-07
+            ],
+            [
+              -12.000000067055245,
+              2.0742812186260802e-07,
+              1.2613557919461428e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m40_325/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -15.000000684741709,
+              -5.413924774603543e-07,
+              -2.1855693796964676e-07
+            ],
+            [
+              -12.000000067055245,
+              3.000000207428122,
+              1.2613557919461428e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m8/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -12.000001293189472,
+              -12.000001082784953,
+              -3.496911007514348e-07
+            ],
+            [
+              -6.000000134110505,
+              -5.999999661437716,
+              1.2797255373641862e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m9/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -6.000001293189473,
+              -12.000001082784953,
+              -3.496911007514348e-07
+            ],
+            [
+              -1.3411050581169093e-07,
+              -5.999999661437716,
+              1.2797255373641862e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m10/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -1.2931894727293338e-06,
+              -12.000001082784953,
+              -3.496911007514348e-07
+            ],
+            [
+              5.999999865889494,
+              -5.999999661437716,
+              1.2797255373641862e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m11/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -12.000001293189472,
+              -6.000001082784955,
+              -3.496911007514348e-07
+            ],
+            [
+              -6.000000134110505,
+              3.385622846443934e-07,
+              1.2797255373641862e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m12/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -6.000001293189473,
+              -6.000001082784955,
+              -3.496911007514348e-07
+            ],
+            [
+              -1.3411050581169093e-07,
+              3.385622846443934e-07,
+              1.2797255373641862e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m13/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -1.2931894727293338e-06,
+              -6.000001082784955,
+              -3.496911007514348e-07
+            ],
+            [
+              5.999999865889494,
+              3.385622846443934e-07,
+              1.2797255373641862e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m14/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -12.000001293189472,
+              -1.0827849549207086e-06,
+              -3.496911007514348e-07
+            ],
+            [
+              -6.000000134110505,
+              6.000000338562284,
+              1.2797255373641862e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m15/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -6.000001293189473,
+              -1.0827849549207086e-06,
+              -3.496911007514348e-07
+            ],
+            [
+              -1.3411050581169093e-07,
+              6.000000338562284,
+              1.2797255373641862e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m16/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -1.2931894727293338e-06,
+              -1.0827849549207086e-06,
+              -3.496911007514348e-07
+            ],
+            [
+              5.999999865889494,
+              6.000000338562284,
+              1.2797255373641862e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m17/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -12.000001293189472,
+              5.999998917215045,
+              -3.496911007514348e-07
+            ],
+            [
+              -6.000000134110505,
+              12.000000338562286,
+              1.2797255373641862e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m18/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -6.000001293189473,
+              5.999998917215045,
+              -3.496911007514348e-07
+            ],
+            [
+              -1.3411050581169093e-07,
+              12.000000338562286,
+              1.2797255373641862e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m19/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -1.2931894727293338e-06,
+              5.999998917215045,
+              -3.496911007514348e-07
+            ],
+            [
+              5.999999865889494,
+              12.000000338562286,
+              1.2797255373641862e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m20/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -24.000001293189474,
+              5.999998917215045,
+              -3.496911007514348e-07
+            ],
+            [
+              -18.000000134110508,
+              12.000000338562286,
+              1.2797255373641862e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m21/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -18.000001293189474,
+              5.999998917215045,
+              -3.496911007514348e-07
+            ],
+            [
+              -12.000000134110508,
+              12.000000338562286,
+              1.2797255373641862e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m41_335/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -12.000000684741709,
+              -15.000000541392478,
+              -2.1855693796964676e-07
+            ],
+            [
+              -9.000000067055245,
+              -11.999999792571877,
+              1.2613557919461428e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m42_336/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -12.000000684741709,
+              -18.000000541392478,
+              -2.1855693796964676e-07
+            ],
+            [
+              -9.000000067055245,
+              -14.999999792571877,
+              1.2613557919461428e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m43_337/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -12.000000684741709,
+              -21.000000541392478,
+              -2.1855693796964676e-07
+            ],
+            [
+              -9.000000067055245,
+              -17.99999979257188,
+              1.2613557919461428e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m44_338/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -12.000000684741709,
+              -24.000000541392478,
+              -2.1855693796964676e-07
+            ],
+            [
+              -9.000000067055245,
+              -20.99999979257188,
+              1.2613557919461428e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m45_339/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -12.000000684741709,
+              -27.000000541392478,
+              -2.1855693796964676e-07
+            ],
+            [
+              -9.000000067055245,
+              -23.99999979257188,
+              1.2613557919461428e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m22/SM_Floor_6m/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -9.000001293189472,
+              -18.000001082784955,
+              -3.496911007514348e-07
+            ],
+            [
+              -3.000000134110505,
+              -11.999999661437714,
+              1.2797255373641862e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m23/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -9.000001293189472,
+              -24.000001082784955,
+              -3.496911007514348e-07
+            ],
+            [
+              -3.000000134110505,
+              -17.999999661437716,
+              1.2797255373641862e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m46_340/SM_Floor_3m/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -3.0000006847417082,
+              -15.000000541392478,
+              -2.1855693796964676e-07
+            ],
+            [
+              -6.705524491223969e-08,
+              -11.999999792571877,
+              1.2613557919461428e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m47/SM_Floor_3m/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -3.0000006847417082,
+              -18.000000541392478,
+              -2.1855693796964676e-07
+            ],
+            [
+              -6.705524491223969e-08,
+              -14.999999792571877,
+              1.2613557919461428e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m48_341/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -3.0000006847417082,
+              -21.000000541392478,
+              -2.1855693796964676e-07
+            ],
+            [
+              -6.705524491223969e-08,
+              -17.99999979257188,
+              1.2613557919461428e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m49_342/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -3.0000006847417082,
+              -24.000000541392478,
+              -2.1855693796964676e-07
+            ],
+            [
+              -6.705524491223969e-08,
+              -20.99999979257188,
+              1.2613557919461428e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m56_355/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -18.000001293189474,
+              11.999998917215047,
+              -3.496911007514348e-07
+            ],
+            [
+              -12.000000134110508,
+              18.000000338562284,
+              1.2797255373641862e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m58/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -18.000001293189474,
+              17.999998917215045,
+              -3.496911007514348e-07
+            ],
+            [
+              -12.000000134110508,
+              24.000000338562284,
+              1.2797255373641862e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m50_360/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -15.000000684741709,
+              2.9999994586075225,
+              -2.1855693796964676e-07
+            ],
+            [
+              -12.000000067055245,
+              6.000000207428122,
+              1.2613557919461428e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m51/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -21.000000684741707,
+              11.999999458607522,
+              -2.1855693796964676e-07
+            ],
+            [
+              -18.000000067055243,
+              15.000000207428123,
+              1.2613557919461428e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m52_363/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -24.000000684741707,
+              11.999999458607522,
+              -2.1855693796964676e-07
+            ],
+            [
+              -21.000000067055243,
+              15.000000207428123,
+              1.2613557919461428e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_6m59/SM_Floor_6m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -24.000001293189474,
+              14.999998917215047,
+              -3.496911007514348e-07
+            ],
+            [
+              -18.000000134110508,
+              21.000000338562284,
+              1.2797255373641862e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m53/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -21.000000684741707,
+              20.999999458607522,
+              -2.1855693796964676e-07
+            ],
+            [
+              -18.000000067055243,
+              24.00000020742812,
+              1.2613557919461428e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m54_364/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -24.000000684741707,
+              20.999999458607522,
+              -2.1855693796964676e-07
+            ],
+            [
+              -21.000000067055243,
+              24.00000020742812,
+              1.2613557919461428e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m55/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -9.000000684741709,
+              -27.000000541392478,
+              -2.1855693796964676e-07
+            ],
+            [
+              -6.000000067055245,
+              -23.99999979257188,
+              1.2613557919461428e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Ceiling_3m27_427",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m8",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_3m28_428",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_3m29_429",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_3m30_430",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_3m31_431",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_3m32_432",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_3m33_433",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_3m34_434",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m9",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_3m35_435",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_3m36_436",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m10",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m11",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m12",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m13",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m14",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m15",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m16",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m17",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m18",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m19",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m20",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m21",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_3m37_437",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_3m38_438",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_3m39_439",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_3m40_440",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_3m41_441",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_3m42",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m22",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m23",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m24",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m25",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m26",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_6m27",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Floor_3m56/SM_Floor_3m/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -21.000000684741707,
+              -12.000000541392478,
+              -3.300000218556938
+            ],
+            [
+              -18.000000067055243,
+              -8.999999792571877,
+              -3.299999999999988
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m57/SM_Floor_3m/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -21.000000684741707,
+              -15.000000541392478,
+              -3.300000218556938
+            ],
+            [
+              -18.000000067055243,
+              -11.999999792571877,
+              -3.299999999999988
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m58/SM_Floor_3m/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -21.000000684741707,
+              -18.000000541392478,
+              -3.300000218556938
+            ],
+            [
+              -18.000000067055243,
+              -14.999999792571877,
+              -3.299999999999988
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m59/SM_Floor_3m/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -21.000000684741707,
+              -12.000000541392478,
+              -2.1855693796964676e-07
+            ],
+            [
+              -18.000000067055243,
+              -8.999999792571877,
+              1.2613557919461428e-14
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Floor_3m60/SM_Floor_3m/SM_Floor_3m",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -21.000000684741707,
+              -12.000000541392478,
+              3.2999997814430624
+            ],
+            [
+              -18.000000067055243,
+              -8.999999792571877,
+              3.3000000000000127
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_Ceiling_3m43",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_3m44",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_3m45",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_Ceiling_3m46",
+          "type": "Xform"
+        },
+        {
+          "path": "/Root/SM_FloorCarpetPath_12/SM_CarpetPath_02",
+          "type": "Mesh",
+          "vertices": 36,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -14.99307189972517,
+              -8.65376953125012,
+              1.3113421735146894e-07
+            ],
+            [
+              -11.992743902511764,
+              2.646238761097001,
+              0.010002472177092603
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_FloorCarpetPath_2/SM_CarpetPath_01",
+          "type": "Mesh",
+          "vertices": 20,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -1.8745335952675162,
+              -2.3116466389268426,
+              -0.0004359426366806929
+            ],
+            [
+              4.125469836729762,
+              -0.01144592243709928,
+              0.01000239028372905
+            ]
+          ]
+        },
+        {
+          "path": "/Root/SM_FloorCarpetPath_13/SM_CarpetPath_01",
+          "type": "Mesh",
+          "vertices": 20,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -1.8745335952675162,
+              -0.009854646739342415,
+              -0.0004359426366806929
+            ],
+            [
+              4.125469836729762,
+              2.290346069750401,
+              0.01000239028372905
+            ]
+          ]
+        },
+        {
+          "path": "/Root/GroundPlane/CollisionMesh",
+          "type": "Mesh",
+          "vertices": 4,
+          "visibility": "invisible",
+          "bounds": [
+            [
+              -24.999999441206455,
+              -24.999999441206455,
+              0.0
+            ],
+            [
+              24.999999441206455,
+              24.999999441206455,
+              0.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doctor": {
+      "url": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/People/Characters/original_male_adult_medical_01/male_adult_medical_01.usd",
+      "upAxis": "Z",
+      "metersPerUnit": 1.0,
+      "defaultPrim": "/Root",
+      "start": 0.0,
+      "end": 0.0,
+      "prims": [
+        {
+          "path": "/Root/ManRoot/male_adult_medical_01/male_adult_medical_01/male_adult_medical_01",
+          "type": "Skeleton",
+          "joints": [
+            "RL_BoneRoot",
+            "RL_BoneRoot/Hip",
+            "RL_BoneRoot/Hip/Pelvis",
+            "RL_BoneRoot/Hip/Pelvis/L_Thigh",
+            "RL_BoneRoot/Hip/Pelvis/L_Thigh/L_Calf",
+            "RL_BoneRoot/Hip/Pelvis/L_Thigh/L_Calf/L_Foot",
+            "RL_BoneRoot/Hip/Pelvis/L_Thigh/L_Calf/L_Foot/L_ToeBaseShareBone",
+            "RL_BoneRoot/Hip/Pelvis/L_Thigh/L_Calf/L_Foot/L_ToeBase",
+            "RL_BoneRoot/Hip/Pelvis/L_Thigh/L_Calf/L_Foot/L_ToeBase/L_PinkyToe1",
+            "RL_BoneRoot/Hip/Pelvis/L_Thigh/L_Calf/L_Foot/L_ToeBase/L_RingToe1",
+            "RL_BoneRoot/Hip/Pelvis/L_Thigh/L_Calf/L_Foot/L_ToeBase/L_MidToe1",
+            "RL_BoneRoot/Hip/Pelvis/L_Thigh/L_Calf/L_Foot/L_ToeBase/L_IndexToe1",
+            "RL_BoneRoot/Hip/Pelvis/L_Thigh/L_Calf/L_Foot/L_ToeBase/L_BigToe1",
+            "RL_BoneRoot/Hip/Pelvis/L_Thigh/L_Calf/L_CalfTwist01",
+            "RL_BoneRoot/Hip/Pelvis/L_Thigh/L_Calf/L_CalfTwist01/L_CalfTwist02",
+            "RL_BoneRoot/Hip/Pelvis/L_Thigh/L_Calf/L_KneeShareBone",
+            "RL_BoneRoot/Hip/Pelvis/L_Thigh/L_ThighTwist01",
+            "RL_BoneRoot/Hip/Pelvis/L_Thigh/L_ThighTwist01/L_ThighTwist02",
+            "RL_BoneRoot/Hip/Pelvis/R_Thigh",
+            "RL_BoneRoot/Hip/Pelvis/R_Thigh/R_Calf",
+            "RL_BoneRoot/Hip/Pelvis/R_Thigh/R_Calf/R_KneeShareBone",
+            "RL_BoneRoot/Hip/Pelvis/R_Thigh/R_Calf/R_Foot",
+            "RL_BoneRoot/Hip/Pelvis/R_Thigh/R_Calf/R_Foot/R_ToeBase",
+            "RL_BoneRoot/Hip/Pelvis/R_Thigh/R_Calf/R_Foot/R_ToeBase/R_BigToe1",
+            "RL_BoneRoot/Hip/Pelvis/R_Thigh/R_Calf/R_Foot/R_ToeBase/R_PinkyToe1",
+            "RL_BoneRoot/Hip/Pelvis/R_Thigh/R_Calf/R_Foot/R_ToeBase/R_RingToe1",
+            "RL_BoneRoot/Hip/Pelvis/R_Thigh/R_Calf/R_Foot/R_ToeBase/R_IndexToe1",
+            "RL_BoneRoot/Hip/Pelvis/R_Thigh/R_Calf/R_Foot/R_ToeBase/R_MidToe1",
+            "RL_BoneRoot/Hip/Pelvis/R_Thigh/R_Calf/R_Foot/R_ToeBaseShareBone",
+            "RL_BoneRoot/Hip/Pelvis/R_Thigh/R_Calf/R_CalfTwist01",
+            "RL_BoneRoot/Hip/Pelvis/R_Thigh/R_Calf/R_CalfTwist01/R_CalfTwist02",
+            "RL_BoneRoot/Hip/Pelvis/R_Thigh/R_ThighTwist01",
+            "RL_BoneRoot/Hip/Pelvis/R_Thigh/R_ThighTwist01/R_ThighTwist02",
+            "RL_BoneRoot/Hip/Waist",
+            "RL_BoneRoot/Hip/Waist/Spine01",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/NeckTwist01",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/NeckTwist01/NeckTwist02",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/NeckTwist01/NeckTwist02/Head",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/NeckTwist01/NeckTwist02/Head/FacialBone",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/NeckTwist01/NeckTwist02/Head/FacialBone/JawRoot",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/NeckTwist01/NeckTwist02/Head/FacialBone/JawRoot/Tongue01",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/NeckTwist01/NeckTwist02/Head/FacialBone/JawRoot/Tongue01/Tongue02",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/NeckTwist01/NeckTwist02/Head/FacialBone/JawRoot/Tongue01/Tongue02/Tongue03",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/NeckTwist01/NeckTwist02/Head/FacialBone/JawRoot/Teeth02",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/NeckTwist01/NeckTwist02/Head/FacialBone/R_Eye",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/NeckTwist01/NeckTwist02/Head/FacialBone/L_Eye",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/NeckTwist01/NeckTwist02/Head/FacialBone/UpperJaw",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/NeckTwist01/NeckTwist02/Head/FacialBone/UpperJaw/Teeth01",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/L_Clavicle",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/L_Clavicle/L_Upperarm",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/L_Clavicle/L_Upperarm/L_Forearm",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/L_Clavicle/L_Upperarm/L_Forearm/L_ForearmTwist01",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/L_Clavicle/L_Upperarm/L_Forearm/L_ForearmTwist01/L_ForearmTwist02",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/L_Clavicle/L_Upperarm/L_Forearm/L_ElbowShareBone",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/L_Clavicle/L_Upperarm/L_Forearm/L_Hand",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/L_Clavicle/L_Upperarm/L_Forearm/L_Hand/L_Pinky1",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/L_Clavicle/L_Upperarm/L_Forearm/L_Hand/L_Pinky1/L_Pinky2",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/L_Clavicle/L_Upperarm/L_Forearm/L_Hand/L_Pinky1/L_Pinky2/L_Pinky3",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/L_Clavicle/L_Upperarm/L_Forearm/L_Hand/L_Ring1",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/L_Clavicle/L_Upperarm/L_Forearm/L_Hand/L_Ring1/L_Ring2",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/L_Clavicle/L_Upperarm/L_Forearm/L_Hand/L_Ring1/L_Ring2/L_Ring3",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/L_Clavicle/L_Upperarm/L_Forearm/L_Hand/L_Mid1",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/L_Clavicle/L_Upperarm/L_Forearm/L_Hand/L_Mid1/L_Mid2",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/L_Clavicle/L_Upperarm/L_Forearm/L_Hand/L_Mid1/L_Mid2/L_Mid3",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/L_Clavicle/L_Upperarm/L_Forearm/L_Hand/L_Index1",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/L_Clavicle/L_Upperarm/L_Forearm/L_Hand/L_Index1/L_Index2",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/L_Clavicle/L_Upperarm/L_Forearm/L_Hand/L_Index1/L_Index2/L_Index3",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/L_Clavicle/L_Upperarm/L_Forearm/L_Hand/L_Thumb1",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/L_Clavicle/L_Upperarm/L_Forearm/L_Hand/L_Thumb1/L_Thumb2",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/L_Clavicle/L_Upperarm/L_Forearm/L_Hand/L_Thumb1/L_Thumb2/L_Thumb3",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/L_Clavicle/L_Upperarm/L_UpperarmTwist01",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/L_Clavicle/L_Upperarm/L_UpperarmTwist01/L_UpperarmTwist02",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/L_RibsTwist",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/L_RibsTwist/L_Breast",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/R_RibsTwist",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/R_RibsTwist/R_Breast",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/R_Clavicle",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/R_Clavicle/R_Upperarm",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/R_Clavicle/R_Upperarm/R_Forearm",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/R_Clavicle/R_Upperarm/R_Forearm/R_ElbowShareBone",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/R_Clavicle/R_Upperarm/R_Forearm/R_ForearmTwist01",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/R_Clavicle/R_Upperarm/R_Forearm/R_ForearmTwist01/R_ForearmTwist02",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/R_Clavicle/R_Upperarm/R_Forearm/R_Hand",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/R_Clavicle/R_Upperarm/R_Forearm/R_Hand/R_Ring1",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/R_Clavicle/R_Upperarm/R_Forearm/R_Hand/R_Ring1/R_Ring2",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/R_Clavicle/R_Upperarm/R_Forearm/R_Hand/R_Ring1/R_Ring2/R_Ring3",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/R_Clavicle/R_Upperarm/R_Forearm/R_Hand/R_Mid1",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/R_Clavicle/R_Upperarm/R_Forearm/R_Hand/R_Mid1/R_Mid2",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/R_Clavicle/R_Upperarm/R_Forearm/R_Hand/R_Mid1/R_Mid2/R_Mid3",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/R_Clavicle/R_Upperarm/R_Forearm/R_Hand/R_Thumb1",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/R_Clavicle/R_Upperarm/R_Forearm/R_Hand/R_Thumb1/R_Thumb2",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/R_Clavicle/R_Upperarm/R_Forearm/R_Hand/R_Thumb1/R_Thumb2/R_Thumb3",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/R_Clavicle/R_Upperarm/R_Forearm/R_Hand/R_Index1",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/R_Clavicle/R_Upperarm/R_Forearm/R_Hand/R_Index1/R_Index2",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/R_Clavicle/R_Upperarm/R_Forearm/R_Hand/R_Index1/R_Index2/R_Index3",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/R_Clavicle/R_Upperarm/R_Forearm/R_Hand/R_Pinky1",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/R_Clavicle/R_Upperarm/R_Forearm/R_Hand/R_Pinky1/R_Pinky2",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/R_Clavicle/R_Upperarm/R_Forearm/R_Hand/R_Pinky1/R_Pinky2/R_Pinky3",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/R_Clavicle/R_Upperarm/R_UpperarmTwist01",
+            "RL_BoneRoot/Hip/Waist/Spine01/Spine02/R_Clavicle/R_Upperarm/R_UpperarmTwist01/R_UpperarmTwist02"
+          ],
+          "animations": []
+        },
+        {
+          "path": "/Root/ManRoot/male_adult_medical_01/male_adult_medical_01/opaque__fabric__labcoat",
+          "type": "Mesh",
+          "vertices": 1765,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -0.7434964179992676,
+              -0.14964333176612854,
+              0.6654824018478394
+            ],
+            [
+              0.7392618060112,
+              0.17521116137504578,
+              1.5853227376937866
+            ]
+          ]
+        },
+        {
+          "path": "/Root/ManRoot/male_adult_medical_01/male_adult_medical_01/opaque__fabric__scrubspants",
+          "type": "Mesh",
+          "vertices": 829,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -0.19399936497211456,
+              -0.11443229019641876,
+              0.07218649238348007
+            ],
+            [
+              0.19325658679008484,
+              0.15503469109535217,
+              1.0714271068572998
+            ]
+          ]
+        },
+        {
+          "path": "/Root/ManRoot/male_adult_medical_01/male_adult_medical_01/opaque__metal__stethoscope",
+          "type": "Mesh",
+          "vertices": 801,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -0.08096405863761902,
+              -0.15342777967453003,
+              1.2606492042541504
+            ],
+            [
+              0.0720905214548111,
+              0.12413107603788376,
+              1.5497105121612549
+            ]
+          ]
+        },
+        {
+          "path": "/Root/ManRoot/male_adult_medical_01/male_adult_medical_01/opaque__plastic__idbadge",
+          "type": "Mesh",
+          "vertices": 86,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -0.0408070906996727,
+              -0.12481389194726944,
+              1.3254574537277222
+            ],
+            [
+              0.031645484268665314,
+              -0.03126458078622818,
+              1.4621402025222778
+            ]
+          ]
+        },
+        {
+          "path": "/Root/ManRoot/male_adult_medical_01/male_adult_medical_01/opaque__leather__sneakers",
+          "type": "Mesh",
+          "vertices": 1478,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -0.14800691604614258,
+              -0.24438339471817017,
+              -1.7699814236493694e-07
+            ],
+            [
+              0.14826813340187073,
+              0.1318477839231491,
+              0.1298474818468094
+            ]
+          ]
+        },
+        {
+          "path": "/Root/ManRoot/male_adult_medical_01/male_adult_medical_01/opaque__fabric__scrubsshirt",
+          "type": "Mesh",
+          "vertices": 326,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -0.3863432705402374,
+              -0.1343647539615631,
+              0.8872421383857727
+            ],
+            [
+              0.3836597204208374,
+              0.17011675238609314,
+              1.5250157117843628
+            ]
+          ]
+        },
+        {
+          "path": "/Root/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+          "type": "Mesh",
+          "vertices": 3608,
+          "visibility": "inherited",
+          "bounds": [
+            [
+              -0.9358346462249756,
+              -0.0873667299747467,
+              1.3974037170410156
+            ],
+            [
+              0.9358247518539429,
+              0.1561507135629654,
+              1.7881114482879639
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

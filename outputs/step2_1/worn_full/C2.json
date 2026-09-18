@@ -1,0 +1,77 @@
+{
+  "camera_id": "C2",
+  "mode": "worn_full",
+  "resolution": [
+    1600,
+    1300
+  ],
+  "projection": {
+    "model": "ideal_equidistant",
+    "resolution": [
+      1600,
+      1300
+    ],
+    "hfov_deg": 160.0,
+    "radial_full_fov_deg": 160.0,
+    "provenance": "resolution chosen at PDF minimum for both cameras; HFOV from PDF; equidistant model and circular cut-off are assumptions, not lens calibration",
+    "vfov_deg": 130.0,
+    "fx_px": 572.9577951308232,
+    "fy_px": 572.9577951308232,
+    "cx_px": 800.0,
+    "cy_px": 650.0,
+    "derived_vfov_deg": 130.0,
+    "valid_radius_px": 800.0
+  },
+  "config_sha256": "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d",
+  "placement": {
+    "camera_id": "C2",
+    "world_position_m": [
+      -0.0315,
+      -0.09479039782569497,
+      1.7414341563639621
+    ],
+    "height_above_floor_m": 1.731435692511405,
+    "forward_world": [
+      4.930380657631324e-32,
+      -1.0000000000000002,
+      4.440892098500626e-16
+    ],
+    "image_up_world": [
+      -4.440892098500626e-16,
+      2.220446049250312e-16,
+      1.0000000000000002
+    ],
+    "skin_ray_crossing_counts": [
+      2,
+      0,
+      2
+    ],
+    "projection": {
+      "model": "ideal_equidistant",
+      "resolution": [
+        1600,
+        1300
+      ],
+      "hfov_deg": 160.0,
+      "radial_full_fov_deg": 160.0,
+      "provenance": "resolution chosen at PDF minimum for both cameras; HFOV from PDF; equidistant model and circular cut-off are assumptions, not lens calibration",
+      "vfov_deg": 130.0,
+      "fx_px": 572.9577951308232,
+      "fy_px": 572.9577951308232,
+      "cx_px": 800.0,
+      "cy_px": 650.0,
+      "derived_vfov_deg": 130.0,
+      "valid_radius_px": 800.0
+    }
+  },
+  "time_seconds": 0.0,
+  "isaac_version": "6.0.1.0",
+  "same_render_product_rgb_labels": true,
+  "lighting": {
+    "use_official_lights": true,
+    "film_iso": 100,
+    "exposure": 0
+  },
+  "execution": "static sequential RTX; no 30 FPS claim",
+  "original_ellipsoid_hidden": true
+}

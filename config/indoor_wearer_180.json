@@ -1,0 +1,39 @@
+{
+  "stage": "Step 2.1",
+  "asset_root": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0",
+  "office_relative": "/Isaac/Environments/Office/office.usd",
+  "doctor_relative": "/Isaac/People/Characters/original_male_adult_medical_01/male_adult_medical_01.usd",
+  "documented_doctor_relative": "/Isaac/People/Characters/origial_male_adult_medical_01/male_adult_medical_01.usd",
+  "target_person_height_m": 1.8,
+  "person_xy_m": [
+    0,
+    0
+  ],
+  "source_forward": [
+    0,
+    -1,
+    0
+  ],
+  "forehead_source_height_m": 1.72,
+  "forehead_housing_gap_m": 0.005,
+  "rig_yaw_deg": -90,
+  "static_time": 0.0,
+  "lighting": {
+    "use_official_lights": true,
+    "film_iso": 100,
+    "exposure": 0
+  },
+  "mode_order": [
+    "worn_full",
+    "room_only",
+    "device_only"
+  ],
+  "class_codes": {
+    "INVALID": 0,
+    "DEVICE": 1,
+    "MOUNT": 2,
+    "WEARER": 3,
+    "ENVIRONMENT": 4,
+    "UNKNOWN_OR_NO_HIT": 5
+  }
+}

@@ -1,3 +1,23 @@
+# 七目相机与 IMU 仿真 — Step 2.1
+
+已完成 NVIDIA 官方 Office、1.800 m 完整人物的 21 张原生三模式图、七张观察卡和四张外部观察图。**数据与冻结结构检查通过；固定头带与人物头型存在穿模，佩戴适配未通过。** 未修改相机内部尺寸、视场或旧产物。
+
+优先查看 [本轮报告](reports/step2_1/indoor_wearer_report.md)、[前向三目](outputs/step2_1/front_trio.png)、[上下四目](outputs/step2_1/surround_four.png)、[左侧佩戴冲突](outputs/step2_1/overview/left_close.png)。[C6 观察卡](outputs/step2_1/camera_cards/C6.png)展示地面、人体入镜与设备标签。
+
+```powershell
+# 校验及重建展示图；不会重跑 Step 1/2
+powershell -NoProfile -ExecutionPolicy Bypass -File scripts/run_indoor_wearer.ps1
+# 既有已授权 GPU 环境渲染及回传
+powershell -NoProfile -ExecutionPolicy Bypass -File scripts/run_indoor_wearer.ps1 -Render
+# 分组图/原生图片目录；USD 文件关联打开
+powershell -NoProfile -ExecutionPolicy Bypass -File scripts/run_indoor_wearer.ps1 -View
+powershell -NoProfile -ExecutionPolicy Bypass -File scripts/run_indoor_wearer.ps1 -OpenScene
+```
+
+本轮只上传引用覆盖层，不发布 NVIDIA 原始资产/缓存。[来源与加载方式](reports/step2_1/asset_sources.md)记录了实际核实的资产路径。远端入口复用已有冻结输入，先比对哈希；本地配置和密码不提交。先按下方首次克隆说明配置本地 Python 与 `environment.local.json`。所有结论限于本次静态单目观察，未进入联合覆盖、优化、运动或 SLAM。
+
+---
+
 # 七目相机与 IMU 仿真 — Step 2
 
 当前完成 Step 2：固定布局下逐相机 ideal/body/worn 有效像素遮挡与部件归因。21 张真实原生 RGB、独立 RTX 实例标签和全分辨率解析射线结果已保存。配置与第一步产物保持不变。

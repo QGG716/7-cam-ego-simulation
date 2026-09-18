@@ -1,0 +1,2490 @@
+[
+  {
+    "path": "/Root/BP_CeilingLightB_NoLight18/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_Light4_145/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_Light10_154/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_NoLight19/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_Light11_163/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_Light12_172/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_NoLight20/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_Light13_181/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_Light14_190/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_NoLight21/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_Light15_199/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_Light16_208/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_NoLight22/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_Light17_217/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_Light18_226/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_NoLight23/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_Light19/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_Light20/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_NoLight24/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_Light21/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_Light22/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_NoLight25/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_Light23/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_Light24/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_NoLight26/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_Light25/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_NoLight27/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_Light26/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_NoLight3/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_NoLight3/SM_CeilingLight2",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_NoLight3/SM_CeilingLight3",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_OFF6/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_OFF7/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_NoLight28/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_NoLight29/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF_858/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF_858/SM_CeilingLight2",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF_858/SM_CeilingLight3",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF2/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF2/SM_CeilingLight2",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF2/SM_CeilingLight3",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF3/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF3/SM_CeilingLight2",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF3/SM_CeilingLight3",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF4/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF4/SM_CeilingLight2",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF4/SM_CeilingLight3",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF5/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF5/SM_CeilingLight2",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF5/SM_CeilingLight3",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF6/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF6/SM_CeilingLight2",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF6/SM_CeilingLight3",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF7/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF7/SM_CeilingLight2",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF7/SM_CeilingLight3",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF8/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF8/SM_CeilingLight2",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF8/SM_CeilingLight3",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_NoLight30/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_NoLight31/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_NoLight4/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_NoLight4/SM_CeilingLight2",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_NoLight4/SM_CeilingLight3",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_NoLight32/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF9/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF9/SM_CeilingLight2",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF9/SM_CeilingLight3",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF10/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF10/SM_CeilingLight2",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF10/SM_CeilingLight3",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF11/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF11/SM_CeilingLight2",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF11/SM_CeilingLight3",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF12/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF12/SM_CeilingLight2",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF12/SM_CeilingLight3",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF13/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF13/SM_CeilingLight2",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF13/SM_CeilingLight3",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF14/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF14/SM_CeilingLight2",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF14/SM_CeilingLight3",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF15/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF15/SM_CeilingLight2",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF15/SM_CeilingLight3",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF16/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF16/SM_CeilingLight2",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF16/SM_CeilingLight3",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF17/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF17/SM_CeilingLight2",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF17/SM_CeilingLight3",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF18_8921/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF18_8921/SM_CeilingLight2",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF18_8921/SM_CeilingLight3",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF19/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF19/SM_CeilingLight2",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_OFF19/SM_CeilingLight3",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_NoLight_210/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_NoLight2/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_NoLight3/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_NoLight4/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_NoLight5/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_NoLight6/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_NoLight7/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_NoLight8/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_NoLight9/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_NoLight10/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_NoLight12/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_NoLight11_1937/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_NoLight13/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_NoLight14/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_NoLight15/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_NoLight16/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_NoLight17/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_Light_1270/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_Light2/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_Light3/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_Light5/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_OFF_304/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_OFF2/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_OFF3/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_Light6/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_NoLight5/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_NoLight5/SM_CeilingLight2",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_NoLight5/SM_CeilingLight3",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_NoLight7_2772/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_NoLight7_2772/SM_CeilingLight2",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_NoLight7_2772/SM_CeilingLight3",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_NoLight8/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_NoLight8/SM_CeilingLight2",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_NoLight8/SM_CeilingLight3",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_NoLight9/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_NoLight9/SM_CeilingLight2",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_NoLight9/SM_CeilingLight3",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_Light7_4515/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_Light8_5106/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_NoLight10_2085/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_NoLight10_2085/SM_CeilingLight2",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_NoLight10_2085/SM_CeilingLight3",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_NoLight11/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_NoLight11/SM_CeilingLight2",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_NoLight11/SM_CeilingLight3",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_Light9_794/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_OFF4_666/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightB_OFF5/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_Light10/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_Light10/SM_CeilingLight2",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_Light10/SM_CeilingLight3",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_Light11/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_Light11/SM_CeilingLight2",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_Light11/SM_CeilingLight3",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_Light12/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_Light12/SM_CeilingLight2",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_Light12/SM_CeilingLight3",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_Light13/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_Light13/SM_CeilingLight2",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_Light13/SM_CeilingLight3",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_Light14/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_Light14/SM_CeilingLight2",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_Light14/SM_CeilingLight3",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_Light15/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_Light15/SM_CeilingLight2",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_Light15/SM_CeilingLight3",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_Light16/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_Light16/SM_CeilingLight2",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_Light16/SM_CeilingLight3",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_Light17/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_Light17/SM_CeilingLight2",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_Light17/SM_CeilingLight3",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_Light2_1938/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_Light2_1938/SM_CeilingLight2",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_Light2_1938/SM_CeilingLight3",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_Light3/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_Light3/SM_CeilingLight2",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_Light3/SM_CeilingLight3",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_Light4/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_Light4/SM_CeilingLight2",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_Light4/SM_CeilingLight3",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_Light5/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_Light5/SM_CeilingLight2",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_Light5/SM_CeilingLight3",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_Light6/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_Light6/SM_CeilingLight2",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_Light6/SM_CeilingLight3",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_Light7_97/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_Light7_97/SM_CeilingLight2",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_Light7_97/SM_CeilingLight3",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_Light8_110/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_Light8_110/SM_CeilingLight2",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_Light8_110/SM_CeilingLight3",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_Light9/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_Light9/SM_CeilingLight2",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_Light9/SM_CeilingLight3",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_Light_1443/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_Light_1443/SM_CeilingLight2",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_Light_1443/SM_CeilingLight3",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_NoLight2/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_NoLight2/SM_CeilingLight2",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_NoLight2/SM_CeilingLight3",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_NoLight_314/SM_CeilingLight1",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_NoLight_314/SM_CeilingLight2",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/BP_CeilingLightC_NoLight_314/SM_CeilingLight3",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_CeilingLight_146.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m28",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m30",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m31",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m29",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m32",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_3m_205",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_3m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_3m2",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_3m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m33",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m34",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m35",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m36",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m37",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m38",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m39",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m40",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m41",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m42",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m43",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m44",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m45",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m46",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m47",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m48",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m49",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m50",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m51",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m52",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m53",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m54",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m55",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m56",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m57",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m58",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m59",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m60",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m61",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m62",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m_122",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m_181.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m2",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m_181.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m3",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m_181.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_3m3_278",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_3m_182.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_3m4_279",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_3m_182.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_3m5_280",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_3m_182.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_3m6_281",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_3m_182.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_3m7_282",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_3m_182.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_3m8_283",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_3m_182.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_3m9_284",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_3m_182.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_3m10_285",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_3m_182.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_3m11_286",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_3m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_3m12_287",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_3m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_3m13_288",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_3m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_3m14_289",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_3m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_3m15_290",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_3m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_3m16_291",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_3m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m4",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m5",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m6",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_3m17_292",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_3m_182.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_3m18_293",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_3m_182.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_3m19_294",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_3m_182.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_3m20_295",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_3m_182.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_3m21_296",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_3m_182.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_3m22_297",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_3m_182.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m7",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m_181.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_3m23_298",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_3m_182.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_3m24_299",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_3m_182.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_3m25_300",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_3m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_3m26_301",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_3m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_3m27_427",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_3m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m8",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_3m28_428",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_3m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_3m29_429",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_3m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_3m30_430",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_3m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_3m31_431",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_3m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_3m32_432",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_3m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_3m33_433",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_3m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_3m34_434",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_3m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m9",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_3m35_435",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_3m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_3m36_436",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_3m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m10",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m11",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m12",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m13",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m14",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m15",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m16",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m17",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m18",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m19",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m20",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m21",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_3m37_437",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_3m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_3m38_438",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_3m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_3m39_439",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_3m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_3m40_440",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_3m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_3m41_441",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_3m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_3m42",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_3m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m22",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m23",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m24",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m25",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m26",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_6m27",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_6m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_3m43",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_3m_182.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_3m44",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_3m_182.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_3m45",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_3m_182.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  },
+  {
+    "path": "/Root/SM_Ceiling_3m46",
+    "active": true,
+    "instance": true,
+    "visibility": "inherited",
+    "references": "SdfReferenceListOp(Prepended Items: [SdfReference(./Props/SM_Ceiling_3m.usd, , SdfLayerOffset(0, 1), {})])",
+    "payload": "None"
+  }
+]

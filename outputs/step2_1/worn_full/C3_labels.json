@@ -1,0 +1,120 @@
+{
+  "raw_info": {
+    "idToLabels": {
+      "0": "BACKGROUND",
+      "1": "UNLABELLED",
+      "2": "",
+      "3": "/World/Person",
+      "4": "/World/Room",
+      "5": "/World/Rig/WearerMount/strap_right",
+      "13": "/World/Rig/Housing/C5_barrel",
+      "15": "/World/Rig/Housing/central_housing",
+      "16": "/World/Rig/Housing/left_pod",
+      "17": "/World/Rig/Housing/right_pod",
+      "18": "/World/Rig/WearerMount/strap_left"
+    },
+    "idToSemantics": {
+      "0": {
+        "class": "BACKGROUND"
+      },
+      "1": {
+        "class": "UNLABELLED"
+      },
+      "2": {
+        "class": "step21_device_right_heatsink"
+      },
+      "3": {
+        "class": "step21_wearer"
+      },
+      "4": {
+        "class": "step21_environment"
+      },
+      "5": {
+        "class": "step21_mount_strap_right"
+      },
+      "13": {
+        "class": "step21_device_c5_barrel"
+      },
+      "15": {
+        "class": "step21_device_central_housing"
+      },
+      "16": {
+        "class": "step21_device_left_pod"
+      },
+      "17": {
+        "class": "step21_device_right_pod"
+      },
+      "18": {
+        "class": "step21_mount_strap_left"
+      }
+    }
+  },
+  "mapping": {
+    "0": {
+      "usd_path": "BACKGROUND",
+      "semantics": "background",
+      "class_code": 5,
+      "valid_pixels": 34374
+    },
+    "1": {
+      "usd_path": "UNLABELLED",
+      "semantics": "unlabelled",
+      "class_code": 5,
+      "valid_pixels": 0
+    },
+    "2": {
+      "usd_path": "",
+      "semantics": "step21_device_right_heatsink",
+      "class_code": 1,
+      "valid_pixels": 137
+    },
+    "3": {
+      "usd_path": "/World/Person",
+      "semantics": "step21_wearer",
+      "class_code": 3,
+      "valid_pixels": 85427
+    },
+    "4": {
+      "usd_path": "/World/Room",
+      "semantics": "step21_environment",
+      "class_code": 4,
+      "valid_pixels": 566340
+    },
+    "5": {
+      "usd_path": "/World/Rig/WearerMount/strap_right",
+      "semantics": "step21_mount_strap_right",
+      "class_code": 2,
+      "valid_pixels": 653
+    },
+    "13": {
+      "usd_path": "/World/Rig/Housing/C5_barrel",
+      "semantics": "step21_device_c5_barrel",
+      "class_code": 1,
+      "valid_pixels": 166
+    },
+    "15": {
+      "usd_path": "/World/Rig/Housing/central_housing",
+      "semantics": "step21_device_central_housing",
+      "class_code": 1,
+      "valid_pixels": 26287
+    },
+    "16": {
+      "usd_path": "/World/Rig/Housing/left_pod",
+      "semantics": "step21_device_left_pod",
+      "class_code": 1,
+      "valid_pixels": 2044
+    },
+    "17": {
+      "usd_path": "/World/Rig/Housing/right_pod",
+      "semantics": "step21_device_right_pod",
+      "class_code": 1,
+      "valid_pixels": 535
+    },
+    "18": {
+      "usd_path": "/World/Rig/WearerMount/strap_left",
+      "semantics": "step21_mount_strap_left",
+      "class_code": 2,
+      "valid_pixels": 7841
+    }
+  }
+}

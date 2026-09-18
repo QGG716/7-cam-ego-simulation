@@ -1,0 +1,75 @@
+{
+  "camera_id": "C5",
+  "mode": "device_only",
+  "resolution": [
+    1080,
+    960
+  ],
+  "projection": {
+    "model": "ideal_equidistant",
+    "resolution": [
+      1080,
+      960
+    ],
+    "radial_full_fov_deg": 220.0,
+    "image_circle_diameter_px": 960.0,
+    "provenance": "resolution chosen at PDF minimum; 220 comes only from composition image; interpretation as full circular angle with 960 px diameter is an assumption",
+    "fx_px": 250.0179469661774,
+    "fy_px": 250.0179469661774,
+    "cx_px": 540.0,
+    "cy_px": 480.0,
+    "derived_vfov_deg": 220.0,
+    "valid_radius_px": 480.0
+  },
+  "config_sha256": "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d",
+  "placement": {
+    "camera_id": "C5",
+    "world_position_m": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7614341563639622
+    ],
+    "height_above_floor_m": 1.751435692511405,
+    "forward_world": [
+      8.659560562354938e-17,
+      -8.659560562354933e-17,
+      1.0000000000000004
+    ],
+    "image_up_world": [
+      -4.440892098500626e-16,
+      1.0000000000000002,
+      8.659560562354935e-17
+    ],
+    "skin_ray_crossing_counts": [
+      2,
+      0,
+      0
+    ],
+    "projection": {
+      "model": "ideal_equidistant",
+      "resolution": [
+        1080,
+        960
+      ],
+      "radial_full_fov_deg": 220.0,
+      "image_circle_diameter_px": 960.0,
+      "provenance": "resolution chosen at PDF minimum; 220 comes only from composition image; interpretation as full circular angle with 960 px diameter is an assumption",
+      "fx_px": 250.0179469661774,
+      "fy_px": 250.0179469661774,
+      "cx_px": 540.0,
+      "cy_px": 480.0,
+      "derived_vfov_deg": 220.0,
+      "valid_radius_px": 480.0
+    }
+  },
+  "time_seconds": 0.0,
+  "isaac_version": "6.0.1.0",
+  "same_render_product_rgb_labels": true,
+  "lighting": {
+    "use_official_lights": true,
+    "film_iso": 100,
+    "exposure": 0
+  },
+  "execution": "static sequential RTX; no 30 FPS claim",
+  "original_ellipsoid_hidden": true
+}

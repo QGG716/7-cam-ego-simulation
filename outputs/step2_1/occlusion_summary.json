@@ -1,0 +1,422 @@
+[
+  {
+    "camera_id": "C0",
+    "mode": "worn_full",
+    "N_valid": 2073600,
+    "counts": {
+      "INVALID": 0,
+      "DEVICE": 0,
+      "MOUNT": 0,
+      "WEARER": 0,
+      "ENVIRONMENT": 2059847,
+      "UNKNOWN_OR_NO_HIT": 13753
+    },
+    "ratios": {
+      "DEVICE": 0.0,
+      "MOUNT": 0.0,
+      "WEARER": 0.0,
+      "ENVIRONMENT": 0.9933675733024692,
+      "UNKNOWN_OR_NO_HIT": 0.006632426697530864
+    }
+  },
+  {
+    "camera_id": "C1",
+    "mode": "worn_full",
+    "N_valid": 1820284,
+    "counts": {
+      "INVALID": 259716,
+      "DEVICE": 0,
+      "MOUNT": 0,
+      "WEARER": 0,
+      "ENVIRONMENT": 1745616,
+      "UNKNOWN_OR_NO_HIT": 74668
+    },
+    "ratios": {
+      "DEVICE": 0.0,
+      "MOUNT": 0.0,
+      "WEARER": 0.0,
+      "ENVIRONMENT": 0.9589800272924445,
+      "UNKNOWN_OR_NO_HIT": 0.04101997270755552
+    }
+  },
+  {
+    "camera_id": "C2",
+    "mode": "worn_full",
+    "N_valid": 1820284,
+    "counts": {
+      "INVALID": 259716,
+      "DEVICE": 0,
+      "MOUNT": 0,
+      "WEARER": 0,
+      "ENVIRONMENT": 1746185,
+      "UNKNOWN_OR_NO_HIT": 74099
+    },
+    "ratios": {
+      "DEVICE": 0.0,
+      "MOUNT": 0.0,
+      "WEARER": 0.0,
+      "ENVIRONMENT": 0.9592926158775225,
+      "UNKNOWN_OR_NO_HIT": 0.04070738412247759
+    }
+  },
+  {
+    "camera_id": "C3",
+    "mode": "worn_full",
+    "N_valid": 723804,
+    "counts": {
+      "INVALID": 312996,
+      "DEVICE": 29169,
+      "MOUNT": 8494,
+      "WEARER": 85427,
+      "ENVIRONMENT": 566340,
+      "UNKNOWN_OR_NO_HIT": 34374
+    },
+    "ratios": {
+      "DEVICE": 0.040299583865245285,
+      "MOUNT": 0.011735221137213942,
+      "WEARER": 0.11802504545429425,
+      "ENVIRONMENT": 0.7824493923769418,
+      "UNKNOWN_OR_NO_HIT": 0.04749075716630469
+    }
+  },
+  {
+    "camera_id": "C4",
+    "mode": "worn_full",
+    "N_valid": 723804,
+    "counts": {
+      "INVALID": 312996,
+      "DEVICE": 29169,
+      "MOUNT": 7781,
+      "WEARER": 212529,
+      "ENVIRONMENT": 440940,
+      "UNKNOWN_OR_NO_HIT": 33385
+    },
+    "ratios": {
+      "DEVICE": 0.040299583865245285,
+      "MOUNT": 0.010750147830075545,
+      "WEARER": 0.29362783294925143,
+      "ENVIRONMENT": 0.6091980701957989,
+      "UNKNOWN_OR_NO_HIT": 0.04612436515962885
+    }
+  },
+  {
+    "camera_id": "C5",
+    "mode": "worn_full",
+    "N_valid": 723804,
+    "counts": {
+      "INVALID": 312996,
+      "DEVICE": 44389,
+      "MOUNT": 6726,
+      "WEARER": 85148,
+      "ENVIRONMENT": 567310,
+      "UNKNOWN_OR_NO_HIT": 20231
+    },
+    "ratios": {
+      "DEVICE": 0.061327375919447806,
+      "MOUNT": 0.009292570916988577,
+      "WEARER": 0.11763958198628358,
+      "ENVIRONMENT": 0.7837895341832872,
+      "UNKNOWN_OR_NO_HIT": 0.02795093699399285
+    }
+  },
+  {
+    "camera_id": "C6",
+    "mode": "worn_full",
+    "N_valid": 723804,
+    "counts": {
+      "INVALID": 312996,
+      "DEVICE": 46421,
+      "MOUNT": 6084,
+      "WEARER": 210377,
+      "ENVIRONMENT": 440881,
+      "UNKNOWN_OR_NO_HIT": 20041
+    },
+    "ratios": {
+      "DEVICE": 0.06413476576531768,
+      "MOUNT": 0.008405590463716696,
+      "WEARER": 0.29065465236445226,
+      "ENVIRONMENT": 0.6091165564158253,
+      "UNKNOWN_OR_NO_HIT": 0.02768843499068809
+    }
+  },
+  {
+    "camera_id": "C0",
+    "mode": "room_only",
+    "N_valid": 2073600,
+    "counts": {
+      "INVALID": 0,
+      "DEVICE": 0,
+      "MOUNT": 0,
+      "WEARER": 0,
+      "ENVIRONMENT": 2059847,
+      "UNKNOWN_OR_NO_HIT": 13753
+    },
+    "ratios": {
+      "DEVICE": 0.0,
+      "MOUNT": 0.0,
+      "WEARER": 0.0,
+      "ENVIRONMENT": 0.9933675733024692,
+      "UNKNOWN_OR_NO_HIT": 0.006632426697530864
+    }
+  },
+  {
+    "camera_id": "C1",
+    "mode": "room_only",
+    "N_valid": 1820284,
+    "counts": {
+      "INVALID": 259716,
+      "DEVICE": 0,
+      "MOUNT": 0,
+      "WEARER": 0,
+      "ENVIRONMENT": 1745616,
+      "UNKNOWN_OR_NO_HIT": 74668
+    },
+    "ratios": {
+      "DEVICE": 0.0,
+      "MOUNT": 0.0,
+      "WEARER": 0.0,
+      "ENVIRONMENT": 0.9589800272924445,
+      "UNKNOWN_OR_NO_HIT": 0.04101997270755552
+    }
+  },
+  {
+    "camera_id": "C2",
+    "mode": "room_only",
+    "N_valid": 1820284,
+    "counts": {
+      "INVALID": 259716,
+      "DEVICE": 0,
+      "MOUNT": 0,
+      "WEARER": 0,
+      "ENVIRONMENT": 1746185,
+      "UNKNOWN_OR_NO_HIT": 74099
+    },
+    "ratios": {
+      "DEVICE": 0.0,
+      "MOUNT": 0.0,
+      "WEARER": 0.0,
+      "ENVIRONMENT": 0.9592926158775225,
+      "UNKNOWN_OR_NO_HIT": 0.04070738412247759
+    }
+  },
+  {
+    "camera_id": "C3",
+    "mode": "room_only",
+    "N_valid": 723804,
+    "counts": {
+      "INVALID": 312996,
+      "DEVICE": 0,
+      "MOUNT": 0,
+      "WEARER": 0,
+      "ENVIRONMENT": 689430,
+      "UNKNOWN_OR_NO_HIT": 34374
+    },
+    "ratios": {
+      "DEVICE": 0.0,
+      "MOUNT": 0.0,
+      "WEARER": 0.0,
+      "ENVIRONMENT": 0.9525092428336953,
+      "UNKNOWN_OR_NO_HIT": 0.04749075716630469
+    }
+  },
+  {
+    "camera_id": "C4",
+    "mode": "room_only",
+    "N_valid": 723804,
+    "counts": {
+      "INVALID": 312996,
+      "DEVICE": 0,
+      "MOUNT": 0,
+      "WEARER": 0,
+      "ENVIRONMENT": 690419,
+      "UNKNOWN_OR_NO_HIT": 33385
+    },
+    "ratios": {
+      "DEVICE": 0.0,
+      "MOUNT": 0.0,
+      "WEARER": 0.0,
+      "ENVIRONMENT": 0.9538756348403712,
+      "UNKNOWN_OR_NO_HIT": 0.04612436515962885
+    }
+  },
+  {
+    "camera_id": "C5",
+    "mode": "room_only",
+    "N_valid": 723804,
+    "counts": {
+      "INVALID": 312996,
+      "DEVICE": 0,
+      "MOUNT": 0,
+      "WEARER": 0,
+      "ENVIRONMENT": 689417,
+      "UNKNOWN_OR_NO_HIT": 34387
+    },
+    "ratios": {
+      "DEVICE": 0.0,
+      "MOUNT": 0.0,
+      "WEARER": 0.0,
+      "ENVIRONMENT": 0.9524912821703113,
+      "UNKNOWN_OR_NO_HIT": 0.0475087178296887
+    }
+  },
+  {
+    "camera_id": "C6",
+    "mode": "room_only",
+    "N_valid": 723804,
+    "counts": {
+      "INVALID": 312996,
+      "DEVICE": 0,
+      "MOUNT": 0,
+      "WEARER": 0,
+      "ENVIRONMENT": 690431,
+      "UNKNOWN_OR_NO_HIT": 33373
+    },
+    "ratios": {
+      "DEVICE": 0.0,
+      "MOUNT": 0.0,
+      "WEARER": 0.0,
+      "ENVIRONMENT": 0.953892213914264,
+      "UNKNOWN_OR_NO_HIT": 0.046107786085735916
+    }
+  },
+  {
+    "camera_id": "C0",
+    "mode": "device_only",
+    "N_valid": 2073600,
+    "counts": {
+      "INVALID": 0,
+      "DEVICE": 0,
+      "MOUNT": 0,
+      "WEARER": 0,
+      "ENVIRONMENT": 2059847,
+      "UNKNOWN_OR_NO_HIT": 13753
+    },
+    "ratios": {
+      "DEVICE": 0.0,
+      "MOUNT": 0.0,
+      "WEARER": 0.0,
+      "ENVIRONMENT": 0.9933675733024692,
+      "UNKNOWN_OR_NO_HIT": 0.006632426697530864
+    }
+  },
+  {
+    "camera_id": "C1",
+    "mode": "device_only",
+    "N_valid": 1820284,
+    "counts": {
+      "INVALID": 259716,
+      "DEVICE": 0,
+      "MOUNT": 0,
+      "WEARER": 0,
+      "ENVIRONMENT": 1745616,
+      "UNKNOWN_OR_NO_HIT": 74668
+    },
+    "ratios": {
+      "DEVICE": 0.0,
+      "MOUNT": 0.0,
+      "WEARER": 0.0,
+      "ENVIRONMENT": 0.9589800272924445,
+      "UNKNOWN_OR_NO_HIT": 0.04101997270755552
+    }
+  },
+  {
+    "camera_id": "C2",
+    "mode": "device_only",
+    "N_valid": 1820284,
+    "counts": {
+      "INVALID": 259716,
+      "DEVICE": 0,
+      "MOUNT": 0,
+      "WEARER": 0,
+      "ENVIRONMENT": 1746185,
+      "UNKNOWN_OR_NO_HIT": 74099
+    },
+    "ratios": {
+      "DEVICE": 0.0,
+      "MOUNT": 0.0,
+      "WEARER": 0.0,
+      "ENVIRONMENT": 0.9592926158775225,
+      "UNKNOWN_OR_NO_HIT": 0.04070738412247759
+    }
+  },
+  {
+    "camera_id": "C3",
+    "mode": "device_only",
+    "N_valid": 723804,
+    "counts": {
+      "INVALID": 312996,
+      "DEVICE": 29672,
+      "MOUNT": 22465,
+      "WEARER": 0,
+      "ENVIRONMENT": 637293,
+      "UNKNOWN_OR_NO_HIT": 34374
+    },
+    "ratios": {
+      "DEVICE": 0.04099452337925737,
+      "MOUNT": 0.03103740791706042,
+      "WEARER": 0.0,
+      "ENVIRONMENT": 0.8804773115373775,
+      "UNKNOWN_OR_NO_HIT": 0.04749075716630469
+    }
+  },
+  {
+    "camera_id": "C4",
+    "mode": "device_only",
+    "N_valid": 723804,
+    "counts": {
+      "INVALID": 312996,
+      "DEVICE": 30173,
+      "MOUNT": 22465,
+      "WEARER": 0,
+      "ENVIRONMENT": 637781,
+      "UNKNOWN_OR_NO_HIT": 33385
+    },
+    "ratios": {
+      "DEVICE": 0.0416866997142873,
+      "MOUNT": 0.03103740791706042,
+      "WEARER": 0.0,
+      "ENVIRONMENT": 0.8811515272090235,
+      "UNKNOWN_OR_NO_HIT": 0.04612436515962885
+    }
+  },
+  {
+    "camera_id": "C5",
+    "mode": "device_only",
+    "N_valid": 723804,
+    "counts": {
+      "INVALID": 312996,
+      "DEVICE": 44389,
+      "MOUNT": 20456,
+      "WEARER": 0,
+      "ENVIRONMENT": 633368,
+      "UNKNOWN_OR_NO_HIT": 25591
+    },
+    "ratios": {
+      "DEVICE": 0.061327375919447806,
+      "MOUNT": 0.02826179462948533,
+      "WEARER": 0.0,
+      "ENVIRONMENT": 0.8750545727848976,
+      "UNKNOWN_OR_NO_HIT": 0.035356256666169296
+    }
+  },
+  {
+    "camera_id": "C6",
+    "mode": "device_only",
+    "N_valid": 723804,
+    "counts": {
+      "INVALID": 312996,
+      "DEVICE": 46680,
+      "MOUNT": 20456,
+      "WEARER": 0,
+      "ENVIRONMENT": 630008,
+      "UNKNOWN_OR_NO_HIT": 26660
+    },
+    "ratios": {
+      "DEVICE": 0.0644925974435068,
+      "MOUNT": 0.02826179462948533,
+      "WEARER": 0.0,
+      "ENVIRONMENT": 0.8704124320948765,
+      "UNKNOWN_OR_NO_HIT": 0.03683317583213135
+    }
+  }
+]

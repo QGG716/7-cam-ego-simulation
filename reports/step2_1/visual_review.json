@@ -1,0 +1,34 @@
+{
+  "render_and_data": "PASS",
+  "wearer_geometry": "PASS",
+  "forehead_rigid_placement": "PASS",
+  "headband_fit": "FAIL_INTERSECTION",
+  "overall_wearing_validation": "NOT_PASSED",
+  "reviewed_native_cameras": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "C6"
+  ],
+  "reviewed_external_views": [
+    "full_body",
+    "front_close",
+    "left_close",
+    "right_close"
+  ],
+  "rear_scalp_beyond_strap_inner_plane_mm": [
+    23.65416270259496,
+    21.279064914816626,
+    18.90396712703829
+  ],
+  "limitations": [
+    "Rear strap embedded in scalp; side straps also intersect visible scalp outline.",
+    "Official lighting retained; head and dark device materials have low contrast in shadow.",
+    "Wearer labels are whole-person, not anatomical segmentation.",
+    "UNKNOWN_OR_NO_HIT retained and not counted as clear environment."
+  ],
+  "scope_stopped_at": "static individual camera observations; no joint coverage, optimization, motion, IMU or SLAM"
+}

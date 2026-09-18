@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "native_frames": 21,
+  "person_height_m": 1.7999999674635137,
+  "config_sha256": "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d",
+  "frozen_files_checked": 505,
+  "omitted_private_files": [],
+  "frozen_changed": [],
+  "baselines_mm": {
+    "C1_C2": 63.0,
+    "C3_C5": 110.0,
+    "C4_C6": 110.0,
+    "C3_C4": 40.000000000000036,
+    "C5_C6": 40.000000000000036
+  },
+  "optical_centers_inside_device": [],
+  "RGB_labels_same_product": true,
+  "notes": "Placement fit and actual visible content require visual review; no FPS/SLAM verification"
+}

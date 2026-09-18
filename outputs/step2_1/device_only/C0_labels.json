@@ -1,0 +1,40 @@
+{
+  "raw_info": {
+    "idToLabels": {
+      "0": "BACKGROUND",
+      "1": "UNLABELLED",
+      "4": "/World/Room"
+    },
+    "idToSemantics": {
+      "0": {
+        "class": "BACKGROUND"
+      },
+      "1": {
+        "class": "UNLABELLED"
+      },
+      "4": {
+        "class": "step21_environment"
+      }
+    }
+  },
+  "mapping": {
+    "0": {
+      "usd_path": "BACKGROUND",
+      "semantics": "background",
+      "class_code": 5,
+      "valid_pixels": 13753
+    },
+    "1": {
+      "usd_path": "UNLABELLED",
+      "semantics": "unlabelled",
+      "class_code": 5,
+      "valid_pixels": 0
+    },
+    "4": {
+      "usd_path": "/World/Room",
+      "semantics": "step21_environment",
+      "class_code": 4,
+      "valid_pixels": 2059847
+    }
+  }
+}

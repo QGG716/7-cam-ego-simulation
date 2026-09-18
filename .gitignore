@@ -16,3 +16,6 @@ reports/local_preflight.log
 assets/baseline/seven_camera_sim_layout_v01/drawings/
 assets/baseline/seven_camera_sim_layout_v01/models/*.step
 assets/baseline/seven_camera_sim_layout_v01/models/*.stl
+
+# Raw renderer diagnostics stay local; publish only the concise evidence summary.
+reports/step2_1/*.log

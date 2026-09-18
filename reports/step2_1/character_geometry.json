@@ -1,0 +1,302 @@
+{
+  "source": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/People/Characters/original_male_adult_medical_01/male_adult_medical_01.usd",
+  "pose_changes": [
+    {
+      "joint": "RL_BoneRoot/Hip/Waist/Spine01/Spine02/L_Clavicle/L_Upperarm",
+      "rotation_skeleton_Y_deg": 82.0
+    },
+    {
+      "joint": "RL_BoneRoot/Hip/Waist/Spine01/Spine02/R_Clavicle/R_Upperarm",
+      "rotation_skeleton_Y_deg": -82.0
+    }
+  ],
+  "meshes": [
+    {
+      "path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/opaque__fabric__labcoat",
+      "method": "UsdSkel.ComputeSkinnedPoints",
+      "points": 1765,
+      "bounds": [
+        [
+          -0.31467172503471375,
+          -0.1496298462152481,
+          0.6654762029647827
+        ],
+        [
+          0.31919384002685547,
+          0.17521145939826965,
+          1.5853224992752075
+        ]
+      ]
+    },
+    {
+      "path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/opaque__fabric__scrubspants",
+      "method": "UsdSkel.ComputeSkinnedPoints",
+      "points": 829,
+      "bounds": [
+        [
+          -0.19399693608283997,
+          -0.1144317016005516,
+          0.07218465954065323
+        ],
+        [
+          0.19325479865074158,
+          0.15503519773483276,
+          1.0714271068572998
+        ]
+      ]
+    },
+    {
+      "path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/opaque__metal__stethoscope",
+      "method": "UsdSkel.ComputeSkinnedPoints",
+      "points": 801,
+      "bounds": [
+        [
+          -0.08096405863761902,
+          -0.15342748165130615,
+          1.2606492042541504
+        ],
+        [
+          0.0720905214548111,
+          0.12413149327039719,
+          1.5497103929519653
+        ]
+      ]
+    },
+    {
+      "path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/opaque__plastic__idbadge",
+      "method": "UsdSkel.ComputeSkinnedPoints",
+      "points": 86,
+      "bounds": [
+        [
+          -0.0408070869743824,
+          -0.12481360137462616,
+          1.3254575729370117
+        ],
+        [
+          0.031645484268665314,
+          -0.031264226883649826,
+          1.4621402025222778
+        ]
+      ]
+    },
+    {
+      "path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/opaque__leather__sneakers",
+      "method": "UsdSkel.ComputeSkinnedPoints",
+      "points": 1478,
+      "bounds": [
+        [
+          -0.14800699055194855,
+          -0.24438044428825378,
+          2.3694482820246776e-07
+        ],
+        [
+          0.1482679843902588,
+          0.13184593617916107,
+          0.12984740734100342
+        ]
+      ]
+    },
+    {
+      "path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/opaque__fabric__scrubsshirt",
+      "method": "UsdSkel.ComputeSkinnedPoints",
+      "points": 326,
+      "bounds": [
+        [
+          -0.26592501997947693,
+          -0.13436460494995117,
+          0.8872398138046265
+        ],
+        [
+          0.26383090019226074,
+          0.17011742293834686,
+          1.5251725912094116
+        ]
+      ]
+    },
+    {
+      "path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+      "method": "UsdSkel.ComputeSkinnedPoints",
+      "points": 3608,
+      "bounds": [
+        [
+          -0.2982780933380127,
+          -0.08736614137887955,
+          0.7369320392608643
+        ],
+        [
+          0.29830512404441833,
+          0.15615105628967285,
+          1.7881114482879639
+        ]
+      ]
+    }
+  ],
+  "height": 1.7881112113431357,
+  "bounds": [
+    [
+      -0.31467172503471375,
+      -0.24438044428825378,
+      2.3694482820246776e-07
+    ],
+    [
+      0.31919384002685547,
+      0.17521145939826965,
+      1.7881114482879639
+    ]
+  ],
+  "joints": {
+    "RL_BoneRoot/Hip/Pelvis/L_Thigh/L_Calf/L_Foot": [
+      0.08046582114335447,
+      0.03499282559800603,
+      0.07823433742342434
+    ],
+    "RL_BoneRoot/Hip/Pelvis/R_Thigh/R_Calf/R_Foot": [
+      -0.08048078501099634,
+      0.03495523429239643,
+      0.07823108888782859
+    ],
+    "RL_BoneRoot/Hip/Waist/Spine01/Spine02/NeckTwist01/NeckTwist02/Head": [
+      0.0006210708512397413,
+      0.04292506279891707,
+      1.5898998723410849
+    ],
+    "RL_BoneRoot/Hip/Waist/Spine01/Spine02/NeckTwist01/NeckTwist02/Head/FacialBone/R_Eye": [
+      -0.0317613414110657,
+      -0.03539364984399002,
+      1.6687338781414485
+    ],
+    "RL_BoneRoot/Hip/Waist/Spine01/Spine02/NeckTwist01/NeckTwist02/Head/FacialBone/L_Eye": [
+      0.031012205958894343,
+      -0.036976419069085296,
+      1.6692912921249663
+    ],
+    "RL_BoneRoot/Hip/Waist/Spine01/Spine02/L_Clavicle/L_Upperarm": [
+      0.19961260343800677,
+      0.07422677660744764,
+      1.4669164686561909
+    ],
+    "RL_BoneRoot/Hip/Waist/Spine01/Spine02/L_Clavicle/L_Upperarm/L_Forearm": [
+      0.2330361965209477,
+      0.07378520401930358,
+      1.1971988534436302
+    ],
+    "RL_BoneRoot/Hip/Waist/Spine01/Spine02/L_Clavicle/L_Upperarm/L_Forearm/L_Hand": [
+      0.2658023671691586,
+      0.07711945145780506,
+      0.938786115956371
+    ],
+    "RL_BoneRoot/Hip/Waist/Spine01/Spine02/R_Clavicle/R_Upperarm": [
+      -0.19962228779375754,
+      0.07423618066305285,
+      1.466898069578576
+    ],
+    "RL_BoneRoot/Hip/Waist/Spine01/Spine02/R_Clavicle/R_Upperarm/R_Forearm": [
+      -0.23307831299304918,
+      0.07377500478419102,
+      1.1971821717505349
+    ],
+    "RL_BoneRoot/Hip/Waist/Spine01/Spine02/R_Clavicle/R_Upperarm/R_Forearm/R_Hand": [
+      -0.26578979234794287,
+      0.07712325970477638,
+      0.9387603969403739
+    ]
+  },
+  "head_slices": [
+    {
+      "z": 1.65,
+      "n": 196,
+      "bounds": [
+        [
+          -0.09276915341615677,
+          -0.0742533877491951,
+          1.642105221748352
+        ],
+        [
+          0.09459955245256424,
+          0.06863036751747131,
+          1.6579293012619019
+        ]
+      ]
+    },
+    {
+      "z": 1.68,
+      "n": 348,
+      "bounds": [
+        [
+          -0.09911905974149704,
+          -0.06896134465932846,
+          1.6720714569091797
+        ],
+        [
+          0.10087976604700089,
+          0.06679653376340866,
+          1.6878669261932373
+        ]
+      ]
+    },
+    {
+      "z": 1.7,
+      "n": 37,
+      "bounds": [
+        [
+          -0.08201149106025696,
+          -0.06757697463035583,
+          1.6921541690826416
+        ],
+        [
+          0.0823618695139885,
+          0.14198337495326996,
+          1.707791805267334
+        ]
+      ]
+    },
+    {
+      "z": 1.72,
+      "n": 26,
+      "bounds": [
+        [
+          -0.07771208137273788,
+          -0.06226737052202225,
+          1.7123788595199585
+        ],
+        [
+          0.079964280128479,
+          0.1165778711438179,
+          1.7276943922042847
+        ]
+      ]
+    },
+    {
+      "z": 1.74,
+      "n": 22,
+      "bounds": [
+        [
+          -0.07196095585823059,
+          -0.05263848602771759,
+          1.7336881160736084
+        ],
+        [
+          0.07252223044633865,
+          0.1309763640165329,
+          1.7470070123672485
+        ]
+      ]
+    },
+    {
+      "z": 1.76,
+      "n": 19,
+      "bounds": [
+        [
+          -0.06066954508423805,
+          -0.03556939214468002,
+          1.7520533800125122
+        ],
+        [
+          0.060549765825271606,
+          0.10263063758611679,
+          1.7675392627716064
+        ]
+      ]
+    }
+  ]
+}

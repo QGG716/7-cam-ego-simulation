@@ -1,0 +1,426 @@
+#usda 1.0
+(
+    defaultPrim = "World"
+    metersPerUnit = 1
+    subLayers = [
+        @../rig_v0.2.usda@,
+        @character_pose.usda@
+    ]
+    upAxis = "Z"
+)
+
+def "Render" (
+    hide_in_stage_window = true
+    no_delete = true
+)
+{
+    def "OmniverseKit"
+    {
+        def "HydraTextures" (
+            hide_in_stage_window = true
+            no_delete = true
+        )
+        {
+            def RenderProduct "omni_kit_widget_viewport_ViewportTexture_0" (
+                prepend apiSchemas = ["OmniRtxSettingsCommonAdvancedAPI_1", "OmniRtxSettingsRtAdvancedAPI_1", "OmniRtxSettingsPtAdvancedAPI_1", "OmniRtxPostColorGradingAPI_1", "OmniRtxPostChromaticAberrationAPI_1", "OmniRtxPostBloomPhysicalAPI_1", "OmniRtxPostMatteObjectAPI_1", "OmniRtxPostCompositingAPI_1", "OmniRtxPostDofAPI_1", "OmniRtxPostMotionBlurAPI_1", "OmniRtxPostTvNoiseAPI_1", "OmniRtxPostTonemapIrayReinhardAPI_1", "OmniRtxPostDebugSettingsAPI_1", "OmniRtxDebugSettingsAPI_1"]
+                hide_in_stage_window = true
+                no_delete = true
+            )
+            {
+                rel camera = </OmniverseKit_Persp>
+                token omni:rtx:ambientOcclusion:denoiserMode = "none"
+                token omni:rtx:background:source:texture:textureMode = "repeatMirrored"
+                token omni:rtx:background:source:type = "domeLight"
+                bool omni:rtx:debug:view:pixelDebug:enableFixedTextPos = 1
+                token omni:rtx:directLighting:sampledLighting:denoisingTechnique = "None"
+                bool omni:rtx:dlss:frameGeneration = 0
+                float3 omni:rtx:domeLight:rotationAxis = (0, 0, 1)
+                bool omni:rtx:indirectDiffuse:denoiser:enabled = 0
+                bool omni:rtx:material:db:syncLoads = 0
+                token omni:rtx:post:dlss:execMode = "performance"
+                bool omni:rtx:post:registeredCompositing:invertColorCorrection = 1
+                bool omni:rtx:post:registeredCompositing:invertToneMap = 1
+                bool omni:rtx:pt:adaptiveSampling:filterError = 0
+                uint omni:rtx:pt:adaptiveSampling:fixedSppIterations = 2
+                int omni:rtx:pt:clampSpp = 64
+                uint omni:rtx:pt:limits:maxBounces = 3
+                uint omni:rtx:pt:limits:maxGlossyBounces = 3
+                uint omni:rtx:pt:maxSamplesPerLaunch = 2073600
+                uint omni:rtx:pt:mgpu:maxPixelsPerRegionExponent = 12
+                int omni:rtx:pt:samplesPerIteration = 64
+                uint omni:rtx:pt:samplesPerPixel = 64
+                bool omni:rtx:reflections:denoiser:enabled = 0
+                token omni:rtx:rendermode = "RealTimePathTracing"
+                color3f omni:rtx:rt:ambientLight:color = (0.1, 0.1, 0.1)
+                bool omni:rtx:rt:demoire = 0
+                bool omni:rtx:rt:lightcache:spatialCache:dontResolveConflicts = 1
+                int omni:rtx:rt:sss:samples = 1
+                uint omni:rtx:rtpt:maxVolumeBounces = 15
+                float omni:rtx:rtpt:modulatingRoughnessThreshold = 0.08
+                bool omni:rtx:scene:hydra:materialSyncLoads = 0
+                bool omni:rtx:scene:hydra:mdlMaterialWarmup = 1
+                rel orderedVars = </Render/Vars/LdrColor>
+                custom bool overrideClipRange = 0
+                uniform int2 resolution = (1280, 720)
+            }
+        }
+    }
+
+    def RenderSettings "OmniverseGlobalRenderSettings" (
+        prepend apiSchemas = ["OmniRtxSettingsGlobalRtAdvancedAPI_1", "OmniRtxSettingsGlobalPtAdvancedAPI_1"]
+        no_delete = true
+    )
+    {
+        rel products = [
+            </Render/OmniverseKit/HydraTextures/omni_kit_widget_viewport_ViewportTexture_0>,
+            </Render/OmniverseKit/HydraTextures/Replicator>,
+        ]
+    }
+
+    def "Vars"
+    {
+        def RenderVar "LdrColor" (
+            hide_in_stage_window = true
+            no_delete = true
+        )
+        {
+            uniform string sourceName = "LdrColor"
+            uniform token sourceType = "raw"
+        }
+    }
+}
+
+over "OmniverseKit_Persp"
+{
+    float exposure:fStop = 5
+    float exposure:responsivity = 1.1026709
+    float exposure:time = 0.02
+}
+
+over "World"
+{
+    def Xform "Room" (
+        prepend apiSchemas = ["SemanticsAPI:Step21"]
+        prepend references = @https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/Environments/Office/office.usd@
+    )
+    {
+        string semantic:Step21:params:semanticData = "step21_environment"
+        string semantic:Step21:params:semanticType = "class"
+    }
+
+    over "Person" (
+        prepend apiSchemas = ["SemanticsAPI:Step21"]
+    )
+    {
+        string semantic:Step21:params:semanticData = "step21_wearer"
+        string semantic:Step21:params:semanticType = "class"
+        token visibility = "inherited"
+        float3 xformOp:scale = (1.0066488, 1.0066488, 1.0066488)
+        double3 xformOp:translate = (0, 0, 0.009998225332330968)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+    }
+
+    over "Rig"
+    {
+        matrix4d xformOp:transform = ( (2.220446049250313e-16, -1, 0, 0), (1, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (0, -0.09479039782569496, 1.7414341563639621, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+
+        over "Housing"
+        {
+            token visibility = "inherited"
+
+            over "central_housing" (
+                prepend apiSchemas = ["SemanticsAPI:Step21"]
+            )
+            {
+                string semantic:Step21:params:semanticData = "step21_device_central_housing"
+                string semantic:Step21:params:semanticType = "class"
+            }
+
+            over "left_pod" (
+                prepend apiSchemas = ["SemanticsAPI:Step21"]
+            )
+            {
+                string semantic:Step21:params:semanticData = "step21_device_left_pod"
+                string semantic:Step21:params:semanticType = "class"
+            }
+
+            over "right_pod" (
+                prepend apiSchemas = ["SemanticsAPI:Step21"]
+            )
+            {
+                string semantic:Step21:params:semanticData = "step21_device_right_pod"
+                string semantic:Step21:params:semanticType = "class"
+            }
+
+            over "C0_barrel" (
+                prepend apiSchemas = ["SemanticsAPI:Step21"]
+            )
+            {
+                string semantic:Step21:params:semanticData = "step21_device_C0_barrel"
+                string semantic:Step21:params:semanticType = "class"
+            }
+
+            over "C1_barrel" (
+                prepend apiSchemas = ["SemanticsAPI:Step21"]
+            )
+            {
+                string semantic:Step21:params:semanticData = "step21_device_C1_barrel"
+                string semantic:Step21:params:semanticType = "class"
+            }
+
+            over "C2_barrel" (
+                prepend apiSchemas = ["SemanticsAPI:Step21"]
+            )
+            {
+                string semantic:Step21:params:semanticData = "step21_device_C2_barrel"
+                string semantic:Step21:params:semanticType = "class"
+            }
+
+            over "C3_barrel" (
+                prepend apiSchemas = ["SemanticsAPI:Step21"]
+            )
+            {
+                string semantic:Step21:params:semanticData = "step21_device_C3_barrel"
+                string semantic:Step21:params:semanticType = "class"
+            }
+
+            over "C4_barrel" (
+                prepend apiSchemas = ["SemanticsAPI:Step21"]
+            )
+            {
+                string semantic:Step21:params:semanticData = "step21_device_C4_barrel"
+                string semantic:Step21:params:semanticType = "class"
+            }
+
+            over "C5_barrel" (
+                prepend apiSchemas = ["SemanticsAPI:Step21"]
+            )
+            {
+                string semantic:Step21:params:semanticData = "step21_device_C5_barrel"
+                string semantic:Step21:params:semanticType = "class"
+            }
+
+            over "C6_barrel" (
+                prepend apiSchemas = ["SemanticsAPI:Step21"]
+            )
+            {
+                string semantic:Step21:params:semanticData = "step21_device_C6_barrel"
+                string semantic:Step21:params:semanticType = "class"
+            }
+        }
+
+        over "Accessories"
+        {
+            token visibility = "inherited"
+
+            over "right_heatsink" (
+                prepend apiSchemas = ["SemanticsAPI:Step21"]
+            )
+            {
+                string semantic:Step21:params:semanticData = "step21_device_right_heatsink"
+                string semantic:Step21:params:semanticType = "class"
+            }
+
+            over "usb_cable_0" (
+                prepend apiSchemas = ["SemanticsAPI:Step21"]
+            )
+            {
+                string semantic:Step21:params:semanticData = "step21_device_usb_cable_0"
+                string semantic:Step21:params:semanticType = "class"
+            }
+
+            over "usb_cable_1" (
+                prepend apiSchemas = ["SemanticsAPI:Step21"]
+            )
+            {
+                string semantic:Step21:params:semanticData = "step21_device_usb_cable_1"
+                string semantic:Step21:params:semanticType = "class"
+            }
+        }
+
+        over "WearerMount"
+        {
+            token visibility = "inherited"
+
+            over "strap_left" (
+                prepend apiSchemas = ["SemanticsAPI:Step21"]
+            )
+            {
+                string semantic:Step21:params:semanticData = "step21_mount_strap_left"
+                string semantic:Step21:params:semanticType = "class"
+            }
+
+            over "strap_right" (
+                prepend apiSchemas = ["SemanticsAPI:Step21"]
+            )
+            {
+                string semantic:Step21:params:semanticData = "step21_mount_strap_right"
+                string semantic:Step21:params:semanticType = "class"
+            }
+
+            over "strap_rear" (
+                prepend apiSchemas = ["SemanticsAPI:Step21"]
+            )
+            {
+                string semantic:Step21:params:semanticData = "step21_mount_strap_rear"
+                string semantic:Step21:params:semanticType = "class"
+            }
+
+            over "strap_left_bracket" (
+                prepend apiSchemas = ["SemanticsAPI:Step21"]
+            )
+            {
+                string semantic:Step21:params:semanticData = "step21_mount_strap_left_bracket"
+                string semantic:Step21:params:semanticType = "class"
+            }
+        }
+
+        over "Wearer"
+        {
+            token visibility = "invisible"
+
+            over "head_ellipsoid"
+            {
+                token visibility = "invisible"
+            }
+        }
+
+        over "Sensors"
+        {
+            over "C0_front_main" (
+                prepend apiSchemas = ["OmniRtxCameraAutoExposureAPI_1", "OmniRtxCameraExposureAPI_1"]
+            )
+            {
+                float exposure:fStop = 5
+                float exposure:responsivity = 1.1026709
+                float exposure:time = 0.02
+            }
+
+            over "C1_front_left" (
+                prepend apiSchemas = ["OmniRtxCameraAutoExposureAPI_1", "OmniRtxCameraExposureAPI_1"]
+            )
+            {
+                float exposure:fStop = 5
+                float exposure:responsivity = 1.1026709
+                float exposure:time = 0.02
+            }
+
+            over "C2_front_right" (
+                prepend apiSchemas = ["OmniRtxCameraAutoExposureAPI_1", "OmniRtxCameraExposureAPI_1"]
+            )
+            {
+                float exposure:fStop = 5
+                float exposure:responsivity = 1.1026709
+                float exposure:time = 0.02
+            }
+
+            over "C3_surround_left_up" (
+                prepend apiSchemas = ["OmniRtxCameraAutoExposureAPI_1", "OmniRtxCameraExposureAPI_1"]
+            )
+            {
+                float exposure:fStop = 5
+                float exposure:responsivity = 1.1026709
+                float exposure:time = 0.02
+            }
+
+            over "C4_surround_left_down" (
+                prepend apiSchemas = ["OmniRtxCameraAutoExposureAPI_1", "OmniRtxCameraExposureAPI_1"]
+            )
+            {
+                float exposure:fStop = 5
+                float exposure:responsivity = 1.1026709
+                float exposure:time = 0.02
+            }
+
+            over "C5_surround_right_up" (
+                prepend apiSchemas = ["OmniRtxCameraAutoExposureAPI_1", "OmniRtxCameraExposureAPI_1"]
+            )
+            {
+                float exposure:fStop = 5
+                float exposure:responsivity = 1.1026709
+                float exposure:time = 0.02
+            }
+
+            over "C6_surround_right_down" (
+                prepend apiSchemas = ["OmniRtxCameraAutoExposureAPI_1", "OmniRtxCameraExposureAPI_1"]
+            )
+            {
+                float exposure:fStop = 5
+                float exposure:responsivity = 1.1026709
+                float exposure:time = 0.02
+            }
+        }
+    }
+
+    def "External"
+    {
+        def Camera "full_body" (
+            prepend apiSchemas = ["OmniRtxCameraAutoExposureAPI_1", "OmniRtxCameraExposureAPI_1"]
+        )
+        {
+            float2 clippingRange = (0.0001, 100)
+            float exposure:fStop = 5
+            float exposure:responsivity = 1.1026709
+            float exposure:time = 0.02
+            float focalLength = 32
+            float fStop = 0
+            float horizontalAperture = 36
+            float verticalAperture = 27
+            quatf xformOp:orient = (0.73428106, 0.6111342, 0.18906276, 0.22715995)
+            double3 xformOp:translate = (2.6, -3.8, 1.9)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient"]
+        }
+
+        def Camera "front_close" (
+            prepend apiSchemas = ["OmniRtxCameraAutoExposureAPI_1", "OmniRtxCameraExposureAPI_1"]
+        )
+        {
+            float2 clippingRange = (0.0001, 100)
+            float exposure:fStop = 5
+            float exposure:responsivity = 1.1026709
+            float exposure:time = 0.02
+            float focalLength = 55
+            float fStop = 0
+            float horizontalAperture = 36
+            float verticalAperture = 27
+            quatf xformOp:orient = (0.7265995, 0.68706125, 0, 0)
+            double3 xformOp:translate = (0, -0.72, 1.776434156363962)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient"]
+        }
+
+        def Camera "left_close" (
+            prepend apiSchemas = ["OmniRtxCameraAutoExposureAPI_1", "OmniRtxCameraExposureAPI_1"]
+        )
+        {
+            float2 clippingRange = (0.0001, 100)
+            float exposure:fStop = 5
+            float exposure:responsivity = 1.1026709
+            float exposure:time = 0.02
+            float focalLength = 55
+            float fStop = 0
+            float horizontalAperture = 36
+            float verticalAperture = 27
+            quatf xformOp:orient = (0.61167777, 0.54916066, 0.38042498, 0.42373306)
+            double3 xformOp:translate = (0.52, -0.2, 1.8014341563639622)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient"]
+        }
+
+        def Camera "right_close" (
+            prepend apiSchemas = ["OmniRtxCameraAutoExposureAPI_1", "OmniRtxCameraExposureAPI_1"]
+        )
+        {
+            float2 clippingRange = (0.0001, 100)
+            float exposure:fStop = 5
+            float exposure:responsivity = 1.1026709
+            float exposure:time = 0.02
+            float focalLength = 55
+            float fStop = 0
+            float horizontalAperture = 36
+            float verticalAperture = 27
+            quatf xformOp:orient = (0.61167777, 0.54916066, -0.38042498, -0.42373306)
+            double3 xformOp:translate = (-0.52, -0.2, 1.8014341563639622)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient"]
+        }
+    }
+}
