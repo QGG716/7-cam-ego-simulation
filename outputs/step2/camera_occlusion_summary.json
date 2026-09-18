@@ -1,0 +1,4247 @@
+{
+  "config_sha256": "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d",
+  "stride": 1,
+  "metric": "occlusion_pixel_ratio",
+  "rows": [
+    {
+      "camera_id": "C0",
+      "mode": "ideal",
+      "N_valid": 2073600,
+      "N_blocked": 0,
+      "occlusion_pixel_ratio": 0.0,
+      "N_added": 0,
+      "added_pixel_ratio": 0.0,
+      "components": [
+        {
+          "component_id": 1,
+          "name": "central_housing",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 2,
+          "name": "left_pod",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 3,
+          "name": "right_pod",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 4,
+          "name": "C0_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 5,
+          "name": "C1_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 6,
+          "name": "C2_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 7,
+          "name": "C3_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 8,
+          "name": "C4_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 9,
+          "name": "C5_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 10,
+          "name": "C6_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 11,
+          "name": "right_heatsink",
+          "group": "Accessories",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 12,
+          "name": "strap_left",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 13,
+          "name": "strap_right",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 14,
+          "name": "strap_rear",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 15,
+          "name": "strap_left_bracket",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 16,
+          "name": "usb_cable_0",
+          "group": "Accessories",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 17,
+          "name": "usb_cable_1",
+          "group": "Accessories",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 18,
+          "name": "head_ellipsoid",
+          "group": "Wearer",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        }
+      ],
+      "groups": {
+        "Housing": 0.0,
+        "Accessories": 0.0,
+        "WearerMount": 0.0,
+        "Wearer": 0.0
+      }
+    },
+    {
+      "camera_id": "C0",
+      "mode": "body",
+      "N_valid": 2073600,
+      "N_blocked": 0,
+      "occlusion_pixel_ratio": 0.0,
+      "N_added": 0,
+      "added_pixel_ratio": 0.0,
+      "components": [
+        {
+          "component_id": 1,
+          "name": "central_housing",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 2,
+          "name": "left_pod",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 3,
+          "name": "right_pod",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 4,
+          "name": "C0_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 5,
+          "name": "C1_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 6,
+          "name": "C2_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 7,
+          "name": "C3_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 8,
+          "name": "C4_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 9,
+          "name": "C5_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 10,
+          "name": "C6_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 11,
+          "name": "right_heatsink",
+          "group": "Accessories",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 12,
+          "name": "strap_left",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 13,
+          "name": "strap_right",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 14,
+          "name": "strap_rear",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 15,
+          "name": "strap_left_bracket",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 16,
+          "name": "usb_cable_0",
+          "group": "Accessories",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 17,
+          "name": "usb_cable_1",
+          "group": "Accessories",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 18,
+          "name": "head_ellipsoid",
+          "group": "Wearer",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        }
+      ],
+      "groups": {
+        "Housing": 0.0,
+        "Accessories": 0.0,
+        "WearerMount": 0.0,
+        "Wearer": 0.0
+      }
+    },
+    {
+      "camera_id": "C0",
+      "mode": "worn",
+      "N_valid": 2073600,
+      "N_blocked": 0,
+      "occlusion_pixel_ratio": 0.0,
+      "N_added": 0,
+      "added_pixel_ratio": 0.0,
+      "components": [
+        {
+          "component_id": 1,
+          "name": "central_housing",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 2,
+          "name": "left_pod",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 3,
+          "name": "right_pod",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 4,
+          "name": "C0_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 5,
+          "name": "C1_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 6,
+          "name": "C2_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 7,
+          "name": "C3_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 8,
+          "name": "C4_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 9,
+          "name": "C5_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 10,
+          "name": "C6_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 11,
+          "name": "right_heatsink",
+          "group": "Accessories",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 12,
+          "name": "strap_left",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 13,
+          "name": "strap_right",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 14,
+          "name": "strap_rear",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 15,
+          "name": "strap_left_bracket",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 16,
+          "name": "usb_cable_0",
+          "group": "Accessories",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 17,
+          "name": "usb_cable_1",
+          "group": "Accessories",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 18,
+          "name": "head_ellipsoid",
+          "group": "Wearer",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        }
+      ],
+      "groups": {
+        "Housing": 0.0,
+        "Accessories": 0.0,
+        "WearerMount": 0.0,
+        "Wearer": 0.0
+      }
+    },
+    {
+      "camera_id": "C1",
+      "mode": "ideal",
+      "N_valid": 1820284,
+      "N_blocked": 0,
+      "occlusion_pixel_ratio": 0.0,
+      "N_added": 0,
+      "added_pixel_ratio": 0.0,
+      "components": [
+        {
+          "component_id": 1,
+          "name": "central_housing",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 2,
+          "name": "left_pod",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 3,
+          "name": "right_pod",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 4,
+          "name": "C0_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 5,
+          "name": "C1_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 6,
+          "name": "C2_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 7,
+          "name": "C3_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 8,
+          "name": "C4_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 9,
+          "name": "C5_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 10,
+          "name": "C6_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 11,
+          "name": "right_heatsink",
+          "group": "Accessories",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 12,
+          "name": "strap_left",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 13,
+          "name": "strap_right",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 14,
+          "name": "strap_rear",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 15,
+          "name": "strap_left_bracket",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 16,
+          "name": "usb_cable_0",
+          "group": "Accessories",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 17,
+          "name": "usb_cable_1",
+          "group": "Accessories",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 18,
+          "name": "head_ellipsoid",
+          "group": "Wearer",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        }
+      ],
+      "groups": {
+        "Housing": 0.0,
+        "Accessories": 0.0,
+        "WearerMount": 0.0,
+        "Wearer": 0.0
+      }
+    },
+    {
+      "camera_id": "C1",
+      "mode": "body",
+      "N_valid": 1820284,
+      "N_blocked": 0,
+      "occlusion_pixel_ratio": 0.0,
+      "N_added": 0,
+      "added_pixel_ratio": 0.0,
+      "components": [
+        {
+          "component_id": 1,
+          "name": "central_housing",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 2,
+          "name": "left_pod",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 3,
+          "name": "right_pod",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 4,
+          "name": "C0_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 5,
+          "name": "C1_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 6,
+          "name": "C2_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 7,
+          "name": "C3_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 8,
+          "name": "C4_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 9,
+          "name": "C5_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 10,
+          "name": "C6_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 11,
+          "name": "right_heatsink",
+          "group": "Accessories",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 12,
+          "name": "strap_left",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 13,
+          "name": "strap_right",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 14,
+          "name": "strap_rear",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 15,
+          "name": "strap_left_bracket",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 16,
+          "name": "usb_cable_0",
+          "group": "Accessories",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 17,
+          "name": "usb_cable_1",
+          "group": "Accessories",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 18,
+          "name": "head_ellipsoid",
+          "group": "Wearer",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        }
+      ],
+      "groups": {
+        "Housing": 0.0,
+        "Accessories": 0.0,
+        "WearerMount": 0.0,
+        "Wearer": 0.0
+      }
+    },
+    {
+      "camera_id": "C1",
+      "mode": "worn",
+      "N_valid": 1820284,
+      "N_blocked": 0,
+      "occlusion_pixel_ratio": 0.0,
+      "N_added": 0,
+      "added_pixel_ratio": 0.0,
+      "components": [
+        {
+          "component_id": 1,
+          "name": "central_housing",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 2,
+          "name": "left_pod",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 3,
+          "name": "right_pod",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 4,
+          "name": "C0_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 5,
+          "name": "C1_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 6,
+          "name": "C2_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 7,
+          "name": "C3_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 8,
+          "name": "C4_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 9,
+          "name": "C5_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 10,
+          "name": "C6_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 11,
+          "name": "right_heatsink",
+          "group": "Accessories",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 12,
+          "name": "strap_left",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 13,
+          "name": "strap_right",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 14,
+          "name": "strap_rear",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 15,
+          "name": "strap_left_bracket",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 16,
+          "name": "usb_cable_0",
+          "group": "Accessories",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 17,
+          "name": "usb_cable_1",
+          "group": "Accessories",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 18,
+          "name": "head_ellipsoid",
+          "group": "Wearer",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        }
+      ],
+      "groups": {
+        "Housing": 0.0,
+        "Accessories": 0.0,
+        "WearerMount": 0.0,
+        "Wearer": 0.0
+      }
+    },
+    {
+      "camera_id": "C2",
+      "mode": "ideal",
+      "N_valid": 1820284,
+      "N_blocked": 0,
+      "occlusion_pixel_ratio": 0.0,
+      "N_added": 0,
+      "added_pixel_ratio": 0.0,
+      "components": [
+        {
+          "component_id": 1,
+          "name": "central_housing",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 2,
+          "name": "left_pod",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 3,
+          "name": "right_pod",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 4,
+          "name": "C0_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 5,
+          "name": "C1_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 6,
+          "name": "C2_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 7,
+          "name": "C3_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 8,
+          "name": "C4_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 9,
+          "name": "C5_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 10,
+          "name": "C6_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 11,
+          "name": "right_heatsink",
+          "group": "Accessories",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 12,
+          "name": "strap_left",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 13,
+          "name": "strap_right",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 14,
+          "name": "strap_rear",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 15,
+          "name": "strap_left_bracket",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 16,
+          "name": "usb_cable_0",
+          "group": "Accessories",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 17,
+          "name": "usb_cable_1",
+          "group": "Accessories",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 18,
+          "name": "head_ellipsoid",
+          "group": "Wearer",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        }
+      ],
+      "groups": {
+        "Housing": 0.0,
+        "Accessories": 0.0,
+        "WearerMount": 0.0,
+        "Wearer": 0.0
+      }
+    },
+    {
+      "camera_id": "C2",
+      "mode": "body",
+      "N_valid": 1820284,
+      "N_blocked": 0,
+      "occlusion_pixel_ratio": 0.0,
+      "N_added": 0,
+      "added_pixel_ratio": 0.0,
+      "components": [
+        {
+          "component_id": 1,
+          "name": "central_housing",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 2,
+          "name": "left_pod",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 3,
+          "name": "right_pod",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 4,
+          "name": "C0_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 5,
+          "name": "C1_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 6,
+          "name": "C2_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 7,
+          "name": "C3_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 8,
+          "name": "C4_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 9,
+          "name": "C5_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 10,
+          "name": "C6_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 11,
+          "name": "right_heatsink",
+          "group": "Accessories",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 12,
+          "name": "strap_left",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 13,
+          "name": "strap_right",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 14,
+          "name": "strap_rear",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 15,
+          "name": "strap_left_bracket",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 16,
+          "name": "usb_cable_0",
+          "group": "Accessories",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 17,
+          "name": "usb_cable_1",
+          "group": "Accessories",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 18,
+          "name": "head_ellipsoid",
+          "group": "Wearer",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        }
+      ],
+      "groups": {
+        "Housing": 0.0,
+        "Accessories": 0.0,
+        "WearerMount": 0.0,
+        "Wearer": 0.0
+      }
+    },
+    {
+      "camera_id": "C2",
+      "mode": "worn",
+      "N_valid": 1820284,
+      "N_blocked": 0,
+      "occlusion_pixel_ratio": 0.0,
+      "N_added": 0,
+      "added_pixel_ratio": 0.0,
+      "components": [
+        {
+          "component_id": 1,
+          "name": "central_housing",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 2,
+          "name": "left_pod",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 3,
+          "name": "right_pod",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 4,
+          "name": "C0_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 5,
+          "name": "C1_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 6,
+          "name": "C2_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 7,
+          "name": "C3_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 8,
+          "name": "C4_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 9,
+          "name": "C5_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 10,
+          "name": "C6_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 11,
+          "name": "right_heatsink",
+          "group": "Accessories",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 12,
+          "name": "strap_left",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 13,
+          "name": "strap_right",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 14,
+          "name": "strap_rear",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 15,
+          "name": "strap_left_bracket",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 16,
+          "name": "usb_cable_0",
+          "group": "Accessories",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 17,
+          "name": "usb_cable_1",
+          "group": "Accessories",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 18,
+          "name": "head_ellipsoid",
+          "group": "Wearer",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        }
+      ],
+      "groups": {
+        "Housing": 0.0,
+        "Accessories": 0.0,
+        "WearerMount": 0.0,
+        "Wearer": 0.0
+      }
+    },
+    {
+      "camera_id": "C3",
+      "mode": "ideal",
+      "N_valid": 723804,
+      "N_blocked": 0,
+      "occlusion_pixel_ratio": 0.0,
+      "N_added": 0,
+      "added_pixel_ratio": 0.0,
+      "components": [
+        {
+          "component_id": 1,
+          "name": "central_housing",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 2,
+          "name": "left_pod",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 3,
+          "name": "right_pod",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 4,
+          "name": "C0_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 5,
+          "name": "C1_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 6,
+          "name": "C2_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 7,
+          "name": "C3_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 8,
+          "name": "C4_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 9,
+          "name": "C5_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 10,
+          "name": "C6_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 11,
+          "name": "right_heatsink",
+          "group": "Accessories",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 12,
+          "name": "strap_left",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 13,
+          "name": "strap_right",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 14,
+          "name": "strap_rear",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 15,
+          "name": "strap_left_bracket",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 16,
+          "name": "usb_cable_0",
+          "group": "Accessories",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 17,
+          "name": "usb_cable_1",
+          "group": "Accessories",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 18,
+          "name": "head_ellipsoid",
+          "group": "Wearer",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        }
+      ],
+      "groups": {
+        "Housing": 0.0,
+        "Accessories": 0.0,
+        "WearerMount": 0.0,
+        "Wearer": 0.0
+      }
+    },
+    {
+      "camera_id": "C3",
+      "mode": "body",
+      "N_valid": 723804,
+      "N_blocked": 30865,
+      "occlusion_pixel_ratio": 0.04264275964211306,
+      "N_added": 0,
+      "added_pixel_ratio": 0.0,
+      "components": [
+        {
+          "component_id": 1,
+          "name": "central_housing",
+          "group": "Housing",
+          "N_blocked": 26287,
+          "pixel_ratio": 0.03631784295195937,
+          "centroid_uv_px": [
+            973.2550500247271,
+            461.56041008863696
+          ],
+          "bbox_xyxy": [
+            879,
+            143,
+            1019,
+            777
+          ]
+        },
+        {
+          "component_id": 2,
+          "name": "left_pod",
+          "group": "Housing",
+          "N_blocked": 2044,
+          "pixel_ratio": 0.0028239689197628085,
+          "centroid_uv_px": [
+            540.0,
+            480.0
+          ],
+          "bbox_xyxy": [
+            193,
+            74,
+            886,
+            885
+          ]
+        },
+        {
+          "component_id": 3,
+          "name": "right_pod",
+          "group": "Housing",
+          "N_blocked": 535,
+          "pixel_ratio": 0.0007391503777265669,
+          "centroid_uv_px": [
+            946.7392523364485,
+            481.3373831775701
+          ],
+          "bbox_xyxy": [
+            942,
+            422,
+            950,
+            537
+          ]
+        },
+        {
+          "component_id": 4,
+          "name": "C0_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 5,
+          "name": "C1_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 6,
+          "name": "C2_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 7,
+          "name": "C3_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 8,
+          "name": "C4_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 9,
+          "name": "C5_barrel",
+          "group": "Housing",
+          "N_blocked": 166,
+          "pixel_ratio": 0.00022934385551889739,
+          "centroid_uv_px": [
+            944.9096385542168,
+            480.0
+          ],
+          "bbox_xyxy": [
+            943,
+            458,
+            946,
+            501
+          ]
+        },
+        {
+          "component_id": 10,
+          "name": "C6_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 11,
+          "name": "right_heatsink",
+          "group": "Accessories",
+          "N_blocked": 137,
+          "pixel_ratio": 0.00018927776027764424,
+          "centroid_uv_px": [
+            944.6167883211679,
+            410.1131386861314
+          ],
+          "bbox_xyxy": [
+            941,
+            400,
+            948,
+            424
+          ]
+        },
+        {
+          "component_id": 12,
+          "name": "strap_left",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 13,
+          "name": "strap_right",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 14,
+          "name": "strap_rear",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 15,
+          "name": "strap_left_bracket",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 16,
+          "name": "usb_cable_0",
+          "group": "Accessories",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 17,
+          "name": "usb_cable_1",
+          "group": "Accessories",
+          "N_blocked": 1696,
+          "pixel_ratio": 0.002343175776867771,
+          "centroid_uv_px": [
+            893.3396226415094,
+            238.80129716981133
+          ],
+          "bbox_xyxy": [
+            808,
+            142,
+            949,
+            348
+          ]
+        },
+        {
+          "component_id": 18,
+          "name": "head_ellipsoid",
+          "group": "Wearer",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        }
+      ],
+      "groups": {
+        "Housing": 0.040110306104967644,
+        "Accessories": 0.002532453537145415,
+        "WearerMount": 0.0,
+        "Wearer": 0.0
+      }
+    },
+    {
+      "camera_id": "C3",
+      "mode": "worn",
+      "N_valid": 723804,
+      "N_blocked": 128620,
+      "occlusion_pixel_ratio": 0.17770004034241313,
+      "N_added": 97755,
+      "added_pixel_ratio": 0.13505728070030007,
+      "components": [
+        {
+          "component_id": 1,
+          "name": "central_housing",
+          "group": "Housing",
+          "N_blocked": 26287,
+          "pixel_ratio": 0.03631784295195937,
+          "centroid_uv_px": [
+            973.2550500247271,
+            461.56041008863696
+          ],
+          "bbox_xyxy": [
+            879,
+            143,
+            1019,
+            777
+          ]
+        },
+        {
+          "component_id": 2,
+          "name": "left_pod",
+          "group": "Housing",
+          "N_blocked": 2044,
+          "pixel_ratio": 0.0028239689197628085,
+          "centroid_uv_px": [
+            540.0,
+            480.0
+          ],
+          "bbox_xyxy": [
+            193,
+            74,
+            886,
+            885
+          ]
+        },
+        {
+          "component_id": 3,
+          "name": "right_pod",
+          "group": "Housing",
+          "N_blocked": 535,
+          "pixel_ratio": 0.0007391503777265669,
+          "centroid_uv_px": [
+            946.7392523364485,
+            481.3373831775701
+          ],
+          "bbox_xyxy": [
+            942,
+            422,
+            950,
+            537
+          ]
+        },
+        {
+          "component_id": 4,
+          "name": "C0_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 5,
+          "name": "C1_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 6,
+          "name": "C2_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 7,
+          "name": "C3_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 8,
+          "name": "C4_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 9,
+          "name": "C5_barrel",
+          "group": "Housing",
+          "N_blocked": 166,
+          "pixel_ratio": 0.00022934385551889739,
+          "centroid_uv_px": [
+            944.9096385542168,
+            480.0
+          ],
+          "bbox_xyxy": [
+            943,
+            458,
+            946,
+            501
+          ]
+        },
+        {
+          "component_id": 10,
+          "name": "C6_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 11,
+          "name": "right_heatsink",
+          "group": "Accessories",
+          "N_blocked": 137,
+          "pixel_ratio": 0.00018927776027764424,
+          "centroid_uv_px": [
+            944.6167883211679,
+            410.1131386861314
+          ],
+          "bbox_xyxy": [
+            941,
+            400,
+            948,
+            424
+          ]
+        },
+        {
+          "component_id": 12,
+          "name": "strap_left",
+          "group": "WearerMount",
+          "N_blocked": 9320,
+          "pixel_ratio": 0.012876414056844117,
+          "centroid_uv_px": [
+            370.20354077253216,
+            63.527896995708154
+          ],
+          "bbox_xyxy": [
+            171,
+            17,
+            490,
+            172
+          ]
+        },
+        {
+          "component_id": 13,
+          "name": "strap_right",
+          "group": "WearerMount",
+          "N_blocked": 784,
+          "pixel_ratio": 0.001083166161004913,
+          "centroid_uv_px": [
+            942.4043367346939,
+            358.3048469387755
+          ],
+          "bbox_xyxy": [
+            927,
+            334,
+            949,
+            399
+          ]
+        },
+        {
+          "component_id": 14,
+          "name": "strap_rear",
+          "group": "WearerMount",
+          "N_blocked": 2,
+          "pixel_ratio": 2.76317898215539e-06,
+          "centroid_uv_px": [
+            488.0,
+            75.5
+          ],
+          "bbox_xyxy": [
+            487,
+            75,
+            488,
+            75
+          ]
+        },
+        {
+          "component_id": 15,
+          "name": "strap_left_bracket",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 16,
+          "name": "usb_cable_0",
+          "group": "Accessories",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 17,
+          "name": "usb_cable_1",
+          "group": "Accessories",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 18,
+          "name": "head_ellipsoid",
+          "group": "Wearer",
+          "N_blocked": 89345,
+          "pixel_ratio": 0.12343811308033667,
+          "centroid_uv_px": [
+            716.1407073703061,
+            158.5424981812077
+          ],
+          "bbox_xyxy": [
+            458,
+            0,
+            948,
+            335
+          ]
+        }
+      ],
+      "groups": {
+        "Housing": 0.040110306104967644,
+        "Accessories": 0.00018927776027764424,
+        "WearerMount": 0.013962343396831186,
+        "Wearer": 0.12343811308033667
+      }
+    },
+    {
+      "camera_id": "C4",
+      "mode": "ideal",
+      "N_valid": 723804,
+      "N_blocked": 0,
+      "occlusion_pixel_ratio": 0.0,
+      "N_added": 0,
+      "added_pixel_ratio": 0.0,
+      "components": [
+        {
+          "component_id": 1,
+          "name": "central_housing",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 2,
+          "name": "left_pod",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 3,
+          "name": "right_pod",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 4,
+          "name": "C0_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 5,
+          "name": "C1_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 6,
+          "name": "C2_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 7,
+          "name": "C3_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 8,
+          "name": "C4_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 9,
+          "name": "C5_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 10,
+          "name": "C6_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 11,
+          "name": "right_heatsink",
+          "group": "Accessories",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 12,
+          "name": "strap_left",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 13,
+          "name": "strap_right",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 14,
+          "name": "strap_rear",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 15,
+          "name": "strap_left_bracket",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 16,
+          "name": "usb_cable_0",
+          "group": "Accessories",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 17,
+          "name": "usb_cable_1",
+          "group": "Accessories",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 18,
+          "name": "head_ellipsoid",
+          "group": "Wearer",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        }
+      ],
+      "groups": {
+        "Housing": 0.0,
+        "Accessories": 0.0,
+        "WearerMount": 0.0,
+        "Wearer": 0.0
+      }
+    },
+    {
+      "camera_id": "C4",
+      "mode": "body",
+      "N_valid": 723804,
+      "N_blocked": 31204,
+      "occlusion_pixel_ratio": 0.043111118479588394,
+      "N_added": 0,
+      "added_pixel_ratio": 0.0,
+      "components": [
+        {
+          "component_id": 1,
+          "name": "central_housing",
+          "group": "Housing",
+          "N_blocked": 26287,
+          "pixel_ratio": 0.03631784295195937,
+          "centroid_uv_px": [
+            973.2550500247271,
+            498.43958991136304
+          ],
+          "bbox_xyxy": [
+            879,
+            182,
+            1019,
+            816
+          ]
+        },
+        {
+          "component_id": 2,
+          "name": "left_pod",
+          "group": "Housing",
+          "N_blocked": 2044,
+          "pixel_ratio": 0.0028239689197628085,
+          "centroid_uv_px": [
+            540.0,
+            480.0
+          ],
+          "bbox_xyxy": [
+            193,
+            74,
+            886,
+            885
+          ]
+        },
+        {
+          "component_id": 3,
+          "name": "right_pod",
+          "group": "Housing",
+          "N_blocked": 535,
+          "pixel_ratio": 0.0007391503777265669,
+          "centroid_uv_px": [
+            946.7392523364485,
+            478.6626168224299
+          ],
+          "bbox_xyxy": [
+            942,
+            422,
+            950,
+            537
+          ]
+        },
+        {
+          "component_id": 4,
+          "name": "C0_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 5,
+          "name": "C1_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 6,
+          "name": "C2_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 7,
+          "name": "C3_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 8,
+          "name": "C4_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 9,
+          "name": "C5_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 10,
+          "name": "C6_barrel",
+          "group": "Housing",
+          "N_blocked": 166,
+          "pixel_ratio": 0.00022934385551889739,
+          "centroid_uv_px": [
+            944.9096385542168,
+            480.0
+          ],
+          "bbox_xyxy": [
+            943,
+            458,
+            946,
+            501
+          ]
+        },
+        {
+          "component_id": 11,
+          "name": "right_heatsink",
+          "group": "Accessories",
+          "N_blocked": 137,
+          "pixel_ratio": 0.00018927776027764424,
+          "centroid_uv_px": [
+            944.6167883211679,
+            549.8868613138686
+          ],
+          "bbox_xyxy": [
+            941,
+            535,
+            948,
+            559
+          ]
+        },
+        {
+          "component_id": 12,
+          "name": "strap_left",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 13,
+          "name": "strap_right",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 14,
+          "name": "strap_rear",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 15,
+          "name": "strap_left_bracket",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 16,
+          "name": "usb_cable_0",
+          "group": "Accessories",
+          "N_blocked": 109,
+          "pixel_ratio": 0.00015059325452746876,
+          "centroid_uv_px": [
+            947.2798165137615,
+            578.7385321100918
+          ],
+          "bbox_xyxy": [
+            943,
+            564,
+            949,
+            587
+          ]
+        },
+        {
+          "component_id": 17,
+          "name": "usb_cable_1",
+          "group": "Accessories",
+          "N_blocked": 1926,
+          "pixel_ratio": 0.002660941359815641,
+          "centroid_uv_px": [
+            884.4828660436137,
+            691.5285565939771
+          ],
+          "bbox_xyxy": [
+            788,
+            584,
+            949,
+            793
+          ]
+        },
+        {
+          "component_id": 18,
+          "name": "head_ellipsoid",
+          "group": "Wearer",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        }
+      ],
+      "groups": {
+        "Housing": 0.040110306104967644,
+        "Accessories": 0.0030008123746207535,
+        "WearerMount": 0.0,
+        "Wearer": 0.0
+      }
+    },
+    {
+      "camera_id": "C4",
+      "mode": "worn",
+      "N_valid": 723804,
+      "N_blocked": 169234,
+      "occlusion_pixel_ratio": 0.23381191593304265,
+      "N_added": 138030,
+      "added_pixel_ratio": 0.19070079745345425,
+      "components": [
+        {
+          "component_id": 1,
+          "name": "central_housing",
+          "group": "Housing",
+          "N_blocked": 26287,
+          "pixel_ratio": 0.03631784295195937,
+          "centroid_uv_px": [
+            973.2550500247271,
+            498.43958991136304
+          ],
+          "bbox_xyxy": [
+            879,
+            182,
+            1019,
+            816
+          ]
+        },
+        {
+          "component_id": 2,
+          "name": "left_pod",
+          "group": "Housing",
+          "N_blocked": 2044,
+          "pixel_ratio": 0.0028239689197628085,
+          "centroid_uv_px": [
+            540.0,
+            480.0
+          ],
+          "bbox_xyxy": [
+            193,
+            74,
+            886,
+            885
+          ]
+        },
+        {
+          "component_id": 3,
+          "name": "right_pod",
+          "group": "Housing",
+          "N_blocked": 535,
+          "pixel_ratio": 0.0007391503777265669,
+          "centroid_uv_px": [
+            946.7392523364485,
+            478.6626168224299
+          ],
+          "bbox_xyxy": [
+            942,
+            422,
+            950,
+            537
+          ]
+        },
+        {
+          "component_id": 4,
+          "name": "C0_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 5,
+          "name": "C1_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 6,
+          "name": "C2_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 7,
+          "name": "C3_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 8,
+          "name": "C4_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 9,
+          "name": "C5_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 10,
+          "name": "C6_barrel",
+          "group": "Housing",
+          "N_blocked": 166,
+          "pixel_ratio": 0.00022934385551889739,
+          "centroid_uv_px": [
+            944.9096385542168,
+            480.0
+          ],
+          "bbox_xyxy": [
+            943,
+            458,
+            946,
+            501
+          ]
+        },
+        {
+          "component_id": 11,
+          "name": "right_heatsink",
+          "group": "Accessories",
+          "N_blocked": 137,
+          "pixel_ratio": 0.00018927776027764424,
+          "centroid_uv_px": [
+            944.6167883211679,
+            549.8868613138686
+          ],
+          "bbox_xyxy": [
+            941,
+            535,
+            948,
+            559
+          ]
+        },
+        {
+          "component_id": 12,
+          "name": "strap_left",
+          "group": "WearerMount",
+          "N_blocked": 8920,
+          "pixel_ratio": 0.01232377826041304,
+          "centroid_uv_px": [
+            365.4096412556054,
+            896.4155829596413
+          ],
+          "bbox_xyxy": [
+            171,
+            787,
+            470,
+            942
+          ]
+        },
+        {
+          "component_id": 13,
+          "name": "strap_right",
+          "group": "WearerMount",
+          "N_blocked": 381,
+          "pixel_ratio": 0.0005263855961006018,
+          "centroid_uv_px": [
+            945.1902887139107,
+            587.3503937007874
+          ],
+          "bbox_xyxy": [
+            936,
+            560,
+            949,
+            607
+          ]
+        },
+        {
+          "component_id": 14,
+          "name": "strap_rear",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 15,
+          "name": "strap_left_bracket",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 16,
+          "name": "usb_cable_0",
+          "group": "Accessories",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 17,
+          "name": "usb_cable_1",
+          "group": "Accessories",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 18,
+          "name": "head_ellipsoid",
+          "group": "Wearer",
+          "N_blocked": 130764,
+          "pixel_ratio": 0.18066216821128372,
+          "centroid_uv_px": [
+            702.6518384264782,
+            761.8938775198067
+          ],
+          "bbox_xyxy": [
+            469,
+            573,
+            949,
+            959
+          ]
+        }
+      ],
+      "groups": {
+        "Housing": 0.040110306104967644,
+        "Accessories": 0.00018927776027764424,
+        "WearerMount": 0.012850163856513643,
+        "Wearer": 0.18066216821128372
+      }
+    },
+    {
+      "camera_id": "C5",
+      "mode": "ideal",
+      "N_valid": 723804,
+      "N_blocked": 0,
+      "occlusion_pixel_ratio": 0.0,
+      "N_added": 0,
+      "added_pixel_ratio": 0.0,
+      "components": [
+        {
+          "component_id": 1,
+          "name": "central_housing",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 2,
+          "name": "left_pod",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 3,
+          "name": "right_pod",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 4,
+          "name": "C0_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 5,
+          "name": "C1_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 6,
+          "name": "C2_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 7,
+          "name": "C3_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 8,
+          "name": "C4_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 9,
+          "name": "C5_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 10,
+          "name": "C6_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 11,
+          "name": "right_heatsink",
+          "group": "Accessories",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 12,
+          "name": "strap_left",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 13,
+          "name": "strap_right",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 14,
+          "name": "strap_rear",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 15,
+          "name": "strap_left_bracket",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 16,
+          "name": "usb_cable_0",
+          "group": "Accessories",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 17,
+          "name": "usb_cable_1",
+          "group": "Accessories",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 18,
+          "name": "head_ellipsoid",
+          "group": "Wearer",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        }
+      ],
+      "groups": {
+        "Housing": 0.0,
+        "Accessories": 0.0,
+        "WearerMount": 0.0,
+        "Wearer": 0.0
+      }
+    },
+    {
+      "camera_id": "C5",
+      "mode": "body",
+      "N_valid": 723804,
+      "N_blocked": 46074,
+      "occlusion_pixel_ratio": 0.06365535421191372,
+      "N_added": 0,
+      "added_pixel_ratio": 0.0,
+      "components": [
+        {
+          "component_id": 1,
+          "name": "central_housing",
+          "group": "Housing",
+          "N_blocked": 26287,
+          "pixel_ratio": 0.03631784295195937,
+          "centroid_uv_px": [
+            106.74494997527295,
+            461.56041008863696
+          ],
+          "bbox_xyxy": [
+            60,
+            143,
+            200,
+            777
+          ]
+        },
+        {
+          "component_id": 2,
+          "name": "left_pod",
+          "group": "Housing",
+          "N_blocked": 535,
+          "pixel_ratio": 0.0007391503777265669,
+          "centroid_uv_px": [
+            133.2607476635514,
+            481.3373831775701
+          ],
+          "bbox_xyxy": [
+            129,
+            422,
+            137,
+            537
+          ]
+        },
+        {
+          "component_id": 3,
+          "name": "right_pod",
+          "group": "Housing",
+          "N_blocked": 2044,
+          "pixel_ratio": 0.0028239689197628085,
+          "centroid_uv_px": [
+            540.0,
+            480.0
+          ],
+          "bbox_xyxy": [
+            193,
+            74,
+            886,
+            885
+          ]
+        },
+        {
+          "component_id": 4,
+          "name": "C0_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 5,
+          "name": "C1_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 6,
+          "name": "C2_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 7,
+          "name": "C3_barrel",
+          "group": "Housing",
+          "N_blocked": 166,
+          "pixel_ratio": 0.00022934385551889739,
+          "centroid_uv_px": [
+            135.09036144578315,
+            480.0
+          ],
+          "bbox_xyxy": [
+            133,
+            458,
+            136,
+            501
+          ]
+        },
+        {
+          "component_id": 8,
+          "name": "C4_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 9,
+          "name": "C5_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 10,
+          "name": "C6_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 11,
+          "name": "right_heatsink",
+          "group": "Accessories",
+          "N_blocked": 15357,
+          "pixel_ratio": 0.021217069814480162,
+          "centroid_uv_px": [
+            938.6654620042978,
+            311.6719085758937
+          ],
+          "bbox_xyxy": [
+            748,
+            51,
+            1019,
+            653
+          ]
+        },
+        {
+          "component_id": 12,
+          "name": "strap_left",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 13,
+          "name": "strap_right",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 14,
+          "name": "strap_rear",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 15,
+          "name": "strap_left_bracket",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 16,
+          "name": "usb_cable_0",
+          "group": "Accessories",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 17,
+          "name": "usb_cable_1",
+          "group": "Accessories",
+          "N_blocked": 1685,
+          "pixel_ratio": 0.002327978292465916,
+          "centroid_uv_px": [
+            687.3712166172107,
+            43.43353115727003
+          ],
+          "bbox_xyxy": [
+            611,
+            34,
+            753,
+            56
+          ]
+        },
+        {
+          "component_id": 18,
+          "name": "head_ellipsoid",
+          "group": "Wearer",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        }
+      ],
+      "groups": {
+        "Housing": 0.040110306104967644,
+        "Accessories": 0.02354504810694608,
+        "WearerMount": 0.0,
+        "Wearer": 0.0
+      }
+    },
+    {
+      "camera_id": "C5",
+      "mode": "worn",
+      "N_valid": 723804,
+      "N_blocked": 141831,
+      "occlusion_pixel_ratio": 0.19595221910904057,
+      "N_added": 95757,
+      "added_pixel_ratio": 0.13229686489712686,
+      "components": [
+        {
+          "component_id": 1,
+          "name": "central_housing",
+          "group": "Housing",
+          "N_blocked": 26287,
+          "pixel_ratio": 0.03631784295195937,
+          "centroid_uv_px": [
+            106.74494997527295,
+            461.56041008863696
+          ],
+          "bbox_xyxy": [
+            60,
+            143,
+            200,
+            777
+          ]
+        },
+        {
+          "component_id": 2,
+          "name": "left_pod",
+          "group": "Housing",
+          "N_blocked": 535,
+          "pixel_ratio": 0.0007391503777265669,
+          "centroid_uv_px": [
+            133.2607476635514,
+            481.3373831775701
+          ],
+          "bbox_xyxy": [
+            129,
+            422,
+            137,
+            537
+          ]
+        },
+        {
+          "component_id": 3,
+          "name": "right_pod",
+          "group": "Housing",
+          "N_blocked": 2044,
+          "pixel_ratio": 0.0028239689197628085,
+          "centroid_uv_px": [
+            540.0,
+            480.0
+          ],
+          "bbox_xyxy": [
+            193,
+            74,
+            886,
+            885
+          ]
+        },
+        {
+          "component_id": 4,
+          "name": "C0_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 5,
+          "name": "C1_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 6,
+          "name": "C2_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 7,
+          "name": "C3_barrel",
+          "group": "Housing",
+          "N_blocked": 166,
+          "pixel_ratio": 0.00022934385551889739,
+          "centroid_uv_px": [
+            135.09036144578315,
+            480.0
+          ],
+          "bbox_xyxy": [
+            133,
+            458,
+            136,
+            501
+          ]
+        },
+        {
+          "component_id": 8,
+          "name": "C4_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 9,
+          "name": "C5_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 10,
+          "name": "C6_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 11,
+          "name": "right_heatsink",
+          "group": "Accessories",
+          "N_blocked": 15357,
+          "pixel_ratio": 0.021217069814480162,
+          "centroid_uv_px": [
+            938.6654620042978,
+            311.6719085758937
+          ],
+          "bbox_xyxy": [
+            748,
+            51,
+            1019,
+            653
+          ]
+        },
+        {
+          "component_id": 12,
+          "name": "strap_left",
+          "group": "WearerMount",
+          "N_blocked": 792,
+          "pixel_ratio": 0.0010942188769335346,
+          "centroid_uv_px": [
+            137.53914141414143,
+            358.7462121212121
+          ],
+          "bbox_xyxy": [
+            130,
+            334,
+            152,
+            403
+          ]
+        },
+        {
+          "component_id": 13,
+          "name": "strap_right",
+          "group": "WearerMount",
+          "N_blocked": 7303,
+          "pixel_ratio": 0.010089748053340408,
+          "centroid_uv_px": [
+            683.0129398877174,
+            54.935437491441874
+          ],
+          "bbox_xyxy": [
+            589,
+            17,
+            802,
+            103
+          ]
+        },
+        {
+          "component_id": 14,
+          "name": "strap_rear",
+          "group": "WearerMount",
+          "N_blocked": 2,
+          "pixel_ratio": 2.76317898215539e-06,
+          "centroid_uv_px": [
+            592.0,
+            75.5
+          ],
+          "bbox_xyxy": [
+            591,
+            75,
+            592,
+            75
+          ]
+        },
+        {
+          "component_id": 15,
+          "name": "strap_left_bracket",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 16,
+          "name": "usb_cable_0",
+          "group": "Accessories",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 17,
+          "name": "usb_cable_1",
+          "group": "Accessories",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 18,
+          "name": "head_ellipsoid",
+          "group": "Wearer",
+          "N_blocked": 89345,
+          "pixel_ratio": 0.12343811308033667,
+          "centroid_uv_px": [
+            363.85929262969387,
+            158.5424981812077
+          ],
+          "bbox_xyxy": [
+            131,
+            0,
+            621,
+            335
+          ]
+        }
+      ],
+      "groups": {
+        "Housing": 0.040110306104967644,
+        "Accessories": 0.021217069814480162,
+        "WearerMount": 0.011186730109256096,
+        "Wearer": 0.12343811308033667
+      }
+    },
+    {
+      "camera_id": "C6",
+      "mode": "ideal",
+      "N_valid": 723804,
+      "N_blocked": 0,
+      "occlusion_pixel_ratio": 0.0,
+      "N_added": 0,
+      "added_pixel_ratio": 0.0,
+      "components": [
+        {
+          "component_id": 1,
+          "name": "central_housing",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 2,
+          "name": "left_pod",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 3,
+          "name": "right_pod",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 4,
+          "name": "C0_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 5,
+          "name": "C1_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 6,
+          "name": "C2_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 7,
+          "name": "C3_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 8,
+          "name": "C4_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 9,
+          "name": "C5_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 10,
+          "name": "C6_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 11,
+          "name": "right_heatsink",
+          "group": "Accessories",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 12,
+          "name": "strap_left",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 13,
+          "name": "strap_right",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 14,
+          "name": "strap_rear",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 15,
+          "name": "strap_left_bracket",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 16,
+          "name": "usb_cable_0",
+          "group": "Accessories",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 17,
+          "name": "usb_cable_1",
+          "group": "Accessories",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 18,
+          "name": "head_ellipsoid",
+          "group": "Wearer",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        }
+      ],
+      "groups": {
+        "Housing": 0.0,
+        "Accessories": 0.0,
+        "WearerMount": 0.0,
+        "Wearer": 0.0
+      }
+    },
+    {
+      "camera_id": "C6",
+      "mode": "body",
+      "N_valid": 723804,
+      "N_blocked": 47544,
+      "occlusion_pixel_ratio": 0.06568629076379794,
+      "N_added": 0,
+      "added_pixel_ratio": 0.0,
+      "components": [
+        {
+          "component_id": 1,
+          "name": "central_housing",
+          "group": "Housing",
+          "N_blocked": 26287,
+          "pixel_ratio": 0.03631784295195937,
+          "centroid_uv_px": [
+            106.74494997527295,
+            498.43958991136304
+          ],
+          "bbox_xyxy": [
+            60,
+            182,
+            200,
+            816
+          ]
+        },
+        {
+          "component_id": 2,
+          "name": "left_pod",
+          "group": "Housing",
+          "N_blocked": 535,
+          "pixel_ratio": 0.0007391503777265669,
+          "centroid_uv_px": [
+            133.2607476635514,
+            478.6626168224299
+          ],
+          "bbox_xyxy": [
+            129,
+            422,
+            137,
+            537
+          ]
+        },
+        {
+          "component_id": 3,
+          "name": "right_pod",
+          "group": "Housing",
+          "N_blocked": 2044,
+          "pixel_ratio": 0.0028239689197628085,
+          "centroid_uv_px": [
+            540.0,
+            480.0
+          ],
+          "bbox_xyxy": [
+            193,
+            74,
+            886,
+            885
+          ]
+        },
+        {
+          "component_id": 4,
+          "name": "C0_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 5,
+          "name": "C1_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 6,
+          "name": "C2_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 7,
+          "name": "C3_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 8,
+          "name": "C4_barrel",
+          "group": "Housing",
+          "N_blocked": 166,
+          "pixel_ratio": 0.00022934385551889739,
+          "centroid_uv_px": [
+            135.09036144578315,
+            480.0
+          ],
+          "bbox_xyxy": [
+            133,
+            458,
+            136,
+            501
+          ]
+        },
+        {
+          "component_id": 9,
+          "name": "C5_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 10,
+          "name": "C6_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 11,
+          "name": "right_heatsink",
+          "group": "Accessories",
+          "N_blocked": 15357,
+          "pixel_ratio": 0.021217069814480162,
+          "centroid_uv_px": [
+            938.6654620042978,
+            648.3280914241062
+          ],
+          "bbox_xyxy": [
+            748,
+            306,
+            1019,
+            908
+          ]
+        },
+        {
+          "component_id": 12,
+          "name": "strap_left",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 13,
+          "name": "strap_right",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 14,
+          "name": "strap_rear",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 15,
+          "name": "strap_left_bracket",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 16,
+          "name": "usb_cable_0",
+          "group": "Accessories",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 17,
+          "name": "usb_cable_1",
+          "group": "Accessories",
+          "N_blocked": 3155,
+          "pixel_ratio": 0.004358914844350128,
+          "centroid_uv_px": [
+            720.166561014263,
+            873.9621236133122
+          ],
+          "bbox_xyxy": [
+            605,
+            838,
+            822,
+            888
+          ]
+        },
+        {
+          "component_id": 18,
+          "name": "head_ellipsoid",
+          "group": "Wearer",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        }
+      ],
+      "groups": {
+        "Housing": 0.040110306104967644,
+        "Accessories": 0.025575984658830292,
+        "WearerMount": 0.0,
+        "Wearer": 0.0
+      }
+    },
+    {
+      "camera_id": "C6",
+      "mode": "worn",
+      "N_valid": 723804,
+      "N_blocked": 184710,
+      "occlusion_pixel_ratio": 0.2551933948969611,
+      "N_added": 137166,
+      "added_pixel_ratio": 0.18950710413316313,
+      "components": [
+        {
+          "component_id": 1,
+          "name": "central_housing",
+          "group": "Housing",
+          "N_blocked": 26287,
+          "pixel_ratio": 0.03631784295195937,
+          "centroid_uv_px": [
+            106.74494997527295,
+            498.43958991136304
+          ],
+          "bbox_xyxy": [
+            60,
+            182,
+            200,
+            816
+          ]
+        },
+        {
+          "component_id": 2,
+          "name": "left_pod",
+          "group": "Housing",
+          "N_blocked": 535,
+          "pixel_ratio": 0.0007391503777265669,
+          "centroid_uv_px": [
+            133.2607476635514,
+            478.6626168224299
+          ],
+          "bbox_xyxy": [
+            129,
+            422,
+            137,
+            537
+          ]
+        },
+        {
+          "component_id": 3,
+          "name": "right_pod",
+          "group": "Housing",
+          "N_blocked": 2044,
+          "pixel_ratio": 0.0028239689197628085,
+          "centroid_uv_px": [
+            540.0,
+            480.0
+          ],
+          "bbox_xyxy": [
+            193,
+            74,
+            886,
+            885
+          ]
+        },
+        {
+          "component_id": 4,
+          "name": "C0_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 5,
+          "name": "C1_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 6,
+          "name": "C2_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 7,
+          "name": "C3_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 8,
+          "name": "C4_barrel",
+          "group": "Housing",
+          "N_blocked": 166,
+          "pixel_ratio": 0.00022934385551889739,
+          "centroid_uv_px": [
+            135.09036144578315,
+            480.0
+          ],
+          "bbox_xyxy": [
+            133,
+            458,
+            136,
+            501
+          ]
+        },
+        {
+          "component_id": 9,
+          "name": "C5_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 10,
+          "name": "C6_barrel",
+          "group": "Housing",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 11,
+          "name": "right_heatsink",
+          "group": "Accessories",
+          "N_blocked": 15357,
+          "pixel_ratio": 0.021217069814480162,
+          "centroid_uv_px": [
+            938.6654620042978,
+            648.3280914241062
+          ],
+          "bbox_xyxy": [
+            748,
+            306,
+            1019,
+            908
+          ]
+        },
+        {
+          "component_id": 12,
+          "name": "strap_left",
+          "group": "WearerMount",
+          "N_blocked": 389,
+          "pixel_ratio": 0.0005374383120292234,
+          "centroid_uv_px": [
+            134.75192802056554,
+            586.7467866323907
+          ],
+          "bbox_xyxy": [
+            130,
+            556,
+            143,
+            607
+          ]
+        },
+        {
+          "component_id": 13,
+          "name": "strap_right",
+          "group": "WearerMount",
+          "N_blocked": 6903,
+          "pixel_ratio": 0.00953711225690933,
+          "centroid_uv_px": [
+            687.6555845284659,
+            905.48942488773
+          ],
+          "bbox_xyxy": [
+            609,
+            856,
+            802,
+            942
+          ]
+        },
+        {
+          "component_id": 14,
+          "name": "strap_rear",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 15,
+          "name": "strap_left_bracket",
+          "group": "WearerMount",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 16,
+          "name": "usb_cable_0",
+          "group": "Accessories",
+          "N_blocked": 0,
+          "pixel_ratio": 0.0,
+          "centroid_uv_px": null,
+          "bbox_xyxy": null
+        },
+        {
+          "component_id": 17,
+          "name": "usb_cable_1",
+          "group": "Accessories",
+          "N_blocked": 2265,
+          "pixel_ratio": 0.0031293001972909794,
+          "centroid_uv_px": [
+            710.4434878587197,
+            872.4227373068433
+          ],
+          "bbox_xyxy": [
+            609,
+            838,
+            822,
+            887
+          ]
+        },
+        {
+          "component_id": 18,
+          "name": "head_ellipsoid",
+          "group": "Wearer",
+          "N_blocked": 130764,
+          "pixel_ratio": 0.18066216821128372,
+          "centroid_uv_px": [
+            377.34816157352174,
+            761.8938775198067
+          ],
+          "bbox_xyxy": [
+            130,
+            573,
+            610,
+            959
+          ]
+        }
+      ],
+      "groups": {
+        "Housing": 0.040110306104967644,
+        "Accessories": 0.024346370011771142,
+        "WearerMount": 0.010074550568938552,
+        "Wearer": 0.18066216821128372
+      }
+    }
+  ],
+  "optical_centers_inside_opaque_geometry": []
+}

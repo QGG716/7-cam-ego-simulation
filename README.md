@@ -1,3 +1,22 @@
+# 七目相机与 IMU 仿真 — Step 2
+
+当前完成 Step 2：固定布局下逐相机 ideal/body/worn 有效像素遮挡与部件归因。21 张真实原生 RGB、独立 RTX 实例标签和全分辨率解析射线结果已保存。配置与第一步产物保持不变。
+
+优先查看 [第二步报告](reports/step2/step2_report.md)、[C6 三模式对比](outputs/step2/comparisons/C6_three_modes.png)、[C3 遮挡来源](outputs/step2/worn/C3_sources_overlay.png)；全部七张对比图在 `outputs/step2/comparisons/`。
+
+```powershell
+# 校验现有产物并重新生成对照图/差异表
+powershell -NoProfile -ExecutionPolicy Bypass -File scripts/run_step2.ps1
+# 全分辨率解析重算 + 已有 GPU 环境真实渲染/回传
+powershell -NoProfile -ExecutionPolicy Bypass -File scripts/run_step2.ps1 -Reanalyze -Render
+```
+
+远端复用第一步目录和 Isaac 环境；先逐字节核对冻结输入，仅上传第二步代码和分析选项。密码交互输入，不保存。不含安装或升级系统环境操作。公开克隆缺少的私有原件哈希检查会跳过并在 `frozen_after.json` 列出；本轮本机所有原件均已检查。解析统计属于当前未实测的结构占位模型，不能解释为联合空间覆盖率、硬件验收或七路并行性能。
+
+以下保留第一步说明，第一步重建命令仅用于明确重跑第一步，不应作为第二步入口。
+
+---
+
 # 七目头戴相机与 IMU — Step 1
 
 当前状态：**Step 1 已完成真实静态渲染与投影检查**。活动版本 `SIM-V0.2-vfov130`；原始包保持不变。

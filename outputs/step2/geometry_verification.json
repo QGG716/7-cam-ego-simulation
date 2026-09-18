@@ -1,0 +1,420 @@
+{
+  "status": "PASS",
+  "units": "USD m converted once to B mm; analytic mm",
+  "components": [
+    {
+      "component_id": 1,
+      "name": "central_housing",
+      "group": "Housing",
+      "usd_path": "/World/Rig/Housing/central_housing",
+      "vertex_count": 24,
+      "face_count": 12,
+      "vertex_surface_max_error_mm": 1.588188773382626e-06,
+      "face_center_max_inward_chord_gap_mm": 1.0228414524249274e-06,
+      "mesh_bounds_B_mm": [
+        [
+          -29.999999329447746,
+          -43.0000014603138,
+          -13.000000268220901
+        ],
+        [
+          -4.000000189989805,
+          43.0000014603138,
+          13.000000268220901
+        ]
+      ],
+      "double_sided": true
+    },
+    {
+      "component_id": 2,
+      "name": "left_pod",
+      "group": "Housing",
+      "usd_path": "/World/Rig/Housing/left_pod",
+      "vertex_count": 24,
+      "face_count": 12,
+      "vertex_surface_max_error_mm": 3.2198767172531007e-06,
+      "face_center_max_inward_chord_gap_mm": 1.6665944251315068e-06,
+      "mesh_bounds_B_mm": [
+        [
+          -29.999999329447746,
+          43.0000014603138,
+          -14.000000432133675
+        ],
+        [
+          -2.0000000949949026,
+          67.00000166893005,
+          14.000000432133675
+        ]
+      ],
+      "double_sided": true
+    },
+    {
+      "component_id": 3,
+      "name": "right_pod",
+      "group": "Housing",
+      "usd_path": "/World/Rig/Housing/right_pod",
+      "vertex_count": 24,
+      "face_count": 12,
+      "vertex_surface_max_error_mm": 3.2198767172531007e-06,
+      "face_center_max_inward_chord_gap_mm": 1.6665944251315068e-06,
+      "mesh_bounds_B_mm": [
+        [
+          -29.999999329447746,
+          -67.00000166893005,
+          -14.000000432133675
+        ],
+        [
+          -2.0000000949949026,
+          -43.0000014603138,
+          14.000000432133675
+        ]
+      ],
+      "double_sided": true
+    },
+    {
+      "component_id": 4,
+      "name": "C0_barrel",
+      "group": "Housing",
+      "usd_path": "/World/Rig/Housing/C0_barrel",
+      "vertex_count": 506,
+      "face_count": 500,
+      "vertex_surface_max_error_mm": 7.541207356354107e-07,
+      "face_center_max_inward_chord_gap_mm": 0.0016889200734597765,
+      "mesh_bounds_B_mm": [
+        [
+          -8.00000037997961,
+          -5.998135078698397,
+          -6.000000052154064
+        ],
+        [
+          -1.0000000474974513,
+          5.998135078698397,
+          6.000000052154064
+        ]
+      ],
+      "double_sided": true
+    },
+    {
+      "component_id": 5,
+      "name": "C1_barrel",
+      "group": "Housing",
+      "usd_path": "/World/Rig/Housing/C1_barrel",
+      "vertex_count": 506,
+      "face_count": 500,
+      "vertex_surface_max_error_mm": 1.5692591750493534e-06,
+      "face_center_max_inward_chord_gap_mm": 0.0016899404351260472,
+      "mesh_bounds_B_mm": [
+        [
+          -8.00000037997961,
+          25.501864030957222,
+          -6.000000052154064
+        ],
+        [
+          -1.0000000474974513,
+          37.49813511967659,
+          6.000000052154064
+        ]
+      ],
+      "double_sided": true
+    },
+    {
+      "component_id": 6,
+      "name": "C2_barrel",
+      "group": "Housing",
+      "usd_path": "/World/Rig/Housing/C2_barrel",
+      "vertex_count": 506,
+      "face_count": 500,
+      "vertex_surface_max_error_mm": 1.5692591750493534e-06,
+      "face_center_max_inward_chord_gap_mm": 0.0016899404351260472,
+      "mesh_bounds_B_mm": [
+        [
+          -8.00000037997961,
+          -37.49813511967659,
+          -6.000000052154064
+        ],
+        [
+          -1.0000000474974513,
+          -25.501864030957222,
+          6.000000052154064
+        ]
+      ],
+      "double_sided": true
+    },
+    {
+      "component_id": 7,
+      "name": "C3_barrel",
+      "group": "Housing",
+      "usd_path": "/World/Rig/Housing/C3_barrel",
+      "vertex_count": 506,
+      "face_count": 500,
+      "vertex_surface_max_error_mm": 1.7721701572881443e-06,
+      "face_center_max_inward_chord_gap_mm": 0.0016651562915832585,
+      "mesh_bounds_B_mm": [
+        [
+          -21.99999988079071,
+          49.00186508893967,
+          12.000000104308128
+        ],
+        [
+          -9.999999776482582,
+          60.998134315013885,
+          14.999999664723873
+        ]
+      ],
+      "double_sided": true
+    },
+    {
+      "component_id": 8,
+      "name": "C4_barrel",
+      "group": "Housing",
+      "usd_path": "/World/Rig/Housing/C4_barrel",
+      "vertex_count": 506,
+      "face_count": 500,
+      "vertex_surface_max_error_mm": 1.7721701572881443e-06,
+      "face_center_max_inward_chord_gap_mm": 0.001665156286274616,
+      "mesh_bounds_B_mm": [
+        [
+          -21.99999988079071,
+          49.00186508893967,
+          -14.999999664723873
+        ],
+        [
+          -9.999999776482582,
+          60.998134315013885,
+          -12.000000104308128
+        ]
+      ],
+      "double_sided": true
+    },
+    {
+      "component_id": 9,
+      "name": "C5_barrel",
+      "group": "Housing",
+      "usd_path": "/World/Rig/Housing/C5_barrel",
+      "vertex_count": 506,
+      "face_count": 500,
+      "vertex_surface_max_error_mm": 1.7721701572881443e-06,
+      "face_center_max_inward_chord_gap_mm": 0.001665156286274616,
+      "mesh_bounds_B_mm": [
+        [
+          -21.99999988079071,
+          -60.998134315013885,
+          12.000000104308128
+        ],
+        [
+          -9.999999776482582,
+          -49.00186508893967,
+          14.999999664723873
+        ]
+      ],
+      "double_sided": true
+    },
+    {
+      "component_id": 10,
+      "name": "C6_barrel",
+      "group": "Housing",
+      "usd_path": "/World/Rig/Housing/C6_barrel",
+      "vertex_count": 506,
+      "face_count": 500,
+      "vertex_surface_max_error_mm": 1.7721701572881443e-06,
+      "face_center_max_inward_chord_gap_mm": 0.001665156286274616,
+      "mesh_bounds_B_mm": [
+        [
+          -21.99999988079071,
+          -60.998134315013885,
+          -14.999999664723873
+        ],
+        [
+          -9.999999776482582,
+          -49.00186508893967,
+          -12.000000104308128
+        ]
+      ],
+      "double_sided": true
+    },
+    {
+      "component_id": 11,
+      "name": "right_heatsink",
+      "group": "Accessories",
+      "usd_path": "/World/Rig/Accessories/right_heatsink",
+      "vertex_count": 24,
+      "face_count": 12,
+      "vertex_surface_max_error_mm": 1.888960490248337e-07,
+      "face_center_max_inward_chord_gap_mm": 2.1210179017572273e-06,
+      "mesh_bounds_B_mm": [
+        [
+          -39.99999910593033,
+          -83.99999886751175,
+          -12.000000104308128
+        ],
+        [
+          -8.00000037997961,
+          -67.00000166893005,
+          12.000000104308128
+        ]
+      ],
+      "double_sided": true
+    },
+    {
+      "component_id": 12,
+      "name": "strap_left",
+      "group": "WearerMount",
+      "usd_path": "/World/Rig/WearerMount/strap_left",
+      "vertex_count": 24,
+      "face_count": 12,
+      "vertex_surface_max_error_mm": 0.00012499284838440872,
+      "face_center_max_inward_chord_gap_mm": 9.367093973366991e-06,
+      "mesh_bounds_B_mm": [
+        [
+          -209.99999344348907,
+          75.4999965429306,
+          -8.00000037997961
+        ],
+        [
+          -29.999999329447746,
+          80.49999922513962,
+          8.00000037997961
+        ]
+      ],
+      "double_sided": true
+    },
+    {
+      "component_id": 13,
+      "name": "strap_right",
+      "group": "WearerMount",
+      "usd_path": "/World/Rig/WearerMount/strap_right",
+      "vertex_count": 24,
+      "face_count": 12,
+      "vertex_surface_max_error_mm": 0.00012499284838440872,
+      "face_center_max_inward_chord_gap_mm": 9.367093973366991e-06,
+      "mesh_bounds_B_mm": [
+        [
+          -209.99999344348907,
+          -80.49999922513962,
+          -8.00000037997961
+        ],
+        [
+          -29.999999329447746,
+          -75.4999965429306,
+          8.00000037997961
+        ]
+      ],
+      "double_sided": true
+    },
+    {
+      "component_id": 14,
+      "name": "strap_rear",
+      "group": "WearerMount",
+      "usd_path": "/World/Rig/WearerMount/strap_rear",
+      "vertex_count": 24,
+      "face_count": 12,
+      "vertex_surface_max_error_mm": 0.0002122603442273885,
+      "face_center_max_inward_chord_gap_mm": 7.753269102295235e-07,
+      "mesh_bounds_B_mm": [
+        [
+          -215.0000035762787,
+          -80.49999922513962,
+          -8.00000037997961
+        ],
+        [
+          -209.99999344348907,
+          80.49999922513962,
+          8.00000037997961
+        ]
+      ],
+      "double_sided": true
+    },
+    {
+      "component_id": 15,
+      "name": "strap_left_bracket",
+      "group": "WearerMount",
+      "usd_path": "/World/Rig/WearerMount/strap_left_bracket",
+      "vertex_count": 24,
+      "face_count": 12,
+      "vertex_surface_max_error_mm": 4.7556780025104217e-07,
+      "face_center_max_inward_chord_gap_mm": 2.931487296464752e-06,
+      "mesh_bounds_B_mm": [
+        [
+          -35.999998450279236,
+          67.00000166893005,
+          -8.00000037997961
+        ],
+        [
+          -28.00000086426735,
+          75.99999755620956,
+          8.00000037997961
+        ]
+      ],
+      "double_sided": true
+    },
+    {
+      "component_id": 16,
+      "name": "usb_cable_0",
+      "group": "Accessories",
+      "usd_path": "/World/Rig/Accessories/usb_cable_0",
+      "vertex_count": 506,
+      "face_count": 500,
+      "vertex_surface_max_error_mm": 1.2124376553401817e-05,
+      "face_center_max_inward_chord_gap_mm": 0.0010552134554746573,
+      "mesh_bounds_B_mm": [
+        [
+          -53.45309525728226,
+          -88.03433179855347,
+          -6.499222945421934
+        ],
+        [
+          -36.54690459370613,
+          -73.96566867828369,
+          -1.5007770853117108
+        ]
+      ],
+      "double_sided": true
+    },
+    {
+      "component_id": 17,
+      "name": "usb_cable_1",
+      "group": "Accessories",
+      "usd_path": "/World/Rig/Accessories/usb_cable_1",
+      "vertex_count": 506,
+      "face_count": 500,
+      "vertex_surface_max_error_mm": 9.550899926580314e-05,
+      "face_center_max_inward_chord_gap_mm": 0.0064412174581747195,
+      "mesh_bounds_B_mm": [
+        [
+          -190.1806890964508,
+          -88.49922567605972,
+          -16.493462026119232
+        ],
+        [
+          -51.81931331753731,
+          -83.50078016519547,
+          -1.5065380139276385
+        ]
+      ],
+      "double_sided": true
+    },
+    {
+      "component_id": 18,
+      "name": "head_ellipsoid",
+      "group": "Wearer",
+      "usd_path": "/World/Rig/Wearer/head_ellipsoid",
+      "vertex_count": 2514,
+      "face_count": 4872,
+      "vertex_surface_max_error_mm": 7.349243773546732e-06,
+      "face_center_max_inward_chord_gap_mm": 0.6081246332258559,
+      "mesh_bounds_B_mm": [
+        [
+          -204.99999821186066,
+          -71.9611793756485,
+          -129.99999523162842
+        ],
+        [
+          -35.00732779502869,
+          71.94672524929047,
+          79.99999821186066
+        ]
+      ],
+      "double_sided": true
+    }
+  ]
+}

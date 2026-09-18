@@ -1,0 +1,46 @@
+{
+  "idToLabels": {
+    "0": "BACKGROUND",
+    "1": "UNLABELLED",
+    "2": "",
+    "11": "/World/Rig/Housing/C6_barrel",
+    "12": "/World/Rig/Housing/central_housing",
+    "13": "/World/Rig/Housing/left_pod",
+    "14": "/World/Rig/Housing/right_pod",
+    "15": "/World/Rig/Wearer/head_ellipsoid",
+    "16": "/World/Rig/WearerMount/strap_left",
+    "19": "/World/Rig/Accessories/right_heatsink"
+  },
+  "idToSemantics": {
+    "0": {
+      "class": "BACKGROUND"
+    },
+    "1": {
+      "class": "UNLABELLED"
+    },
+    "2": {
+      "class": "strap_right"
+    },
+    "11": {
+      "class": "c6_barrel"
+    },
+    "12": {
+      "class": "central_housing"
+    },
+    "13": {
+      "class": "left_pod"
+    },
+    "14": {
+      "class": "right_pod"
+    },
+    "15": {
+      "class": "head_ellipsoid"
+    },
+    "16": {
+      "class": "strap_left"
+    },
+    "19": {
+      "class": "right_heatsink"
+    }
+  }
+}

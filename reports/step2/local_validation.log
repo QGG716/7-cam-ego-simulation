@@ -1,0 +1,162 @@
+test_artifact_invariants (__main__.Step2) ... ok
+test_axes_and_back_hemisphere (__main__.Step2) ... ok
+test_frozen (__main__.Step2) ... ok
+test_known_intersections (__main__.Step2) ... ok
+test_unique_nearest_and_units (__main__.Step2) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.912s
+
+OK
+[
+  {
+    "camera_id": "C0",
+    "mode": "ideal",
+    "IoU": null,
+    "delta": 0,
+    "nonboundary": 0
+  },
+  {
+    "camera_id": "C0",
+    "mode": "body",
+    "IoU": null,
+    "delta": 0,
+    "nonboundary": 0
+  },
+  {
+    "camera_id": "C0",
+    "mode": "worn",
+    "IoU": null,
+    "delta": 0,
+    "nonboundary": 0
+  },
+  {
+    "camera_id": "C1",
+    "mode": "ideal",
+    "IoU": null,
+    "delta": 0,
+    "nonboundary": 0
+  },
+  {
+    "camera_id": "C1",
+    "mode": "body",
+    "IoU": null,
+    "delta": 0,
+    "nonboundary": 0
+  },
+  {
+    "camera_id": "C1",
+    "mode": "worn",
+    "IoU": null,
+    "delta": 0,
+    "nonboundary": 0
+  },
+  {
+    "camera_id": "C2",
+    "mode": "ideal",
+    "IoU": null,
+    "delta": 0,
+    "nonboundary": 0
+  },
+  {
+    "camera_id": "C2",
+    "mode": "body",
+    "IoU": null,
+    "delta": 0,
+    "nonboundary": 0
+  },
+  {
+    "camera_id": "C2",
+    "mode": "worn",
+    "IoU": null,
+    "delta": 0,
+    "nonboundary": 0
+  },
+  {
+    "camera_id": "C3",
+    "mode": "ideal",
+    "IoU": null,
+    "delta": 0,
+    "nonboundary": 0
+  },
+  {
+    "camera_id": "C3",
+    "mode": "body",
+    "IoU": 0.9999676008423781,
+    "delta": -1,
+    "nonboundary": 0
+  },
+  {
+    "camera_id": "C3",
+    "mode": "worn",
+    "IoU": 0.9989037474731768,
+    "delta": -141,
+    "nonboundary": 0
+  },
+  {
+    "camera_id": "C4",
+    "mode": "ideal",
+    "IoU": null,
+    "delta": 0,
+    "nonboundary": 0
+  },
+  {
+    "camera_id": "C4",
+    "mode": "body",
+    "IoU": 1.0,
+    "delta": 0,
+    "nonboundary": 0
+  },
+  {
+    "camera_id": "C4",
+    "mode": "worn",
+    "IoU": 0.9986468440147961,
+    "delta": -229,
+    "nonboundary": 0
+  },
+  {
+    "camera_id": "C5",
+    "mode": "ideal",
+    "IoU": null,
+    "delta": 0,
+    "nonboundary": 0
+  },
+  {
+    "camera_id": "C5",
+    "mode": "body",
+    "IoU": 0.9999782957850415,
+    "delta": -1,
+    "nonboundary": 0
+  },
+  {
+    "camera_id": "C5",
+    "mode": "worn",
+    "IoU": 0.9991045681127539,
+    "delta": -127,
+    "nonboundary": 0
+  },
+  {
+    "camera_id": "C6",
+    "mode": "ideal",
+    "IoU": null,
+    "delta": 0,
+    "nonboundary": 0
+  },
+  {
+    "camera_id": "C6",
+    "mode": "body",
+    "IoU": 1.0,
+    "delta": 0,
+    "nonboundary": 0
+  },
+  {
+    "camera_id": "C6",
+    "mode": "worn",
+    "IoU": 0.9988251854258026,
+    "delta": -217,
+    "nonboundary": 0
+  }
+]
+
+D:\code\7-cam-ego-simulation\src\rig_common.py:137: RuntimeWarning: invalid value encountered in multiply
+  radial=wp+t[...,None]*dp

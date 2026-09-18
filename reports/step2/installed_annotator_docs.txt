@@ -1,0 +1,109 @@
+1403-            #       }
+1404-            #   }
+1405-
+1406-        import asyncio
+1407-        asyncio.ensure_future(test_bbox_3d())
+1408-
+1409-    """,
+1410-    },
+1411-    # --- InstanceIdSeg action-graph
+1412-    {
+1413:        "name": "instance_id_segmentation_fast",
+1414-        "input_rendervars": [
+1415-            NodeConnectionTemplate(
+1416-                "InstanceIdSegmentationReductionSDbuffPtr",
+1417-                attributes_mapping={
+1418-                    "outputs:dataPtr": "inputs:dataPtr",
+1419-                    "outputs:strides": "inputs:strides",
+1420-                    "outputs:cudaDeviceIndex": "inputs:cudaDeviceIndex",
+1421-                    "outputs:height": "inputs:height",
+1422-                    "outputs:width": "inputs:width",
+1423-                    "outputs:bufferSize": "inputs:bufferSize",
+1424-                },
+1425-            ),
+1426-            NodeConnectionTemplate(
+1427-                "InstanceIdTokenMapSDPtr", attributes_mapping={"outputs:dataPtr": "inputs:instanceIdTokenPtr"}
+1428-            ),
+1429-        ],
+1430-        "node_type_id": "omni.replicator.nv.InstanceIdSegmentation",
+1431-        "output_data_type": np.uint32,
+1432-        "output_channels": 1,
+1433-        "output_is_2d": True,
+1434-        "hidden": True,
+1435-        "documentation": """Development segmentation node
+1436-    Instance segmentation that returns the renderer instance ID - used for debugging
+1437-    """,
+1438-    },
+1439-    {
+1440:        "name": "instance_id_segmentation",
+1441-        "input_rendervars": ["instance_id_segmentation_fast"],
+1442-        "node_type_id": "omni.replicator.core.InstanceIdSegmentationLegacy",
+1443-        "output_data_type": np.uint32,
+1444-        "output_channels": 1,
+1445-        "output_is_2d": True,
+1446-        "hidden": True,
+1447-        "documentation": """Development segmentation node
+1448-        Instance segmentation that returns the renderer instance ID - used for debugging
+1449-        """,
+1450-    },
+1451-    # --- InstanceSeg
+1452-    {
+1453-        "name": "instance_segmentation_fast",
+1454-        "input_rendervars": [
+1455-            NodeConnectionTemplate(
+1456-                "PostProcessDispatch",
+1457-                attributes_mapping={"outputs:renderResults": "inputs:rp"},
+1458-            ),
+1459-            NodeConnectionTemplate(
+1460-                "InstanceSegmentationPostRenderRVbuffPtr",
+1461-                attributes_mapping={
+1462-                    "outputs:dataPtr": "inputs:dataPtr",
+1463-                    "outputs:strides": "inputs:strides",
+1464-                    "outputs:cudaDeviceIndex": "inputs:cudaDeviceIndex",
+1465-                    "outputs:height": "inputs:height",
+1466-                    "outputs:width": "inputs:width",
+1467-                    "outputs:bufferSize": "inputs:bufferSize",
+1468-                },
+1469-            ),
+1470-        ],
+1471-        "node_type_id": "omni.replicator.nv.InstanceSegmentation",
+1472-        "output_data_type": np.uint32,
+1473-        "output_channels": 1,
+1474-        "output_is_2d": True,
+1475-        "documentation": """Outputs instance segmentation of each entity in the camera's viewport. Only semantically
+1476-        labelled entities are returned.
+1477-
+1478-    **Initialization Parameters**
+1479-
+1480-    * Colorize (bool): whether to output colorized instance segmentation or non-colorized one.
+1481-
+1482-    **Output Format**
+1483-
+1484-    .. code:: python
+1485-
+1486-        {
+1487-            "data": array((height, width), dtype=<np.uint32>),
+1488-
+1489-            "info": {
+1490-                "idToLabels": {<semanticId>: <prim_path>},    # mapping from instance ID to the instance's prim path
+1491-                "idToSemantic":{<instanceId>: <semantic_labels>},    # mapping from instance ID to a comma delimited
+1492-                                                                     # list of associated semantics.
+1493-            }
+1494-        }
+1495-
+1496-
+1497-    .. note::
+1498-
+1499-        * Two prims with same semantic labels but live in different USD path will have different ids.
+1500-        * If two prims have no semantic labels, and they have a same parent which has semantic labels, they will be
+1501-          classified as the same instance.
+1502-        * The semantic labels of an entity will be the semantic labels of itself, plus all the semantic labels it
+1503-          inherit from its parent and semantic labels with same type will be concatenated, separated by comma. For
+1504-          example, if an entity has a semantic label of [{"class": "cube"}], and its parent has [{"class": "rectangle"}].
+1505-          Then the final semantic labels of that entity will be [{"class": "rectangle, cube"}]. The semantic labels
+1506-          are not sorted alphabetically.
+1507-
+1508-
+1509-    .. code:: python
+1510-
+

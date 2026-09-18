@@ -1,0 +1,280 @@
+#usda 1.0
+(
+    defaultPrim = "World"
+    metersPerUnit = 1
+    subLayers = [
+        @../inspection_scene.usda@
+    ]
+    upAxis = "Z"
+)
+
+over "OmniverseKit_Persp" (
+    prepend apiSchemas = ["OmniRtxCameraAutoExposureAPI_1", "OmniRtxCameraExposureAPI_1"]
+)
+{
+}
+
+over "Render"
+{
+    over "OmniverseKit"
+    {
+        over "HydraTextures"
+        {
+            over "omni_kit_widget_viewport_ViewportTexture_0"
+            {
+                rel camera = </OmniverseKit_Persp>
+                bool omni:rtx:material:db:syncLoads = 1
+                bool omni:rtx:rt:ecoMode:enabled = 0
+                bool omni:rtx:scene:hydra:materialSyncLoads = 1
+                rel orderedVars = </Render/Vars/LdrColor>
+                custom bool overrideClipRange = 0
+                uniform int2 resolution = (1280, 720)
+            }
+        }
+    }
+
+    over "OmniverseGlobalRenderSettings"
+    {
+        rel products = [
+            </Render/OmniverseKit/HydraTextures/omni_kit_widget_viewport_ViewportTexture_0>,
+            </Render/OmniverseKit/HydraTextures/Replicator>,
+        ]
+    }
+}
+
+over "World"
+{
+    over "Rig"
+    {
+        over "Housing"
+        {
+            token visibility = "inherited"
+
+            over "central_housing" (
+                prepend apiSchemas = ["SemanticsAPI:Step2"]
+            )
+            {
+                string semantic:Step2:params:semanticData = "central_housing"
+                string semantic:Step2:params:semanticType = "class"
+            }
+
+            over "left_pod" (
+                prepend apiSchemas = ["SemanticsAPI:Step2"]
+            )
+            {
+                string semantic:Step2:params:semanticData = "left_pod"
+                string semantic:Step2:params:semanticType = "class"
+            }
+
+            over "right_pod" (
+                prepend apiSchemas = ["SemanticsAPI:Step2"]
+            )
+            {
+                string semantic:Step2:params:semanticData = "right_pod"
+                string semantic:Step2:params:semanticType = "class"
+            }
+
+            over "C0_barrel" (
+                prepend apiSchemas = ["SemanticsAPI:Step2"]
+            )
+            {
+                string semantic:Step2:params:semanticData = "C0_barrel"
+                string semantic:Step2:params:semanticType = "class"
+            }
+
+            over "C1_barrel" (
+                prepend apiSchemas = ["SemanticsAPI:Step2"]
+            )
+            {
+                string semantic:Step2:params:semanticData = "C1_barrel"
+                string semantic:Step2:params:semanticType = "class"
+            }
+
+            over "C2_barrel" (
+                prepend apiSchemas = ["SemanticsAPI:Step2"]
+            )
+            {
+                string semantic:Step2:params:semanticData = "C2_barrel"
+                string semantic:Step2:params:semanticType = "class"
+            }
+
+            over "C3_barrel" (
+                prepend apiSchemas = ["SemanticsAPI:Step2"]
+            )
+            {
+                string semantic:Step2:params:semanticData = "C3_barrel"
+                string semantic:Step2:params:semanticType = "class"
+            }
+
+            over "C4_barrel" (
+                prepend apiSchemas = ["SemanticsAPI:Step2"]
+            )
+            {
+                string semantic:Step2:params:semanticData = "C4_barrel"
+                string semantic:Step2:params:semanticType = "class"
+            }
+
+            over "C5_barrel" (
+                prepend apiSchemas = ["SemanticsAPI:Step2"]
+            )
+            {
+                string semantic:Step2:params:semanticData = "C5_barrel"
+                string semantic:Step2:params:semanticType = "class"
+            }
+
+            over "C6_barrel" (
+                prepend apiSchemas = ["SemanticsAPI:Step2"]
+            )
+            {
+                string semantic:Step2:params:semanticData = "C6_barrel"
+                string semantic:Step2:params:semanticType = "class"
+            }
+        }
+
+        over "Accessories"
+        {
+            token visibility = "inherited"
+
+            over "right_heatsink" (
+                prepend apiSchemas = ["SemanticsAPI:Step2"]
+            )
+            {
+                string semantic:Step2:params:semanticData = "right_heatsink"
+                string semantic:Step2:params:semanticType = "class"
+            }
+
+            over "usb_cable_0" (
+                prepend apiSchemas = ["SemanticsAPI:Step2"]
+            )
+            {
+                string semantic:Step2:params:semanticData = "usb_cable_0"
+                string semantic:Step2:params:semanticType = "class"
+            }
+
+            over "usb_cable_1" (
+                prepend apiSchemas = ["SemanticsAPI:Step2"]
+            )
+            {
+                string semantic:Step2:params:semanticData = "usb_cable_1"
+                string semantic:Step2:params:semanticType = "class"
+            }
+        }
+
+        over "WearerMount"
+        {
+            token visibility = "inherited"
+
+            over "strap_left" (
+                prepend apiSchemas = ["SemanticsAPI:Step2"]
+            )
+            {
+                string semantic:Step2:params:semanticData = "strap_left"
+                string semantic:Step2:params:semanticType = "class"
+            }
+
+            over "strap_right" (
+                prepend apiSchemas = ["SemanticsAPI:Step2"]
+            )
+            {
+                string semantic:Step2:params:semanticData = "strap_right"
+                string semantic:Step2:params:semanticType = "class"
+            }
+
+            over "strap_rear" (
+                prepend apiSchemas = ["SemanticsAPI:Step2"]
+            )
+            {
+                string semantic:Step2:params:semanticData = "strap_rear"
+                string semantic:Step2:params:semanticType = "class"
+            }
+
+            over "strap_left_bracket" (
+                prepend apiSchemas = ["SemanticsAPI:Step2"]
+            )
+            {
+                string semantic:Step2:params:semanticData = "strap_left_bracket"
+                string semantic:Step2:params:semanticType = "class"
+            }
+        }
+
+        over "Wearer"
+        {
+            token visibility = "inherited"
+
+            over "head_ellipsoid" (
+                prepend apiSchemas = ["SemanticsAPI:Step2"]
+            )
+            {
+                string semantic:Step2:params:semanticData = "head_ellipsoid"
+                string semantic:Step2:params:semanticType = "class"
+            }
+        }
+
+        over "Sensors"
+        {
+            over "C0_front_main" (
+                prepend apiSchemas = ["OmniRtxCameraAutoExposureAPI_1", "OmniRtxCameraExposureAPI_1"]
+            )
+            {
+                float exposure:fStop = 5
+                float exposure:responsivity = 1.1026709
+                float exposure:time = 0.02
+            }
+
+            over "C1_front_left" (
+                prepend apiSchemas = ["OmniRtxCameraAutoExposureAPI_1", "OmniRtxCameraExposureAPI_1"]
+            )
+            {
+                float exposure:fStop = 5
+                float exposure:responsivity = 1.1026709
+                float exposure:time = 0.02
+            }
+
+            over "C2_front_right" (
+                prepend apiSchemas = ["OmniRtxCameraAutoExposureAPI_1", "OmniRtxCameraExposureAPI_1"]
+            )
+            {
+                float exposure:fStop = 5
+                float exposure:responsivity = 1.1026709
+                float exposure:time = 0.02
+            }
+
+            over "C3_surround_left_up" (
+                prepend apiSchemas = ["OmniRtxCameraAutoExposureAPI_1", "OmniRtxCameraExposureAPI_1"]
+            )
+            {
+                float exposure:fStop = 5
+                float exposure:responsivity = 1.1026709
+                float exposure:time = 0.02
+            }
+
+            over "C4_surround_left_down" (
+                prepend apiSchemas = ["OmniRtxCameraAutoExposureAPI_1", "OmniRtxCameraExposureAPI_1"]
+            )
+            {
+                float exposure:fStop = 5
+                float exposure:responsivity = 1.1026709
+                float exposure:time = 0.02
+            }
+
+            over "C5_surround_right_up" (
+                prepend apiSchemas = ["OmniRtxCameraAutoExposureAPI_1", "OmniRtxCameraExposureAPI_1"]
+            )
+            {
+                float exposure:fStop = 5
+                float exposure:responsivity = 1.1026709
+                float exposure:time = 0.02
+            }
+
+            over "C6_surround_right_down" (
+                prepend apiSchemas = ["OmniRtxCameraAutoExposureAPI_1", "OmniRtxCameraExposureAPI_1"]
+            )
+            {
+                float exposure:fStop = 5
+                float exposure:responsivity = 1.1026709
+                float exposure:time = 0.02
+            }
+        }
+    }
+}
+

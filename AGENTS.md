@@ -1,9 +1,9 @@
 # 七目相机与 IMU 仿真工程
 
-- 本轮仅限 Step 1：初始化、基线配置、静态成像与投影检查。不得自行进入运动、IMU 采样、SLAM/VIO、覆盖率或遮挡率统计。
+- 本轮仅限 Step 2：逐相机 ideal/body/worn 有效像素遮挡、最近命中归因和真实 RTX 核对。保持第一步产物、场景和活动配置只读；新增产物限 outputs/step2、reports/step2、scenes/step2。不进入联合覆盖率、优化、运动、IMU 采样、SLAM/VIO。
 - 原始 ZIP、assets/baseline/ 下客户资料、PDF、图纸、模型和代码只读使用，不改写。缺少基线包时只做独立环境检查，不另造结构替代。
 - 活动配置唯一来源为 config/rig_sim_v0.2.json；必须读取原始 layout_parameters.json 后继承生成。内参、射线、掩膜、USD 和元数据均从活动配置派生。
-- 本轮用户唯一光学变更：C0/C1/C2 VFOV=130°；C0 独立 fx/fy。版本 SIM-V0.2-vfov130。不得将用户变更归为客户 PDF 原文要求。
+- 第一步已授权并冻结的光学变更（第二步不得继续修改）：C0/C1/C2 VFOV=130°；C0 独立 fx/fy。版本 SIM-V0.2-vfov130。不得将用户变更归为客户 PDF 原文要求。
 - B 系原点在 C0，X 前、Y 佩戴者左、Z 上；光学坐标 x 右、y 下、z 前；USD 相机 +Y 上、-Z 前。p_B=R_B_C*p_C+t_B_C；R_B_USD=R_B_C*diag(1,-1,-1)。四元数 w,x,y,z。
 - 输入结构尺寸允许 mm，USD 和导出外参平移使用 m。原包 USD 已为 m，不重复缩放。固定相机/IMU 布局、外壳及佩戴占位均不得擅改。
 - 离线数学检查与 Isaac 实际渲染分别报告。未运行标记 NOT_RUN；缺依赖标记 BLOCKED。不得生成假渲染或把理论位置当检测位置。

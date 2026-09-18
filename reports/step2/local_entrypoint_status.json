@@ -1,0 +1,4 @@
+{
+  "command": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/run_step2.ps1",
+  "exit_code": 0
+}

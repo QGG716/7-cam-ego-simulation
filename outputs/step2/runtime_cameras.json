@@ -1,0 +1,131 @@
+[
+  {
+    "camera_id": "C0",
+    "schemas": [
+      "OmniLensDistortionOpenCvPinholeAPI"
+    ],
+    "attributes": {
+      "clippingRange": "(0.0001, 100)",
+      "omni:lensdistortion:model": "opencvPinhole",
+      "omni:lensdistortion:opencvPinhole:cx": "960.0",
+      "omni:lensdistortion:opencvPinhole:cy": "540.0",
+      "omni:lensdistortion:opencvPinhole:fx": "554.2562866210938",
+      "omni:lensdistortion:opencvPinhole:fy": "251.80613708496094",
+      "omni:lensdistortion:opencvPinhole:imageSize": "(1920, 1080)",
+      "omni:lensdistortion:opencvPinhole:k1": "0.0",
+      "omni:lensdistortion:opencvPinhole:k2": "0.0",
+      "omni:lensdistortion:opencvPinhole:k3": "0.0",
+      "omni:lensdistortion:opencvPinhole:k4": "0.0",
+      "omni:lensdistortion:opencvPinhole:k5": "0.0",
+      "omni:lensdistortion:opencvPinhole:k6": "0.0",
+      "omni:lensdistortion:opencvPinhole:p1": "0.0",
+      "omni:lensdistortion:opencvPinhole:p2": "0.0",
+      "omni:lensdistortion:opencvPinhole:s1": "0.0",
+      "omni:lensdistortion:opencvPinhole:s2": "0.0",
+      "omni:lensdistortion:opencvPinhole:s3": "0.0",
+      "omni:lensdistortion:opencvPinhole:s4": "0.0"
+    }
+  },
+  {
+    "camera_id": "C1",
+    "schemas": [],
+    "attributes": {
+      "clippingRange": "(0.0001, 100)",
+      "fthetaCx": "800.0",
+      "fthetaCy": "650.0",
+      "fthetaHeight": "1300.0",
+      "fthetaMaxFov": "160.0",
+      "fthetaPolyA": "0.0",
+      "fthetaPolyB": "0.001745329238474369",
+      "fthetaPolyC": "0.0",
+      "fthetaPolyD": "0.0",
+      "fthetaPolyE": "0.0",
+      "fthetaWidth": "1600.0"
+    }
+  },
+  {
+    "camera_id": "C2",
+    "schemas": [],
+    "attributes": {
+      "clippingRange": "(0.0001, 100)",
+      "fthetaCx": "800.0",
+      "fthetaCy": "650.0",
+      "fthetaHeight": "1300.0",
+      "fthetaMaxFov": "160.0",
+      "fthetaPolyA": "0.0",
+      "fthetaPolyB": "0.001745329238474369",
+      "fthetaPolyC": "0.0",
+      "fthetaPolyD": "0.0",
+      "fthetaPolyE": "0.0",
+      "fthetaWidth": "1600.0"
+    }
+  },
+  {
+    "camera_id": "C3",
+    "schemas": [],
+    "attributes": {
+      "clippingRange": "(0.0001, 100)",
+      "fthetaCx": "540.0",
+      "fthetaCy": "480.0",
+      "fthetaHeight": "960.0",
+      "fthetaMaxFov": "220.0",
+      "fthetaPolyA": "0.0",
+      "fthetaPolyB": "0.003999712876975536",
+      "fthetaPolyC": "0.0",
+      "fthetaPolyD": "0.0",
+      "fthetaPolyE": "0.0",
+      "fthetaWidth": "1080.0"
+    }
+  },
+  {
+    "camera_id": "C4",
+    "schemas": [],
+    "attributes": {
+      "clippingRange": "(0.0001, 100)",
+      "fthetaCx": "540.0",
+      "fthetaCy": "480.0",
+      "fthetaHeight": "960.0",
+      "fthetaMaxFov": "220.0",
+      "fthetaPolyA": "0.0",
+      "fthetaPolyB": "0.003999712876975536",
+      "fthetaPolyC": "0.0",
+      "fthetaPolyD": "0.0",
+      "fthetaPolyE": "0.0",
+      "fthetaWidth": "1080.0"
+    }
+  },
+  {
+    "camera_id": "C5",
+    "schemas": [],
+    "attributes": {
+      "clippingRange": "(0.0001, 100)",
+      "fthetaCx": "540.0",
+      "fthetaCy": "480.0",
+      "fthetaHeight": "960.0",
+      "fthetaMaxFov": "220.0",
+      "fthetaPolyA": "0.0",
+      "fthetaPolyB": "0.003999712876975536",
+      "fthetaPolyC": "0.0",
+      "fthetaPolyD": "0.0",
+      "fthetaPolyE": "0.0",
+      "fthetaWidth": "1080.0"
+    }
+  },
+  {
+    "camera_id": "C6",
+    "schemas": [],
+    "attributes": {
+      "clippingRange": "(0.0001, 100)",
+      "fthetaCx": "540.0",
+      "fthetaCy": "480.0",
+      "fthetaHeight": "960.0",
+      "fthetaMaxFov": "220.0",
+      "fthetaPolyA": "0.0",
+      "fthetaPolyB": "0.003999712876975536",
+      "fthetaPolyC": "0.0",
+      "fthetaPolyD": "0.0",
+      "fthetaPolyE": "0.0",
+      "fthetaWidth": "1080.0"
+    }
+  }
+]

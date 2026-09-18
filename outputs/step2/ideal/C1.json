@@ -1,0 +1,38 @@
+{
+  "camera_id": "C1",
+  "mode": "ideal",
+  "resolution": [
+    1600,
+    1300
+  ],
+  "projection": {
+    "model": "ideal_equidistant",
+    "resolution": [
+      1600,
+      1300
+    ],
+    "hfov_deg": 160.0,
+    "radial_full_fov_deg": 160.0,
+    "provenance": "resolution chosen at PDF minimum for both cameras; HFOV from PDF; equidistant model and circular cut-off are assumptions, not lens calibration",
+    "vfov_deg": 130.0,
+    "fx_px": 572.9577951308232,
+    "fy_px": 572.9577951308232,
+    "cx_px": 800.0,
+    "cy_px": 650.0,
+    "derived_vfov_deg": 130.0,
+    "valid_radius_px": 800.0
+  },
+  "config_sha256": "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d",
+  "scene": "scenes/step2/inspection.usda",
+  "scene_state": {
+    "Housing": "invisible",
+    "Accessories": "invisible",
+    "WearerMount": "invisible",
+    "Wearer": "invisible"
+  },
+  "simulation_time_seconds": 0.0,
+  "isaac_version": "6.0.1.0",
+  "execution": "static sequential RayTracedLighting; RGB + instance_segmentation same RenderProduct",
+  "raw_label_source": "RTX instance_segmentation; mapped by exact USD path or unique semantic name when path empty",
+  "rgb_label_same_resolution": true
+}

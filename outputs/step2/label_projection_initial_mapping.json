@@ -1,0 +1,100 @@
+[
+  {
+    "camera_id": "C0",
+    "off_axis_deg": 0,
+    "rgb_centroid": [
+      960.0882352941177,
+      540.0882352941177
+    ],
+    "label_centroid": null,
+    "centroid_difference_px": null,
+    "label_projection_error_px": null,
+    "rgb_pixels": 17,
+    "label_pixels": 0,
+    "status": "FAIL"
+  },
+  {
+    "camera_id": "C1",
+    "off_axis_deg": 75,
+    "rgb_centroid": [
+      1550.0,
+      650.0
+    ],
+    "label_centroid": null,
+    "centroid_difference_px": null,
+    "label_projection_error_px": null,
+    "rgb_pixels": 50,
+    "label_pixels": 0,
+    "status": "FAIL"
+  },
+  {
+    "camera_id": "C3",
+    "off_axis_deg": 95,
+    "rgb_centroid": [
+      954.5,
+      480.0
+    ],
+    "label_centroid": null,
+    "centroid_difference_px": null,
+    "label_projection_error_px": null,
+    "rgb_pixels": 12,
+    "label_pixels": 0,
+    "status": "FAIL"
+  },
+  {
+    "camera_id": "C3",
+    "off_axis_deg": 105,
+    "rgb_centroid": [
+      998.2142857142857,
+      480.0
+    ],
+    "label_centroid": null,
+    "centroid_difference_px": null,
+    "label_projection_error_px": null,
+    "rgb_pixels": 14,
+    "label_pixels": 0,
+    "status": "FAIL"
+  },
+  {
+    "camera_id": "C4",
+    "off_axis_deg": 105,
+    "rgb_centroid": [
+      998.3571428571429,
+      479.7142857142857
+    ],
+    "label_centroid": null,
+    "centroid_difference_px": null,
+    "label_projection_error_px": null,
+    "rgb_pixels": 14,
+    "label_pixels": 0,
+    "status": "FAIL"
+  },
+  {
+    "camera_id": "C5",
+    "off_axis_deg": 105,
+    "rgb_centroid": [
+      998.2142857142857,
+      480.0
+    ],
+    "label_centroid": null,
+    "centroid_difference_px": null,
+    "label_projection_error_px": null,
+    "rgb_pixels": 14,
+    "label_pixels": 0,
+    "status": "FAIL"
+  },
+  {
+    "camera_id": "C6",
+    "off_axis_deg": 105,
+    "rgb_centroid": [
+      998.3571428571429,
+      479.7142857142857
+    ],
+    "label_centroid": null,
+    "centroid_difference_px": null,
+    "label_projection_error_px": null,
+    "rgb_pixels": 14,
+    "label_pixels": 0,
+    "status": "FAIL"
+  }
+]

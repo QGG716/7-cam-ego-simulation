@@ -1,0 +1,126 @@
+{
+  "status": "PASS",
+  "captures": 21,
+  "config_sha256": "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d",
+  "label_projection_checks": [
+    {
+      "camera_id": "C0",
+      "off_axis_deg": 0,
+      "rgb_centroid": [
+        960.0882352941177,
+        540.0882352941177
+      ],
+      "label_centroid": [
+        960.0,
+        540.0
+      ],
+      "centroid_difference_px": 0.12478354962120274,
+      "label_projection_error_px": 0.0,
+      "rgb_pixels": 17,
+      "label_pixels": 12,
+      "status": "PASS"
+    },
+    {
+      "camera_id": "C1",
+      "off_axis_deg": 75,
+      "rgb_centroid": [
+        1550.0,
+        650.0
+      ],
+      "label_centroid": [
+        1550.0,
+        650.0
+      ],
+      "centroid_difference_px": 0.0,
+      "label_projection_error_px": 0.0,
+      "rgb_pixels": 50,
+      "label_pixels": 48,
+      "status": "PASS"
+    },
+    {
+      "camera_id": "C3",
+      "off_axis_deg": 95,
+      "rgb_centroid": [
+        954.5,
+        480.0
+      ],
+      "label_centroid": [
+        954.5,
+        480.0
+      ],
+      "centroid_difference_px": 0.0,
+      "label_projection_error_px": 0.045454545454504114,
+      "rgb_pixels": 12,
+      "label_pixels": 12,
+      "status": "PASS"
+    },
+    {
+      "camera_id": "C3",
+      "off_axis_deg": 105,
+      "rgb_centroid": [
+        998.3,
+        479.9
+      ],
+      "label_centroid": [
+        998.3333333333334,
+        480.0
+      ],
+      "centroid_difference_px": 0.10540925533899391,
+      "label_projection_error_px": 0.1515151515151274,
+      "rgb_pixels": 15,
+      "label_pixels": 12,
+      "status": "PASS"
+    },
+    {
+      "camera_id": "C4",
+      "off_axis_deg": 105,
+      "rgb_centroid": [
+        998.3571428571429,
+        479.7142857142857
+      ],
+      "label_centroid": [
+        998.3333333333334,
+        480.0
+      ],
+      "centroid_difference_px": 0.28670463282837944,
+      "label_projection_error_px": 0.1515151515151274,
+      "rgb_pixels": 14,
+      "label_pixels": 12,
+      "status": "PASS"
+    },
+    {
+      "camera_id": "C5",
+      "off_axis_deg": 105,
+      "rgb_centroid": [
+        998.2142857142857,
+        480.0
+      ],
+      "label_centroid": [
+        998.3333333333334,
+        480.0
+      ],
+      "centroid_difference_px": 0.11904761904770567,
+      "label_projection_error_px": 0.1515151515151274,
+      "rgb_pixels": 14,
+      "label_pixels": 12,
+      "status": "PASS"
+    },
+    {
+      "camera_id": "C6",
+      "off_axis_deg": 105,
+      "rgb_centroid": [
+        998.3571428571429,
+        479.7142857142857
+      ],
+      "label_centroid": [
+        998.3333333333334,
+        480.0
+      ],
+      "centroid_difference_px": 0.28670463282837944,
+      "label_projection_error_px": 0.1515151515151274,
+      "rgb_pixels": 14,
+      "label_pixels": 12,
+      "status": "PASS"
+    }
+  ]
+}

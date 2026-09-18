@@ -1,0 +1,317 @@
+[
+  {
+    "id": 1,
+    "usd_path": "/World/Rig/Housing/central_housing",
+    "name": "central_housing",
+    "group": "Housing",
+    "kind": "box",
+    "center_mm": [
+      -17,
+      0,
+      0
+    ],
+    "size_mm": [
+      26,
+      86,
+      26
+    ]
+  },
+  {
+    "id": 2,
+    "usd_path": "/World/Rig/Housing/left_pod",
+    "name": "left_pod",
+    "group": "Housing",
+    "kind": "box",
+    "center_mm": [
+      -16.0,
+      55.0,
+      0
+    ],
+    "size_mm": [
+      28,
+      24,
+      28
+    ]
+  },
+  {
+    "id": 3,
+    "usd_path": "/World/Rig/Housing/right_pod",
+    "name": "right_pod",
+    "group": "Housing",
+    "kind": "box",
+    "center_mm": [
+      -16.0,
+      -55.0,
+      0
+    ],
+    "size_mm": [
+      28,
+      24,
+      28
+    ]
+  },
+  {
+    "id": 4,
+    "usd_path": "/World/Rig/Housing/C0_barrel",
+    "name": "C0_barrel",
+    "group": "Housing",
+    "kind": "cylinder",
+    "a_mm": [
+      -8.0,
+      0.0,
+      0.0
+    ],
+    "b_mm": [
+      -1.0,
+      0.0,
+      0.0
+    ],
+    "radius_mm": 6.0
+  },
+  {
+    "id": 5,
+    "usd_path": "/World/Rig/Housing/C1_barrel",
+    "name": "C1_barrel",
+    "group": "Housing",
+    "kind": "cylinder",
+    "a_mm": [
+      -8.0,
+      31.5,
+      0.0
+    ],
+    "b_mm": [
+      -1.0,
+      31.5,
+      0.0
+    ],
+    "radius_mm": 6.0
+  },
+  {
+    "id": 6,
+    "usd_path": "/World/Rig/Housing/C2_barrel",
+    "name": "C2_barrel",
+    "group": "Housing",
+    "kind": "cylinder",
+    "a_mm": [
+      -8.0,
+      -31.5,
+      0.0
+    ],
+    "b_mm": [
+      -1.0,
+      -31.5,
+      0.0
+    ],
+    "radius_mm": 6.0
+  },
+  {
+    "id": 7,
+    "usd_path": "/World/Rig/Housing/C3_barrel",
+    "name": "C3_barrel",
+    "group": "Housing",
+    "kind": "cylinder",
+    "a_mm": [
+      -16.0,
+      55.0,
+      12.0
+    ],
+    "b_mm": [
+      -16.0,
+      55.0,
+      15.0
+    ],
+    "radius_mm": 6.0
+  },
+  {
+    "id": 8,
+    "usd_path": "/World/Rig/Housing/C4_barrel",
+    "name": "C4_barrel",
+    "group": "Housing",
+    "kind": "cylinder",
+    "a_mm": [
+      -16.0,
+      55.0,
+      -12.0
+    ],
+    "b_mm": [
+      -16.0,
+      55.0,
+      -15.0
+    ],
+    "radius_mm": 6.0
+  },
+  {
+    "id": 9,
+    "usd_path": "/World/Rig/Housing/C5_barrel",
+    "name": "C5_barrel",
+    "group": "Housing",
+    "kind": "cylinder",
+    "a_mm": [
+      -16.0,
+      -55.0,
+      12.0
+    ],
+    "b_mm": [
+      -16.0,
+      -55.0,
+      15.0
+    ],
+    "radius_mm": 6.0
+  },
+  {
+    "id": 10,
+    "usd_path": "/World/Rig/Housing/C6_barrel",
+    "name": "C6_barrel",
+    "group": "Housing",
+    "kind": "cylinder",
+    "a_mm": [
+      -16.0,
+      -55.0,
+      -12.0
+    ],
+    "b_mm": [
+      -16.0,
+      -55.0,
+      -15.0
+    ],
+    "radius_mm": 6.0
+  },
+  {
+    "id": 11,
+    "usd_path": "/World/Rig/Accessories/right_heatsink",
+    "name": "right_heatsink",
+    "group": "Accessories",
+    "kind": "box",
+    "center_mm": [
+      -24,
+      -75.5,
+      0
+    ],
+    "size_mm": [
+      32,
+      17,
+      24
+    ]
+  },
+  {
+    "id": 12,
+    "usd_path": "/World/Rig/WearerMount/strap_left",
+    "name": "strap_left",
+    "group": "WearerMount",
+    "kind": "box",
+    "center_mm": [
+      -120,
+      78,
+      0
+    ],
+    "size_mm": [
+      180,
+      5,
+      16
+    ]
+  },
+  {
+    "id": 13,
+    "usd_path": "/World/Rig/WearerMount/strap_right",
+    "name": "strap_right",
+    "group": "WearerMount",
+    "kind": "box",
+    "center_mm": [
+      -120,
+      -78,
+      0
+    ],
+    "size_mm": [
+      180,
+      5,
+      16
+    ]
+  },
+  {
+    "id": 14,
+    "usd_path": "/World/Rig/WearerMount/strap_rear",
+    "name": "strap_rear",
+    "group": "WearerMount",
+    "kind": "box",
+    "center_mm": [
+      -212.5,
+      0,
+      0
+    ],
+    "size_mm": [
+      5,
+      161,
+      16
+    ]
+  },
+  {
+    "id": 15,
+    "usd_path": "/World/Rig/WearerMount/strap_left_bracket",
+    "name": "strap_left_bracket",
+    "group": "WearerMount",
+    "kind": "box",
+    "center_mm": [
+      -32,
+      71.5,
+      0
+    ],
+    "size_mm": [
+      8,
+      9,
+      16
+    ]
+  },
+  {
+    "id": 16,
+    "usd_path": "/World/Rig/Accessories/usb_cable_0",
+    "name": "usb_cable_0",
+    "group": "Accessories",
+    "kind": "cylinder",
+    "a_mm": [
+      -38,
+      -76,
+      -4
+    ],
+    "b_mm": [
+      -52,
+      -86,
+      -4
+    ],
+    "radius_mm": 2.5
+  },
+  {
+    "id": 17,
+    "usd_path": "/World/Rig/Accessories/usb_cable_1",
+    "name": "usb_cable_1",
+    "group": "Accessories",
+    "kind": "cylinder",
+    "a_mm": [
+      -52,
+      -86,
+      -4
+    ],
+    "b_mm": [
+      -190,
+      -86,
+      -14
+    ],
+    "radius_mm": 2.5
+  },
+  {
+    "id": 18,
+    "usd_path": "/World/Rig/Wearer/head_ellipsoid",
+    "name": "head_ellipsoid",
+    "group": "Wearer",
+    "kind": "ellipsoid",
+    "center_mm": [
+      -120,
+      0,
+      -25
+    ],
+    "radii_mm": [
+      85.0,
+      72.0,
+      105.0
+    ]
+  }
+]

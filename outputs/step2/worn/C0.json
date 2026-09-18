@@ -1,0 +1,38 @@
+{
+  "camera_id": "C0",
+  "mode": "worn",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "projection": {
+    "model": "ideal_pinhole",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "hfov_deg": 120.0,
+    "provenance": "HFOV/resolution inherited from PDF-based baseline; explicit VFOV=130 from current user; independent fx/fy and centered principal point are simulation assumptions, not confirmed physical lens",
+    "vfov_deg": 130.0,
+    "fx_px": 554.2562584220409,
+    "fy_px": 251.80613540369924,
+    "cx_px": 960.0,
+    "cy_px": 540.0,
+    "derived_vfov_deg": 130.0,
+    "radial_full_fov_deg": 140.12208804690772,
+    "valid_radius_px": null
+  },
+  "config_sha256": "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d",
+  "scene": "scenes/step2/inspection.usda",
+  "scene_state": {
+    "Housing": "inherited",
+    "Accessories": "inherited",
+    "WearerMount": "inherited",
+    "Wearer": "inherited"
+  },
+  "simulation_time_seconds": 0.0,
+  "isaac_version": "6.0.1.0",
+  "execution": "static sequential RayTracedLighting; RGB + instance_segmentation same RenderProduct",
+  "raw_label_source": "RTX instance_segmentation; mapped by exact USD path or unique semantic name when path empty",
+  "rgb_label_same_resolution": true
+}

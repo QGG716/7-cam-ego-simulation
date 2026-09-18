@@ -1,0 +1,22 @@
+camera_id,mode,N_valid,analytic_blocked,rtx_blocked,area_delta_pixels,area_delta_pixel_ratio,mask_IoU,empty_union,disagreement_pixels,boundary_band_px,boundary_band_pixels,boundary_disagreement,nonboundary_disagreement,first_hit_source_disagreement,verification
+C0,ideal,2073600,0,0,0,0.0,,True,0,3,0,0,0,0,full-resolution RTX labels; projection registration PASS
+C0,body,2073600,0,0,0,0.0,,True,0,3,0,0,0,0,full-resolution RTX labels; projection registration PASS
+C0,worn,2073600,0,0,0,0.0,,True,0,3,0,0,0,0,full-resolution RTX labels; projection registration PASS
+C1,ideal,1820284,0,0,0,0.0,,True,0,3,0,0,0,0,full-resolution RTX labels; projection registration PASS
+C1,body,1820284,0,0,0,0.0,,True,0,3,0,0,0,0,full-resolution RTX labels; projection registration PASS
+C1,worn,1820284,0,0,0,0.0,,True,0,3,0,0,0,0,full-resolution RTX labels; projection registration PASS
+C2,ideal,1820284,0,0,0,0.0,,True,0,3,0,0,0,0,full-resolution RTX labels; projection registration PASS
+C2,body,1820284,0,0,0,0.0,,True,0,3,0,0,0,0,full-resolution RTX labels; projection registration PASS
+C2,worn,1820284,0,0,0,0.0,,True,0,3,0,0,0,0,full-resolution RTX labels; projection registration PASS
+C3,ideal,723804,0,0,0,0.0,,True,0,3,0,0,0,0,full-resolution RTX labels; projection registration PASS
+C3,body,723804,30865,30864,-1,-1.381589491077695e-06,0.9999676008423781,False,1,3,12367,1,0,0,full-resolution RTX labels; projection registration PASS
+C3,worn,723804,128620,128479,-141,-0.000194804118241955,0.9989037474731768,False,141,3,15896,141,0,12,full-resolution RTX labels; projection registration PASS
+C4,ideal,723804,0,0,0,0.0,,True,0,3,0,0,0,0,full-resolution RTX labels; projection registration PASS
+C4,body,723804,31204,31204,0,0.0,1.0,False,0,3,12861,0,0,0,full-resolution RTX labels; projection registration PASS
+C4,worn,723804,169234,169005,-229,-0.0003163839934567922,0.9986468440147961,False,229,3,16483,229,0,25,full-resolution RTX labels; projection registration PASS
+C5,ideal,723804,0,0,0,0.0,,True,0,3,0,0,0,0,full-resolution RTX labels; projection registration PASS
+C5,body,723804,46074,46073,-1,-1.381589491077695e-06,0.9999782957850415,False,1,3,17744,1,0,0,full-resolution RTX labels; projection registration PASS
+C5,worn,723804,141831,141704,-127,-0.00017546186536686727,0.9991045681127539,False,127,3,20964,127,0,24,full-resolution RTX labels; projection registration PASS
+C6,ideal,723804,0,0,0,0.0,,True,0,3,0,0,0,0,full-resolution RTX labels; projection registration PASS
+C6,body,723804,47544,47544,0,0.0,1.0,False,0,3,18227,0,0,0,full-resolution RTX labels; projection registration PASS
+C6,worn,723804,184710,184493,-217,-0.0002998049195638598,0.9988251854258026,False,217,3,22160,217,0,30,full-resolution RTX labels; projection registration PASS

@@ -1,0 +1,27 @@
+{
+  "stride": 1,
+  "chunk_rays": 131072,
+  "boundary_band_px": 3,
+  "modes": {
+    "ideal": [],
+    "body": [
+      "Housing",
+      "Accessories"
+    ],
+    "worn": [
+      "Housing",
+      "Accessories",
+      "WearerMount",
+      "Wearer"
+    ]
+  },
+  "state_codes": {
+    "INVALID": 0,
+    "CLEAR": 1,
+    "BLOCKED": 2
+  },
+  "distance_unit": "m",
+  "unhit_distance": "NaN",
+  "tie_policy": "stable component ID order",
+  "boundary_tolerance_note": "3 pixel morphological band for engineering diagnosis only; not customer acceptance"
+}
