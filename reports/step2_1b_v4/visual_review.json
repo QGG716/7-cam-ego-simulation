@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "method": "Visual inspection of final PyMuPDF rasterized PDF, complete plate and enlarged B/C/D panels. Refined contour rendering after initial review to remove dense edge-line noise. No text clipping or layout overlaps observed.",
+  "notes": [
+    "A unchanged; all seven actual images dominate B/C/D with clear IDs.",
+    "Uniform display gain and separate explanation layers disclosed.",
+    "Real head/body intrusions remain visible; invalid checker and unknown hatch use depth/domain data, not image brightness.",
+    "Geometry, pose, optics and source RGB unchanged."
+  ],
+  "reviewed_sha256": {
+    "outputs/step2_1b_v4/fov_overview_wearer_v4.png": "ac1ecb8859d0f93871b2e5552f5361fd74768acaa2e72107139386bf53054c9e",
+    "outputs/step2_1b_v4/fov_overview_wearer_v4.pdf": "a8b39d51df183b233839655d9722367b09b686b35cdfaf60b0b5252dfb978ff2",
+    "outputs/step2_1b_v4/fov_overview_wearer_v4.svg": "a7d00591d5519719ee442786adeb5bb75195ced7322b737314d1689611134b09",
+    "outputs/step2_1b_v4/panels/panel_A.png": "fd60fdbb919474cc5b8220e47010441dbb8d0aa7798c612d39989ff8091aa39e",
+    "outputs/step2_1b_v4/panels/panel_B.png": "f04997207e68327d047dc614cf89561ebf711540741efec989673f03634fb89b",
+    "outputs/step2_1b_v4/panels/panel_C.png": "1faf301f05d83526a050505ff191bb5ec06ffc9a03451362ad590cb4976199fb",
+    "outputs/step2_1b_v4/panels/panel_D.png": "4ba96e7468e11e37b71ece46e03133de241d1c8e5552cda6aea0d0ee9fb53b1d"
+  }
+}

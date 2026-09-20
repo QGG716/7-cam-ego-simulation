@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "baseline_commit": "1186652946f02437327386856114476a65e5141b",
+  "protected_files": 886,
+  "changed_old_files": [],
+  "A_pixel_identical_to_v3": true,
+  "cameras": {
+    "C1": {
+      "raw_byte_identical": true,
+      "uniform_display_transform": true,
+      "classification_consistent": true,
+      "source_sha256": "64e376e539fe4081645a2ed5877e4137363d9e6c8130122a7c1080559c869e89"
+    },
+    "C0": {
+      "raw_byte_identical": true,
+      "uniform_display_transform": true,
+      "classification_consistent": true,
+      "source_sha256": "911dbe8f5a49d4bca32b131ab8fa05b54a6f798d8b6477db920264191faa420b"
+    },
+    "C2": {
+      "raw_byte_identical": true,
+      "uniform_display_transform": true,
+      "classification_consistent": true,
+      "source_sha256": "21e9b78476fc5f31f25418aedc5dfac47e248b1d10b7a6ed889f4f37152e2f07"
+    },
+    "C3": {
+      "raw_byte_identical": true,
+      "uniform_display_transform": true,
+      "classification_consistent": true,
+      "source_sha256": "5986694b667a72303cbe84703c5f909a224eeca35b390edaaca57be893d0c406"
+    },
+    "C5": {
+      "raw_byte_identical": true,
+      "uniform_display_transform": true,
+      "classification_consistent": true,
+      "source_sha256": "9110bff563cddcb7559a566fb64c82877338fc05d3ffeac93047845cb3cb5870"
+    },
+    "C4": {
+      "raw_byte_identical": true,
+      "uniform_display_transform": true,
+      "classification_consistent": true,
+      "source_sha256": "c2208f4b319cb975b3cf86f304b8a7cb3b132e6ae69b4bb3c7838a80c64bca8b"
+    },
+    "C6": {
+      "raw_byte_identical": true,
+      "uniform_display_transform": true,
+      "classification_consistent": true,
+      "source_sha256": "3e6846871416f333885ff6295864100291a9c2b9003a56ee184727e8c40d6458"
+    }
+  },
+  "rendering": "Reused actual v3 images/depth; no new rendering or scene changes",
+  "geometry_and_optics": "All tracked prior files unchanged",
+  "visual_review": "PASS"
+}

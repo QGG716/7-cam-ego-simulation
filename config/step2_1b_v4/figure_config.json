@@ -1,0 +1,33 @@
+{
+  "baseline_commit": "1186652946f02437327386856114476a65e5141b",
+  "groups": {
+    "B": [
+      "C1",
+      "C0",
+      "C2"
+    ],
+    "C": [
+      "C3",
+      "C5"
+    ],
+    "D": [
+      "C4",
+      "C6"
+    ]
+  },
+  "exposure_EV": 1.5,
+  "display_transform": "sRGB decode -> fixed linear RGB gain 2^1.5 -> clip [0,1] -> sRGB encode; same for all seven images; raw files byte-identical",
+  "alpha_two": 0.10196078431372549,
+  "alpha_three": 0.12156862745098039,
+  "overlap_colors": {
+    "2": "#7396AB",
+    "3": "#A18BAF"
+  },
+  "depth_absolute_tolerance_m": 0.025,
+  "depth_relative_tolerance": 0.005,
+  "neighborhood_pixels": 3,
+  "source_geometry": "Unchanged v3 scene, pose, extrinsics, FOV and projection",
+  "unknown": "Valid image pixel without finite reference depth; sparse gray diagonal hatch; do not equate with occlusion",
+  "invalid": "Outside actual projection domain; neutral checker in explanation layer only",
+  "boundaries": "Thin contours of count >= 2 and >= 3 with 3 px Gaussian display-only smoothing; class masks unchanged; valid-domain border separate"
+}
