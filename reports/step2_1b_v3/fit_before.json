@@ -1,0 +1,142 @@
+[
+  {
+    "path": "/World/Rig/Housing/central_housing",
+    "triangles": 12,
+    "candidate_body_triangles": 855,
+    "triangle_crossings": 0,
+    "coplanar_contacts": 0,
+    "human_vertices_inside_solid": 0,
+    "minimum_sampled_gap_m": 0.00042574256152361065,
+    "distance_samples": 9488
+  },
+  {
+    "path": "/World/Rig/Housing/left_pod",
+    "triangles": 12,
+    "candidate_body_triangles": 408,
+    "triangle_crossings": 0,
+    "coplanar_contacts": 0,
+    "human_vertices_inside_solid": 0,
+    "minimum_sampled_gap_m": 0.011639270848507374,
+    "distance_samples": 2604
+  },
+  {
+    "path": "/World/Rig/Housing/right_pod",
+    "triangles": 12,
+    "candidate_body_triangles": 417,
+    "triangle_crossings": 0,
+    "coplanar_contacts": 0,
+    "human_vertices_inside_solid": 0,
+    "minimum_sampled_gap_m": 0.01142274367437084,
+    "distance_samples": 2604
+  },
+  {
+    "path": "/World/Rig/Housing/C0_barrel",
+    "triangles": 500,
+    "candidate_body_triangles": 29,
+    "triangle_crossings": 0,
+    "coplanar_contacts": 0,
+    "human_vertices_inside_solid": 0,
+    "minimum_sampled_gap_m": 0.022718479338198535,
+    "distance_samples": 5386
+  },
+  {
+    "path": "/World/Rig/Housing/C1_barrel",
+    "triangles": 500,
+    "candidate_body_triangles": 20,
+    "triangle_crossings": 0,
+    "coplanar_contacts": 0,
+    "human_vertices_inside_solid": 0,
+    "minimum_sampled_gap_m": 0.02716018134995408,
+    "distance_samples": 5168
+  },
+  {
+    "path": "/World/Rig/Housing/C2_barrel",
+    "triangles": 500,
+    "candidate_body_triangles": 15,
+    "triangle_crossings": 0,
+    "coplanar_contacts": 0,
+    "human_vertices_inside_solid": 0,
+    "minimum_sampled_gap_m": 0.026315670526038386,
+    "distance_samples": 5142
+  },
+  {
+    "path": "/World/Rig/Housing/C3_barrel",
+    "triangles": 500,
+    "candidate_body_triangles": 19,
+    "triangle_crossings": 0,
+    "coplanar_contacts": 0,
+    "human_vertices_inside_solid": 0,
+    "minimum_sampled_gap_m": 0.025861334554375528,
+    "distance_samples": 2932
+  },
+  {
+    "path": "/World/Rig/Housing/C4_barrel",
+    "triangles": 500,
+    "candidate_body_triangles": 33,
+    "triangle_crossings": 0,
+    "coplanar_contacts": 0,
+    "human_vertices_inside_solid": 0,
+    "minimum_sampled_gap_m": 0.02527696086791736,
+    "distance_samples": 2980
+  },
+  {
+    "path": "/World/Rig/Housing/C5_barrel",
+    "triangles": 500,
+    "candidate_body_triangles": 30,
+    "triangle_crossings": 0,
+    "coplanar_contacts": 0,
+    "human_vertices_inside_solid": 0,
+    "minimum_sampled_gap_m": 0.02570149077084394,
+    "distance_samples": 2932
+  },
+  {
+    "path": "/World/Rig/Housing/C6_barrel",
+    "triangles": 500,
+    "candidate_body_triangles": 46,
+    "triangle_crossings": 0,
+    "coplanar_contacts": 0,
+    "human_vertices_inside_solid": 0,
+    "minimum_sampled_gap_m": 0.025446346658944876,
+    "distance_samples": 2980
+  },
+  {
+    "path": "/World/Rig/Accessories/right_heatsink",
+    "triangles": 12,
+    "candidate_body_triangles": 161,
+    "triangle_crossings": 0,
+    "coplanar_contacts": 0,
+    "human_vertices_inside_solid": 0,
+    "minimum_sampled_gap_m": 0.019481864783379974,
+    "distance_samples": 2308
+  },
+  {
+    "path": "/World/Rig/Accessories/usb_cable_0",
+    "triangles": 500,
+    "candidate_body_triangles": 48,
+    "triangle_crossings": 0,
+    "coplanar_contacts": 0,
+    "human_vertices_inside_solid": 0,
+    "minimum_sampled_gap_m": 0.025863616986957924,
+    "distance_samples": 14766
+  },
+  {
+    "path": "/World/Rig/Accessories/usb_cable_1",
+    "triangles": 500,
+    "candidate_body_triangles": 117,
+    "triangle_crossings": 0,
+    "coplanar_contacts": 0,
+    "human_vertices_inside_solid": 0,
+    "minimum_sampled_gap_m": 0.003981797874242123,
+    "distance_samples": 644996
+  },
+  {
+    "path": "/World/Rig/WearerMount/FittedBand",
+    "triangles": 740,
+    "candidate_body_triangles": 1648,
+    "triangle_crossings": 0,
+    "coplanar_contacts": 0,
+    "human_vertices_inside_solid": 0,
+    "minimum_sampled_gap_m": 0.0010000219030459492,
+    "distance_samples": 71533
+  }
+]

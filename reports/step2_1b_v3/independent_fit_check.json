@@ -1,0 +1,130 @@
+{
+  "status": "PASS",
+  "surface_tests": "all final rig triangles against every final bare-head body and garment triangle; inactive helmet excluded; segment-triangle tests both directions, coplanar SAT",
+  "coordinate_tolerance_m": 1e-08,
+  "relative_parallel_tolerance": 1e-12,
+  "contact_reporting_tolerance_m": 0.0001,
+  "body_topology": {
+    "body0": {
+      "watertight": false,
+      "vertices": 1676,
+      "components": 10,
+      "non_two_manifold_edges": 106
+    },
+    "body1": {
+      "watertight": false,
+      "vertices": 950,
+      "components": 3,
+      "non_two_manifold_edges": 104
+    },
+    "body2": {
+      "watertight": false,
+      "vertices": 1300,
+      "components": 3,
+      "non_two_manifold_edges": 68
+    },
+    "body3": {
+      "watertight": false,
+      "vertices": 561,
+      "components": 6,
+      "non_two_manifold_edges": 36
+    },
+    "body4": {
+      "watertight": false,
+      "vertices": 1019,
+      "components": 2,
+      "non_two_manifold_edges": 24
+    },
+    "body5": {
+      "watertight": false,
+      "vertices": 793,
+      "components": 1,
+      "non_two_manifold_edges": 66
+    },
+    "body6": {
+      "watertight": false,
+      "vertices": 514,
+      "components": 2,
+      "non_two_manifold_edges": 323
+    },
+    "body7": {
+      "watertight": false,
+      "vertices": 116,
+      "components": 2,
+      "non_two_manifold_edges": 70
+    }
+  },
+  "rows": [
+    {
+      "mesh": "rig0",
+      "triangle_crossings": {},
+      "rig_components_inside_closed_person_mesh": {}
+    },
+    {
+      "mesh": "rig1",
+      "triangle_crossings": {},
+      "rig_components_inside_closed_person_mesh": {}
+    },
+    {
+      "mesh": "rig2",
+      "triangle_crossings": {},
+      "rig_components_inside_closed_person_mesh": {}
+    },
+    {
+      "mesh": "rig3",
+      "triangle_crossings": {},
+      "rig_components_inside_closed_person_mesh": {}
+    },
+    {
+      "mesh": "rig4",
+      "triangle_crossings": {},
+      "rig_components_inside_closed_person_mesh": {}
+    },
+    {
+      "mesh": "rig5",
+      "triangle_crossings": {},
+      "rig_components_inside_closed_person_mesh": {}
+    },
+    {
+      "mesh": "rig6",
+      "triangle_crossings": {},
+      "rig_components_inside_closed_person_mesh": {}
+    },
+    {
+      "mesh": "rig7",
+      "triangle_crossings": {},
+      "rig_components_inside_closed_person_mesh": {}
+    },
+    {
+      "mesh": "rig8",
+      "triangle_crossings": {},
+      "rig_components_inside_closed_person_mesh": {}
+    },
+    {
+      "mesh": "rig9",
+      "triangle_crossings": {},
+      "rig_components_inside_closed_person_mesh": {}
+    },
+    {
+      "mesh": "rig10",
+      "triangle_crossings": {},
+      "rig_components_inside_closed_person_mesh": {}
+    },
+    {
+      "mesh": "rig11",
+      "triangle_crossings": {},
+      "rig_components_inside_closed_person_mesh": {}
+    },
+    {
+      "mesh": "rig12",
+      "triangle_crossings": {},
+      "rig_components_inside_closed_person_mesh": {}
+    },
+    {
+      "mesh": "rig13",
+      "triangle_crossings": {},
+      "rig_components_inside_closed_person_mesh": {}
+    }
+  ],
+  "limitations": "Open garment/skin meshes have no unique solid interior. Containment is asserted only for closed meshes, with surface tests for all meshes; no pressure, comfort or mechanics conclusion."
+}

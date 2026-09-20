@@ -1,0 +1,455 @@
+[
+  {
+    "camera_id": "C0",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "center_distance_m": 11.582140922546387,
+    "finite_valid_pixels": 2060052,
+    "annotation": "distance_to_camera",
+    "scene_geometry_unchanged": true,
+    "position_world_m": [
+      0.0,
+      -0.11479039782569496,
+      1.7214341563639621
+    ],
+    "R_world_optical": [
+      [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0
+      ]
+    ],
+    "reference_only": false,
+    "optics": {
+      "model": "ideal_pinhole",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "hfov_deg": 120.0,
+      "provenance": "HFOV/resolution inherited from PDF-based baseline; explicit VFOV=130 from current user; independent fx/fy and centered principal point are simulation assumptions, not confirmed physical lens",
+      "vfov_deg": 130.0,
+      "fx_px": 554.2562584220409,
+      "fy_px": 251.80613540369924,
+      "cx_px": 960.0,
+      "cy_px": 540.0,
+      "derived_vfov_deg": 130.0,
+      "radial_full_fov_deg": 140.12208804690772,
+      "valid_radius_px": null
+    }
+  },
+  {
+    "camera_id": "C1",
+    "resolution": [
+      1600,
+      1300
+    ],
+    "center_distance_m": 11.582120895385742,
+    "finite_valid_pixels": 1745490,
+    "annotation": "distance_to_camera",
+    "scene_geometry_unchanged": true,
+    "position_world_m": [
+      0.0315,
+      -0.11479039782569496,
+      1.7214341563639621
+    ],
+    "R_world_optical": [
+      [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0
+      ]
+    ],
+    "reference_only": false,
+    "optics": {
+      "model": "ideal_equidistant",
+      "resolution": [
+        1600,
+        1300
+      ],
+      "hfov_deg": 160.0,
+      "radial_full_fov_deg": 160.0,
+      "provenance": "resolution chosen at PDF minimum for both cameras; HFOV from PDF; equidistant model and circular cut-off are assumptions, not lens calibration",
+      "vfov_deg": 130.0,
+      "fx_px": 572.9577951308232,
+      "fy_px": 572.9577951308232,
+      "cx_px": 800.0,
+      "cy_px": 650.0,
+      "derived_vfov_deg": 130.0,
+      "valid_radius_px": 800.0
+    }
+  },
+  {
+    "camera_id": "C2",
+    "resolution": [
+      1600,
+      1300
+    ],
+    "center_distance_m": 11.582120895385742,
+    "finite_valid_pixels": 1746210,
+    "annotation": "distance_to_camera",
+    "scene_geometry_unchanged": true,
+    "position_world_m": [
+      -0.0315,
+      -0.11479039782569496,
+      1.7214341563639621
+    ],
+    "R_world_optical": [
+      [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0
+      ]
+    ],
+    "reference_only": false,
+    "optics": {
+      "model": "ideal_equidistant",
+      "resolution": [
+        1600,
+        1300
+      ],
+      "hfov_deg": 160.0,
+      "radial_full_fov_deg": 160.0,
+      "provenance": "resolution chosen at PDF minimum for both cameras; HFOV from PDF; equidistant model and circular cut-off are assumptions, not lens calibration",
+      "vfov_deg": 130.0,
+      "fx_px": 572.9577951308232,
+      "fy_px": 572.9577951308232,
+      "cx_px": 800.0,
+      "cy_px": 650.0,
+      "derived_vfov_deg": 130.0,
+      "valid_radius_px": 800.0
+    }
+  },
+  {
+    "camera_id": "C3",
+    "resolution": [
+      1080,
+      960
+    ],
+    "center_distance_m": 1.2584710121154785,
+    "finite_valid_pixels": 689485,
+    "annotation": "distance_to_camera",
+    "scene_geometry_unchanged": true,
+    "position_world_m": [
+      0.055,
+      -0.09879039782569496,
+      1.7414341563639621
+    ],
+    "R_world_optical": [
+      [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "reference_only": false,
+    "optics": {
+      "model": "ideal_equidistant",
+      "resolution": [
+        1080,
+        960
+      ],
+      "radial_full_fov_deg": 220.0,
+      "image_circle_diameter_px": 960.0,
+      "provenance": "resolution chosen at PDF minimum; 220 comes only from composition image; interpretation as full circular angle with 960 px diameter is an assumption",
+      "fx_px": 250.0179469661774,
+      "fy_px": 250.0179469661774,
+      "cx_px": 540.0,
+      "cy_px": 480.0,
+      "derived_vfov_deg": 220.0,
+      "valid_radius_px": 480.0
+    }
+  },
+  {
+    "camera_id": "C4",
+    "resolution": [
+      1080,
+      960
+    ],
+    "center_distance_m": 0.2822614312171936,
+    "finite_valid_pixels": 690333,
+    "annotation": "distance_to_camera",
+    "scene_geometry_unchanged": true,
+    "position_world_m": [
+      0.055,
+      -0.09879039782569496,
+      1.7014341563639621
+    ],
+    "R_world_optical": [
+      [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    ],
+    "reference_only": false,
+    "optics": {
+      "model": "ideal_equidistant",
+      "resolution": [
+        1080,
+        960
+      ],
+      "radial_full_fov_deg": 220.0,
+      "image_circle_diameter_px": 960.0,
+      "provenance": "resolution chosen at PDF minimum; 220 comes only from composition image; interpretation as full circular angle with 960 px diameter is an assumption",
+      "fx_px": 250.0179469661774,
+      "fy_px": 250.0179469661774,
+      "cx_px": 540.0,
+      "cy_px": 480.0,
+      "derived_vfov_deg": 220.0,
+      "valid_radius_px": 480.0
+    }
+  },
+  {
+    "camera_id": "C5",
+    "resolution": [
+      1080,
+      960
+    ],
+    "center_distance_m": 1.2584706544876099,
+    "finite_valid_pixels": 703551,
+    "annotation": "distance_to_camera",
+    "scene_geometry_unchanged": true,
+    "position_world_m": [
+      -0.055,
+      -0.09879039782569496,
+      1.7414341563639621
+    ],
+    "R_world_optical": [
+      [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "reference_only": false,
+    "optics": {
+      "model": "ideal_equidistant",
+      "resolution": [
+        1080,
+        960
+      ],
+      "radial_full_fov_deg": 220.0,
+      "image_circle_diameter_px": 960.0,
+      "provenance": "resolution chosen at PDF minimum; 220 comes only from composition image; interpretation as full circular angle with 960 px diameter is an assumption",
+      "fx_px": 250.0179469661774,
+      "fy_px": 250.0179469661774,
+      "cx_px": 540.0,
+      "cy_px": 480.0,
+      "derived_vfov_deg": 220.0,
+      "valid_radius_px": 480.0
+    }
+  },
+  {
+    "camera_id": "C6",
+    "resolution": [
+      1080,
+      960
+    ],
+    "center_distance_m": 0.275884747505188,
+    "finite_valid_pixels": 703537,
+    "annotation": "distance_to_camera",
+    "scene_geometry_unchanged": true,
+    "position_world_m": [
+      -0.055,
+      -0.09879039782569496,
+      1.7014341563639621
+    ],
+    "R_world_optical": [
+      [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    ],
+    "reference_only": false,
+    "optics": {
+      "model": "ideal_equidistant",
+      "resolution": [
+        1080,
+        960
+      ],
+      "radial_full_fov_deg": 220.0,
+      "image_circle_diameter_px": 960.0,
+      "provenance": "resolution chosen at PDF minimum; 220 comes only from composition image; interpretation as full circular angle with 960 px diameter is an assumption",
+      "fx_px": 250.0179469661774,
+      "fy_px": 250.0179469661774,
+      "cx_px": 540.0,
+      "cy_px": 480.0,
+      "derived_vfov_deg": 220.0,
+      "valid_radius_px": 480.0
+    }
+  },
+  {
+    "camera_id": "UP_REF",
+    "resolution": [
+      1080,
+      960
+    ],
+    "center_distance_m": 1.2584706544876099,
+    "finite_valid_pixels": 702095,
+    "annotation": "distance_to_camera",
+    "scene_geometry_unchanged": true,
+    "position_world_m": [
+      0.0,
+      -0.09879039782569496,
+      1.7414341563639621
+    ],
+    "R_world_optical": [
+      [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "reference_only": true,
+    "optics": {
+      "model": "ideal_equidistant",
+      "resolution": [
+        1080,
+        960
+      ],
+      "radial_full_fov_deg": 220.0,
+      "image_circle_diameter_px": 960.0,
+      "provenance": "resolution chosen at PDF minimum; 220 comes only from composition image; interpretation as full circular angle with 960 px diameter is an assumption",
+      "fx_px": 250.0179469661774,
+      "fy_px": 250.0179469661774,
+      "cx_px": 540.0,
+      "cy_px": 480.0,
+      "derived_vfov_deg": 220.0,
+      "valid_radius_px": 480.0
+    }
+  },
+  {
+    "camera_id": "DOWN_REF",
+    "resolution": [
+      1080,
+      960
+    ],
+    "center_distance_m": 0.023068644106388092,
+    "finite_valid_pixels": 701237,
+    "annotation": "distance_to_camera",
+    "scene_geometry_unchanged": true,
+    "position_world_m": [
+      0.0,
+      -0.09879039782569496,
+      1.7014341563639621
+    ],
+    "R_world_optical": [
+      [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    ],
+    "reference_only": true,
+    "optics": {
+      "model": "ideal_equidistant",
+      "resolution": [
+        1080,
+        960
+      ],
+      "radial_full_fov_deg": 220.0,
+      "image_circle_diameter_px": 960.0,
+      "provenance": "resolution chosen at PDF minimum; 220 comes only from composition image; interpretation as full circular angle with 960 px diameter is an assumption",
+      "fx_px": 250.0179469661774,
+      "fy_px": 250.0179469661774,
+      "cx_px": 540.0,
+      "cy_px": 480.0,
+      "derived_vfov_deg": 220.0,
+      "valid_radius_px": 480.0
+    }
+  }
+]

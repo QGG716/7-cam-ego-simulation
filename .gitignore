@@ -26,3 +26,6 @@ outputs/step2_1b/debug/pdf_review*.png
 
 reports/step2_1b_v2/*.log
 outputs/step2_1b_v2/debug/pdf_review*.png
+
+reports/step2_1b_v3/*.log
+outputs/step2_1b_v3/debug/pdf_review*.png

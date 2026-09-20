@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "replacement_parts": [
+    {
+      "path": "/World/Rig/WearerMount/FittedBand",
+      "connections": [
+        {
+          "path": "/World/Rig/Housing/central_housing",
+          "intersecting_triangle_pairs": 20,
+          "contained_attachment": false
+        }
+      ]
+    }
+  ],
+  "interpretation": "Final mount meets the housing on a butt-contact interface, with zero solid overlap verified separately by Boolean intersection. The refined mount is one closed connected mesh; original straps are deactivated only in the new layer."
+}

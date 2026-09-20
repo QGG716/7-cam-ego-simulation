@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "self_checks": {
+    "安全帽已移除，渲染与检查一致": "PASS",
+    "完整工装工人，身高 1.800 m": "PASS",
+    "A 区简洁清楚": "PASS",
+    "B/C/D 已取消物理截面图": "PASS",
+    "B/C/D 使用实际或中点相机场景图": "PASS",
+    "采用轻微阴影": "PASS",
+    "底图保持可读": "PASS",
+    "C0/C1/C2 平行 +X": "PASS",
+    "C3/C5 朝 +Z": "PASS",
+    "C4/C6 朝 −Z": "PASS",
+    "四目仍在副相机区域上下方": "PASS",
+    "重新完成无帽人物佩戴检查": "PASS",
+    "场景视角较 v2 截面表达更直观（目视判断）": "PASS"
+  },
+  "protected_file_count": 808,
+  "changed_protected_files": [],
+  "config_sha256": "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d",
+  "fit_status": "PASS",
+  "independent_triangle_audit": "PASS",
+  "mount_boolean": "PASS",
+  "mount_connectivity": "PASS",
+  "rig_translation_delta_m": [
+    0,
+    0,
+    0
+  ],
+  "rig_rotation_delta_deg": 0,
+  "technical_sensor_frames": 7,
+  "reference_frames": 2,
+  "external_frames": 9,
+  "formal_dataset_frames": 0,
+  "not_run": [
+    "union coverage statistics",
+    "motion",
+    "IMU sequences",
+    "SLAM"
+  ]
+}

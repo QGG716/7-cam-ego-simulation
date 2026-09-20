@@ -1,0 +1,75 @@
+{
+  "status": "PASS",
+  "boundary_checks": {
+    "C0": {
+      "boundary_roundtrip_px": 2.2737367544323206e-13,
+      "max_offaxis_deg": 69.87433132801387
+    },
+    "C1": {
+      "boundary_roundtrip_px": 2.2737367544323206e-13,
+      "max_offaxis_deg": 80.00000000000003
+    },
+    "C2": {
+      "boundary_roundtrip_px": 2.2737367544323206e-13,
+      "max_offaxis_deg": 80.00000000000003
+    },
+    "C3": {
+      "boundary_roundtrip_px": 1.1368683772161603e-13,
+      "max_offaxis_deg": 110.00000000000003
+    },
+    "C4": {
+      "boundary_roundtrip_px": 1.1368683772161603e-13,
+      "max_offaxis_deg": 110.00000000000003
+    },
+    "C5": {
+      "boundary_roundtrip_px": 1.1368683772161603e-13,
+      "max_offaxis_deg": 110.00000000000003
+    },
+    "C6": {
+      "boundary_roundtrip_px": 1.1368683772161603e-13,
+      "max_offaxis_deg": 110.00000000000003
+    }
+  },
+  "groups": {
+    "B": {
+      "reference": "C0",
+      "category_pixels": {
+        "only_C0": 639,
+        "only_C1": 0,
+        "only_C2": 0,
+        "two": 2587,
+        "three": 2056826,
+        "unconfirmed": 0,
+        "invalid_or_no_depth": 13548
+      },
+      "mean_absolute_RGB_change": 18.39079805491254,
+      "method": "same reference scene point, actual per-camera origin/extrinsics/project(), 3x3 nearest radial-depth residual <= 25 mm + 0.5% distance"
+    },
+    "C": {
+      "reference": "UP_REF",
+      "category_pixels": {
+        "only_C3": 32333,
+        "only_C5": 31361,
+        "two": 636158,
+        "three": 0,
+        "unconfirmed": 2243,
+        "invalid_or_no_depth": 334705
+      },
+      "mean_absolute_RGB_change": 8.178215592849803,
+      "method": "same reference scene point, actual per-camera origin/extrinsics/project(), 3x3 nearest radial-depth residual <= 25 mm + 0.5% distance"
+    },
+    "D": {
+      "reference": "DOWN_REF",
+      "category_pixels": {
+        "only_C4": 91437,
+        "only_C6": 91986,
+        "two": 514562,
+        "three": 0,
+        "unconfirmed": 3252,
+        "invalid_or_no_depth": 335563
+      },
+      "mean_absolute_RGB_change": 7.7373335712448466,
+      "method": "same reference scene point, actual per-camera origin/extrinsics/project(), 3x3 nearest radial-depth residual <= 25 mm + 0.5% distance"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "groups": {
+    "B": {
+      "reference": "C0",
+      "ids": [
+        "C0",
+        "C1",
+        "C2"
+      ]
+    },
+    "C": {
+      "reference": "UP_REF",
+      "ids": [
+        "C3",
+        "C5"
+      ]
+    },
+    "D": {
+      "reference": "DOWN_REF",
+      "ids": [
+        "C4",
+        "C6"
+      ]
+    }
+  },
+  "colors": {
+    "C0": "#1478AE",
+    "C1": "#21A78F",
+    "C2": "#D6AB45",
+    "C3": "#3969AD",
+    "C5": "#58B4C6",
+    "C4": "#A65252",
+    "C6": "#CB9167",
+    "two": "#F07824",
+    "three": "#8935A7",
+    "occlusion": "#6E7680"
+  },
+  "overlap_colors": {
+    "two": "#6B8198",
+    "three": "#927DA4",
+    "unconfirmed": "#9DA1A5"
+  },
+  "alpha": {
+    "single": 0.04,
+    "two": 0.14,
+    "three": 0.18,
+    "unconfirmed": 0.08
+  },
+  "envelope_display_radius_m": 0.4,
+  "depth_tolerance_m": 0.025,
+  "depth_relative_tolerance": 0.005,
+  "depth_neighborhood": 3,
+  "limits": "Illustrative approximate scene visibility overlap, not exact occlusion boundary, stereo matching or union coverage. Pixels without finite reference depth are not classified. Actual C0 frame cannot display C1/C2-only directions outside its image. UP/DOWN midpoint views are additional reference cameras, not moved sensors.",
+  "config_sha256": "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d"
+}

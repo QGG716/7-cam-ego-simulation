@@ -1,0 +1,27 @@
+{
+  "fit_views": "PASS",
+  "overlap_visualization": "PASS",
+  "figure_readability": "PASS",
+  "review_method": "Opened full RGB/native scene montage, four fit views, final full plate rendered from PDF with PyMuPDF 1.28.2, and enlarged C/D panels; no clipped labels, physical sections or helmet; continuous bare-head band and industrial clothing visible.",
+  "reviewed_sha256": {
+    "outputs/step2_1b_v3/fov_overview_wearer_v3.png": "d6eae47e3c6fc2ef647a6e47b5635219d0421b48f334bd659d93748e812c52e4",
+    "outputs/step2_1b_v3/fov_overview_wearer_v3.pdf": "4d4a172146722cf5ee2fdaa834f577b3b7b7f9fa1d0c134f139bc66c51982a16",
+    "outputs/step2_1b_v3/fov_overview_wearer_v3.svg": "a17b42faae8e2f4c9c80f4f8fe4888247f397c10f94efb1367132ce8441f1585",
+    "outputs/step2_1b_v3/panels/panel_A.png": "fd60fdbb919474cc5b8220e47010441dbb8d0aa7798c612d39989ff8091aa39e",
+    "outputs/step2_1b_v3/panels/panel_B.png": "aa3c05fec2c1435bf0b60006fe9caea881e5082a0d19012e9e7232ecea48ec26",
+    "outputs/step2_1b_v3/panels/panel_C.png": "b04df1c862afb80a635e359949f8d1b483cedadabe26a16e45c83410bbb89350",
+    "outputs/step2_1b_v3/panels/panel_D.png": "8171383574f5918c5ed76a82b5301d095eab96a79941aa14f259ab2c7710e48e",
+    "outputs/step2_1b_v3/fit_check_front.png": "a311509d3ddecb4abaf3e6333704297b85606d9329e13a959de761eb8ba76f67",
+    "outputs/step2_1b_v3/fit_check_left.png": "c2d528d6a572ea2cfe39e6b3f4d0d3dd96ce30e4928d628d028dcdec1c1481b6",
+    "outputs/step2_1b_v3/fit_check_right.png": "e3747677524f079f5c6d4a45e952e8040663727271fcecb63f4b0b90e5d327e4",
+    "outputs/step2_1b_v3/fit_check_toprear.png": "8deb66713be3efac920147534264c49d6fddb94d0f5f49ba51d9f4c9e7f4ac5b",
+    "scenes/step2_1b_v3/indoor_worker.usda": "319102c2fa62643d63da4256b1c39ce65ef0320f61acf5f241c55b40e9f8d146",
+    "config/step2_1b_v3/final_placement.json": "2b10f950918349d3ab528ba5fa2fdf1d80eeb60891b66d85231eca0444cb9a53"
+  },
+  "notes": [
+    "Midpoint up view includes actual head at image edge; down view retains actual body and clothing.",
+    "Gentle category shading preserves scene detail. Category callout anchors are computed from label-mask distance transforms, not hand-selected coverage regions.",
+    "Forward scene mostly has three-camera overlap; 639 only-C0 pixels are retained, not expanded artificially.",
+    "Skin and clothing are open meshes: static surface audit plus visual review does not prove comfort or mechanical fit."
+  ]
+}

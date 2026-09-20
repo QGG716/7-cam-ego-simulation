@@ -1,0 +1,111 @@
+{
+  "source": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/People/Characters/original_male_adult_construction_01/male_adult_construction_01.usd",
+  "source_units_m": 1,
+  "source_up": "Z",
+  "source_forward": "-Y",
+  "pose_changes": [
+    {
+      "joint": "RL_BoneRoot/Hip/Waist/Spine01/Spine02/L_Clavicle/L_Upperarm",
+      "rotation_skeleton_Y_deg": 82.0
+    },
+    {
+      "joint": "RL_BoneRoot/Hip/Waist/Spine01/Spine02/R_Clavicle/R_Upperarm",
+      "rotation_skeleton_Y_deg": -82.0
+    }
+  ],
+  "skin_meshes": [
+    "/World/Person/ManRoot/male_adult_construction_01/male_adult_construction_01/opaque__organic__whitemaleskin_01"
+  ],
+  "height_method": "Final UsdSkel.ComputeSkinnedPoints: shoe minimum Z to actual skin head maximum Z; exclude helmet and rig from anthropometric height, include all attachments in fit",
+  "original_height_m": 1.7490045727643064,
+  "uniform_scale": 1.0291568289927884,
+  "final_height_m": 1.8000000000000003,
+  "overall_person_with_attachments_height_m": 1.8000000000000003,
+  "meshes": [
+    {
+      "path": "/World/Person/ManRoot/male_adult_construction_01/male_adult_construction_01/opaque__organic__whitemaleskin_01",
+      "vertices": 1676,
+      "triangles": 3222
+    },
+    {
+      "path": "/World/Person/ManRoot/male_adult_construction_01/male_adult_construction_01/opaque__fabric__vest_01",
+      "vertices": 979,
+      "triangles": 1799
+    },
+    {
+      "path": "/World/Person/ManRoot/male_adult_construction_01/male_adult_construction_01/opaque__fabric__workpants_01",
+      "vertices": 1316,
+      "triangles": 2530
+    },
+    {
+      "path": "/World/Person/ManRoot/male_adult_construction_01/male_adult_construction_01/opaque__leather__boots_01",
+      "vertices": 561,
+      "triangles": 1070
+    },
+    {
+      "path": "/World/Person/ManRoot/male_adult_construction_01/male_adult_construction_01/opaque__leather__gloves_01",
+      "vertices": 1040,
+      "triangles": 2010
+    },
+    {
+      "path": "/World/Person/ManRoot/male_adult_construction_01/male_adult_construction_01/opaque__fabric__tshirt_01",
+      "vertices": 796,
+      "triangles": 1524
+    },
+    {
+      "path": "/World/Person/ManRoot/male_adult_construction_01/male_adult_construction_01/retro__reflective__vest_01",
+      "vertices": 514,
+      "triangles": 705
+    },
+    {
+      "path": "/World/Person/ManRoot/male_adult_construction_01/male_adult_construction_01/retro__reflective__pants_01",
+      "vertices": 116,
+      "triangles": 162
+    }
+  ],
+  "appearance": {
+    "method": "Official construction worker geometry retained; user-authorized industrial palette on apparel/PPE; original skin material retained; source asset read-only",
+    "palette": {
+      "vest": [
+        0.95,
+        0.31,
+        0.025
+      ],
+      "workpants": [
+        0.025,
+        0.065,
+        0.12
+      ],
+      "tshirt": [
+        0.08,
+        0.14,
+        0.22
+      ],
+      "boots": [
+        0.035,
+        0.035,
+        0.04
+      ],
+      "gloves": [
+        0.3,
+        0.32,
+        0.34
+      ],
+      "hardhat": [
+        1.0,
+        0.69,
+        0.025
+      ],
+      "reflective": [
+        0.74,
+        0.77,
+        0.8
+      ]
+    }
+  },
+  "helmet_removed": true,
+  "removed_prims": [
+    "/World/Person/ManRoot/male_adult_construction_01/male_adult_construction_01/opaque__plastic__hardhat_01"
+  ],
+  "geometry_change_from_v2": "Only hardhat mesh deactivated; all other skinned geometry and scale/pose unchanged"
+}
