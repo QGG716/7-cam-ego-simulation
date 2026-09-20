@@ -1,0 +1,11 @@
+{
+  "config/rig_sim_v0.2.json": "d86a2a2fb7dce8b7387fcfb8b45fdea6706d14f67f4638d4adb7b7d56c59eabb",
+  "config/indoor_wearer_180.json": "9060525f370ffd08b9f76de656e867a72ed7101de21ac1f7e423f85058fd4b89",
+  "outputs/step2_1/placement.json": "4d5441d909a0bebf0cd04c763dabebf65199558c72e715f03ce7d1cc9e6da235",
+  "scenes/step2_1/indoor_wearer.usda": "22c7cb720792c70d77e4a7b006ef8de72167afd910d317a9765978f7bf9c39c2",
+  "scenes/step2_1/character_pose.usda": "8d2c55711b1109f1878ca793dedb79a4008e56701c5f10479e0b4277df729199",
+  "scenes/rig_v0.2.usda": "9b9f5882731e71b0baf9fa3f46c3105975d02c46cfa8ad1b6c1cdbfbf4fc4986",
+  "src/rig_common.py": "454041ca7ed02bb8e10e5bcf5eab909ae473b7edd9997e603834aec0ed9cec00",
+  "src/projection.py": "c36944b94141bea95c87e9f3d979ac59c5a2df3c3250621f635fb66eba4548d4",
+  "assets/baseline/seven_camera_sim_layout_v01/models/seven_camera_rig.usda": "51990bf6344a860a7c3705b258993a5e79a80a551a34e5e98a39fea9deb2cc06"
+}

@@ -1,3 +1,15 @@
+# 七目视场外部技术说明图 - Step 2.1b
+
+[查看主图 PNG](outputs/step2_1b/fov_overview_wearer.png) · [PDF](outputs/step2_1b/fov_overview_wearer.pdf) · [SVG](outputs/step2_1b/fov_overview_wearer.svg) · [说明与复现](reports/step2_1b/fov_figure_report.md)
+
+基于 a77f57b 的真实佩戴位姿，分为整体佩戴、前向三目和上下四目。视场来自冻结投影；四目保留 220° / 离轴 110° 边界。图中示例首交点表达人体与设备遮挡，不代表联合覆盖率。旧结果保持不变，头带穿模按基线保留。
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File scripts/run_fov_figure.ps1
+```
+
+---
+
 # 七目相机与 IMU 仿真 — Step 2.1
 
 已完成 NVIDIA 官方 Office、1.800 m 完整人物的 21 张原生三模式图、七张观察卡和四张外部观察图。**数据与冻结结构检查通过；固定头带与人物头型存在穿模，佩戴适配未通过。** 未修改相机内部尺寸、视场或旧产物。

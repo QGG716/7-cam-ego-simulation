@@ -1,0 +1,108 @@
+{
+  "status": "PASS",
+  "baseline_commit": "a77f57b072c2dfcdb791f96a862ef0ddef041d13",
+  "scene": "scenes/step2_1/indoor_wearer.usda",
+  "person_height_m": 1.7999999674635137,
+  "camera_checks": [
+    {
+      "camera_id": "C0",
+      "world_position_m": [
+        0.0,
+        -0.09479039782569496,
+        1.7414341563639621
+      ],
+      "forward_world": [
+        4.930380657631324e-32,
+        -1.0000000000000002,
+        4.440892098500626e-16
+      ]
+    },
+    {
+      "camera_id": "C1",
+      "world_position_m": [
+        0.0315,
+        -0.09479039782569494,
+        1.7414341563639621
+      ],
+      "forward_world": [
+        4.930380657631324e-32,
+        -1.0000000000000002,
+        4.440892098500626e-16
+      ]
+    },
+    {
+      "camera_id": "C2",
+      "world_position_m": [
+        -0.0315,
+        -0.09479039782569497,
+        1.7414341563639621
+      ],
+      "forward_world": [
+        4.930380657631324e-32,
+        -1.0000000000000002,
+        4.440892098500626e-16
+      ]
+    },
+    {
+      "camera_id": "C3",
+      "world_position_m": [
+        0.05499999999999999,
+        -0.07879039782569494,
+        1.7614341563639622
+      ],
+      "forward_world": [
+        8.659560562354938e-17,
+        -8.659560562354933e-17,
+        1.0000000000000004
+      ]
+    },
+    {
+      "camera_id": "C4",
+      "world_position_m": [
+        0.05499999999999999,
+        -0.07879039782569494,
+        1.7214341563639621
+      ],
+      "forward_world": [
+        -0.0,
+        -0.0,
+        -1.0
+      ]
+    },
+    {
+      "camera_id": "C5",
+      "world_position_m": [
+        -0.05500000000000001,
+        -0.07879039782569497,
+        1.7614341563639622
+      ],
+      "forward_world": [
+        8.659560562354938e-17,
+        -8.659560562354933e-17,
+        1.0000000000000004
+      ]
+    },
+    {
+      "camera_id": "C6",
+      "world_position_m": [
+        -0.05500000000000001,
+        -0.07879039782569497,
+        1.7214341563639621
+      ],
+      "forward_world": [
+        -0.0,
+        -0.0,
+        -1.0
+      ]
+    }
+  ],
+  "external_frames": 4,
+  "formal_sensor_frames": 0,
+  "source_layers_saved": false,
+  "background": "Office hidden in anonymous session layer; 650 dome + 1400 distant key; neutral dark material on device meshes for figure only",
+  "loading_status": [
+    "",
+    0,
+    0
+  ]
+}

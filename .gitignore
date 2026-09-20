@@ -19,3 +19,7 @@ assets/baseline/seven_camera_sim_layout_v01/models/*.stl
 
 # Raw renderer diagnostics stay local; publish only the concise evidence summary.
 reports/step2_1/*.log
+
+# Step 2.1b keeps raw renderer logs and PDF review images local.
+reports/step2_1b/*.log
+outputs/step2_1b/debug/pdf_review*.png

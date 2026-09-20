@@ -1,0 +1,236 @@
+{
+  "status": "PASS",
+  "boundary_checks": {
+    "C0": {
+      "samples": 128,
+      "roundtrip_max_px": 2.2737367544323206e-13,
+      "boundary_theta_min_deg": 59.99999999999999,
+      "boundary_theta_max_deg": 69.6140025622621,
+      "world_optical_axis": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "position_world_m": [
+        0.0,
+        -0.09479039782569496,
+        1.7414341563639621
+      ]
+    },
+    "C1": {
+      "samples": 128,
+      "roundtrip_max_px": 2.2737367544323206e-13,
+      "boundary_theta_min_deg": 65.0,
+      "boundary_theta_max_deg": 80.00000000000003,
+      "world_optical_axis": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "position_world_m": [
+        0.0315,
+        -0.09479039782569494,
+        1.7414341563639621
+      ]
+    },
+    "C2": {
+      "samples": 128,
+      "roundtrip_max_px": 2.2737367544323206e-13,
+      "boundary_theta_min_deg": 65.0,
+      "boundary_theta_max_deg": 80.00000000000003,
+      "world_optical_axis": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "position_world_m": [
+        -0.0315,
+        -0.09479039782569497,
+        1.7414341563639621
+      ]
+    },
+    "C3": {
+      "samples": 128,
+      "roundtrip_max_px": 1.1368683772161603e-13,
+      "boundary_theta_min_deg": 109.99999999999997,
+      "boundary_theta_max_deg": 110.00000000000003,
+      "world_optical_axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "position_world_m": [
+        0.05499999999999999,
+        -0.07879039782569494,
+        1.7614341563639622
+      ]
+    },
+    "C4": {
+      "samples": 128,
+      "roundtrip_max_px": 1.1368683772161603e-13,
+      "boundary_theta_min_deg": 109.99999999999997,
+      "boundary_theta_max_deg": 110.00000000000003,
+      "world_optical_axis": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "position_world_m": [
+        0.05499999999999999,
+        -0.07879039782569494,
+        1.7214341563639621
+      ]
+    },
+    "C5": {
+      "samples": 128,
+      "roundtrip_max_px": 1.1368683772161603e-13,
+      "boundary_theta_min_deg": 109.99999999999997,
+      "boundary_theta_max_deg": 110.00000000000003,
+      "world_optical_axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "position_world_m": [
+        -0.05500000000000001,
+        -0.07879039782569497,
+        1.7614341563639622
+      ]
+    },
+    "C6": {
+      "samples": 128,
+      "roundtrip_max_px": 1.1368683772161603e-13,
+      "boundary_theta_min_deg": 109.99999999999997,
+      "boundary_theta_max_deg": 110.00000000000003,
+      "world_optical_axis": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "position_world_m": [
+        -0.05500000000000001,
+        -0.07879039782569497,
+        1.7214341563639621
+      ]
+    }
+  },
+  "chosen_intersections": {
+    "C3": {
+      "camera_id": "C3",
+      "theta_deg": 80,
+      "phi_deg": 270,
+      "origin": [
+        0.05499999999999999,
+        -0.07879039782569494,
+        1.7614341563639622
+      ],
+      "direction": [
+        1.8090624937528466e-16,
+        0.984807753012208,
+        0.17364817766693041
+      ],
+      "distance_m": 0.07799661181261364,
+      "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+      "hit_world": [
+        0.05500000000000001,
+        -0.001978729803949461,
+        1.7749781258694175
+      ]
+    },
+    "C4": {
+      "camera_id": "C4",
+      "theta_deg": 0,
+      "phi_deg": 0,
+      "origin": [
+        0.05499999999999999,
+        -0.07879039782569494,
+        1.7214341563639621
+      ],
+      "direction": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "distance_m": 0.2905389956888027,
+      "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/opaque__fabric__scrubsshirt",
+      "hit_world": [
+        0.05499999999999999,
+        -0.07879039782569494,
+        1.4308951606751594
+      ]
+    },
+    "C5": {
+      "camera_id": "C5",
+      "theta_deg": 80,
+      "phi_deg": 210,
+      "origin": [
+        -0.05500000000000001,
+        -0.07879039782569497,
+        1.7614341563639622
+      ],
+      "direction": [
+        0.8528685319524432,
+        0.4924038765061041,
+        0.17364817766693041
+      ],
+      "distance_m": 0.07945490393494074,
+      "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+      "hit_world": [
+        0.01276458727541531,
+        -0.03966649512071004,
+        1.7752313556389656
+      ]
+    },
+    "C6": {
+      "camera_id": "C6",
+      "theta_deg": 0,
+      "phi_deg": 0,
+      "origin": [
+        -0.05500000000000001,
+        -0.07879039782569497,
+        1.7214341563639621
+      ],
+      "direction": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "distance_m": 0.27374774707938476,
+      "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/opaque__fabric__labcoat",
+      "hit_world": [
+        -0.05500000000000001,
+        -0.07879039782569497,
+        1.4476864092845774
+      ]
+    }
+  },
+  "device_intersection": {
+    "camera_id": "C3",
+    "theta_deg": 95,
+    "phi_deg": 0,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7614341563639622
+    ],
+    "direction": [
+      -0.9961946980917455,
+      0.0,
+      -0.08715574274765824
+    ],
+    "distance_m": 0.08031598964219942,
+    "hit_path": "/World/Rig/Housing/central_housing",
+    "hit_world": [
+      -0.02501036305355063,
+      -0.07879039782569494,
+      1.754434156632183
+    ]
+  },
+  "display_lengths_m": {
+    "main": 0.46,
+    "front": 0.28,
+    "up": 0.27,
+    "down": 0.32
+  },
+  "notes": "Finite radial display caps, not sensor range. Sample intersections are not occlusion statistics."
+}

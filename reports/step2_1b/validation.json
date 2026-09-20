@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "baseline_commit": "a77f57b072c2dfcdb791f96a862ef0ddef041d13",
+  "frozen_files_checked": 722,
+  "frozen_changed": [],
+  "external_frames": 4,
+  "formal_sensor_frames_rendered": 0,
+  "person_height_m": 1.7999999674635137,
+  "camera_transforms_match_step21": true,
+  "boundary_projection_roundtrip": true,
+  "fisheye_max_off_axis_deg": 110,
+  "png_resolution": [
+    4800,
+    3400
+  ],
+  "headband_fit": "Known Step 2.1 intersection preserved; not repaired or passed",
+  "visual_review": "See fov_figure_report.md"
+}

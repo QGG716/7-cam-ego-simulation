@@ -1,0 +1,2642 @@
+[
+  {
+    "camera_id": "C3",
+    "theta_deg": 80,
+    "phi_deg": 270,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7614341563639622
+    ],
+    "direction": [
+      1.8090624937528466e-16,
+      0.984807753012208,
+      0.17364817766693041
+    ],
+    "distance_m": 0.07799661181261364,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+    "hit_world": [
+      0.05500000000000001,
+      -0.001978729803949461,
+      1.7749781258694175
+    ]
+  },
+  {
+    "camera_id": "C3",
+    "theta_deg": 80,
+    "phi_deg": 300,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7614341563639622
+    ],
+    "direction": [
+      -0.4924038765061041,
+      0.8528685319524432,
+      0.17364817766693041
+    ],
+    "distance_m": 0.05026271109425268,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+    "hit_world": [
+      0.03025044621348361,
+      -0.03592291320278988,
+      1.7701621845500786
+    ]
+  },
+  {
+    "camera_id": "C3",
+    "theta_deg": 80,
+    "phi_deg": 330,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7614341563639622
+    ],
+    "direction": [
+      -0.8528685319524429,
+      0.49240387650610445,
+      0.17364817766693041
+    ],
+    "distance_m": 0.0779661406092933,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+    "hit_world": [
+      -0.011494867883445725,
+      -0.040399567953458906,
+      1.7749728346004896
+    ]
+  },
+  {
+    "camera_id": "C3",
+    "theta_deg": 95,
+    "phi_deg": 0,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7614341563639622
+    ],
+    "direction": [
+      -0.9961946980917455,
+      0.0,
+      -0.08715574274765824
+    ],
+    "distance_m": 0.08031598964219942,
+    "hit_path": "/World/Rig/Housing/central_housing",
+    "hit_world": [
+      -0.02501036305355063,
+      -0.07879039782569494,
+      1.754434156632183
+    ]
+  },
+  {
+    "camera_id": "C3",
+    "theta_deg": 95,
+    "phi_deg": 270,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7614341563639622
+    ],
+    "direction": [
+      1.82997997251843e-16,
+      0.9961946980917455,
+      -0.08715574274765824
+    ],
+    "distance_m": 0.056912978321729445,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+    "hit_world": [
+      0.05500000000000001,
+      -0.022093990568977616,
+      1.7564738634663504
+    ]
+  },
+  {
+    "camera_id": "C3",
+    "theta_deg": 95,
+    "phi_deg": 300,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7614341563639622
+    ],
+    "direction": [
+      -0.4980973490458729,
+      0.8627299156628209,
+      -0.08715574274765824
+    ],
+    "distance_m": 0.040945875745606895,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+    "hit_world": [
+      0.034604967836751495,
+      -0.04346516589694716,
+      1.7578654881509004
+    ]
+  },
+  {
+    "camera_id": "C3",
+    "theta_deg": 95,
+    "phi_deg": 330,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7614341563639622
+    ],
+    "direction": [
+      -0.8627299156628206,
+      0.4980973490458732,
+      -0.08715574274765824
+    ],
+    "distance_m": 0.051734224642452725,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+    "hit_world": [
+      0.010367336737335336,
+      -0.05302171767634555,
+      1.756925221589775
+    ]
+  },
+  {
+    "camera_id": "C3",
+    "theta_deg": 105,
+    "phi_deg": 0,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7614341563639622
+    ],
+    "direction": [
+      -0.9659258262890683,
+      0.0,
+      -0.25881904510252085
+    ],
+    "distance_m": 0.02704592209976799,
+    "hit_path": "/World/Rig/Housing/central_housing",
+    "hit_world": [
+      0.028875645348031824,
+      -0.07879039782569494,
+      1.754434156632183
+    ]
+  },
+  {
+    "camera_id": "C3",
+    "theta_deg": 105,
+    "phi_deg": 240,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7614341563639622
+    ],
+    "direction": [
+      0.4829629131445346,
+      0.8365163037378076,
+      -0.25881904510252085
+    ],
+    "distance_m": 0.04636443819374685,
+    "hit_path": "/World/Rig/WearerMount/strap_left",
+    "hit_world": [
+      0.0773923041363617,
+      -0.04000578936298179,
+      1.7494341567439418
+    ]
+  },
+  {
+    "camera_id": "C3",
+    "theta_deg": 105,
+    "phi_deg": 270,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7614341563639622
+    ],
+    "direction": [
+      1.7743769570680046e-16,
+      0.9659258262890683,
+      -0.25881904510252085
+    ],
+    "distance_m": 0.05122965725590287,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+    "hit_world": [
+      0.055,
+      -0.029306348810281192,
+      1.7481749453920599
+    ]
+  },
+  {
+    "camera_id": "C3",
+    "theta_deg": 105,
+    "phi_deg": 300,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7614341563639622
+    ],
+    "direction": [
+      -0.48296291314453427,
+      0.8365163037378078,
+      -0.25881904510252085
+    ],
+    "distance_m": 0.038887242815639884,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+    "hit_world": [
+      0.03621890392559969,
+      -0.04626058520300124,
+      1.7513693973117483
+    ]
+  },
+  {
+    "camera_id": "C3",
+    "theta_deg": 105,
+    "phi_deg": 330,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7614341563639622
+    ],
+    "direction": [
+      -0.8365163037378076,
+      0.4829629131445346,
+      -0.25881904510252085
+    ],
+    "distance_m": 0.02704592209976799,
+    "hit_path": "/World/Rig/Housing/central_housing",
+    "hit_world": [
+      0.03237564521392139,
+      -0.06572822049971085,
+      1.754434156632183
+    ]
+  },
+  {
+    "camera_id": "C3",
+    "theta_deg": 110,
+    "phi_deg": 0,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7614341563639622
+    ],
+    "direction": [
+      -0.9396926207859084,
+      0.0,
+      -0.3420201433256687
+    ],
+    "distance_m": 0.020466630016916218,
+    "hit_path": "/World/Rig/Housing/central_housing",
+    "hit_world": [
+      0.03576765880074845,
+      -0.07879039782569494,
+      1.754434156632183
+    ]
+  },
+  {
+    "camera_id": "C3",
+    "theta_deg": 110,
+    "phi_deg": 30,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7614341563639622
+    ],
+    "direction": [
+      -0.8137976813493738,
+      -0.46984631039295416,
+      -0.3420201433256687
+    ],
+    "distance_m": 0.020466630016916218,
+    "hit_path": "/World/Rig/Housing/central_housing",
+    "hit_world": [
+      0.03834430394719808,
+      -0.08840656842532071,
+      1.754434156632183
+    ]
+  },
+  {
+    "camera_id": "C3",
+    "theta_deg": 110,
+    "phi_deg": 240,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7614341563639622
+    ],
+    "direction": [
+      0.46984631039295466,
+      0.8137976813493735,
+      -0.3420201433256687
+    ],
+    "distance_m": 0.04363128131363954,
+    "hit_path": "/World/Rig/WearerMount/strap_left",
+    "hit_world": [
+      0.0754999965429306,
+      -0.04328336225835284,
+      1.7465113792755886
+    ]
+  },
+  {
+    "camera_id": "C3",
+    "theta_deg": 110,
+    "phi_deg": 270,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7614341563639622
+    ],
+    "direction": [
+      1.7261873403417754e-16,
+      0.9396926207859084,
+      -0.3420201433256687
+    ],
+    "distance_m": 0.049530927227970194,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+    "hit_world": [
+      0.055,
+      -0.03224655100888752,
+      1.7444935815343985
+    ]
+  },
+  {
+    "camera_id": "C3",
+    "theta_deg": 110,
+    "phi_deg": 300,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7614341563639622
+    ],
+    "direction": [
+      -0.4698463103929543,
+      0.8137976813493737,
+      -0.3420201433256687
+    ],
+    "distance_m": 0.038757458633254395,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+    "hit_world": [
+      0.036789951060957865,
+      -0.047249667854958245,
+      1.7481783248072778
+    ]
+  },
+  {
+    "camera_id": "C3",
+    "theta_deg": 110,
+    "phi_deg": 330,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7614341563639622
+    ],
+    "direction": [
+      -0.8137976813493735,
+      0.46984631039295466,
+      -0.3420201433256687
+    ],
+    "distance_m": 0.020466630016916218,
+    "hit_path": "/World/Rig/Housing/central_housing",
+    "hit_world": [
+      0.03834430394719809,
+      -0.06917422722606917,
+      1.754434156632183
+    ]
+  },
+  {
+    "camera_id": "C4",
+    "theta_deg": 0,
+    "phi_deg": 0,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7214341563639621
+    ],
+    "direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "distance_m": 0.2905389956888027,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/opaque__fabric__scrubsshirt",
+    "hit_world": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.4308951606751594
+    ]
+  },
+  {
+    "camera_id": "C4",
+    "theta_deg": 0,
+    "phi_deg": 30,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7214341563639621
+    ],
+    "direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "distance_m": 0.2905389956888027,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/opaque__fabric__scrubsshirt",
+    "hit_world": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.4308951606751594
+    ]
+  },
+  {
+    "camera_id": "C4",
+    "theta_deg": 0,
+    "phi_deg": 60,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7214341563639621
+    ],
+    "direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "distance_m": 0.2905389956888027,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/opaque__fabric__scrubsshirt",
+    "hit_world": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.4308951606751594
+    ]
+  },
+  {
+    "camera_id": "C4",
+    "theta_deg": 0,
+    "phi_deg": 90,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7214341563639621
+    ],
+    "direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "distance_m": 0.2905389956888027,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/opaque__fabric__scrubsshirt",
+    "hit_world": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.4308951606751594
+    ]
+  },
+  {
+    "camera_id": "C4",
+    "theta_deg": 0,
+    "phi_deg": 120,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7214341563639621
+    ],
+    "direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "distance_m": 0.2905389956888027,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/opaque__fabric__scrubsshirt",
+    "hit_world": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.4308951606751594
+    ]
+  },
+  {
+    "camera_id": "C4",
+    "theta_deg": 0,
+    "phi_deg": 150,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7214341563639621
+    ],
+    "direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "distance_m": 0.2905389956888027,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/opaque__fabric__scrubsshirt",
+    "hit_world": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.4308951606751594
+    ]
+  },
+  {
+    "camera_id": "C4",
+    "theta_deg": 0,
+    "phi_deg": 180,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7214341563639621
+    ],
+    "direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "distance_m": 0.2905389956888027,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/opaque__fabric__scrubsshirt",
+    "hit_world": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.4308951606751594
+    ]
+  },
+  {
+    "camera_id": "C4",
+    "theta_deg": 0,
+    "phi_deg": 210,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7214341563639621
+    ],
+    "direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "distance_m": 0.2905389956888027,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/opaque__fabric__scrubsshirt",
+    "hit_world": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.4308951606751594
+    ]
+  },
+  {
+    "camera_id": "C4",
+    "theta_deg": 0,
+    "phi_deg": 240,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7214341563639621
+    ],
+    "direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "distance_m": 0.2905389956888027,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/opaque__fabric__scrubsshirt",
+    "hit_world": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.4308951606751594
+    ]
+  },
+  {
+    "camera_id": "C4",
+    "theta_deg": 0,
+    "phi_deg": 270,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7214341563639621
+    ],
+    "direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "distance_m": 0.2905389956888027,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/opaque__fabric__scrubsshirt",
+    "hit_world": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.4308951606751594
+    ]
+  },
+  {
+    "camera_id": "C4",
+    "theta_deg": 0,
+    "phi_deg": 300,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7214341563639621
+    ],
+    "direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "distance_m": 0.2905389956888027,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/opaque__fabric__scrubsshirt",
+    "hit_world": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.4308951606751594
+    ]
+  },
+  {
+    "camera_id": "C4",
+    "theta_deg": 0,
+    "phi_deg": 330,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7214341563639621
+    ],
+    "direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "distance_m": 0.2905389956888027,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/opaque__fabric__scrubsshirt",
+    "hit_world": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.4308951606751594
+    ]
+  },
+  {
+    "camera_id": "C4",
+    "theta_deg": 30,
+    "phi_deg": 0,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7214341563639621
+    ],
+    "direction": [
+      -0.49999999999999994,
+      0.0,
+      -0.8660254037844387
+    ],
+    "distance_m": 0.08068257419461927,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+    "hit_world": [
+      0.014658712902690364,
+      -0.07879039782569494,
+      1.651560997468699
+    ]
+  },
+  {
+    "camera_id": "C4",
+    "theta_deg": 30,
+    "phi_deg": 30,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7214341563639621
+    ],
+    "direction": [
+      -0.4330127018922193,
+      0.24999999999999994,
+      -0.8660254037844387
+    ],
+    "distance_m": 0.07800402385599231,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+    "hit_world": [
+      0.02122326687165163,
+      -0.059289391861696863,
+      1.6538806901072653
+    ]
+  },
+  {
+    "camera_id": "C4",
+    "theta_deg": 30,
+    "phi_deg": 60,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7214341563639621
+    ],
+    "direction": [
+      -0.25,
+      0.43301270189221924,
+      -0.8660254037844387
+    ],
+    "distance_m": 0.06514894585978416,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+    "hit_world": [
+      0.03871276353505396,
+      -0.05058007675351989,
+      1.665013514219612
+    ]
+  },
+  {
+    "camera_id": "C4",
+    "theta_deg": 30,
+    "phi_deg": 90,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7214341563639621
+    ],
+    "direction": [
+      -3.0616169978683824e-17,
+      0.49999999999999994,
+      -0.8660254037844387
+    ],
+    "distance_m": 0.0727547522043746,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+    "hit_world": [
+      0.05499999999999999,
+      -0.042413021723507645,
+      1.6584266927089317
+    ]
+  },
+  {
+    "camera_id": "C4",
+    "theta_deg": 30,
+    "phi_deg": 120,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7214341563639621
+    ],
+    "direction": [
+      0.24999999999999986,
+      0.4330127018922193,
+      -0.8660254037844387
+    ],
+    "distance_m": 0.22487820684844734,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/opaque__fabric__labcoat",
+    "hit_world": [
+      0.1112195517121118,
+      0.018584722118428612,
+      1.526683916475715
+    ]
+  },
+  {
+    "camera_id": "C4",
+    "theta_deg": 30,
+    "phi_deg": 150,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7214341563639621
+    ],
+    "direction": [
+      0.4330127018922193,
+      0.24999999999999994,
+      -0.8660254037844387
+    ],
+    "distance_m": 0.2688460240962474,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/opaque__fabric__labcoat",
+    "hit_world": [
+      0.1714137432868968,
+      -0.011578891801633101,
+      1.4886066697901685
+    ]
+  },
+  {
+    "camera_id": "C4",
+    "theta_deg": 60,
+    "phi_deg": 30,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7214341563639621
+    ],
+    "direction": [
+      -0.75,
+      0.43301270189221924,
+      -0.5000000000000001
+    ],
+    "distance_m": 0.03595833410886852,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+    "hit_world": [
+      0.028031249418348603,
+      -0.06321998241767064,
+      1.7034549893095279
+    ]
+  },
+  {
+    "camera_id": "C4",
+    "theta_deg": 60,
+    "phi_deg": 60,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7214341563639621
+    ],
+    "direction": [
+      -0.4330127018922194,
+      0.7499999999999999,
+      -0.5000000000000001
+    ],
+    "distance_m": 0.027469583566032418,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+    "hit_world": [
+      0.04310532140021819,
+      -0.058188210151170636,
+      1.707699364580946
+    ]
+  },
+  {
+    "camera_id": "C4",
+    "theta_deg": 60,
+    "phi_deg": 90,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7214341563639621
+    ],
+    "direction": [
+      -5.302876193624534e-17,
+      0.8660254037844386,
+      -0.5000000000000001
+    ],
+    "distance_m": 0.03554143799902005,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+    "hit_world": [
+      0.05499999999999999,
+      -0.04801060963151402,
+      1.7036634373644521
+    ]
+  },
+  {
+    "camera_id": "C4",
+    "theta_deg": 80,
+    "phi_deg": 30,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7214341563639621
+    ],
+    "direction": [
+      -0.8528685319524433,
+      0.49240387650610395,
+      -0.17364817766693041
+    ],
+    "distance_m": 0.030843665534101648,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+    "hit_world": [
+      0.02869440825589855,
+      -0.06360285735104558,
+      1.7160782100513972
+    ]
+  },
+  {
+    "camera_id": "C4",
+    "theta_deg": 80,
+    "phi_deg": 60,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7214341563639621
+    ],
+    "direction": [
+      -0.4924038765061041,
+      0.8528685319524432,
+      -0.17364817766693041
+    ],
+    "distance_m": 0.026031976631339618,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+    "hit_world": [
+      0.04218175379361205,
+      -0.05658854413230402,
+      1.7169137510608619
+    ]
+  },
+  {
+    "camera_id": "C4",
+    "theta_deg": 80,
+    "phi_deg": 90,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7214341563639621
+    ],
+    "direction": [
+      -6.030208312509488e-17,
+      0.984807753012208,
+      -0.17364817766693041
+    ],
+    "distance_m": 0.03308667889245732,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+    "hit_world": [
+      0.05499999999999999,
+      -0.0462063799309776,
+      1.7156887148692361
+    ]
+  },
+  {
+    "camera_id": "C4",
+    "theta_deg": 95,
+    "phi_deg": 0,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7214341563639621
+    ],
+    "direction": [
+      -0.9961946980917455,
+      0.0,
+      0.08715574274765824
+    ],
+    "distance_m": 0.08031598964219941,
+    "hit_path": "/World/Rig/Housing/central_housing",
+    "hit_world": [
+      -0.025010363053550616,
+      -0.07879039782569494,
+      1.7284341560957412
+    ]
+  },
+  {
+    "camera_id": "C4",
+    "theta_deg": 95,
+    "phi_deg": 30,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7214341563639621
+    ],
+    "direction": [
+      -0.862729915662821,
+      0.4980973490458727,
+      0.08715574274765824
+    ],
+    "distance_m": 0.03380906883992342,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+    "hit_world": [
+      0.025831904891094354,
+      -0.06195019026281967,
+      1.7243808108703125
+    ]
+  },
+  {
+    "camera_id": "C4",
+    "theta_deg": 95,
+    "phi_deg": 60,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7214341563639621
+    ],
+    "direction": [
+      -0.4980973490458729,
+      0.8627299156628209,
+      0.08715574274765824
+    ],
+    "distance_m": 0.028048989072491336,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+    "hit_world": [
+      0.0410288728995754,
+      -0.0545916958487571,
+      1.7238787868398961
+    ]
+  },
+  {
+    "camera_id": "C4",
+    "theta_deg": 95,
+    "phi_deg": 90,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7214341563639621
+    ],
+    "direction": [
+      -6.099933241728101e-17,
+      0.9961946980917455,
+      0.08715574274765824
+    ],
+    "distance_m": 0.03612671013051961,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+    "hit_world": [
+      0.05499999999999999,
+      -0.042801160734173956,
+      1.724582806618417
+    ]
+  },
+  {
+    "camera_id": "C4",
+    "theta_deg": 105,
+    "phi_deg": 0,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7214341563639621
+    ],
+    "direction": [
+      -0.9659258262890683,
+      0.0,
+      0.25881904510252085
+    ],
+    "distance_m": 0.02704592209976799,
+    "hit_path": "/World/Rig/Housing/central_housing",
+    "hit_world": [
+      0.028875645348031824,
+      -0.07879039782569494,
+      1.7284341560957412
+    ]
+  },
+  {
+    "camera_id": "C4",
+    "theta_deg": 105,
+    "phi_deg": 30,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7214341563639621
+    ],
+    "direction": [
+      -0.8365163037378079,
+      0.4829629131445341,
+      0.25881904510252085
+    ],
+    "distance_m": 0.02704592209976799,
+    "hit_path": "/World/Rig/Housing/central_housing",
+    "hit_world": [
+      0.03237564521392138,
+      -0.06572822049971086,
+      1.7284341560957412
+    ]
+  },
+  {
+    "camera_id": "C4",
+    "theta_deg": 105,
+    "phi_deg": 60,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7214341563639621
+    ],
+    "direction": [
+      -0.48296291314453427,
+      0.8365163037378078,
+      0.25881904510252085
+    ],
+    "distance_m": 0.030861427813785182,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+    "hit_world": [
+      0.04009507491925455,
+      -0.05297431030283618,
+      1.7294216816412264
+    ]
+  },
+  {
+    "camera_id": "C4",
+    "theta_deg": 105,
+    "phi_deg": 90,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7214341563639621
+    ],
+    "direction": [
+      -5.914589856893349e-17,
+      0.9659258262890683,
+      0.25881904510252085
+    ],
+    "distance_m": 0.04083692354914747,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+    "hit_world": [
+      0.05499999999999999,
+      -0.03934495870338116,
+      1.7320035299218772
+    ]
+  },
+  {
+    "camera_id": "C4",
+    "theta_deg": 105,
+    "phi_deg": 120,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7214341563639621
+    ],
+    "direction": [
+      0.48296291314453393,
+      0.8365163037378079,
+      0.25881904510252085
+    ],
+    "distance_m": 0.04636443819374685,
+    "hit_path": "/World/Rig/WearerMount/strap_left",
+    "hit_world": [
+      0.07739230413636167,
+      -0.040005789362981777,
+      1.7334341559839825
+    ]
+  },
+  {
+    "camera_id": "C4",
+    "theta_deg": 110,
+    "phi_deg": 0,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7214341563639621
+    ],
+    "direction": [
+      -0.9396926207859084,
+      0.0,
+      0.3420201433256687
+    ],
+    "distance_m": 0.020466630016916215,
+    "hit_path": "/World/Rig/Housing/central_housing",
+    "hit_world": [
+      0.035767658800748454,
+      -0.07879039782569494,
+      1.7284341560957412
+    ]
+  },
+  {
+    "camera_id": "C4",
+    "theta_deg": 110,
+    "phi_deg": 30,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7214341563639621
+    ],
+    "direction": [
+      -0.8137976813493738,
+      0.46984631039295416,
+      0.3420201433256687
+    ],
+    "distance_m": 0.020466630016916215,
+    "hit_path": "/World/Rig/Housing/central_housing",
+    "hit_world": [
+      0.03834430394719808,
+      -0.06917422722606917,
+      1.7284341560957412
+    ]
+  },
+  {
+    "camera_id": "C4",
+    "theta_deg": 110,
+    "phi_deg": 60,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7214341563639621
+    ],
+    "direction": [
+      -0.4698463103929543,
+      0.8137976813493737,
+      0.3420201433256687
+    ],
+    "distance_m": 0.03294893556539246,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+    "hit_world": [
+      0.03951906419322516,
+      -0.05197663045964864,
+      1.732703356028466
+    ]
+  },
+  {
+    "camera_id": "C4",
+    "theta_deg": 110,
+    "phi_deg": 90,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7214341563639621
+    ],
+    "direction": [
+      -5.753957801139251e-17,
+      0.9396926207859084,
+      0.3420201433256687
+    ],
+    "distance_m": 0.044105285434582246,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+    "hit_world": [
+      0.05499999999999999,
+      -0.037344986565161796,
+      1.7365190524097174
+    ]
+  },
+  {
+    "camera_id": "C4",
+    "theta_deg": 110,
+    "phi_deg": 120,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7214341563639621
+    ],
+    "direction": [
+      0.469846310392954,
+      0.8137976813493738,
+      0.3420201433256687
+    ],
+    "distance_m": 0.0436312813136396,
+    "hit_path": "/World/Rig/WearerMount/strap_left",
+    "hit_world": [
+      0.0754999965429306,
+      -0.043283362258352776,
+      1.7363569334523357
+    ]
+  },
+  {
+    "camera_id": "C4",
+    "theta_deg": 110,
+    "phi_deg": 330,
+    "origin": [
+      0.05499999999999999,
+      -0.07879039782569494,
+      1.7214341563639621
+    ],
+    "direction": [
+      -0.8137976813493735,
+      -0.46984631039295466,
+      0.3420201433256687
+    ],
+    "distance_m": 0.020466630016916215,
+    "hit_path": "/World/Rig/Housing/central_housing",
+    "hit_world": [
+      0.038344303947198094,
+      -0.08840656842532071,
+      1.7284341560957412
+    ]
+  },
+  {
+    "camera_id": "C5",
+    "theta_deg": 80,
+    "phi_deg": 210,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7614341563639622
+    ],
+    "direction": [
+      0.8528685319524432,
+      0.4924038765061041,
+      0.17364817766693041
+    ],
+    "distance_m": 0.07945490393494074,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+    "hit_world": [
+      0.01276458727541531,
+      -0.03966649512071004,
+      1.7752313556389656
+    ]
+  },
+  {
+    "camera_id": "C5",
+    "theta_deg": 80,
+    "phi_deg": 240,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7614341563639622
+    ],
+    "direction": [
+      0.49240387650610445,
+      0.8528685319524429,
+      0.17364817766693041
+    ],
+    "distance_m": 0.051162938137081365,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+    "hit_world": [
+      -0.029807170927859134,
+      -0.03515513788634873,
+      1.7703185073355523
+    ]
+  },
+  {
+    "camera_id": "C5",
+    "theta_deg": 80,
+    "phi_deg": 270,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7614341563639622
+    ],
+    "direction": [
+      1.8090624937528466e-16,
+      0.984807753012208,
+      0.17364817766693041
+    ],
+    "distance_m": 0.08255986873816902,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+    "hit_world": [
+      -0.05499999999999999,
+      0.002515200995324096,
+      1.7757705271187663
+    ]
+  },
+  {
+    "camera_id": "C5",
+    "theta_deg": 95,
+    "phi_deg": 180,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7614341563639622
+    ],
+    "direction": [
+      0.9961946980917455,
+      -1.2199866483456202e-16,
+      -0.08715574274765824
+    ],
+    "distance_m": 0.08031598964219942,
+    "hit_path": "/World/Rig/Housing/central_housing",
+    "hit_world": [
+      0.025010363053550616,
+      -0.07879039782569498,
+      1.754434156632183
+    ]
+  },
+  {
+    "camera_id": "C5",
+    "theta_deg": 95,
+    "phi_deg": 210,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7614341563639622
+    ],
+    "direction": [
+      0.8627299156628209,
+      0.4980973490458729,
+      -0.08715574274765824
+    ],
+    "distance_m": 0.05163135696275896,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+    "hit_world": [
+      -0.01045608376196197,
+      -0.053072955794903565,
+      1.7569341870988033
+    ]
+  },
+  {
+    "camera_id": "C5",
+    "theta_deg": 95,
+    "phi_deg": 240,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7614341563639622
+    ],
+    "direction": [
+      0.4980973490458732,
+      0.8627299156628206,
+      -0.08715574274765824
+    ],
+    "distance_m": 0.042251577131818464,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+    "hit_world": [
+      -0.03395460143763399,
+      -0.04233869825014006,
+      1.7577516887767786
+    ]
+  },
+  {
+    "camera_id": "C5",
+    "theta_deg": 95,
+    "phi_deg": 270,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7614341563639622
+    ],
+    "direction": [
+      1.82997997251843e-16,
+      0.9961946980917455,
+      -0.08715574274765824
+    ],
+    "distance_m": 0.06088792902945121,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+    "hit_world": [
+      -0.05499999999999999,
+      -0.018134165748769186,
+      1.7561274236850337
+    ]
+  },
+  {
+    "camera_id": "C5",
+    "theta_deg": 105,
+    "phi_deg": 180,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7614341563639622
+    ],
+    "direction": [
+      0.9659258262890683,
+      -1.1829179713786698e-16,
+      -0.25881904510252085
+    ],
+    "distance_m": 0.027045922099767982,
+    "hit_path": "/World/Rig/Housing/central_housing",
+    "hit_world": [
+      -0.028875645348031845,
+      -0.07879039782569497,
+      1.754434156632183
+    ]
+  },
+  {
+    "camera_id": "C5",
+    "theta_deg": 105,
+    "phi_deg": 210,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7614341563639622
+    ],
+    "direction": [
+      0.8365163037378078,
+      0.48296291314453427,
+      -0.25881904510252085
+    ],
+    "distance_m": 0.02704592209976799,
+    "hit_path": "/World/Rig/Housing/central_housing",
+    "hit_world": [
+      -0.0323756452139214,
+      -0.06572822049971089,
+      1.754434156632183
+    ]
+  },
+  {
+    "camera_id": "C5",
+    "theta_deg": 105,
+    "phi_deg": 240,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7614341563639622
+    ],
+    "direction": [
+      0.4829629131445346,
+      0.8365163037378076,
+      -0.25881904510252085
+    ],
+    "distance_m": 0.040199302497215976,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+    "hit_world": [
+      -0.03558522775956621,
+      -0.045163025887885844,
+      1.7510298112778453
+    ]
+  },
+  {
+    "camera_id": "C5",
+    "theta_deg": 105,
+    "phi_deg": 270,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7614341563639622
+    ],
+    "direction": [
+      1.7743769570680046e-16,
+      0.9659258262890683,
+      -0.25881904510252085
+    ],
+    "distance_m": 0.05449749882386836,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+    "hit_world": [
+      -0.055,
+      -0.02614985624356239,
+      1.7473291657578929
+    ]
+  },
+  {
+    "camera_id": "C5",
+    "theta_deg": 105,
+    "phi_deg": 300,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7614341563639622
+    ],
+    "direction": [
+      -0.48296291314453427,
+      0.8365163037378078,
+      -0.25881904510252085
+    ],
+    "distance_m": 0.04636443819374685,
+    "hit_path": "/World/Rig/WearerMount/strap_right",
+    "hit_world": [
+      -0.0773923041363617,
+      -0.04000578936298181,
+      1.7494341567439418
+    ]
+  },
+  {
+    "camera_id": "C5",
+    "theta_deg": 105,
+    "phi_deg": 330,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7614341563639622
+    ],
+    "direction": [
+      -0.8365163037378076,
+      0.4829629131445346,
+      -0.25881904510252085
+    ],
+    "distance_m": 0.03090962603823458,
+    "hit_path": "/World/Rig/Accessories/right_heatsink",
+    "hit_world": [
+      -0.08085640612342189,
+      -0.06386219479006104,
+      1.7534341564682703
+    ]
+  },
+  {
+    "camera_id": "C5",
+    "theta_deg": 110,
+    "phi_deg": 0,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7614341563639622
+    ],
+    "direction": [
+      -0.9396926207859084,
+      0.0,
+      -0.3420201433256687
+    ],
+    "distance_m": 0.02339043489632819,
+    "hit_path": "/World/Rig/Accessories/right_heatsink",
+    "hit_world": [
+      -0.07697981906905281,
+      -0.07879039782569497,
+      1.7534341564682703
+    ]
+  },
+  {
+    "camera_id": "C5",
+    "theta_deg": 110,
+    "phi_deg": 150,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7614341563639622
+    ],
+    "direction": [
+      0.8137976813493738,
+      -0.46984631039295416,
+      -0.3420201433256687
+    ],
+    "distance_m": 0.02046663001691621,
+    "hit_path": "/World/Rig/Housing/central_housing",
+    "hit_world": [
+      -0.0383443039471981,
+      -0.08840656842532074,
+      1.754434156632183
+    ]
+  },
+  {
+    "camera_id": "C5",
+    "theta_deg": 110,
+    "phi_deg": 180,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7614341563639622
+    ],
+    "direction": [
+      0.9396926207859084,
+      -1.1507915602278503e-16,
+      -0.3420201433256687
+    ],
+    "distance_m": 0.02046663001691621,
+    "hit_path": "/World/Rig/Housing/central_housing",
+    "hit_world": [
+      -0.035767658800748475,
+      -0.07879039782569497,
+      1.754434156632183
+    ]
+  },
+  {
+    "camera_id": "C5",
+    "theta_deg": 110,
+    "phi_deg": 210,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7614341563639622
+    ],
+    "direction": [
+      0.8137976813493737,
+      0.4698463103929543,
+      -0.3420201433256687
+    ],
+    "distance_m": 0.02046663001691621,
+    "hit_path": "/World/Rig/Housing/central_housing",
+    "hit_world": [
+      -0.0383443039471981,
+      -0.0691742272260692,
+      1.754434156632183
+    ]
+  },
+  {
+    "camera_id": "C5",
+    "theta_deg": 110,
+    "phi_deg": 240,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7614341563639622
+    ],
+    "direction": [
+      0.46984631039295466,
+      0.8137976813493735,
+      -0.3420201433256687
+    ],
+    "distance_m": 0.04003895846269112,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+    "hit_world": [
+      -0.03618784309432782,
+      -0.04620678626511306,
+      1.747740026051942
+    ]
+  },
+  {
+    "camera_id": "C5",
+    "theta_deg": 110,
+    "phi_deg": 270,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7614341563639622
+    ],
+    "direction": [
+      1.7261873403417754e-16,
+      0.9396926207859084,
+      -0.3420201433256687
+    ],
+    "distance_m": 0.05280124030390497,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+    "hit_world": [
+      -0.055,
+      -0.029173461943771975,
+      1.7433750685874476
+    ]
+  },
+  {
+    "camera_id": "C5",
+    "theta_deg": 110,
+    "phi_deg": 300,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7614341563639622
+    ],
+    "direction": [
+      -0.4698463103929543,
+      0.8137976813493737,
+      -0.3420201433256687
+    ],
+    "distance_m": 0.02554027009149843,
+    "hit_path": "/World/Rig/Accessories/right_heatsink",
+    "hit_world": [
+      -0.06700000166893007,
+      -0.05800578524419679,
+      1.7526988695266916
+    ]
+  },
+  {
+    "camera_id": "C5",
+    "theta_deg": 110,
+    "phi_deg": 330,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7614341563639622
+    ],
+    "direction": [
+      -0.8137976813493735,
+      0.46984631039295466,
+      -0.3420201433256687
+    ],
+    "distance_m": 0.023390434896328194,
+    "hit_path": "/World/Rig/Accessories/right_heatsink",
+    "hit_world": [
+      -0.07403508168438536,
+      -0.06780048829116855,
+      1.7534341564682703
+    ]
+  },
+  {
+    "camera_id": "C6",
+    "theta_deg": 0,
+    "phi_deg": 0,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7214341563639621
+    ],
+    "direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "distance_m": 0.27374774707938476,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/opaque__fabric__labcoat",
+    "hit_world": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.4476864092845774
+    ]
+  },
+  {
+    "camera_id": "C6",
+    "theta_deg": 0,
+    "phi_deg": 30,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7214341563639621
+    ],
+    "direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "distance_m": 0.27374774707938476,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/opaque__fabric__labcoat",
+    "hit_world": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.4476864092845774
+    ]
+  },
+  {
+    "camera_id": "C6",
+    "theta_deg": 0,
+    "phi_deg": 60,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7214341563639621
+    ],
+    "direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "distance_m": 0.27374774707938476,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/opaque__fabric__labcoat",
+    "hit_world": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.4476864092845774
+    ]
+  },
+  {
+    "camera_id": "C6",
+    "theta_deg": 0,
+    "phi_deg": 90,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7214341563639621
+    ],
+    "direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "distance_m": 0.27374774707938476,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/opaque__fabric__labcoat",
+    "hit_world": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.4476864092845774
+    ]
+  },
+  {
+    "camera_id": "C6",
+    "theta_deg": 0,
+    "phi_deg": 120,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7214341563639621
+    ],
+    "direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "distance_m": 0.27374774707938476,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/opaque__fabric__labcoat",
+    "hit_world": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.4476864092845774
+    ]
+  },
+  {
+    "camera_id": "C6",
+    "theta_deg": 0,
+    "phi_deg": 150,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7214341563639621
+    ],
+    "direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "distance_m": 0.27374774707938476,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/opaque__fabric__labcoat",
+    "hit_world": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.4476864092845774
+    ]
+  },
+  {
+    "camera_id": "C6",
+    "theta_deg": 0,
+    "phi_deg": 180,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7214341563639621
+    ],
+    "direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "distance_m": 0.27374774707938476,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/opaque__fabric__labcoat",
+    "hit_world": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.4476864092845774
+    ]
+  },
+  {
+    "camera_id": "C6",
+    "theta_deg": 0,
+    "phi_deg": 210,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7214341563639621
+    ],
+    "direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "distance_m": 0.27374774707938476,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/opaque__fabric__labcoat",
+    "hit_world": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.4476864092845774
+    ]
+  },
+  {
+    "camera_id": "C6",
+    "theta_deg": 0,
+    "phi_deg": 240,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7214341563639621
+    ],
+    "direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "distance_m": 0.27374774707938476,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/opaque__fabric__labcoat",
+    "hit_world": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.4476864092845774
+    ]
+  },
+  {
+    "camera_id": "C6",
+    "theta_deg": 0,
+    "phi_deg": 270,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7214341563639621
+    ],
+    "direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "distance_m": 0.27374774707938476,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/opaque__fabric__labcoat",
+    "hit_world": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.4476864092845774
+    ]
+  },
+  {
+    "camera_id": "C6",
+    "theta_deg": 0,
+    "phi_deg": 300,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7214341563639621
+    ],
+    "direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "distance_m": 0.27374774707938476,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/opaque__fabric__labcoat",
+    "hit_world": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.4476864092845774
+    ]
+  },
+  {
+    "camera_id": "C6",
+    "theta_deg": 0,
+    "phi_deg": 330,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7214341563639621
+    ],
+    "direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "distance_m": 0.27374774707938476,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/opaque__fabric__labcoat",
+    "hit_world": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.4476864092845774
+    ]
+  },
+  {
+    "camera_id": "C6",
+    "theta_deg": 30,
+    "phi_deg": 30,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7214341563639621
+    ],
+    "direction": [
+      -0.4330127018922193,
+      0.24999999999999994,
+      -0.8660254037844387
+    ],
+    "distance_m": 0.27954237878616617,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/opaque__fabric__labcoat",
+    "hit_world": [
+      -0.17604540073157604,
+      -0.00890480312915344,
+      1.4793433549008101
+    ]
+  },
+  {
+    "camera_id": "C6",
+    "theta_deg": 30,
+    "phi_deg": 60,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7214341563639621
+    ],
+    "direction": [
+      -0.25,
+      0.43301270189221924,
+      -0.8660254037844387
+    ],
+    "distance_m": 0.2241091640130722,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/opaque__fabric__labcoat",
+    "hit_world": [
+      -0.11102729100326805,
+      0.01825171680241193,
+      1.5273499271077482
+    ]
+  },
+  {
+    "camera_id": "C6",
+    "theta_deg": 30,
+    "phi_deg": 90,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7214341563639621
+    ],
+    "direction": [
+      -3.0616169978683824e-17,
+      0.49999999999999994,
+      -0.8660254037844387
+    ],
+    "distance_m": 0.0751013900257308,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+    "hit_world": [
+      -0.05500000000000001,
+      -0.04123970281282958,
+      1.656394444742156
+    ]
+  },
+  {
+    "camera_id": "C6",
+    "theta_deg": 30,
+    "phi_deg": 120,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7214341563639621
+    ],
+    "direction": [
+      0.24999999999999986,
+      0.4330127018922193,
+      -0.8660254037844387
+    ],
+    "distance_m": 0.06550473837364103,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+    "hit_world": [
+      -0.03862381540658976,
+      -0.05042601407578173,
+      1.6647053888641357
+    ]
+  },
+  {
+    "camera_id": "C6",
+    "theta_deg": 30,
+    "phi_deg": 150,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7214341563639621
+    ],
+    "direction": [
+      0.4330127018922193,
+      0.24999999999999994,
+      -0.8660254037844387
+    ],
+    "distance_m": 0.0780255891123615,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+    "hit_world": [
+      -0.021213928841724225,
+      -0.0592840005476046,
+      1.6538620140474105
+    ]
+  },
+  {
+    "camera_id": "C6",
+    "theta_deg": 30,
+    "phi_deg": 180,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7214341563639621
+    ],
+    "direction": [
+      0.49999999999999994,
+      6.123233995736765e-17,
+      -0.8660254037844387
+    ],
+    "distance_m": 0.08498743383821579,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+    "hit_world": [
+      -0.01250628308089212,
+      -0.07879039782569497,
+      1.647832879657618
+    ]
+  },
+  {
+    "camera_id": "C6",
+    "theta_deg": 60,
+    "phi_deg": 90,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7214341563639621
+    ],
+    "direction": [
+      -5.302876193624534e-17,
+      0.8660254037844386,
+      -0.5000000000000001
+    ],
+    "distance_m": 0.03816808499364416,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+    "hit_world": [
+      -0.05500000000000001,
+      -0.045735866607395516,
+      1.70235011386714
+    ]
+  },
+  {
+    "camera_id": "C6",
+    "theta_deg": 60,
+    "phi_deg": 120,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7214341563639621
+    ],
+    "direction": [
+      0.43301270189221913,
+      0.75,
+      -0.5000000000000001
+    ],
+    "distance_m": 0.029478431731485063,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+    "hit_world": [
+      -0.04223546462840433,
+      -0.05668157402708117,
+      1.7066949404982197
+    ]
+  },
+  {
+    "camera_id": "C6",
+    "theta_deg": 60,
+    "phi_deg": 150,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7214341563639621
+    ],
+    "direction": [
+      0.75,
+      0.43301270189221924,
+      -0.5000000000000001
+    ],
+    "distance_m": 0.03809001953312215,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+    "hit_world": [
+      -0.026432485350158394,
+      -0.06229693555253034,
+      1.702389146597401
+    ]
+  },
+  {
+    "camera_id": "C6",
+    "theta_deg": 80,
+    "phi_deg": 90,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7214341563639621
+    ],
+    "direction": [
+      -6.030208312509488e-17,
+      0.984807753012208,
+      -0.17364817766693041
+    ],
+    "distance_m": 0.03707078016839029,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+    "hit_world": [
+      -0.05500000000000001,
+      -0.042282806105653,
+      1.7149968829430298
+    ]
+  },
+  {
+    "camera_id": "C6",
+    "theta_deg": 80,
+    "phi_deg": 120,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7214341563639621
+    ],
+    "direction": [
+      0.4924038765061038,
+      0.8528685319524433,
+      -0.17364817766693041
+    ],
+    "distance_m": 0.02804070229210209,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+    "hit_world": [
+      -0.04119264949141535,
+      -0.054875365226914344,
+      1.7165649395104376
+    ]
+  },
+  {
+    "camera_id": "C6",
+    "theta_deg": 80,
+    "phi_deg": 150,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7214341563639621
+    ],
+    "direction": [
+      0.8528685319524433,
+      0.49240387650610395,
+      -0.17364817766693041
+    ],
+    "distance_m": 0.03266110347095892,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+    "hit_world": [
+      -0.02714437263077642,
+      -0.06270794386562784,
+      1.7157626152656391
+    ]
+  },
+  {
+    "camera_id": "C6",
+    "theta_deg": 95,
+    "phi_deg": 90,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7214341563639621
+    ],
+    "direction": [
+      -6.099933241728101e-17,
+      0.9961946980917455,
+      0.08715574274765824
+    ],
+    "distance_m": 0.03980790794587784,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+    "hit_world": [
+      -0.05500000000000001,
+      -0.0391339709878872,
+      1.7249036441482155
+    ]
+  },
+  {
+    "camera_id": "C6",
+    "theta_deg": 95,
+    "phi_deg": 120,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7214341563639621
+    ],
+    "direction": [
+      0.49809734904587255,
+      0.862729915662821,
+      0.08715574274765824
+    ],
+    "distance_m": 0.029908330601477417,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+    "hit_world": [
+      -0.040102739813016555,
+      -0.052987586288266594,
+      1.7240408391318764
+    ]
+  },
+  {
+    "camera_id": "C6",
+    "theta_deg": 95,
+    "phi_deg": 150,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7214341563639621
+    ],
+    "direction": [
+      0.862729915662821,
+      0.4980973490458727,
+      0.08715574274765824
+    ],
+    "distance_m": 0.03513890474772714,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+    "hit_world": [
+      -0.02468461567050947,
+      -0.06128780252247665,
+      1.7244967137065894
+    ]
+  },
+  {
+    "camera_id": "C6",
+    "theta_deg": 95,
+    "phi_deg": 180,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7214341563639621
+    ],
+    "direction": [
+      0.9961946980917455,
+      1.2199866483456202e-16,
+      0.08715574274765824
+    ],
+    "distance_m": 0.08031598964219942,
+    "hit_path": "/World/Rig/Housing/central_housing",
+    "hit_world": [
+      0.025010363053550616,
+      -0.07879039782569495,
+      1.7284341560957412
+    ]
+  },
+  {
+    "camera_id": "C6",
+    "theta_deg": 105,
+    "phi_deg": 30,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7214341563639621
+    ],
+    "direction": [
+      -0.8365163037378079,
+      0.4829629131445341,
+      0.25881904510252085
+    ],
+    "distance_m": 0.030909626038234588,
+    "hit_path": "/World/Rig/Accessories/right_heatsink",
+    "hit_world": [
+      -0.0808564061234219,
+      -0.06386219479006106,
+      1.729434156259654
+    ]
+  },
+  {
+    "camera_id": "C6",
+    "theta_deg": 105,
+    "phi_deg": 60,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7214341563639621
+    ],
+    "direction": [
+      -0.48296291314453427,
+      0.8365163037378078,
+      0.25881904510252085
+    ],
+    "distance_m": 0.04636443819374685,
+    "hit_path": "/World/Rig/WearerMount/strap_right",
+    "hit_world": [
+      -0.0773923041363617,
+      -0.04000578936298181,
+      1.7334341559839825
+    ]
+  },
+  {
+    "camera_id": "C6",
+    "theta_deg": 105,
+    "phi_deg": 90,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7214341563639621
+    ],
+    "direction": [
+      -5.914589856893349e-17,
+      0.9659258262890683,
+      0.25881904510252085
+    ],
+    "distance_m": 0.044712038293864595,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+    "hit_world": [
+      -0.05500000000000001,
+      -0.03560188529162535,
+      1.7330064834197676
+    ]
+  },
+  {
+    "camera_id": "C6",
+    "theta_deg": 105,
+    "phi_deg": 120,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7214341563639621
+    ],
+    "direction": [
+      0.48296291314453393,
+      0.8365163037378079,
+      0.25881904510252085
+    ],
+    "distance_m": 0.032781646312870456,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+    "hit_world": [
+      -0.039167680599062324,
+      -0.05136801622161244,
+      1.7299186707595477
+    ]
+  },
+  {
+    "camera_id": "C6",
+    "theta_deg": 105,
+    "phi_deg": 150,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7214341563639621
+    ],
+    "direction": [
+      0.8365163037378079,
+      0.4829629131445341,
+      0.25881904510252085
+    ],
+    "distance_m": 0.02704592209976799,
+    "hit_path": "/World/Rig/Housing/central_housing",
+    "hit_world": [
+      -0.032375645213921396,
+      -0.06572822049971089,
+      1.7284341560957412
+    ]
+  },
+  {
+    "camera_id": "C6",
+    "theta_deg": 105,
+    "phi_deg": 180,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7214341563639621
+    ],
+    "direction": [
+      0.9659258262890683,
+      1.1829179713786698e-16,
+      0.25881904510252085
+    ],
+    "distance_m": 0.02704592209976799,
+    "hit_path": "/World/Rig/Housing/central_housing",
+    "hit_world": [
+      -0.028875645348031838,
+      -0.07879039782569497,
+      1.7284341560957412
+    ]
+  },
+  {
+    "camera_id": "C6",
+    "theta_deg": 110,
+    "phi_deg": 0,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7214341563639621
+    ],
+    "direction": [
+      -0.9396926207859084,
+      0.0,
+      0.3420201433256687
+    ],
+    "distance_m": 0.02339043489632819,
+    "hit_path": "/World/Rig/Accessories/right_heatsink",
+    "hit_world": [
+      -0.07697981906905281,
+      -0.07879039782569497,
+      1.729434156259654
+    ]
+  },
+  {
+    "camera_id": "C6",
+    "theta_deg": 110,
+    "phi_deg": 30,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7214341563639621
+    ],
+    "direction": [
+      -0.8137976813493738,
+      0.46984631039295416,
+      0.3420201433256687
+    ],
+    "distance_m": 0.02339043489632819,
+    "hit_path": "/World/Rig/Accessories/right_heatsink",
+    "hit_world": [
+      -0.07403508168438537,
+      -0.06780048829116857,
+      1.729434156259654
+    ]
+  },
+  {
+    "camera_id": "C6",
+    "theta_deg": 110,
+    "phi_deg": 60,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7214341563639621
+    ],
+    "direction": [
+      -0.4698463103929543,
+      0.8137976813493737,
+      0.3420201433256687
+    ],
+    "distance_m": 0.02554027009149843,
+    "hit_path": "/World/Rig/Accessories/right_heatsink",
+    "hit_world": [
+      -0.06700000166893007,
+      -0.05800578524419679,
+      1.7301694432012327
+    ]
+  },
+  {
+    "camera_id": "C6",
+    "theta_deg": 110,
+    "phi_deg": 90,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7214341563639621
+    ],
+    "direction": [
+      -5.753957801139251e-17,
+      0.9396926207859084,
+      0.3420201433256687
+    ],
+    "distance_m": 0.04949372197729047,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+    "hit_world": [
+      -0.05500000000000001,
+      -0.032281512508405774,
+      1.7383620062483558
+    ]
+  },
+  {
+    "camera_id": "C6",
+    "theta_deg": 110,
+    "phi_deg": 120,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7214341563639621
+    ],
+    "direction": [
+      0.469846310392954,
+      0.8137976813493738,
+      0.3420201433256687
+    ],
+    "distance_m": 0.034861085781750296,
+    "hit_path": "/World/Person/ManRoot/male_adult_medical_01/male_adult_medical_01/trans__organic__malecaucasianskin",
+    "hit_world": [
+      -0.038620647469152364,
+      -0.05042052704718496,
+      1.7333573499195247
+    ]
+  },
+  {
+    "camera_id": "C6",
+    "theta_deg": 110,
+    "phi_deg": 150,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7214341563639621
+    ],
+    "direction": [
+      0.8137976813493738,
+      0.46984631039295416,
+      0.3420201433256687
+    ],
+    "distance_m": 0.020466630016916215,
+    "hit_path": "/World/Rig/Housing/central_housing",
+    "hit_world": [
+      -0.038344303947198094,
+      -0.0691742272260692,
+      1.7284341560957412
+    ]
+  },
+  {
+    "camera_id": "C6",
+    "theta_deg": 110,
+    "phi_deg": 180,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7214341563639621
+    ],
+    "direction": [
+      0.9396926207859084,
+      1.1507915602278503e-16,
+      0.3420201433256687
+    ],
+    "distance_m": 0.020466630016916215,
+    "hit_path": "/World/Rig/Housing/central_housing",
+    "hit_world": [
+      -0.03576765880074847,
+      -0.07879039782569497,
+      1.7284341560957412
+    ]
+  },
+  {
+    "camera_id": "C6",
+    "theta_deg": 110,
+    "phi_deg": 210,
+    "origin": [
+      -0.05500000000000001,
+      -0.07879039782569497,
+      1.7214341563639621
+    ],
+    "direction": [
+      0.8137976813493737,
+      -0.4698463103929543,
+      0.3420201433256687
+    ],
+    "distance_m": 0.020466630016916215,
+    "hit_path": "/World/Rig/Housing/central_housing",
+    "hit_world": [
+      -0.038344303947198094,
+      -0.08840656842532074,
+      1.7284341560957412
+    ]
+  }
+]

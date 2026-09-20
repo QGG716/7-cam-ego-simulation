@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "png_resolution": [
+    4800,
+    3400
+  ],
+  "pdf_pages": 1,
+  "pdf_page_points": [
+    1728.0,
+    1224.0
+  ],
+  "svg_embedded_external_images": 4,
+  "reviewed": [
+    "PNG full figure",
+    "PDF rasterized page",
+    "front parallel axes",
+    "up/down panels",
+    "body and device first-hit markers",
+    "Chinese fonts and legends"
+  ],
+  "known_baseline_fit_issue_preserved": true
+}
