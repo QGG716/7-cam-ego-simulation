@@ -1,0 +1,172 @@
+[
+  {
+    "path": "/World/Rig/Housing/central_housing",
+    "triangles": 12,
+    "candidate_body_triangles": 634,
+    "triangle_crossings": 27,
+    "coplanar_contacts": 0,
+    "human_vertices_inside_solid": 2,
+    "minimum_sampled_gap_m": 2.6680447510711964e-06,
+    "distance_samples": 9488
+  },
+  {
+    "path": "/World/Rig/Housing/left_pod",
+    "triangles": 12,
+    "candidate_body_triangles": 358,
+    "triangle_crossings": 27,
+    "coplanar_contacts": 0,
+    "human_vertices_inside_solid": 1,
+    "minimum_sampled_gap_m": 9.522297047357824e-08,
+    "distance_samples": 2604
+  },
+  {
+    "path": "/World/Rig/Housing/right_pod",
+    "triangles": 12,
+    "candidate_body_triangles": 361,
+    "triangle_crossings": 22,
+    "coplanar_contacts": 0,
+    "human_vertices_inside_solid": 1,
+    "minimum_sampled_gap_m": 3.488020317278838e-08,
+    "distance_samples": 2604
+  },
+  {
+    "path": "/World/Rig/Housing/C0_barrel",
+    "triangles": 500,
+    "candidate_body_triangles": 90,
+    "triangle_crossings": 0,
+    "coplanar_contacts": 0,
+    "human_vertices_inside_solid": 0,
+    "minimum_sampled_gap_m": 0.0062377897081512335,
+    "distance_samples": 5386
+  },
+  {
+    "path": "/World/Rig/Housing/C1_barrel",
+    "triangles": 500,
+    "candidate_body_triangles": 78,
+    "triangle_crossings": 0,
+    "coplanar_contacts": 0,
+    "human_vertices_inside_solid": 0,
+    "minimum_sampled_gap_m": 0.01004305040207938,
+    "distance_samples": 5168
+  },
+  {
+    "path": "/World/Rig/Housing/C2_barrel",
+    "triangles": 500,
+    "candidate_body_triangles": 79,
+    "triangle_crossings": 0,
+    "coplanar_contacts": 0,
+    "human_vertices_inside_solid": 0,
+    "minimum_sampled_gap_m": 0.01075519920340931,
+    "distance_samples": 5142
+  },
+  {
+    "path": "/World/Rig/Housing/C3_barrel",
+    "triangles": 500,
+    "candidate_body_triangles": 61,
+    "triangle_crossings": 85,
+    "coplanar_contacts": 0,
+    "human_vertices_inside_solid": 0,
+    "minimum_sampled_gap_m": 1.8195201682781984e-06,
+    "distance_samples": 2932
+  },
+  {
+    "path": "/World/Rig/Housing/C4_barrel",
+    "triangles": 500,
+    "candidate_body_triangles": 280,
+    "triangle_crossings": 0,
+    "coplanar_contacts": 0,
+    "human_vertices_inside_solid": 0,
+    "minimum_sampled_gap_m": 0.009790742976254398,
+    "distance_samples": 2980
+  },
+  {
+    "path": "/World/Rig/Housing/C5_barrel",
+    "triangles": 500,
+    "candidate_body_triangles": 66,
+    "triangle_crossings": 132,
+    "coplanar_contacts": 0,
+    "human_vertices_inside_solid": 1,
+    "minimum_sampled_gap_m": 8.191989592314342e-07,
+    "distance_samples": 2932
+  },
+  {
+    "path": "/World/Rig/Housing/C6_barrel",
+    "triangles": 500,
+    "candidate_body_triangles": 284,
+    "triangle_crossings": 0,
+    "coplanar_contacts": 0,
+    "human_vertices_inside_solid": 0,
+    "minimum_sampled_gap_m": 0.008543637010038027,
+    "distance_samples": 2980
+  },
+  {
+    "path": "/World/Rig/Accessories/right_heatsink",
+    "triangles": 12,
+    "candidate_body_triangles": 140,
+    "triangle_crossings": 32,
+    "coplanar_contacts": 0,
+    "human_vertices_inside_solid": 2,
+    "minimum_sampled_gap_m": 4.677806079811266e-07,
+    "distance_samples": 2308
+  },
+  {
+    "path": "/World/Rig/Accessories/usb_cable_0",
+    "triangles": 500,
+    "candidate_body_triangles": 64,
+    "triangle_crossings": 0,
+    "coplanar_contacts": 0,
+    "human_vertices_inside_solid": 0,
+    "minimum_sampled_gap_m": 0.001790621769493837,
+    "distance_samples": 14766
+  },
+  {
+    "path": "/World/Rig/Accessories/usb_cable_1",
+    "triangles": 500,
+    "candidate_body_triangles": 171,
+    "triangle_crossings": 510,
+    "coplanar_contacts": 0,
+    "human_vertices_inside_solid": 0,
+    "minimum_sampled_gap_m": 1.770360998167309e-08,
+    "distance_samples": 644996
+  },
+  {
+    "path": "/World/Rig/WearerMount/strap_left",
+    "triangles": 12,
+    "candidate_body_triangles": 184,
+    "triangle_crossings": 71,
+    "coplanar_contacts": 0,
+    "human_vertices_inside_solid": 2,
+    "minimum_sampled_gap_m": 5.351130370599459e-08,
+    "distance_samples": 34444
+  },
+  {
+    "path": "/World/Rig/WearerMount/strap_right",
+    "triangles": 12,
+    "candidate_body_triangles": 197,
+    "triangle_crossings": 63,
+    "coplanar_contacts": 0,
+    "human_vertices_inside_solid": 2,
+    "minimum_sampled_gap_m": 1.242490811657979e-07,
+    "distance_samples": 34444
+  },
+  {
+    "path": "/World/Rig/WearerMount/strap_rear",
+    "triangles": 12,
+    "candidate_body_triangles": 177,
+    "triangle_crossings": 68,
+    "coplanar_contacts": 0,
+    "human_vertices_inside_solid": 1,
+    "minimum_sampled_gap_m": 2.7683491038572525e-08,
+    "distance_samples": 27444
+  },
+  {
+    "path": "/World/Rig/WearerMount/strap_left_bracket",
+    "triangles": 12,
+    "candidate_body_triangles": 108,
+    "triangle_crossings": 10,
+    "coplanar_contacts": 0,
+    "human_vertices_inside_solid": 0,
+    "minimum_sampled_gap_m": 2.0563448405152913e-05,
+    "distance_samples": 628
+  }
+]

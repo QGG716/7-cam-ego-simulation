@@ -1,0 +1,23 @@
+{
+  "fit_views": "PASS",
+  "overlap_visualization": "PASS",
+  "figure_readability": "PASS",
+  "method": "Opened actual final RTX front/left/right/toprear and full body; opened final technical plate and PyMuPDF rasterized PDF; checked industrial worker, arms down, continuous band, preserved helmet/cable, A without full FOV, separate B/C/D, dedicated overlap colors, physical-plane units, Chinese glyphs and no clipped/overlapping labels",
+  "pdf_pages": 1,
+  "pdf_renderer": "PyMuPDF 1.28.2",
+  "svg_and_pdf_contain_embedded_rasters": true,
+  "final_scene_sha256": "2a80ba23f318cec9f9247f94a561a45ea6ecd16f2888e2fc534f2d9707fec1af",
+  "artifact_sha256": {
+    "outputs/step2_1b_v2/fov_overview_wearer_v2.png": "01cfc481ea5f7748432633d9f29905d74e22fd8946a47a3e90085adbdb22857a",
+    "outputs/step2_1b_v2/fov_overview_wearer_v2.pdf": "92109efff640a533c3a69a26a985a5999e2c444e6d3354bf0930029906e9d748",
+    "outputs/step2_1b_v2/fov_overview_wearer_v2.svg": "7f76c8f8708b7a8fca5526bba8deb9b915d48a5884d81a7599cde950bb7e2663",
+    "outputs/step2_1b_v2/fit_check_front.png": "92f47a58eef4d3a4253056f008a32ea2cb9f8208e047d22b0c159c79839710a3",
+    "outputs/step2_1b_v2/fit_check_left.png": "62dd2cd1d0780d4dfac04bb5e9939c870d10fc4cda85a5d0009c668e2687b287",
+    "outputs/step2_1b_v2/fit_check_right.png": "befb71dfc19ced9e59376cca01c5bb04143f9b9984defe6938741063dbec76b9",
+    "outputs/step2_1b_v2/fit_check_toprear.png": "a87bbd2d51cd72c79a684539fd22889f95f58951a57ff9e54063e6a4b6c2b972",
+    "outputs/step2_1b_v2/panels/panel_A.png": "d8fb53cd73eb87556907f684f75480629437b0b8fb2f89e7ccff351511c30e0f",
+    "outputs/step2_1b_v2/panels/panel_B.png": "06f1a719cc2df53b19887c6c74327d558420b24d83d890187f8745daf85d1c98",
+    "outputs/step2_1b_v2/panels/panel_C.png": "4386398e9b0f96b0b2ba5899d72415aeafcce422c0e0be3d640906629d908a93",
+    "outputs/step2_1b_v2/panels/panel_D.png": "76e5a750dafaeb71207d2bf233bd2f138f9b8005058c2cccf28f3049fdf5b7f7"
+  }
+}

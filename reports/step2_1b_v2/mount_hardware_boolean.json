@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "intersection_volume_mm3": {
+    "/World/Rig/Housing/central_housing": 0.0,
+    "/World/Rig/Housing/left_pod": 0.0,
+    "/World/Rig/Housing/right_pod": 0.0,
+    "/World/Rig/Housing/C0_barrel": 0.0,
+    "/World/Rig/Housing/C1_barrel": 0.0,
+    "/World/Rig/Housing/C2_barrel": 0.0,
+    "/World/Rig/Housing/C3_barrel": 0.0,
+    "/World/Rig/Housing/C4_barrel": 0.0,
+    "/World/Rig/Housing/C5_barrel": 0.0,
+    "/World/Rig/Housing/C6_barrel": 0.0,
+    "/World/Rig/Accessories/right_heatsink": 0.0,
+    "/World/Rig/Accessories/usb_cable_0": 0.0,
+    "/World/Rig/Accessories/usb_cable_1": 0.0
+  },
+  "numerical_volume_tolerance_mm3": 0.01,
+  "method": "Closed oriented triangle solids, Manifold3D Boolean intersection; housing butt-contact allowed; 0.5 mm cutter enlargement for cable and heatsink",
+  "connected_components": 1
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "translation_delta_world_mm": [
+      0,
+      0,
+      0
+    ],
+    "intersecting_fixed_parts": [
+      "/World/Rig/Housing/central_housing",
+      "/World/Rig/Housing/left_pod",
+      "/World/Rig/Housing/right_pod",
+      "/World/Rig/Housing/C3_barrel",
+      "/World/Rig/Housing/C5_barrel",
+      "/World/Rig/Accessories/right_heatsink",
+      "/World/Rig/Accessories/usb_cable_1"
+    ]
+  },
+  {
+    "translation_delta_world_mm": [
+      0,
+      -20,
+      -20
+    ],
+    "intersecting_fixed_parts": []
+  }
+]

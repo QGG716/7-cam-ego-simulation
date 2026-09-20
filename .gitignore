@@ -23,3 +23,6 @@ reports/step2_1/*.log
 # Step 2.1b keeps raw renderer logs and PDF review images local.
 reports/step2_1b/*.log
 outputs/step2_1b/debug/pdf_review*.png
+
+reports/step2_1b_v2/*.log
+outputs/step2_1b_v2/debug/pdf_review*.png

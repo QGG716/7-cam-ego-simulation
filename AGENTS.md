@@ -1,6 +1,6 @@
 # 七目相机与 IMU 仿真工程
 
-- 当前仅限 Step 2.1b：基于 a77f57b 的真实人物与佩戴位姿，生成一张七相机视场范围外部技术说明总图。冻结人物、设备、相机及 Step 2.1 全部结果；新产物和报告使用 step2_1b 目录。允许仅在临时会话层调整外部观察相机、说明图背景和照明。不重跑正式七路图，不进入联合覆盖、优化、运动、IMU 或 SLAM。
+- Current scope: Step 2.1b-v2, explicitly authorized by the user. Use a complete 1.800 m industrial worker; adapt straps/mounts and, only when necessary for fit, a small whole-rig rigid transform. Freeze camera/IMU internal layout, optics, forehead housing, barrels, heatsink and cable shapes. Save all new scenes, configs, A/B/C/D section-overlap figures and reports under step2_1b_v2. Keep all old assets/results read-only and retain every protection below. No union-coverage statistics, camera optimization, motion, IMU sequences or SLAM.
 - 原始 ZIP、assets/baseline/ 下客户资料、PDF、图纸、模型和代码只读使用，不改写。缺少基线包时只做独立环境检查，不另造结构替代。
 - 活动配置唯一来源为 config/rig_sim_v0.2.json；必须读取原始 layout_parameters.json 后继承生成。内参、射线、掩膜、USD 和元数据均从活动配置派生。
 - 第一步已授权并冻结的光学变更（第二步不得继续修改）：C0/C1/C2 VFOV=130°；C0 独立 fx/fy。版本 SIM-V0.2-vfov130。不得将用户变更归为客户 PDF 原文要求。

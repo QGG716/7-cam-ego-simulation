@@ -1,0 +1,73 @@
+{
+  "status": "PASS",
+  "boundary_checks": {
+    "C0": {
+      "roundtrip_max_px": 2.2737367544323206e-13,
+      "boundary_samples": 192,
+      "maximum_offaxis_deg": 69.87433132801387,
+      "backward_hemisphere_samples": 0
+    },
+    "C1": {
+      "roundtrip_max_px": 2.2737367544323206e-13,
+      "boundary_samples": 192,
+      "maximum_offaxis_deg": 80.00000000000003,
+      "backward_hemisphere_samples": 0
+    },
+    "C2": {
+      "roundtrip_max_px": 2.2737367544323206e-13,
+      "boundary_samples": 192,
+      "maximum_offaxis_deg": 80.00000000000003,
+      "backward_hemisphere_samples": 0
+    },
+    "C3": {
+      "roundtrip_max_px": 1.1368683772161603e-13,
+      "boundary_samples": 192,
+      "maximum_offaxis_deg": 110.00000000000003,
+      "backward_hemisphere_samples": 192
+    },
+    "C4": {
+      "roundtrip_max_px": 1.1368683772161603e-13,
+      "boundary_samples": 192,
+      "maximum_offaxis_deg": 110.00000000000003,
+      "backward_hemisphere_samples": 192
+    },
+    "C5": {
+      "roundtrip_max_px": 1.1368683772161603e-13,
+      "boundary_samples": 192,
+      "maximum_offaxis_deg": 110.00000000000003,
+      "backward_hemisphere_samples": 192
+    },
+    "C6": {
+      "roundtrip_max_px": 1.1368683772161603e-13,
+      "boundary_samples": 192,
+      "maximum_offaxis_deg": 110.00000000000003,
+      "backward_hemisphere_samples": 192
+    }
+  },
+  "section_category_sample_counts": {
+    "B": {
+      "only_C0": 0,
+      "only_C1": 30377,
+      "only_C2": 30377,
+      "outside_group": 138282,
+      "exactly_two": 695694,
+      "all_three": 232521
+    },
+    "C": {
+      "only_C3": 16930,
+      "only_C5": 16930,
+      "outside_group": 332018,
+      "exactly_two": 445923,
+      "all_three": 0
+    },
+    "D": {
+      "only_C4": 16930,
+      "only_C6": 16930,
+      "outside_group": 332018,
+      "exactly_two": 445923,
+      "all_three": 0
+    }
+  },
+  "world_vs_body_classification": "identical",
+  "zero_categories_are_not_fabricated": true
+}

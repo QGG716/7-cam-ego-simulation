@@ -1,0 +1,177 @@
+{
+  "groups": {
+    "B": {
+      "ids": [
+        "C0",
+        "C1",
+        "C2"
+      ],
+      "fixed_B_X_m": 0.25,
+      "u_B_Y_m": [
+        -1.5,
+        1.5
+      ],
+      "v_B_Z_m": [
+        -0.75,
+        0.75
+      ],
+      "shape": [
+        751,
+        1501
+      ],
+      "categories": {
+        "1": "only_C0",
+        "2": "only_C1",
+        "3": "only_C2",
+        "0": "outside_group",
+        "4": "exactly_two",
+        "5": "all_three"
+      },
+      "world_plane_origin_m": [
+        0.0,
+        -0.36479039782569495,
+        1.7214341563639621
+      ],
+      "world_u_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "world_v_direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "world_normal": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "grid_spacing_m": [
+        0.0020000000000000018,
+        0.0020000000000000018
+      ],
+      "section_only": true,
+      "finite_range_clipping": false
+    },
+    "C": {
+      "ids": [
+        "C3",
+        "C5"
+      ],
+      "fixed_B_X_m": -0.016,
+      "u_B_Y_m": [
+        -0.45,
+        0.45
+      ],
+      "v_B_Z_m": [
+        -0.45,
+        0.45
+      ],
+      "shape": [
+        901,
+        901
+      ],
+      "categories": {
+        "1": "only_C3",
+        "2": "only_C5",
+        "0": "outside_group",
+        "4": "exactly_two",
+        "5": "all_three"
+      },
+      "world_plane_origin_m": [
+        0.0,
+        -0.09879039782569496,
+        1.7214341563639621
+      ],
+      "world_u_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "world_v_direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "world_normal": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "grid_spacing_m": [
+        0.0010000000000000009,
+        0.0010000000000000009
+      ],
+      "section_only": true,
+      "finite_range_clipping": false
+    },
+    "D": {
+      "ids": [
+        "C4",
+        "C6"
+      ],
+      "fixed_B_X_m": -0.016,
+      "u_B_Y_m": [
+        -0.45,
+        0.45
+      ],
+      "v_B_Z_m": [
+        -0.45,
+        0.45
+      ],
+      "shape": [
+        901,
+        901
+      ],
+      "categories": {
+        "1": "only_C4",
+        "2": "only_C6",
+        "0": "outside_group",
+        "4": "exactly_two",
+        "5": "all_three"
+      },
+      "world_plane_origin_m": [
+        0.0,
+        -0.09879039782569496,
+        1.7214341563639621
+      ],
+      "world_u_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "world_v_direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "world_normal": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "grid_spacing_m": [
+        0.0010000000000000009,
+        0.0010000000000000009
+      ],
+      "section_only": true,
+      "finite_range_clipping": false
+    }
+  },
+  "colors": {
+    "C0": "#1478AE",
+    "C1": "#21A78F",
+    "C2": "#D6AB45",
+    "C3": "#3969AD",
+    "C5": "#58B4C6",
+    "C4": "#A65252",
+    "C6": "#CB9167",
+    "two": "#F07824",
+    "three": "#8935A7",
+    "occlusion": "#6E7680"
+  },
+  "envelope_display_radius_m": 0.4,
+  "section_interpretation": "Unoccluded ideal geometric membership at identical world points on one physical plane per group; no range truncation in section, display window only; not full 3D volume or seven-camera union coverage",
+  "config_sha256": "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d"
+}

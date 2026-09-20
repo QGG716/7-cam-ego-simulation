@@ -1,0 +1,67 @@
+{
+  "statuses": {
+    "worker_asset_and_height": "PASS",
+    "wearer_fit": "PASS",
+    "fov_geometry": "PASS",
+    "overlap_visualization": "PASS",
+    "figure_readability": "PASS"
+  },
+  "protected_file_count": 744,
+  "changed_protected_files": [],
+  "config_sha256": "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d",
+  "camera_layout_mm": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      31.5,
+      0
+    ],
+    [
+      0,
+      -31.5,
+      0
+    ],
+    [
+      -16,
+      55,
+      20
+    ],
+    [
+      -16,
+      55,
+      -20
+    ],
+    [
+      -16,
+      -55,
+      20
+    ],
+    [
+      -16,
+      -55,
+      -20
+    ]
+  ],
+  "imu_B_mm": [
+    -18,
+    0,
+    0
+  ],
+  "rig_scale": 1.0,
+  "actual_external_frames": 9,
+  "formal_sensor_frames": 0,
+  "triangle_audit": "PASS",
+  "mount_hardware_boolean": "PASS",
+  "mount_connectivity": "PASS",
+  "analytic_fit_unit_tests": "4 PASS",
+  "unrun_out_of_scope": [
+    "camera union coverage statistics",
+    "motion",
+    "IMU sequences",
+    "SLAM"
+  ]
+}

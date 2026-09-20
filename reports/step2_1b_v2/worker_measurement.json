@@ -1,0 +1,179 @@
+{
+  "source": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/People/Characters/original_male_adult_construction_01/male_adult_construction_01.usd",
+  "source_units_m": 1,
+  "source_up": "Z",
+  "source_forward": "-Y",
+  "pose_changes": [
+    {
+      "joint": "RL_BoneRoot/Hip/Waist/Spine01/Spine02/L_Clavicle/L_Upperarm",
+      "rotation_skeleton_Y_deg": 82.0
+    },
+    {
+      "joint": "RL_BoneRoot/Hip/Waist/Spine01/Spine02/R_Clavicle/R_Upperarm",
+      "rotation_skeleton_Y_deg": -82.0
+    }
+  ],
+  "skin_meshes": [
+    "/World/Person/ManRoot/male_adult_construction_01/male_adult_construction_01/opaque__organic__whitemaleskin_01"
+  ],
+  "height_method": "Final UsdSkel.ComputeSkinnedPoints: shoe minimum Z to actual skin head maximum Z; exclude helmet and rig from anthropometric height, include all attachments in fit",
+  "original_height_m": 1.7490045727643064,
+  "uniform_scale": 1.0291568289927884,
+  "final_height_m": 1.8000000000000003,
+  "overall_person_with_attachments_height_m": 1.8492797646044896,
+  "meshes": [
+    {
+      "path": "/World/Person/ManRoot/male_adult_construction_01/male_adult_construction_01/opaque__organic__whitemaleskin_01",
+      "vertices": 1676,
+      "triangles": 3222,
+      "bounds": [
+        [
+          -0.2899399021926234,
+          -0.10602236138777497,
+          0.9538901309705204
+        ],
+        [
+          0.2838986140715823,
+          0.1559647863102693,
+          1.8099984638525575
+        ]
+      ]
+    },
+    {
+      "path": "/World/Person/ManRoot/male_adult_construction_01/male_adult_construction_01/opaque__fabric__vest_01",
+      "vertices": 979,
+      "triangles": 1799,
+      "bounds": [
+        [
+          -0.21343045046523024,
+          -0.14724404126505128,
+          0.9551604733665182
+        ],
+        [
+          0.21607021877430213,
+          0.184034942734113,
+          1.6072442355149545
+        ]
+      ]
+    },
+    {
+      "path": "/World/Person/ManRoot/male_adult_construction_01/male_adult_construction_01/opaque__plastic__hardhat_01",
+      "vertices": 272,
+      "triangles": 540,
+      "bounds": [
+        [
+          -0.10588838930834772,
+          -0.14660195369710946,
+          1.7037665793952799
+        ],
+        [
+          0.10394475900150582,
+          0.1406865557775357,
+          1.8592782284570468
+        ]
+      ]
+    },
+    {
+      "path": "/World/Person/ManRoot/male_adult_construction_01/male_adult_construction_01/opaque__fabric__workpants_01",
+      "vertices": 1316,
+      "triangles": 2530,
+      "bounds": [
+        [
+          -0.2137327004324271,
+          -0.12551003882273262,
+          0.06431289351267873
+        ],
+        [
+          0.2117963622185073,
+          0.13737942677931134,
+          1.0770132937204215
+        ]
+      ]
+    },
+    {
+      "path": "/World/Person/ManRoot/male_adult_construction_01/male_adult_construction_01/opaque__leather__boots_01",
+      "vertices": 561,
+      "triangles": 1070,
+      "bounds": [
+        [
+          -0.15792786986605278,
+          -0.22942039233428937,
+          0.00999846385255726
+        ],
+        [
+          0.15263381040459195,
+          0.0810698622312349,
+          0.1882942765573311
+        ]
+      ]
+    },
+    {
+      "path": "/World/Person/ManRoot/male_adult_construction_01/male_adult_construction_01/opaque__leather__gloves_01",
+      "vertices": 1040,
+      "triangles": 2010,
+      "bounds": [
+        [
+          -0.3168757739458217,
+          -0.04008733769801172,
+          0.7713735384699164
+        ],
+        [
+          0.3156962491613588,
+          0.1123711442620894,
+          1.0081293162149068
+        ]
+      ]
+    },
+    {
+      "path": "/World/Person/ManRoot/male_adult_construction_01/male_adult_construction_01/opaque__fabric__tshirt_01",
+      "vertices": 796,
+      "triangles": 1524,
+      "bounds": [
+        [
+          -0.2710219894860267,
+          -0.14206325078008425,
+          0.9169570221877535
+        ],
+        [
+          0.2748598540296744,
+          0.17088511386799454,
+          1.5537877809177716
+        ]
+      ]
+    },
+    {
+      "path": "/World/Person/ManRoot/male_adult_construction_01/male_adult_construction_01/retro__reflective__vest_01",
+      "vertices": 514,
+      "triangles": 705,
+      "bounds": [
+        [
+          -0.20964540183751057,
+          -0.14465169072951295,
+          0.9976729917116964
+        ],
+        [
+          0.21208818395607845,
+          0.1814262290794413,
+          1.5760376970173764
+        ]
+      ]
+    },
+    {
+      "path": "/World/Person/ManRoot/male_adult_construction_01/male_adult_construction_01/retro__reflective__pants_01",
+      "vertices": 116,
+      "triangles": 162,
+      "bounds": [
+        [
+          -0.17892753324732125,
+          -0.050021326748118565,
+          0.2715390457586225
+        ],
+        [
+          0.18122136037419076,
+          0.11792820214114841,
+          0.38139357450283057
+        ]
+      ]
+    }
+  ]
+}
