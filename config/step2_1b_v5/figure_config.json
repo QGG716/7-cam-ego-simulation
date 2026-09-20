@@ -1,0 +1,99 @@
+{
+  "baseline_commit": "e7f88b83c0ebf98f6af2bf08fa18748163b8e54e",
+  "groups": {
+    "B": [
+      "C1",
+      "C0",
+      "C2"
+    ],
+    "C": [
+      "C3",
+      "C5"
+    ],
+    "D": [
+      "C4",
+      "C6"
+    ]
+  },
+  "canvas_px": [
+    4800,
+    2700
+  ],
+  "panels": {
+    "A": [
+      80,
+      180,
+      2300,
+      1120
+    ],
+    "B": [
+      2420,
+      180,
+      2300,
+      1120
+    ],
+    "C": [
+      80,
+      1340,
+      2300,
+      1320
+    ],
+    "D": [
+      2420,
+      1340,
+      2300,
+      1320
+    ]
+  },
+  "image_processing": "none; proportional layout scaling only",
+  "camera_image_overlays": false,
+  "source_configuration": {
+    "config/rig_sim_v0.2.json": "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d",
+    "config/step2_1b_v3/final_placement.json": "2b10f950918349d3ab528ba5fa2fdf1d80eeb60891b66d85231eca0444cb9a53",
+    "outputs/step2_1b_v3/debug/external_views.json": "7c5a9f7793edc1113fc88cce6d9b546c66511cd9ee3c125a31fc698a418e751c",
+    "outputs/step2_1b_v3/debug/body_rgba.png": "bf9121b78f5682e36c07a87b45f76d895a7dcd112d65e205ccb02aab2017031b",
+    "outputs/step2_1b_v3/debug/head_rgba.png": "5f9aee38b6fa4faf61d1b6e6af916f269ad2eafddd914620ab12143783e6c840"
+  },
+  "optics": {
+    "front_main": {
+      "model": "ideal_pinhole",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "hfov_deg": 120.0,
+      "provenance": "HFOV/resolution inherited from PDF-based baseline; explicit VFOV=130 from current user; independent fx/fy and centered principal point are simulation assumptions, not confirmed physical lens",
+      "vfov_deg": 130.0
+    },
+    "front_stereo": {
+      "model": "ideal_equidistant",
+      "resolution": [
+        1600,
+        1300
+      ],
+      "hfov_deg": 160.0,
+      "radial_full_fov_deg": 160.0,
+      "provenance": "resolution chosen at PDF minimum for both cameras; HFOV from PDF; equidistant model and circular cut-off are assumptions, not lens calibration",
+      "vfov_deg": 130.0
+    },
+    "surround": {
+      "model": "ideal_equidistant",
+      "resolution": [
+        1080,
+        960
+      ],
+      "radial_full_fov_deg": 220.0,
+      "image_circle_diameter_px": 960.0,
+      "provenance": "resolution chosen at PDF minimum; 220 comes only from composition image; interpretation as full circular angle with 960 px diameter is an assumption"
+    }
+  },
+  "camera_height_above_floor_m": {
+    "C0": 1.711435692511405,
+    "C1": 1.711435692511405,
+    "C2": 1.711435692511405,
+    "C3": 1.731435692511405,
+    "C4": 1.691435692511405,
+    "C5": 1.731435692511405,
+    "C6": 1.691435692511405
+  }
+}

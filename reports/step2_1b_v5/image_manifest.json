@@ -1,0 +1,196 @@
+{
+  "images": {
+    "C1": {
+      "group": "B",
+      "source": "outputs/step2_1b_v4/raw/C1.png",
+      "output": "outputs/step2_1b_v5/raw/C1.png",
+      "sha256": "64e376e539fe4081645a2ed5877e4137363d9e6c8130122a7c1080559c869e89",
+      "v3_source_sha256": "64e376e539fe4081645a2ed5877e4137363d9e6c8130122a7c1080559c869e89",
+      "resolution": [
+        1600,
+        1300
+      ],
+      "mode": "RGB",
+      "copy_byte_identical": true,
+      "plate_bounds_px": [
+        2460.0,
+        456.5625,
+        710.0,
+        576.875
+      ],
+      "equal_scale": 0.44375,
+      "full_frame": true,
+      "overlay_artists": 0
+    },
+    "C0": {
+      "group": "B",
+      "source": "outputs/step2_1b_v4/raw/C0.png",
+      "output": "outputs/step2_1b_v5/raw/C0.png",
+      "sha256": "911dbe8f5a49d4bca32b131ab8fa05b54a6f798d8b6477db920264191faa420b",
+      "v3_source_sha256": "911dbe8f5a49d4bca32b131ab8fa05b54a6f798d8b6477db920264191faa420b",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "mode": "RGB",
+      "copy_byte_identical": true,
+      "plate_bounds_px": [
+        3215.0,
+        545.3125,
+        710.0,
+        399.375
+      ],
+      "equal_scale": 0.3697916666666667,
+      "full_frame": true,
+      "overlay_artists": 0
+    },
+    "C2": {
+      "group": "B",
+      "source": "outputs/step2_1b_v4/raw/C2.png",
+      "output": "outputs/step2_1b_v5/raw/C2.png",
+      "sha256": "21e9b78476fc5f31f25418aedc5dfac47e248b1d10b7a6ed889f4f37152e2f07",
+      "v3_source_sha256": "21e9b78476fc5f31f25418aedc5dfac47e248b1d10b7a6ed889f4f37152e2f07",
+      "resolution": [
+        1600,
+        1300
+      ],
+      "mode": "RGB",
+      "copy_byte_identical": true,
+      "plate_bounds_px": [
+        3970.0,
+        456.5625,
+        710.0,
+        576.875
+      ],
+      "equal_scale": 0.44375,
+      "full_frame": true,
+      "overlay_artists": 0
+    },
+    "C3": {
+      "group": "C",
+      "source": "outputs/step2_1b_v4/raw/C3.png",
+      "output": "outputs/step2_1b_v5/raw/C3.png",
+      "sha256": "5986694b667a72303cbe84703c5f909a224eeca35b390edaaca57be893d0c406",
+      "v3_source_sha256": "5986694b667a72303cbe84703c5f909a224eeca35b390edaaca57be893d0c406",
+      "resolution": [
+        1080,
+        960
+      ],
+      "mode": "RGB",
+      "copy_byte_identical": true,
+      "plate_bounds_px": [
+        120.0,
+        1565.0,
+        1080.0,
+        960.0
+      ],
+      "equal_scale": 1.0,
+      "full_frame": true,
+      "overlay_artists": 0
+    },
+    "C5": {
+      "group": "C",
+      "source": "outputs/step2_1b_v4/raw/C5.png",
+      "output": "outputs/step2_1b_v5/raw/C5.png",
+      "sha256": "9110bff563cddcb7559a566fb64c82877338fc05d3ffeac93047845cb3cb5870",
+      "v3_source_sha256": "9110bff563cddcb7559a566fb64c82877338fc05d3ffeac93047845cb3cb5870",
+      "resolution": [
+        1080,
+        960
+      ],
+      "mode": "RGB",
+      "copy_byte_identical": true,
+      "plate_bounds_px": [
+        1240.0,
+        1565.0,
+        1080.0,
+        960.0
+      ],
+      "equal_scale": 1.0,
+      "full_frame": true,
+      "overlay_artists": 0
+    },
+    "C4": {
+      "group": "D",
+      "source": "outputs/step2_1b_v4/raw/C4.png",
+      "output": "outputs/step2_1b_v5/raw/C4.png",
+      "sha256": "c2208f4b319cb975b3cf86f304b8a7cb3b132e6ae69b4bb3c7838a80c64bca8b",
+      "v3_source_sha256": "c2208f4b319cb975b3cf86f304b8a7cb3b132e6ae69b4bb3c7838a80c64bca8b",
+      "resolution": [
+        1080,
+        960
+      ],
+      "mode": "RGB",
+      "copy_byte_identical": true,
+      "plate_bounds_px": [
+        2460.0,
+        1565.0,
+        1080.0,
+        960.0
+      ],
+      "equal_scale": 1.0,
+      "full_frame": true,
+      "overlay_artists": 0
+    },
+    "C6": {
+      "group": "D",
+      "source": "outputs/step2_1b_v4/raw/C6.png",
+      "output": "outputs/step2_1b_v5/raw/C6.png",
+      "sha256": "3e6846871416f333885ff6295864100291a9c2b9003a56ee184727e8c40d6458",
+      "v3_source_sha256": "3e6846871416f333885ff6295864100291a9c2b9003a56ee184727e8c40d6458",
+      "resolution": [
+        1080,
+        960
+      ],
+      "mode": "RGB",
+      "copy_byte_identical": true,
+      "plate_bounds_px": [
+        3580.0,
+        1565.0,
+        1080.0,
+        960.0
+      ],
+      "equal_scale": 1.0,
+      "full_frame": true,
+      "overlay_artists": 0
+    }
+  },
+  "configuration": {
+    "config/rig_sim_v0.2.json": "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d",
+    "config/step2_1b_v3/final_placement.json": "2b10f950918349d3ab528ba5fa2fdf1d80eeb60891b66d85231eca0444cb9a53",
+    "outputs/step2_1b_v3/debug/external_views.json": "7c5a9f7793edc1113fc88cce6d9b546c66511cd9ee3c125a31fc698a418e751c",
+    "outputs/step2_1b_v3/debug/body_rgba.png": "bf9121b78f5682e36c07a87b45f76d895a7dcd112d65e205ccb02aab2017031b",
+    "outputs/step2_1b_v3/debug/head_rgba.png": "5f9aee38b6fa4faf61d1b6e6af916f269ad2eafddd914620ab12143783e6c840"
+  },
+  "meaning": "Existing native per-camera simulation RGB, not Bayer RAW; pre-existing valid-domain treatment retained; no processing or image transforms",
+  "basic_checks": {
+    "seven_images": true,
+    "byte_identical_copies": true,
+    "equal_aspect_full_frames": true,
+    "no_image_overlay_artists": true,
+    "no_label_image_intersection": true
+  },
+  "runtime": "Layout only; no old builder import, overlap entry point, Isaac, new acquisition or direction experiments",
+  "visual_review": {
+    "status": "PASS",
+    "opened": [
+      "main PNG",
+      "A/B/C/D PNG panels",
+      "PDF rasterized using PyMuPDF"
+    ],
+    "findings": "No overlay layers inside camera RGB; original darkness retained; labels outside images; complete proportional frames; concise parameters only",
+    "output_sha256": {
+      "outputs/step2_1b_v5/fov_overview_wearer_v5.pdf": "3c79d7cec9d1fe88021188b4d801ac45509fd368666a368bb4607c2a850be6ed",
+      "outputs/step2_1b_v5/fov_overview_wearer_v5.png": "a08fefd4befe6fa96c01269f9e9c4e9fd926148c380c90bd0d086a9e0c8eea74",
+      "outputs/step2_1b_v5/fov_overview_wearer_v5.svg": "077842be2a2ee465ef85dc4d3ca650a9e7209500a9b0296a92a74e5785c38a49",
+      "outputs/step2_1b_v5/panels/panel_A.png": "f7abede8283d39d0d718c6f28891705eeec137c6e08141de06343c0945925a92",
+      "outputs/step2_1b_v5/panels/panel_B.png": "466678454bfd6c7dabfaa44d4d262aa854f6bafaa7b0c20e5d19aa916b832b5d",
+      "outputs/step2_1b_v5/panels/panel_C.png": "f0c7c351a8e887afe2a3084e86466cd71aa2abdb2e73471c5bfe7bbed0027b55",
+      "outputs/step2_1b_v5/panels/panel_D.png": "00eb4e9140fcd6e6066c5e87f19cea96e256e812ef30407e81acf97a9989f13b"
+    }
+  },
+  "preservation": {
+    "old_tracked_files_unchanged": 937,
+    "preexisting_untracked_file_unchanged": true
+  }
+}
