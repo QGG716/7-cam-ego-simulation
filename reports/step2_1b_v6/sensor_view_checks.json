@@ -1,0 +1,365 @@
+[
+  {
+    "camera_id": "C0",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "center_distance_m": 11.582122802734375,
+    "finite_valid_pixels": 2042969,
+    "annotation": "distance_to_camera",
+    "scene_geometry_unchanged": true,
+    "position_world_m": [
+      0.0,
+      -0.11479039782569496,
+      1.7214341563639621
+    ],
+    "R_world_optical": [
+      [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0
+      ]
+    ],
+    "reference_only": false,
+    "optics": {
+      "model": "ideal_pinhole",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "hfov_deg": 120.0,
+      "provenance": "User update 2026-09-21: H120 V87; independent fx/fy; unchanged resolution and pinhole projection",
+      "vfov_deg": 87,
+      "fx_px": 554.2562584220409,
+      "fy_px": 569.0412676517196,
+      "cx_px": 960.0,
+      "cy_px": 540.0,
+      "derived_vfov_deg": 87.0,
+      "radial_full_fov_deg": 126.29061712609422,
+      "valid_radius_px": null
+    }
+  },
+  {
+    "camera_id": "C1",
+    "resolution": [
+      1600,
+      1300
+    ],
+    "center_distance_m": 11.582119941711426,
+    "finite_valid_pixels": 1998126,
+    "annotation": "distance_to_camera",
+    "scene_geometry_unchanged": true,
+    "position_world_m": [
+      0.0315,
+      -0.11479039782569496,
+      1.7214341563639621
+    ],
+    "R_world_optical": [
+      [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0
+      ]
+    ],
+    "reference_only": false,
+    "optics": {
+      "model": "ideal_equidistant",
+      "resolution": [
+        1600,
+        1300
+      ],
+      "hfov_deg": 160.0,
+      "provenance": "User update 2026-09-21 and explicit C2 confirmation: C1/C2 H160 V120; ideal equidistant with independent per-axis pixel scales and full rectangular domain.",
+      "vfov_deg": 120,
+      "image_domain": "rectangle",
+      "fx_px": 572.9577951308232,
+      "fy_px": 620.7042780583919,
+      "cx_px": 800.0,
+      "cy_px": 650.0,
+      "derived_vfov_deg": 120,
+      "radial_full_fov_deg": 200.0,
+      "valid_radius_px": null
+    }
+  },
+  {
+    "camera_id": "C2",
+    "resolution": [
+      1600,
+      1300
+    ],
+    "center_distance_m": 11.582119941711426,
+    "finite_valid_pixels": 1998586,
+    "annotation": "distance_to_camera",
+    "scene_geometry_unchanged": true,
+    "position_world_m": [
+      -0.0315,
+      -0.11479039782569496,
+      1.7214341563639621
+    ],
+    "R_world_optical": [
+      [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0
+      ]
+    ],
+    "reference_only": false,
+    "optics": {
+      "model": "ideal_equidistant",
+      "resolution": [
+        1600,
+        1300
+      ],
+      "hfov_deg": 160.0,
+      "provenance": "User update 2026-09-21 and explicit C2 confirmation: C1/C2 H160 V120; ideal equidistant with independent per-axis pixel scales and full rectangular domain.",
+      "vfov_deg": 120,
+      "image_domain": "rectangle",
+      "fx_px": 572.9577951308232,
+      "fy_px": 620.7042780583919,
+      "cx_px": 800.0,
+      "cy_px": 650.0,
+      "derived_vfov_deg": 120,
+      "radial_full_fov_deg": 200.0,
+      "valid_radius_px": null
+    }
+  },
+  {
+    "camera_id": "C3",
+    "resolution": [
+      1080,
+      960
+    ],
+    "center_distance_m": 1.2584682703018188,
+    "finite_valid_pixels": 985369,
+    "annotation": "distance_to_camera",
+    "scene_geometry_unchanged": true,
+    "position_world_m": [
+      0.055,
+      -0.09879039782569496,
+      1.7414341563639621
+    ],
+    "R_world_optical": [
+      [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "reference_only": false,
+    "optics": {
+      "model": "ideal_equidistant",
+      "resolution": [
+        1080,
+        960
+      ],
+      "provenance": "User update 2026-09-21: C3-C6 H188 V133, replacing the earlier 220-degree circle. Equidistant angular law, independent fx/fy, unchanged 1080x960 resolution; full rectangular domain assumed from H/V specification.",
+      "hfov_deg": 188,
+      "vfov_deg": 133,
+      "image_domain": "rectangle",
+      "fx_px": 329.14596741557926,
+      "fy_px": 413.56352129743635,
+      "cx_px": 540.0,
+      "cy_px": 480.0,
+      "derived_vfov_deg": 133,
+      "radial_full_fov_deg": 230.28894893155424,
+      "valid_radius_px": null
+    }
+  },
+  {
+    "camera_id": "C4",
+    "resolution": [
+      1080,
+      960
+    ],
+    "center_distance_m": 0.2826839089393616,
+    "finite_valid_pixels": 980782,
+    "annotation": "distance_to_camera",
+    "scene_geometry_unchanged": true,
+    "position_world_m": [
+      0.055,
+      -0.09879039782569496,
+      1.7014341563639621
+    ],
+    "R_world_optical": [
+      [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    ],
+    "reference_only": false,
+    "optics": {
+      "model": "ideal_equidistant",
+      "resolution": [
+        1080,
+        960
+      ],
+      "provenance": "User update 2026-09-21: C3-C6 H188 V133, replacing the earlier 220-degree circle. Equidistant angular law, independent fx/fy, unchanged 1080x960 resolution; full rectangular domain assumed from H/V specification.",
+      "hfov_deg": 188,
+      "vfov_deg": 133,
+      "image_domain": "rectangle",
+      "fx_px": 329.14596741557926,
+      "fy_px": 413.56352129743635,
+      "cx_px": 540.0,
+      "cy_px": 480.0,
+      "derived_vfov_deg": 133,
+      "radial_full_fov_deg": 230.28894893155424,
+      "valid_radius_px": null
+    }
+  },
+  {
+    "camera_id": "C5",
+    "resolution": [
+      1080,
+      960
+    ],
+    "center_distance_m": 1.2584679126739502,
+    "finite_valid_pixels": 995958,
+    "annotation": "distance_to_camera",
+    "scene_geometry_unchanged": true,
+    "position_world_m": [
+      -0.055,
+      -0.09879039782569496,
+      1.7414341563639621
+    ],
+    "R_world_optical": [
+      [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "reference_only": false,
+    "optics": {
+      "model": "ideal_equidistant",
+      "resolution": [
+        1080,
+        960
+      ],
+      "provenance": "User update 2026-09-21: C3-C6 H188 V133, replacing the earlier 220-degree circle. Equidistant angular law, independent fx/fy, unchanged 1080x960 resolution; full rectangular domain assumed from H/V specification.",
+      "hfov_deg": 188,
+      "vfov_deg": 133,
+      "image_domain": "rectangle",
+      "fx_px": 329.14596741557926,
+      "fy_px": 413.56352129743635,
+      "cx_px": 540.0,
+      "cy_px": 480.0,
+      "derived_vfov_deg": 133,
+      "radial_full_fov_deg": 230.28894893155424,
+      "valid_radius_px": null
+    }
+  },
+  {
+    "camera_id": "C6",
+    "resolution": [
+      1080,
+      960
+    ],
+    "center_distance_m": 0.2762235701084137,
+    "finite_valid_pixels": 995661,
+    "annotation": "distance_to_camera",
+    "scene_geometry_unchanged": true,
+    "position_world_m": [
+      -0.055,
+      -0.09879039782569496,
+      1.7014341563639621
+    ],
+    "R_world_optical": [
+      [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    ],
+    "reference_only": false,
+    "optics": {
+      "model": "ideal_equidistant",
+      "resolution": [
+        1080,
+        960
+      ],
+      "provenance": "User update 2026-09-21: C3-C6 H188 V133, replacing the earlier 220-degree circle. Equidistant angular law, independent fx/fy, unchanged 1080x960 resolution; full rectangular domain assumed from H/V specification.",
+      "hfov_deg": 188,
+      "vfov_deg": 133,
+      "image_domain": "rectangle",
+      "fx_px": 329.14596741557926,
+      "fy_px": 413.56352129743635,
+      "cx_px": 540.0,
+      "cy_px": 480.0,
+      "derived_vfov_deg": 133,
+      "radial_full_fov_deg": 230.28894893155424,
+      "valid_radius_px": null
+    }
+  }
+]

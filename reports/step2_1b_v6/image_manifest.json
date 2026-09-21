@@ -1,0 +1,174 @@
+{
+  "images": {
+    "C1": {
+      "group": "B",
+      "source": "outputs/step2_1b_v6/raw/C1.png",
+      "output": "outputs/step2_1b_v6/raw/C1.png",
+      "sha256": "0e124338b03cd854b4f1d78a13dd8e5cdac8dd19cbbe9fefffac69889e360ffa",
+      "render_config_sha256": "5e6cdea8131c7c6db4bf4f82bd86b43ff85bfc1ef28e7b880c83747e8827aa4f",
+      "resolution": [
+        1600,
+        1300
+      ],
+      "mode": "RGB",
+      "copy_byte_identical": true,
+      "plate_bounds_px": [
+        2460.0,
+        456.5625,
+        710.0,
+        576.875
+      ],
+      "equal_scale": 0.44375,
+      "full_frame": true,
+      "overlay_artists": 0
+    },
+    "C0": {
+      "group": "B",
+      "source": "outputs/step2_1b_v6/raw/C0.png",
+      "output": "outputs/step2_1b_v6/raw/C0.png",
+      "sha256": "a8df819c800d8c6b9afdae3e9bd7578e265f616a0593e39263efa7d2685fb9a0",
+      "render_config_sha256": "5e6cdea8131c7c6db4bf4f82bd86b43ff85bfc1ef28e7b880c83747e8827aa4f",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "mode": "RGB",
+      "copy_byte_identical": true,
+      "plate_bounds_px": [
+        3215.0,
+        545.3125,
+        710.0,
+        399.375
+      ],
+      "equal_scale": 0.3697916666666667,
+      "full_frame": true,
+      "overlay_artists": 0
+    },
+    "C2": {
+      "group": "B",
+      "source": "outputs/step2_1b_v6/raw/C2.png",
+      "output": "outputs/step2_1b_v6/raw/C2.png",
+      "sha256": "069d2410dca724967778a5b17ca995f03803d4240e140654ad578f6074bbe9a0",
+      "render_config_sha256": "5e6cdea8131c7c6db4bf4f82bd86b43ff85bfc1ef28e7b880c83747e8827aa4f",
+      "resolution": [
+        1600,
+        1300
+      ],
+      "mode": "RGB",
+      "copy_byte_identical": true,
+      "plate_bounds_px": [
+        3970.0,
+        456.5625,
+        710.0,
+        576.875
+      ],
+      "equal_scale": 0.44375,
+      "full_frame": true,
+      "overlay_artists": 0
+    },
+    "C3": {
+      "group": "C",
+      "source": "outputs/step2_1b_v6/raw/C3.png",
+      "output": "outputs/step2_1b_v6/raw/C3.png",
+      "sha256": "79395282392da881e6746aedd2b181070471324ece9b155301d1428056035d3e",
+      "render_config_sha256": "5e6cdea8131c7c6db4bf4f82bd86b43ff85bfc1ef28e7b880c83747e8827aa4f",
+      "resolution": [
+        1080,
+        960
+      ],
+      "mode": "RGB",
+      "copy_byte_identical": true,
+      "plate_bounds_px": [
+        120.0,
+        1565.0,
+        1080.0,
+        960.0
+      ],
+      "equal_scale": 1.0,
+      "full_frame": true,
+      "overlay_artists": 0
+    },
+    "C5": {
+      "group": "C",
+      "source": "outputs/step2_1b_v6/raw/C5.png",
+      "output": "outputs/step2_1b_v6/raw/C5.png",
+      "sha256": "ee5d4d8977c024de1072e010f2bfbe53b775fe5e5d48fb4e4cfc285ad66edf1d",
+      "render_config_sha256": "5e6cdea8131c7c6db4bf4f82bd86b43ff85bfc1ef28e7b880c83747e8827aa4f",
+      "resolution": [
+        1080,
+        960
+      ],
+      "mode": "RGB",
+      "copy_byte_identical": true,
+      "plate_bounds_px": [
+        1240.0,
+        1565.0,
+        1080.0,
+        960.0
+      ],
+      "equal_scale": 1.0,
+      "full_frame": true,
+      "overlay_artists": 0
+    },
+    "C4": {
+      "group": "D",
+      "source": "outputs/step2_1b_v6/raw/C4.png",
+      "output": "outputs/step2_1b_v6/raw/C4.png",
+      "sha256": "dcb987e1316f2eb94eac6088780d5a7724b4a994001bc5a0b318eafe6fd9745e",
+      "render_config_sha256": "5e6cdea8131c7c6db4bf4f82bd86b43ff85bfc1ef28e7b880c83747e8827aa4f",
+      "resolution": [
+        1080,
+        960
+      ],
+      "mode": "RGB",
+      "copy_byte_identical": true,
+      "plate_bounds_px": [
+        2460.0,
+        1565.0,
+        1080.0,
+        960.0
+      ],
+      "equal_scale": 1.0,
+      "full_frame": true,
+      "overlay_artists": 0
+    },
+    "C6": {
+      "group": "D",
+      "source": "outputs/step2_1b_v6/raw/C6.png",
+      "output": "outputs/step2_1b_v6/raw/C6.png",
+      "sha256": "33f27f062f89f31200e2b58cea0a5eb9d931de141a6178bacd352d9b3bcf02ed",
+      "render_config_sha256": "5e6cdea8131c7c6db4bf4f82bd86b43ff85bfc1ef28e7b880c83747e8827aa4f",
+      "resolution": [
+        1080,
+        960
+      ],
+      "mode": "RGB",
+      "copy_byte_identical": true,
+      "plate_bounds_px": [
+        3580.0,
+        1565.0,
+        1080.0,
+        960.0
+      ],
+      "equal_scale": 1.0,
+      "full_frame": true,
+      "overlay_artists": 0
+    }
+  },
+  "configuration": {
+    "config/rig_sim_v0.2.json": "5e6cdea8131c7c6db4bf4f82bd86b43ff85bfc1ef28e7b880c83747e8827aa4f",
+    "config/step2_1b_v6/final_placement.json": "f6958f6369324662adef201bffa1fbdd9bf116bf267ab17a5463890d1930b886",
+    "outputs/step2_1b_v3/debug/external_views.json": "7c5a9f7793edc1113fc88cce6d9b546c66511cd9ee3c125a31fc698a418e751c",
+    "outputs/step2_1b_v3/debug/body_rgba.png": "bf9121b78f5682e36c07a87b45f76d895a7dcd112d65e205ccb02aab2017031b",
+    "outputs/step2_1b_v3/debug/head_rgba.png": "5f9aee38b6fa4faf61d1b6e6af916f269ad2eafddd914620ab12143783e6c840"
+  },
+  "meaning": "New native per-camera RTX RGB with requested H/V optics; no RGB postwarp, exposure gain or overlays; complete rectangular frame",
+  "basic_checks": {
+    "seven_images": true,
+    "byte_identical_copies": true,
+    "equal_aspect_full_frames": true,
+    "no_image_overlay_artists": true,
+    "no_label_image_intersection": true
+  },
+  "runtime": "Layout of verified v6 native captures; A external render/physical geometry from unchanged v3. No overlap visualization or postprocessing."
+}

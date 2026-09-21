@@ -8,10 +8,13 @@ sys.path.insert(0,str(ROOT/'src'))
 from rig_common import load_config,camera_specs,pixel_rays
 from projection import project,unproject,angle_targets
 
+# Historical artifacts retain the pre-v6 optics; active optics are tested in test_optics_hv_v6.
+LEGACY_CONFIG=ROOT/'config/step2_1b_v6/previous_rig_sim.json'
+
 class Step1Tests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.c=load_config();cls.cams=camera_specs(cls.c)
+        cls.c=load_config(LEGACY_CONFIG);cls.cams=camera_specs(cls.c)
         cls.data=json.loads((ROOT/'config/derived_calibration.json').read_text(encoding='utf8'))
 
     def test_01_baseline_unchanged(self):
@@ -107,7 +110,7 @@ class Step1Tests(unittest.TestCase):
                 self.assertEqual(t['theoretical_visible'],expected,t['name'])
 
     def test_10_single_config_artifact_consistency(self):
-        sha=hashlib.sha256((ROOT/'config/rig_sim_v0.2.json').read_bytes()).hexdigest()
+        sha=hashlib.sha256(LEGACY_CONFIG.read_bytes()).hexdigest()
         self.assertEqual(self.data['config_sha256'],sha)
         usd=(ROOT/'scenes/rig_v0.2.usda').read_text()
         self.assertEqual(usd.count(sha),8)

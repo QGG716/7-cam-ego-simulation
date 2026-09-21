@@ -8,10 +8,10 @@ def unproject(cam, uv):
     if o['model'] == 'ideal_pinhole':
         rays = np.concatenate((xy / [o['fx_px'], o['fy_px']], np.ones(xy.shape[:-1] + (1,))), axis=-1)
         return rays / np.linalg.norm(rays, axis=-1, keepdims=True)
-    r = np.linalg.norm(xy, axis=-1)
-    t = r / o['fx_px']
-    k = np.divide(np.sin(t), r, out=np.full_like(r, 1/o['fx_px']), where=r>1e-14)
-    return np.concatenate((xy*k[...,None], np.cos(t)[...,None]), axis=-1)
+    normalized = xy / [o['fx_px'], o['fy_px']]
+    t = np.linalg.norm(normalized, axis=-1)
+    k = np.divide(np.sin(t), t, out=np.ones_like(t), where=t>1e-14)
+    return np.concatenate((normalized*k[...,None], np.cos(t)[...,None]), axis=-1)
 
 
 def project(cam, rays):
@@ -23,8 +23,8 @@ def project(cam, rays):
         angular = d[...,2] > 0
     else:
         theta = np.arctan2(rho, d[...,2])
-        k = np.divide(o['fx_px']*theta, rho, out=np.zeros_like(rho), where=rho>1e-14)
-        xy = d[...,:2]*k[...,None]
+        k = np.divide(theta, rho, out=np.zeros_like(rho), where=rho>1e-14)
+        xy = d[...,:2]*k[...,None]*[o['fx_px'], o['fy_px']]
         angular = theta <= np.deg2rad(o['radial_full_fov_deg']/2) + 1e-12
     uv = xy + [o['cx_px'], o['cy_px']]
     w,h = o['resolution']

@@ -1,0 +1,1442 @@
+[
+  {
+    "camera_id": "C0",
+    "samples": 0,
+    "maximum_error_m": null,
+    "median_error_m": null,
+    "errors_over_5mm": 0,
+    "examples": []
+  },
+  {
+    "camera_id": "C1",
+    "samples": 0,
+    "maximum_error_m": null,
+    "median_error_m": null,
+    "errors_over_5mm": 0,
+    "examples": []
+  },
+  {
+    "camera_id": "C2",
+    "samples": 0,
+    "maximum_error_m": null,
+    "median_error_m": null,
+    "errors_over_5mm": 0,
+    "examples": []
+  },
+  {
+    "camera_id": "C3",
+    "samples": 15,
+    "maximum_error_m": 0.00010069425079388405,
+    "median_error_m": 0.0001001138608637056,
+    "errors_over_5mm": 0,
+    "examples": [
+      {
+        "pixel": [
+          619,
+          57
+        ],
+        "mesh_distance_m": 0.08365629578802151,
+        "renderer_distance_m": 0.08355560153722763,
+        "error_m": 0.00010069425079388405,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          698,
+          57
+        ],
+        "mesh_distance_m": 0.0548458472898231,
+        "renderer_distance_m": 0.05474558845162392,
+        "error_m": 0.00010025883819918258,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          777,
+          57
+        ],
+        "mesh_distance_m": 0.04533124816543745,
+        "renderer_distance_m": 0.04523111879825592,
+        "error_m": 0.00010012936718153259,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          856,
+          57
+        ],
+        "mesh_distance_m": 0.04231192556433645,
+        "renderer_distance_m": 0.04221183434128761,
+        "error_m": 0.00010009122304883988,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          936,
+          57
+        ],
+        "mesh_distance_m": 0.04037705140408104,
+        "renderer_distance_m": 0.04027698189020157,
+        "error_m": 0.000100069513879468,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          1015,
+          57
+        ],
+        "mesh_distance_m": 0.03951821683247846,
+        "renderer_distance_m": 0.03941813483834267,
+        "error_m": 0.00010008199413579638,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          698,
+          127
+        ],
+        "mesh_distance_m": 0.0966833961379177,
+        "renderer_distance_m": 0.09658300131559372,
+        "error_m": 0.00010039482232397645,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          777,
+          127
+        ],
+        "mesh_distance_m": 0.05653236587547113,
+        "renderer_distance_m": 0.05643192678689957,
+        "error_m": 0.00010043908857156059,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          856,
+          127
+        ],
+        "mesh_distance_m": 0.04924574678778693,
+        "renderer_distance_m": 0.0491456463932991,
+        "error_m": 0.00010010039448783009,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          936,
+          127
+        ],
+        "mesh_distance_m": 0.045144424297811195,
+        "renderer_distance_m": 0.04504432529211044,
+        "error_m": 0.0001000990057007517,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          1015,
+          127
+        ],
+        "mesh_distance_m": 0.04311977090435205,
+        "renderer_distance_m": 0.04301969334483147,
+        "error_m": 0.00010007755952058661,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          856,
+          198
+        ],
+        "mesh_distance_m": 0.062062549097165146,
+        "renderer_distance_m": 0.061962392181158066,
+        "error_m": 0.00010015691600707977,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          936,
+          198
+        ],
+        "mesh_distance_m": 0.054056719354886075,
+        "renderer_distance_m": 0.05395660549402237,
+        "error_m": 0.0001001138608637056,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          1015,
+          198
+        ],
+        "mesh_distance_m": 0.04879806705350037,
+        "renderer_distance_m": 0.048698022961616516,
+        "error_m": 0.00010004409188385521,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          1015,
+          268
+        ],
+        "mesh_distance_m": 0.0650641550830218,
+        "renderer_distance_m": 0.06496397405862808,
+        "error_m": 0.00010018102439371401,
+        "hit": "/World/Person/body0"
+      }
+    ]
+  },
+  {
+    "camera_id": "C4",
+    "samples": 54,
+    "maximum_error_m": 0.00010006539855227092,
+    "median_error_m": 9.998941420744437e-05,
+    "errors_over_5mm": 0,
+    "examples": [
+      {
+        "pixel": [
+          540,
+          480
+        ],
+        "mesh_distance_m": 0.2827836930762889,
+        "renderer_distance_m": 0.2826839089393616,
+        "error_m": 9.978413692735e-05,
+        "hit": "/World/Person/body1"
+      },
+      {
+        "pixel": [
+          619,
+          480
+        ],
+        "mesh_distance_m": 0.3289523067801002,
+        "renderer_distance_m": 0.32885250449180603,
+        "error_m": 9.98022882941485e-05,
+        "hit": "/World/Person/body5"
+      },
+      {
+        "pixel": [
+          698,
+          480
+        ],
+        "mesh_distance_m": 0.3349777792330706,
+        "renderer_distance_m": 0.3348778188228607,
+        "error_m": 9.996041020987612e-05,
+        "hit": "/World/Person/body1"
+      },
+      {
+        "pixel": [
+          856,
+          480
+        ],
+        "mesh_distance_m": 0.05805738987116927,
+        "renderer_distance_m": 0.05795741081237793,
+        "error_m": 9.997905879133989e-05,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          460,
+          550
+        ],
+        "mesh_distance_m": 0.24470517926429264,
+        "renderer_distance_m": 0.24460522830486298,
+        "error_m": 9.995095942966215e-05,
+        "hit": "/World/Person/body1"
+      },
+      {
+        "pixel": [
+          540,
+          550
+        ],
+        "mesh_distance_m": 0.23686996087437068,
+        "renderer_distance_m": 0.23677004873752594,
+        "error_m": 9.991213684473754e-05,
+        "hit": "/World/Person/body5"
+      },
+      {
+        "pixel": [
+          619,
+          550
+        ],
+        "mesh_distance_m": 0.24847630226875234,
+        "renderer_distance_m": 0.24837632477283478,
+        "error_m": 9.997749591755811e-05,
+        "hit": "/World/Person/body5"
+      },
+      {
+        "pixel": [
+          698,
+          550
+        ],
+        "mesh_distance_m": 0.09261412300541008,
+        "renderer_distance_m": 0.09251426160335541,
+        "error_m": 9.986140205467398e-05,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          777,
+          550
+        ],
+        "mesh_distance_m": 0.07452163033749405,
+        "renderer_distance_m": 0.07442163676023483,
+        "error_m": 9.99935772592192e-05,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          856,
+          550
+        ],
+        "mesh_distance_m": 0.053589015354007015,
+        "renderer_distance_m": 0.05348903313279152,
+        "error_m": 9.998222121549577e-05,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          936,
+          550
+        ],
+        "mesh_distance_m": 0.052840369621149026,
+        "renderer_distance_m": 0.05274035781621933,
+        "error_m": 0.00010001180492969636,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          381,
+          620
+        ],
+        "mesh_distance_m": 0.2423141642862476,
+        "renderer_distance_m": 0.24221429228782654,
+        "error_m": 9.987199842106942e-05,
+        "hit": "/World/Person/body1"
+      },
+      {
+        "pixel": [
+          460,
+          620
+        ],
+        "mesh_distance_m": 0.21119112017297742,
+        "renderer_distance_m": 0.21109126508235931,
+        "error_m": 9.985509061810616e-05,
+        "hit": "/World/Person/body1"
+      },
+      {
+        "pixel": [
+          540,
+          620
+        ],
+        "mesh_distance_m": 0.21876145129890678,
+        "renderer_distance_m": 0.21866150200366974,
+        "error_m": 9.99492952370451e-05,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          619,
+          620
+        ],
+        "mesh_distance_m": 0.09738576480068739,
+        "renderer_distance_m": 0.09728573262691498,
+        "error_m": 0.00010003217377241302,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          698,
+          620
+        ],
+        "mesh_distance_m": 0.0692988060523356,
+        "renderer_distance_m": 0.06919878721237183,
+        "error_m": 0.00010001883996377248,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          777,
+          620
+        ],
+        "mesh_distance_m": 0.05805992259765217,
+        "renderer_distance_m": 0.057959917932748795,
+        "error_m": 0.00010000466490337617,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          856,
+          620
+        ],
+        "mesh_distance_m": 0.051062973448465554,
+        "renderer_distance_m": 0.05096296966075897,
+        "error_m": 0.0001000037877065818,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          936,
+          620
+        ],
+        "mesh_distance_m": 0.04952765778286729,
+        "renderer_distance_m": 0.049427665770053864,
+        "error_m": 9.999201281342407e-05,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          1015,
+          620
+        ],
+        "mesh_distance_m": 0.053880527022774384,
+        "renderer_distance_m": 0.053780507296323776,
+        "error_m": 0.0001000197264506078,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          381,
+          691
+        ],
+        "mesh_distance_m": 0.21250488845788204,
+        "renderer_distance_m": 0.21240496635437012,
+        "error_m": 9.992210351192354e-05,
+        "hit": "/World/Person/body6"
+      },
+      {
+        "pixel": [
+          460,
+          691
+        ],
+        "mesh_distance_m": 0.1937113603584243,
+        "renderer_distance_m": 0.19361142814159393,
+        "error_m": 9.993221683035625e-05,
+        "hit": "/World/Person/body1"
+      },
+      {
+        "pixel": [
+          540,
+          691
+        ],
+        "mesh_distance_m": 0.21057346065842827,
+        "renderer_distance_m": 0.21047355234622955,
+        "error_m": 9.990831219872098e-05,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          619,
+          691
+        ],
+        "mesh_distance_m": 0.06767155819583426,
+        "renderer_distance_m": 0.06757157295942307,
+        "error_m": 9.998523641119306e-05,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          698,
+          691
+        ],
+        "mesh_distance_m": 0.05824410637282942,
+        "renderer_distance_m": 0.058144114911556244,
+        "error_m": 9.99914612731731e-05,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          777,
+          691
+        ],
+        "mesh_distance_m": 0.05392368688341239,
+        "renderer_distance_m": 0.053823694586753845,
+        "error_m": 9.999229665854509e-05,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          856,
+          691
+        ],
+        "mesh_distance_m": 0.04899542879563253,
+        "renderer_distance_m": 0.04889543354511261,
+        "error_m": 9.999525051992281e-05,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          936,
+          691
+        ],
+        "mesh_distance_m": 0.04879380043664617,
+        "renderer_distance_m": 0.04869382828474045,
+        "error_m": 9.99721519057209e-05,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          1015,
+          691
+        ],
+        "mesh_distance_m": 0.049370052071685176,
+        "renderer_distance_m": 0.04927005246281624,
+        "error_m": 9.999960886893783e-05,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          381,
+          761
+        ],
+        "mesh_distance_m": 0.21087261559176643,
+        "renderer_distance_m": 0.21077270805835724,
+        "error_m": 9.990753340918812e-05,
+        "hit": "/World/Person/body6"
+      },
+      {
+        "pixel": [
+          460,
+          761
+        ],
+        "mesh_distance_m": 0.19120896652774586,
+        "renderer_distance_m": 0.19110898673534393,
+        "error_m": 9.99797924019219e-05,
+        "hit": "/World/Person/body1"
+      },
+      {
+        "pixel": [
+          540,
+          761
+        ],
+        "mesh_distance_m": 0.08788596503768191,
+        "renderer_distance_m": 0.08778589963912964,
+        "error_m": 0.00010006539855227092,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          619,
+          761
+        ],
+        "mesh_distance_m": 0.05640598091400703,
+        "renderer_distance_m": 0.05630599334836006,
+        "error_m": 9.998756564696953e-05,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          698,
+          761
+        ],
+        "mesh_distance_m": 0.05011018747106286,
+        "renderer_distance_m": 0.050010185688734055,
+        "error_m": 0.00010000178232880824,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          777,
+          761
+        ],
+        "mesh_distance_m": 0.04776878821465644,
+        "renderer_distance_m": 0.04766879230737686,
+        "error_m": 9.999590727957641e-05,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          856,
+          761
+        ],
+        "mesh_distance_m": 0.04777410250622053,
+        "renderer_distance_m": 0.04767413064837456,
+        "error_m": 9.997185784597212e-05,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          936,
+          761
+        ],
+        "mesh_distance_m": 0.04957326960258522,
+        "renderer_distance_m": 0.049473270773887634,
+        "error_m": 9.99988286975867e-05,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          1015,
+          761
+        ],
+        "mesh_distance_m": 0.04913713156211494,
+        "renderer_distance_m": 0.049037136137485504,
+        "error_m": 9.999542462943434e-05,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          381,
+          831
+        ],
+        "mesh_distance_m": 0.27343752181476416,
+        "renderer_distance_m": 0.2733379900455475,
+        "error_m": 9.953176921667639e-05,
+        "hit": "/World/Person/body1"
+      },
+      {
+        "pixel": [
+          460,
+          831
+        ],
+        "mesh_distance_m": 0.20424114481780772,
+        "renderer_distance_m": 0.20414122939109802,
+        "error_m": 9.991542670970133e-05,
+        "hit": "/World/Person/body1"
+      },
+      {
+        "pixel": [
+          540,
+          831
+        ],
+        "mesh_distance_m": 0.060941871869184865,
+        "renderer_distance_m": 0.060841865837574005,
+        "error_m": 0.00010000603161085947,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          619,
+          831
+        ],
+        "mesh_distance_m": 0.0481183275607881,
+        "renderer_distance_m": 0.04801834374666214,
+        "error_m": 9.998381412595903e-05,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          698,
+          831
+        ],
+        "mesh_distance_m": 0.04510932238607005,
+        "renderer_distance_m": 0.04500932991504669,
+        "error_m": 9.999247102335934e-05,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          777,
+          831
+        ],
+        "mesh_distance_m": 0.045526602120016225,
+        "renderer_distance_m": 0.045426610857248306,
+        "error_m": 9.99912627679192e-05,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          856,
+          831
+        ],
+        "mesh_distance_m": 0.04798290941322869,
+        "renderer_distance_m": 0.04788293316960335,
+        "error_m": 9.997624362534374e-05,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          936,
+          831
+        ],
+        "mesh_distance_m": 0.049667534456992714,
+        "renderer_distance_m": 0.04956753924489021,
+        "error_m": 9.999521210250079e-05,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          1015,
+          831
+        ],
+        "mesh_distance_m": 0.046787052380048044,
+        "renderer_distance_m": 0.0466870479285717,
+        "error_m": 0.00010000445147634318,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          540,
+          902
+        ],
+        "mesh_distance_m": 0.05207898565055348,
+        "renderer_distance_m": 0.05197901651263237,
+        "error_m": 9.99691379211104e-05,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          619,
+          902
+        ],
+        "mesh_distance_m": 0.04464618671728881,
+        "renderer_distance_m": 0.044546157121658325,
+        "error_m": 0.00010002959563048391,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          698,
+          902
+        ],
+        "mesh_distance_m": 0.043085805577947334,
+        "renderer_distance_m": 0.042985811829566956,
+        "error_m": 9.999374838037811e-05,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          777,
+          902
+        ],
+        "mesh_distance_m": 0.04353773564420527,
+        "renderer_distance_m": 0.043437737971544266,
+        "error_m": 9.999767266100079e-05,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          856,
+          902
+        ],
+        "mesh_distance_m": 0.04831300614750044,
+        "renderer_distance_m": 0.048212967813014984,
+        "error_m": 0.0001000383344854569,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          936,
+          902
+        ],
+        "mesh_distance_m": 0.04721074257679628,
+        "renderer_distance_m": 0.04711075872182846,
+        "error_m": 9.99838549678167e-05,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          1015,
+          902
+        ],
+        "mesh_distance_m": 0.043242343079798795,
+        "renderer_distance_m": 0.04314230754971504,
+        "error_m": 0.00010003553008375299,
+        "hit": "/World/Person/body0"
+      }
+    ]
+  },
+  {
+    "camera_id": "C5",
+    "samples": 15,
+    "maximum_error_m": 0.00010029152442668499,
+    "median_error_m": 0.00010009755803095516,
+    "errors_over_5mm": 0,
+    "examples": [
+      {
+        "pixel": [
+          64,
+          57
+        ],
+        "mesh_distance_m": 0.03848844657140483,
+        "renderer_distance_m": 0.038388364017009735,
+        "error_m": 0.00010008255439509367,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          144,
+          57
+        ],
+        "mesh_distance_m": 0.03891855584608214,
+        "renderer_distance_m": 0.038818493485450745,
+        "error_m": 0.00010006236063139773,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          223,
+          57
+        ],
+        "mesh_distance_m": 0.04027427859778868,
+        "renderer_distance_m": 0.04017418995499611,
+        "error_m": 0.00010008864279257429,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          302,
+          57
+        ],
+        "mesh_distance_m": 0.04267992316425117,
+        "renderer_distance_m": 0.042579829692840576,
+        "error_m": 0.0001000934714105936,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          381,
+          57
+        ],
+        "mesh_distance_m": 0.05019220784185084,
+        "renderer_distance_m": 0.05009199306368828,
+        "error_m": 0.00010021477816256341,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          460,
+          57
+        ],
+        "mesh_distance_m": 0.07178891376067852,
+        "renderer_distance_m": 0.07168862223625183,
+        "error_m": 0.00010029152442668499,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          64,
+          127
+        ],
+        "mesh_distance_m": 0.04211291374951892,
+        "renderer_distance_m": 0.042012833058834076,
+        "error_m": 0.00010008069068484504,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          144,
+          127
+        ],
+        "mesh_distance_m": 0.04360074078155505,
+        "renderer_distance_m": 0.043500643223524094,
+        "error_m": 0.00010009755803095516,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          223,
+          127
+        ],
+        "mesh_distance_m": 0.04664527616859801,
+        "renderer_distance_m": 0.046545181423425674,
+        "error_m": 0.00010009474517233552,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          302,
+          127
+        ],
+        "mesh_distance_m": 0.05125170888698671,
+        "renderer_distance_m": 0.051151521503925323,
+        "error_m": 0.00010018738306138975,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          381,
+          127
+        ],
+        "mesh_distance_m": 0.0751172131201097,
+        "renderer_distance_m": 0.07501694560050964,
+        "error_m": 0.00010026751960005853,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          64,
+          198
+        ],
+        "mesh_distance_m": 0.04756931224055927,
+        "renderer_distance_m": 0.04746926575899124,
+        "error_m": 0.00010004648156802798,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          144,
+          198
+        ],
+        "mesh_distance_m": 0.05304563799968077,
+        "renderer_distance_m": 0.05294548347592354,
+        "error_m": 0.00010015452375723016,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          223,
+          198
+        ],
+        "mesh_distance_m": 0.06117335836105006,
+        "renderer_distance_m": 0.06107311695814133,
+        "error_m": 0.00010024140290873507,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          64,
+          268
+        ],
+        "mesh_distance_m": 0.06737942779909514,
+        "renderer_distance_m": 0.06727917492389679,
+        "error_m": 0.00010025287519835335,
+        "hit": "/World/Person/body0"
+      }
+    ]
+  },
+  {
+    "camera_id": "C6",
+    "samples": 54,
+    "maximum_error_m": 0.00010007498274832577,
+    "median_error_m": 9.998624024582306e-05,
+    "errors_over_5mm": 0,
+    "examples": [
+      {
+        "pixel": [
+          223,
+          480
+        ],
+        "mesh_distance_m": 0.0572075496066071,
+        "renderer_distance_m": 0.057107578963041306,
+        "error_m": 9.997064356579571e-05,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          381,
+          480
+        ],
+        "mesh_distance_m": 0.3345137221140542,
+        "renderer_distance_m": 0.3344137668609619,
+        "error_m": 9.995525309230979e-05,
+        "hit": "/World/Person/body1"
+      },
+      {
+        "pixel": [
+          460,
+          480
+        ],
+        "mesh_distance_m": 0.3304081742562095,
+        "renderer_distance_m": 0.33030834794044495,
+        "error_m": 9.98263157645507e-05,
+        "hit": "/World/Person/body5"
+      },
+      {
+        "pixel": [
+          540,
+          480
+        ],
+        "mesh_distance_m": 0.27632349835408226,
+        "renderer_distance_m": 0.2762235701084137,
+        "error_m": 9.992824566856795e-05,
+        "hit": "/World/Person/body1"
+      },
+      {
+        "pixel": [
+          144,
+          550
+        ],
+        "mesh_distance_m": 0.05273206191813743,
+        "renderer_distance_m": 0.05263207480311394,
+        "error_m": 9.99871150234935e-05,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          223,
+          550
+        ],
+        "mesh_distance_m": 0.05298104229312433,
+        "renderer_distance_m": 0.052881065756082535,
+        "error_m": 9.99765370417946e-05,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          302,
+          550
+        ],
+        "mesh_distance_m": 0.07242177051311603,
+        "renderer_distance_m": 0.07232176512479782,
+        "error_m": 0.00010000538831821115,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          381,
+          550
+        ],
+        "mesh_distance_m": 0.0803792470311691,
+        "renderer_distance_m": 0.08027922362089157,
+        "error_m": 0.00010002341027752493,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          460,
+          550
+        ],
+        "mesh_distance_m": 0.2469892785592853,
+        "renderer_distance_m": 0.24688929319381714,
+        "error_m": 9.998536546815262e-05,
+        "hit": "/World/Person/body5"
+      },
+      {
+        "pixel": [
+          540,
+          550
+        ],
+        "mesh_distance_m": 0.23960807094772588,
+        "renderer_distance_m": 0.2395082414150238,
+        "error_m": 9.982953270207262e-05,
+        "hit": "/World/Person/body5"
+      },
+      {
+        "pixel": [
+          619,
+          550
+        ],
+        "mesh_distance_m": 0.24873832971686963,
+        "renderer_distance_m": 0.24863840639591217,
+        "error_m": 9.992332095745682e-05,
+        "hit": "/World/Person/body1"
+      },
+      {
+        "pixel": [
+          64,
+          620
+        ],
+        "mesh_distance_m": 0.05461762399430925,
+        "renderer_distance_m": 0.05451760068535805,
+        "error_m": 0.0001000233089512026,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          144,
+          620
+        ],
+        "mesh_distance_m": 0.04974559130014877,
+        "renderer_distance_m": 0.04964561015367508,
+        "error_m": 9.998114647369327e-05,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          223,
+          620
+        ],
+        "mesh_distance_m": 0.0507578525678684,
+        "renderer_distance_m": 0.05065784975886345,
+        "error_m": 0.00010000280900494818,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          302,
+          620
+        ],
+        "mesh_distance_m": 0.05550559035670704,
+        "renderer_distance_m": 0.05540559068322182,
+        "error_m": 9.999967348522237e-05,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          381,
+          620
+        ],
+        "mesh_distance_m": 0.06545502584453859,
+        "renderer_distance_m": 0.06535499542951584,
+        "error_m": 0.00010003041502275323,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          460,
+          620
+        ],
+        "mesh_distance_m": 0.08098779483674713,
+        "renderer_distance_m": 0.0808878168463707,
+        "error_m": 9.997799037643473e-05,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          540,
+          620
+        ],
+        "mesh_distance_m": 0.2189524435870878,
+        "renderer_distance_m": 0.21885257959365845,
+        "error_m": 9.986399342934438e-05,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          619,
+          620
+        ],
+        "mesh_distance_m": 0.2103470449342988,
+        "renderer_distance_m": 0.21024717390537262,
+        "error_m": 9.987102892616839e-05,
+        "hit": "/World/Person/body1"
+      },
+      {
+        "pixel": [
+          698,
+          620
+        ],
+        "mesh_distance_m": 0.2728481813973933,
+        "renderer_distance_m": 0.2727481722831726,
+        "error_m": 0.00010000911422070047,
+        "hit": "/World/Person/body5"
+      },
+      {
+        "pixel": [
+          64,
+          691
+        ],
+        "mesh_distance_m": 0.05014413084893666,
+        "renderer_distance_m": 0.05004412680864334,
+        "error_m": 0.00010000404029331805,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          144,
+          691
+        ],
+        "mesh_distance_m": 0.04933501511308396,
+        "renderer_distance_m": 0.04923504963517189,
+        "error_m": 9.99654779120715e-05,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          223,
+          691
+        ],
+        "mesh_distance_m": 0.04853434014452949,
+        "renderer_distance_m": 0.04843434691429138,
+        "error_m": 9.999323023810597e-05,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          302,
+          691
+        ],
+        "mesh_distance_m": 0.05165852358488574,
+        "renderer_distance_m": 0.0515584759414196,
+        "error_m": 0.00010004764346614042,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          381,
+          691
+        ],
+        "mesh_distance_m": 0.05566971129901871,
+        "renderer_distance_m": 0.055569734424352646,
+        "error_m": 9.997687466606342e-05,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          460,
+          691
+        ],
+        "mesh_distance_m": 0.06419087094763243,
+        "renderer_distance_m": 0.06409085541963577,
+        "error_m": 0.00010001552799665525,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          540,
+          691
+        ],
+        "mesh_distance_m": 0.21036926302042339,
+        "renderer_distance_m": 0.21026940643787384,
+        "error_m": 9.985658254954566e-05,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          619,
+          691
+        ],
+        "mesh_distance_m": 0.19320267338729138,
+        "renderer_distance_m": 0.1931028813123703,
+        "error_m": 9.979207492108455e-05,
+        "hit": "/World/Person/body1"
+      },
+      {
+        "pixel": [
+          698,
+          691
+        ],
+        "mesh_distance_m": 0.2196375668100371,
+        "renderer_distance_m": 0.2195376455783844,
+        "error_m": 9.992123165269984e-05,
+        "hit": "/World/Person/body1"
+      },
+      {
+        "pixel": [
+          64,
+          761
+        ],
+        "mesh_distance_m": 0.04985271443394358,
+        "renderer_distance_m": 0.04975271224975586,
+        "error_m": 0.00010000218418772244,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          144,
+          761
+        ],
+        "mesh_distance_m": 0.05009280582089766,
+        "renderer_distance_m": 0.04999280720949173,
+        "error_m": 9.99986114059298e-05,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          223,
+          761
+        ],
+        "mesh_distance_m": 0.04806453495989443,
+        "renderer_distance_m": 0.047964561730623245,
+        "error_m": 9.997322927118163e-05,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          302,
+          761
+        ],
+        "mesh_distance_m": 0.046613945909733404,
+        "renderer_distance_m": 0.04651394113898277,
+        "error_m": 0.00010000477075063074,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          381,
+          761
+        ],
+        "mesh_distance_m": 0.04830105024172529,
+        "renderer_distance_m": 0.048201050609350204,
+        "error_m": 9.999963237508624e-05,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          460,
+          761
+        ],
+        "mesh_distance_m": 0.053938459778815756,
+        "renderer_distance_m": 0.05383846536278725,
+        "error_m": 9.999441602850934e-05,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          540,
+          761
+        ],
+        "mesh_distance_m": 0.07645754651840694,
+        "renderer_distance_m": 0.07635749131441116,
+        "error_m": 0.00010005520399578027,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          619,
+          761
+        ],
+        "mesh_distance_m": 0.192189202413944,
+        "renderer_distance_m": 0.1920892298221588,
+        "error_m": 9.997259178518014e-05,
+        "hit": "/World/Person/body1"
+      },
+      {
+        "pixel": [
+          698,
+          761
+        ],
+        "mesh_distance_m": 0.21529591977729348,
+        "renderer_distance_m": 0.21519595384597778,
+        "error_m": 9.996593131569864e-05,
+        "hit": "/World/Person/body6"
+      },
+      {
+        "pixel": [
+          64,
+          831
+        ],
+        "mesh_distance_m": 0.04657109614590431,
+        "renderer_distance_m": 0.04647108167409897,
+        "error_m": 0.00010001447180534029,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          144,
+          831
+        ],
+        "mesh_distance_m": 0.05003322367490862,
+        "renderer_distance_m": 0.04993321746587753,
+        "error_m": 0.00010000620903108381,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          223,
+          831
+        ],
+        "mesh_distance_m": 0.047997633208423,
+        "renderer_distance_m": 0.047897666692733765,
+        "error_m": 9.996651568923431e-05,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          302,
+          831
+        ],
+        "mesh_distance_m": 0.0436014482204359,
+        "renderer_distance_m": 0.043501466512680054,
+        "error_m": 9.998170775584597e-05,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          381,
+          831
+        ],
+        "mesh_distance_m": 0.04364622836769655,
+        "renderer_distance_m": 0.04354623332619667,
+        "error_m": 9.999504149987848e-05,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          460,
+          831
+        ],
+        "mesh_distance_m": 0.04594253823177016,
+        "renderer_distance_m": 0.04584254324436188,
+        "error_m": 9.999498740827922e-05,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          540,
+          831
+        ],
+        "mesh_distance_m": 0.05434152616153052,
+        "renderer_distance_m": 0.05424150079488754,
+        "error_m": 0.00010002536664297651,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          619,
+          831
+        ],
+        "mesh_distance_m": 0.20517032160337048,
+        "renderer_distance_m": 0.20507065951824188,
+        "error_m": 9.966208512859898e-05,
+        "hit": "/World/Person/body1"
+      },
+      {
+        "pixel": [
+          698,
+          831
+        ],
+        "mesh_distance_m": 0.2356141189015638,
+        "renderer_distance_m": 0.23551417887210846,
+        "error_m": 9.994002945534763e-05,
+        "hit": "/World/Person/body6"
+      },
+      {
+        "pixel": [
+          64,
+          902
+        ],
+        "mesh_distance_m": 0.04268797909982783,
+        "renderer_distance_m": 0.04258793219923973,
+        "error_m": 0.00010004690058809662,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          144,
+          902
+        ],
+        "mesh_distance_m": 0.04647671954809422,
+        "renderer_distance_m": 0.04637674614787102,
+        "error_m": 9.9973400223205e-05,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          223,
+          902
+        ],
+        "mesh_distance_m": 0.04701570672403365,
+        "renderer_distance_m": 0.046915631741285324,
+        "error_m": 0.00010007498274832577,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          302,
+          902
+        ],
+        "mesh_distance_m": 0.04118695785550111,
+        "renderer_distance_m": 0.04108697921037674,
+        "error_m": 9.997864512437116e-05,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          381,
+          902
+        ],
+        "mesh_distance_m": 0.04144289807912658,
+        "renderer_distance_m": 0.04134290665388107,
+        "error_m": 9.999142524550614e-05,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          460,
+          902
+        ],
+        "mesh_distance_m": 0.04301236202052647,
+        "renderer_distance_m": 0.042912326753139496,
+        "error_m": 0.000100035267386972,
+        "hit": "/World/Person/body0"
+      },
+      {
+        "pixel": [
+          540,
+          902
+        ],
+        "mesh_distance_m": 0.05042116704403608,
+        "renderer_distance_m": 0.050321195274591446,
+        "error_m": 9.997176944463726e-05,
+        "hit": "/World/Person/body0"
+      }
+    ]
+  }
+]

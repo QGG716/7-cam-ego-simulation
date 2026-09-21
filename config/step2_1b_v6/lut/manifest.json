@@ -1,0 +1,46 @@
+{
+  "records": [
+    {
+      "file": "config/step2_1b_v6/lut/front_enter.exr",
+      "shape": [
+        1300,
+        1600,
+        3
+      ],
+      "sha256": "9e84f07b0ebffadc60123656802855b6f4d01ea335aa618dca7a5e66fe516373",
+      "float32_roundtrip_exact": true
+    },
+    {
+      "file": "config/step2_1b_v6/lut/front_exit.exr",
+      "shape": [
+        2048,
+        2048,
+        3
+      ],
+      "sha256": "74f2355ae004788d070f64eacc7cfa8af2c3794f2611b3ec0e968515e3861679",
+      "float32_roundtrip_exact": true
+    },
+    {
+      "file": "config/step2_1b_v6/lut/surround_enter.exr",
+      "shape": [
+        960,
+        1080,
+        3
+      ],
+      "sha256": "6cabf85eac1024edc1a095800c5c58e72b1ca07efcbbe584a080a7c4b00f5037",
+      "float32_roundtrip_exact": true
+    },
+    {
+      "file": "config/step2_1b_v6/lut/surround_exit.exr",
+      "shape": [
+        2048,
+        2048,
+        3
+      ],
+      "sha256": "0ac66bf099e02dcf7cb0fe75ee264cb86d47639a443da91a68b1754a1345c10e",
+      "float32_roundtrip_exact": true
+    }
+  ],
+  "method": "Native direction texture at sensor pixel centers; inverse NDC texture uses octahedral directions with renderer Z convention; rectangular equidistant fx/fy; no RGB postwarp",
+  "specification": "https://docs.omniverse.nvidia.com/materials-and-rendering/latest/cameras.html"
+}

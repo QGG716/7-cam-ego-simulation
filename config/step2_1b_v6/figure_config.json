@@ -1,0 +1,100 @@
+{
+  "baseline_commit": "2c382882dbace7dbca5b34468b61552b3aabfc51",
+  "groups": {
+    "B": [
+      "C1",
+      "C0",
+      "C2"
+    ],
+    "C": [
+      "C3",
+      "C5"
+    ],
+    "D": [
+      "C4",
+      "C6"
+    ]
+  },
+  "canvas_px": [
+    4800,
+    2700
+  ],
+  "panels": {
+    "A": [
+      80,
+      180,
+      2300,
+      1120
+    ],
+    "B": [
+      2420,
+      180,
+      2300,
+      1120
+    ],
+    "C": [
+      80,
+      1340,
+      2300,
+      1320
+    ],
+    "D": [
+      2420,
+      1340,
+      2300,
+      1320
+    ]
+  },
+  "image_processing": "none; proportional layout scaling only",
+  "camera_image_overlays": false,
+  "source_configuration": {
+    "config/rig_sim_v0.2.json": "5e6cdea8131c7c6db4bf4f82bd86b43ff85bfc1ef28e7b880c83747e8827aa4f",
+    "config/step2_1b_v6/final_placement.json": "f6958f6369324662adef201bffa1fbdd9bf116bf267ab17a5463890d1930b886",
+    "outputs/step2_1b_v3/debug/external_views.json": "7c5a9f7793edc1113fc88cce6d9b546c66511cd9ee3c125a31fc698a418e751c",
+    "outputs/step2_1b_v3/debug/body_rgba.png": "bf9121b78f5682e36c07a87b45f76d895a7dcd112d65e205ccb02aab2017031b",
+    "outputs/step2_1b_v3/debug/head_rgba.png": "5f9aee38b6fa4faf61d1b6e6af916f269ad2eafddd914620ab12143783e6c840"
+  },
+  "optics": {
+    "front_main": {
+      "model": "ideal_pinhole",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "hfov_deg": 120.0,
+      "provenance": "User update 2026-09-21: H120 V87; independent fx/fy; unchanged resolution and pinhole projection",
+      "vfov_deg": 87
+    },
+    "front_stereo": {
+      "model": "ideal_equidistant",
+      "resolution": [
+        1600,
+        1300
+      ],
+      "hfov_deg": 160.0,
+      "provenance": "User update 2026-09-21 and explicit C2 confirmation: C1/C2 H160 V120; ideal equidistant with independent per-axis pixel scales and full rectangular domain.",
+      "vfov_deg": 120,
+      "image_domain": "rectangle"
+    },
+    "surround": {
+      "model": "ideal_equidistant",
+      "resolution": [
+        1080,
+        960
+      ],
+      "provenance": "User update 2026-09-21: C3-C6 H188 V133, replacing the earlier 220-degree circle. Equidistant angular law, independent fx/fy, unchanged 1080x960 resolution; full rectangular domain assumed from H/V specification.",
+      "hfov_deg": 188,
+      "vfov_deg": 133,
+      "image_domain": "rectangle"
+    }
+  },
+  "camera_height_above_floor_m": {
+    "C0": 1.711435692511405,
+    "C1": 1.711435692511405,
+    "C2": 1.711435692511405,
+    "C3": 1.731435692511405,
+    "C4": 1.691435692511405,
+    "C5": 1.731435692511405,
+    "C6": 1.691435692511405
+  }
+}

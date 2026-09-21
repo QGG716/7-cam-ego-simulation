@@ -1,0 +1,693 @@
+{
+  "worker": {
+    "source": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/6.0/Isaac/People/Characters/original_male_adult_construction_01/male_adult_construction_01.usd",
+    "source_units_m": 1,
+    "source_up": "Z",
+    "source_forward": "-Y",
+    "pose_changes": [
+      {
+        "joint": "RL_BoneRoot/Hip/Waist/Spine01/Spine02/L_Clavicle/L_Upperarm",
+        "rotation_skeleton_Y_deg": 82.0
+      },
+      {
+        "joint": "RL_BoneRoot/Hip/Waist/Spine01/Spine02/R_Clavicle/R_Upperarm",
+        "rotation_skeleton_Y_deg": -82.0
+      }
+    ],
+    "skin_meshes": [
+      "/World/Person/ManRoot/male_adult_construction_01/male_adult_construction_01/opaque__organic__whitemaleskin_01"
+    ],
+    "height_method": "Final UsdSkel.ComputeSkinnedPoints: shoe minimum Z to actual skin head maximum Z; exclude helmet and rig from anthropometric height, include all attachments in fit",
+    "original_height_m": 1.7490045727643064,
+    "uniform_scale": 1.0291568289927884,
+    "final_height_m": 1.8000000000000003,
+    "overall_person_with_attachments_height_m": 1.8000000000000003,
+    "meshes": [
+      {
+        "path": "/World/Person/ManRoot/male_adult_construction_01/male_adult_construction_01/opaque__organic__whitemaleskin_01",
+        "vertices": 1676,
+        "triangles": 3222
+      },
+      {
+        "path": "/World/Person/ManRoot/male_adult_construction_01/male_adult_construction_01/opaque__fabric__vest_01",
+        "vertices": 979,
+        "triangles": 1799
+      },
+      {
+        "path": "/World/Person/ManRoot/male_adult_construction_01/male_adult_construction_01/opaque__fabric__workpants_01",
+        "vertices": 1316,
+        "triangles": 2530
+      },
+      {
+        "path": "/World/Person/ManRoot/male_adult_construction_01/male_adult_construction_01/opaque__leather__boots_01",
+        "vertices": 561,
+        "triangles": 1070
+      },
+      {
+        "path": "/World/Person/ManRoot/male_adult_construction_01/male_adult_construction_01/opaque__leather__gloves_01",
+        "vertices": 1040,
+        "triangles": 2010
+      },
+      {
+        "path": "/World/Person/ManRoot/male_adult_construction_01/male_adult_construction_01/opaque__fabric__tshirt_01",
+        "vertices": 796,
+        "triangles": 1524
+      },
+      {
+        "path": "/World/Person/ManRoot/male_adult_construction_01/male_adult_construction_01/retro__reflective__vest_01",
+        "vertices": 514,
+        "triangles": 705
+      },
+      {
+        "path": "/World/Person/ManRoot/male_adult_construction_01/male_adult_construction_01/retro__reflective__pants_01",
+        "vertices": 116,
+        "triangles": 162
+      }
+    ],
+    "appearance": {
+      "method": "Official construction worker geometry retained; user-authorized industrial palette on apparel/PPE; original skin material retained; source asset read-only",
+      "palette": {
+        "vest": [
+          0.95,
+          0.31,
+          0.025
+        ],
+        "workpants": [
+          0.025,
+          0.065,
+          0.12
+        ],
+        "tshirt": [
+          0.08,
+          0.14,
+          0.22
+        ],
+        "boots": [
+          0.035,
+          0.035,
+          0.04
+        ],
+        "gloves": [
+          0.3,
+          0.32,
+          0.34
+        ],
+        "hardhat": [
+          1.0,
+          0.69,
+          0.025
+        ],
+        "reflective": [
+          0.74,
+          0.77,
+          0.8
+        ]
+      }
+    },
+    "helmet_removed": true,
+    "removed_prims": [
+      "/World/Person/ManRoot/male_adult_construction_01/male_adult_construction_01/opaque__plastic__hardhat_01"
+    ],
+    "geometry_change_from_v2": "Only hardhat mesh deactivated; all other skinned geometry and scale/pose unchanged"
+  },
+  "rig_translation_before_m": [
+    0.0,
+    -0.11479039782569496,
+    1.7214341563639621
+  ],
+  "rig_translation_world_m": [
+    0.0,
+    -0.11479039782569496,
+    1.7214341563639621
+  ],
+  "R_world_B": [
+    [
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      -1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "rig_scale": 1.0,
+  "translation_delta_world_m": [
+    0,
+    0,
+    0
+  ],
+  "rotation_delta_deg": [
+    0,
+    0,
+    0
+  ],
+  "translation_reason": "No additional rigid adjustment needed after helmet removal; freshly checked fixed hardware",
+  "fixed_part_trials": [
+    {
+      "translation_delta_world_mm": [
+        0,
+        0,
+        0
+      ],
+      "intersecting_fixed_parts": [
+        "/World/Rig/Housing/central_housing",
+        "/World/Rig/Housing/left_pod",
+        "/World/Rig/Housing/right_pod",
+        "/World/Rig/Housing/C3_barrel",
+        "/World/Rig/Housing/C5_barrel",
+        "/World/Rig/Accessories/right_heatsink",
+        "/World/Rig/Accessories/usb_cable_1"
+      ]
+    },
+    {
+      "translation_delta_world_mm": [
+        0,
+        -20,
+        -20
+      ],
+      "intersecting_fixed_parts": []
+    }
+  ],
+  "floor": {
+    "path": "/World/Room/SM_FloorCarpetPath_13/SM_CarpetPath_01",
+    "z": 0.00999846385255726
+  },
+  "config_sha256": "5e6cdea8131c7c6db4bf4f82bd86b43ff85bfc1ef28e7b880c83747e8827aa4f",
+  "camera_records": [
+    {
+      "camera_id": "C0",
+      "world_position_m": [
+        0.0,
+        -0.11479039782569496,
+        1.7214341563639621
+      ],
+      "height_above_floor_m": 1.711435692511405,
+      "forward_world": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "image_up_world": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "projection": {
+        "model": "ideal_pinhole",
+        "resolution": [
+          1920,
+          1080
+        ],
+        "hfov_deg": 120.0,
+        "provenance": "User update 2026-09-21: H120 V87; independent fx/fy; unchanged resolution and pinhole projection",
+        "vfov_deg": 87,
+        "fx_px": 554.2562584220409,
+        "fy_px": 569.0412676517196,
+        "cx_px": 960.0,
+        "cy_px": 540.0,
+        "derived_vfov_deg": 87.0,
+        "radial_full_fov_deg": 126.29061712609422,
+        "valid_radius_px": null
+      }
+    },
+    {
+      "camera_id": "C1",
+      "world_position_m": [
+        0.0315,
+        -0.11479039782569496,
+        1.7214341563639621
+      ],
+      "height_above_floor_m": 1.711435692511405,
+      "forward_world": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "image_up_world": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "projection": {
+        "model": "ideal_equidistant",
+        "resolution": [
+          1600,
+          1300
+        ],
+        "hfov_deg": 160.0,
+        "provenance": "User update 2026-09-21 and explicit C2 confirmation: C1/C2 H160 V120; ideal equidistant with independent per-axis pixel scales and full rectangular domain.",
+        "vfov_deg": 120,
+        "image_domain": "rectangle",
+        "fx_px": 572.9577951308232,
+        "fy_px": 620.7042780583919,
+        "cx_px": 800.0,
+        "cy_px": 650.0,
+        "derived_vfov_deg": 120,
+        "radial_full_fov_deg": 200.0,
+        "valid_radius_px": null
+      }
+    },
+    {
+      "camera_id": "C2",
+      "world_position_m": [
+        -0.0315,
+        -0.11479039782569496,
+        1.7214341563639621
+      ],
+      "height_above_floor_m": 1.711435692511405,
+      "forward_world": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "image_up_world": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "projection": {
+        "model": "ideal_equidistant",
+        "resolution": [
+          1600,
+          1300
+        ],
+        "hfov_deg": 160.0,
+        "provenance": "User update 2026-09-21 and explicit C2 confirmation: C1/C2 H160 V120; ideal equidistant with independent per-axis pixel scales and full rectangular domain.",
+        "vfov_deg": 120,
+        "image_domain": "rectangle",
+        "fx_px": 572.9577951308232,
+        "fy_px": 620.7042780583919,
+        "cx_px": 800.0,
+        "cy_px": 650.0,
+        "derived_vfov_deg": 120,
+        "radial_full_fov_deg": 200.0,
+        "valid_radius_px": null
+      }
+    },
+    {
+      "camera_id": "C3",
+      "world_position_m": [
+        0.055,
+        -0.09879039782569496,
+        1.7414341563639621
+      ],
+      "height_above_floor_m": 1.731435692511405,
+      "forward_world": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "image_up_world": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "projection": {
+        "model": "ideal_equidistant",
+        "resolution": [
+          1080,
+          960
+        ],
+        "provenance": "User update 2026-09-21: C3-C6 H188 V133, replacing the earlier 220-degree circle. Equidistant angular law, independent fx/fy, unchanged 1080x960 resolution; full rectangular domain assumed from H/V specification.",
+        "hfov_deg": 188,
+        "vfov_deg": 133,
+        "image_domain": "rectangle",
+        "fx_px": 329.14596741557926,
+        "fy_px": 413.56352129743635,
+        "cx_px": 540.0,
+        "cy_px": 480.0,
+        "derived_vfov_deg": 133,
+        "radial_full_fov_deg": 230.28894893155424,
+        "valid_radius_px": null
+      }
+    },
+    {
+      "camera_id": "C4",
+      "world_position_m": [
+        0.055,
+        -0.09879039782569496,
+        1.7014341563639621
+      ],
+      "height_above_floor_m": 1.691435692511405,
+      "forward_world": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "image_up_world": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "projection": {
+        "model": "ideal_equidistant",
+        "resolution": [
+          1080,
+          960
+        ],
+        "provenance": "User update 2026-09-21: C3-C6 H188 V133, replacing the earlier 220-degree circle. Equidistant angular law, independent fx/fy, unchanged 1080x960 resolution; full rectangular domain assumed from H/V specification.",
+        "hfov_deg": 188,
+        "vfov_deg": 133,
+        "image_domain": "rectangle",
+        "fx_px": 329.14596741557926,
+        "fy_px": 413.56352129743635,
+        "cx_px": 540.0,
+        "cy_px": 480.0,
+        "derived_vfov_deg": 133,
+        "radial_full_fov_deg": 230.28894893155424,
+        "valid_radius_px": null
+      }
+    },
+    {
+      "camera_id": "C5",
+      "world_position_m": [
+        -0.055,
+        -0.09879039782569496,
+        1.7414341563639621
+      ],
+      "height_above_floor_m": 1.731435692511405,
+      "forward_world": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "image_up_world": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "projection": {
+        "model": "ideal_equidistant",
+        "resolution": [
+          1080,
+          960
+        ],
+        "provenance": "User update 2026-09-21: C3-C6 H188 V133, replacing the earlier 220-degree circle. Equidistant angular law, independent fx/fy, unchanged 1080x960 resolution; full rectangular domain assumed from H/V specification.",
+        "hfov_deg": 188,
+        "vfov_deg": 133,
+        "image_domain": "rectangle",
+        "fx_px": 329.14596741557926,
+        "fy_px": 413.56352129743635,
+        "cx_px": 540.0,
+        "cy_px": 480.0,
+        "derived_vfov_deg": 133,
+        "radial_full_fov_deg": 230.28894893155424,
+        "valid_radius_px": null
+      }
+    },
+    {
+      "camera_id": "C6",
+      "world_position_m": [
+        -0.055,
+        -0.09879039782569496,
+        1.7014341563639621
+      ],
+      "height_above_floor_m": 1.691435692511405,
+      "forward_world": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "image_up_world": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "projection": {
+        "model": "ideal_equidistant",
+        "resolution": [
+          1080,
+          960
+        ],
+        "provenance": "User update 2026-09-21: C3-C6 H188 V133, replacing the earlier 220-degree circle. Equidistant angular law, independent fx/fy, unchanged 1080x960 resolution; full rectangular domain assumed from H/V specification.",
+        "hfov_deg": 188,
+        "vfov_deg": 133,
+        "image_domain": "rectangle",
+        "fx_px": 329.14596741557926,
+        "fy_px": 413.56352129743635,
+        "cx_px": 540.0,
+        "cy_px": 480.0,
+        "derived_vfov_deg": 133,
+        "radial_full_fov_deg": 230.28894893155424,
+        "valid_radius_px": null
+      }
+    }
+  ],
+  "mount": {
+    "replacement": "one closed connected fitted band with integrated forehead mount and explicit clearance channels",
+    "band_inner_B_xy_m": [
+      [
+        -0.209192604914764,
+        0.06543355817476541
+      ],
+      [
+        -0.22573589148024695,
+        0.046323197643088426
+      ],
+      [
+        -0.23741623061540404,
+        0.018075794466516797
+      ],
+      [
+        -0.2391956314048109,
+        -0.0008874842146901122
+      ],
+      [
+        -0.23617192820237803,
+        -0.01957207751890597
+      ],
+      [
+        -0.22390549482101987,
+        -0.0469869693807813
+      ],
+      [
+        -0.2041968866964823,
+        -0.0686756960349366
+      ],
+      [
+        -0.19211101678317924,
+        -0.075250878570521
+      ],
+      [
+        -0.16400009468465404,
+        -0.08241302516291095
+      ],
+      [
+        -0.1386006355359567,
+        -0.08145709988859447
+      ],
+      [
+        -0.11515707272358575,
+        -0.07761734470223736
+      ],
+      [
+        -0.09653138711058774,
+        -0.072565756107331
+      ],
+      [
+        -0.06575674285930057,
+        -0.06168036930851552
+      ],
+      [
+        -0.04621167888482181,
+        -0.049000242624261815
+      ],
+      [
+        -0.0360788638047501,
+        -0.03316132393963888
+      ],
+      [
+        -0.029684910406961213,
+        -0.008523998114713346
+      ],
+      [
+        -0.029805224959432847,
+        0.0005969892035926855
+      ],
+      [
+        -0.03011581731571233,
+        0.008919673126327647
+      ],
+      [
+        -0.04081918271951885,
+        0.04187260178406114
+      ],
+      [
+        -0.051690039642570955,
+        0.050514393369767874
+      ],
+      [
+        -0.06525314798765335,
+        0.06059757989272121
+      ],
+      [
+        -0.09299415118124642,
+        0.07001493799064934
+      ],
+      [
+        -0.10315879386349809,
+        0.07302664374623745
+      ],
+      [
+        -0.13586041828757164,
+        0.08074291169156904
+      ],
+      [
+        -0.16692000400252216,
+        0.0818126753312726
+      ],
+      [
+        -0.19030575040996758,
+        0.07669060176406017
+      ],
+      [
+        -0.20612739265068866,
+        0.06852511156782078
+      ]
+    ],
+    "band_outer_B_xy_m": [
+      [
+        -0.21286226309788916,
+        0.06883388019138033
+      ],
+      [
+        -0.2300467162385747,
+        0.04898286124431043
+      ],
+      [
+        -0.242324115757008,
+        0.019291544053598786
+      ],
+      [
+        -0.244233408165476,
+        -0.001056004537609984
+      ],
+      [
+        -0.2410031739249034,
+        -0.021016830393100462
+      ],
+      [
+        -0.22814318366665207,
+        -0.04975829348297671
+      ],
+      [
+        -0.20732884859998818,
+        -0.07266383916617618
+      ],
+      [
+        -0.19395131420711764,
+        -0.07994173733487678
+      ],
+      [
+        -0.16453423852121568,
+        -0.08743666786911612
+      ],
+      [
+        -0.1381005868560159,
+        -0.08644182008234588
+      ],
+      [
+        -0.11409580447741242,
+        -0.08251014432242351
+      ],
+      [
+        -0.09504121828471312,
+        -0.07734223092091483
+      ],
+      [
+        -0.063531713135702,
+        -0.06619691438742124
+      ],
+      [
+        -0.04258282239943655,
+        -0.05260603595503081
+      ],
+      [
+        -0.031438797109620435,
+        -0.035186463112739284
+      ],
+      [
+        -0.024676484735933823,
+        -0.009129768151831889
+      ],
+      [
+        -0.024806455002263878,
+        0.0007232141067586062
+      ],
+      [
+        -0.025145263947970224,
+        0.009801994406076755
+      ],
+      [
+        -0.036528952357060974,
+        0.04484946385650088
+      ],
+      [
+        -0.04864198940859356,
+        0.05447872697809651
+      ],
+      [
+        -0.06290117976877696,
+        0.06507939995142399
+      ],
+      [
+        -0.09147971566890646,
+        0.07478107889244269
+      ],
+      [
+        -0.10187342945368658,
+        0.07786065666079997
+      ],
+      [
+        -0.1351937643826036,
+        0.08572291539772199
+      ],
+      [
+        -0.16737592289110473,
+        0.08683134302890573
+      ],
+      [
+        -0.19201610767191696,
+        0.08143451553586294
+      ],
+      [
+        -0.2091221153904987,
+        0.07260616913555219
+      ]
+    ],
+    "band_height_m": 0.016,
+    "thickness_m": 0.005,
+    "nominal_min_clearance_m": 0.001,
+    "refinement": {
+      "method": "Manifold3D union of replacement band/bridge, subtraction of fixed housing at butt-contact and 0.5 mm clearance around fixed heatsink/cable; hardware untouched",
+      "library": "manifold3d 3.5.3",
+      "connected_components": 1,
+      "closed_manifold": true,
+      "cuts": [
+        {
+          "part": "central_housing",
+          "clearance_mm": 0.0,
+          "removed_volume_mm3": 3006.839859246236
+        },
+        {
+          "part": "usb_cable_1",
+          "clearance_mm": 0.5,
+          "removed_volume_mm3": 25.12187878006688
+        }
+      ],
+      "volume_before_mm3": 49162.60930176226,
+      "volume_after_mm3": 46130.647563735954
+    }
+  },
+  "fit_status": "PASS",
+  "geometry_source": "config/step2_1b_v3/final_placement.json",
+  "fit_status_provenance": "Prior v3 static fit, unchanged geometry; not a new fit experiment",
+  "previous_config_sha256": "dfe120ea02244399386dbef1386900813e06f9f5ab87409868eeeddb50bff44d"
+}

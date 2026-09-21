@@ -5,6 +5,9 @@ import numpy as np
 ROOT=Path(__file__).resolve().parents[1];sys.path[:0]=[str(ROOT/'src'),str(ROOT/'scripts')]
 from rig_common import nearest_hit,pixel_rays,camera_specs,load_config
 from analyze_step2 import trace,inside,components
+# Historical artifacts retain the pre-v6 optics; active optics are tested in test_optics_hv_v6.
+LEGACY_CONFIG=ROOT/'config/step2_1b_v6/previous_rig_sim.json'
+
 class Step2(unittest.TestCase):
  def test_known_intersections(self):
   objects=[dict(kind='box',center_mm=[0,0,0],size_mm=[2,2,2]),dict(kind='ellipsoid',center_mm=[0,0,0],radii_mm=[1,2,3]),dict(kind='cylinder',a_mm=[0,0,-2],b_mm=[0,0,2],radius_mm=1)]
@@ -18,7 +21,7 @@ class Step2(unittest.TestCase):
   ids,dist=trace([0,0,0],np.array([[[1.,0,0],[1.,0,0]]]),np.array([[True,False]]),objs)
   self.assertEqual(ids.tolist(),[[1,0]]);self.assertAlmostEqual(float(dist[0,0]),.002);self.assertTrue(np.isnan(dist[0,1]))
  def test_axes_and_back_hemisphere(self):
-  cams=camera_specs(load_config())
+  cams=camera_specs(load_config(LEGACY_CONFIG))
   for cam in cams:
    rays,valid=pixel_rays(cam,stride=20);self.assertTrue(np.allclose(np.linalg.norm(rays,axis=-1),1))
    if cam['id'] in ['C3','C4','C5','C6']:self.assertTrue(((rays@np.array(cam['forward_B'])<0)&valid).any());self.assertFalse(valid[0,0])
@@ -27,13 +30,13 @@ class Step2(unittest.TestCase):
  def test_frozen(self):
   before=json.loads((ROOT/'reports/step2/frozen_before.json').read_text())
   for name,sha in before.items():
-   p=ROOT/name
+   p=LEGACY_CONFIG if name=='config/rig_sim_v0.2.json' else ROOT/name
    if not p.exists() and (name=='reports/local_preflight.log' or p.suffix.lower() in ['.pdf','.step','.stl','.dxf','.zip'] or '/sources/' in name or '/drawings/' in name or '/source_review/' in name):continue
    self.assertEqual(hashlib.sha256(p.read_bytes()).hexdigest(),sha,name)
  def test_artifact_invariants(self):
   report=json.loads((ROOT/'outputs/step2/camera_occlusion_summary.json').read_text())
   self.assertEqual(report['optical_centers_inside_opaque_geometry'],[])
-  for cam in camera_specs(load_config()):
+  for cam in camera_specs(load_config(LEGACY_CONFIG)):
    arrays={m:np.load(ROOT/f'outputs/step2/{m}/{cam["id"]}_analytic.npz') for m in ['ideal','body','worn']}
    self.assertFalse(arrays['ideal']['blocked'].any());self.assertFalse((arrays['body']['blocked']&~arrays['worn']['blocked']).any())
    self.assertTrue(np.array_equal(arrays['worn']['added_blocked'],arrays['worn']['blocked']&~arrays['body']['blocked']))

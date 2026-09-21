@@ -51,6 +51,11 @@ def camera_specs(c):
             vfov=math.degrees(2*math.atan(H/2/fy))
             maxfov=math.degrees(2*math.atan(math.hypot(W/2/focal,H/2/fy)))
             rad=None
+        elif o.get('image_domain')=='rectangle':
+            # Independent per-axis pixel scales preserve the equidistant angular law.
+            focal=W/math.radians(o['hfov_deg']); fy=H/math.radians(o['vfov_deg'])
+            vfov=o['vfov_deg']; maxfov=math.hypot(o['hfov_deg'],vfov); rad=None
+            if maxfov>=360: raise ValueError('Equidistant rectangular domain reaches the antipode')
         else:
             maxfov=o['radial_full_fov_deg']
             rad=o.get('image_circle_diameter_px',W)/2
@@ -97,8 +102,9 @@ def pixel_rays(cam, stride=1):
         r=np.stack([X/o['fx_px'],Y/o['fy_px'],np.ones_like(X)],axis=-1)
         r/=np.linalg.norm(r,axis=-1,keepdims=True); valid=np.ones_like(X,dtype=bool)
     else:
-        theta=rad/o['fx_px']; k=np.divide(np.sin(theta),rad,out=np.full_like(rad,1/o['fx_px']),where=rad>1e-12)
-        r=np.stack([X*k,Y*k,np.cos(theta)],axis=-1)
+        nx=X/o['fx_px']; ny=Y/o['fy_px']; theta=np.hypot(nx,ny)
+        k=np.divide(np.sin(theta),theta,out=np.ones_like(theta),where=theta>1e-12)
+        r=np.stack([nx*k,ny*k,np.cos(theta)],axis=-1)
         valid=theta<=math.radians(o['radial_full_fov_deg']/2)+1e-12
     return r@np.asarray(cam['R_B_optical']).T,valid
 

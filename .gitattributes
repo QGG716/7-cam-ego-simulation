@@ -5,3 +5,11 @@ outputs/step2/** -text
 outputs/step2_1/** -text
 outputs/step2_1b/** -text
 outputs/step2_1b/*.svg -diff
+
+# V6 calibration/render provenance hashes must survive checkout line endings.
+config/rig_sim_v0.2.json -text
+config/step2_1b_v6/** -text
+scenes/step2_1b_v6/** -text
+outputs/step2_1b_v6/** -text
+reports/step2_1b_v6/** -text
+outputs/step2_1b_v6/*.svg -diff

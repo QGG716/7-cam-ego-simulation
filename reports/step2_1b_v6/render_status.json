@@ -1,0 +1,107 @@
+{
+  "status": "PASS",
+  "native_RGB_frames": 7,
+  "camera_checks": [
+    {
+      "camera_id": "C0",
+      "world_position_m": [
+        0.0,
+        -0.11479039782569496,
+        1.7214341563639621
+      ],
+      "forward_world": [
+        -2.220446049250313e-16,
+        -1.0000000000000002,
+        4.440892098500626e-16
+      ]
+    },
+    {
+      "camera_id": "C1",
+      "world_position_m": [
+        0.0315,
+        -0.11479039782569496,
+        1.7214341563639621
+      ],
+      "forward_world": [
+        -2.220446049250313e-16,
+        -1.0000000000000002,
+        4.440892098500626e-16
+      ]
+    },
+    {
+      "camera_id": "C2",
+      "world_position_m": [
+        -0.0315,
+        -0.11479039782569496,
+        1.7214341563639621
+      ],
+      "forward_world": [
+        -2.220446049250313e-16,
+        -1.0000000000000002,
+        4.440892098500626e-16
+      ]
+    },
+    {
+      "camera_id": "C3",
+      "world_position_m": [
+        0.055,
+        -0.09879039782569496,
+        1.7414341563639621
+      ],
+      "forward_world": [
+        8.659560562354935e-17,
+        -8.659560562354935e-17,
+        1.0000000000000004
+      ]
+    },
+    {
+      "camera_id": "C4",
+      "world_position_m": [
+        0.055,
+        -0.09879039782569496,
+        1.7014341563639621
+      ],
+      "forward_world": [
+        -0.0,
+        -0.0,
+        -1.0
+      ]
+    },
+    {
+      "camera_id": "C5",
+      "world_position_m": [
+        -0.055,
+        -0.09879039782569496,
+        1.7414341563639621
+      ],
+      "forward_world": [
+        8.659560562354935e-17,
+        -8.659560562354935e-17,
+        1.0000000000000004
+      ]
+    },
+    {
+      "camera_id": "C6",
+      "world_position_m": [
+        -0.055,
+        -0.09879039782569496,
+        1.7014341563639621
+      ],
+      "forward_world": [
+        -0.0,
+        -0.0,
+        -1.0
+      ]
+    }
+  ],
+  "config_sha256": "5e6cdea8131c7c6db4bf4f82bd86b43ff85bfc1ef28e7b880c83747e8827aa4f",
+  "scene": "scenes/step2_1b_v6/indoor_worker.usda",
+  "source_geometry": "v3 unchanged",
+  "postprocessing": "none",
+  "depth_checks": "actual final body/device mesh first-hit against native radial depth",
+  "loading_status": [
+    "",
+    0,
+    0
+  ]
+}

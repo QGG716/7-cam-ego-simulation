@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "offline_tests": {
+    "run": 20,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "prior_tracked_file_count": 955,
+  "authorized_modified_files": [
+    ".gitattributes",
+    "README.md",
+    "config/rig_sim_v0.2.json",
+    "src/projection.py",
+    "src/rig_common.py",
+    "tests/test_offline.py",
+    "tests/test_step2.py"
+  ],
+  "prior_files_outside_authorized_scope_unchanged": true,
+  "config_sha256": "5e6cdea8131c7c6db4bf4f82bd86b43ff85bfc1ef28e7b880c83747e8827aa4f",
+  "output_sha256": {
+    "outputs/step2_1b_v6/fov_overview_wearer_v6.pdf": "8638e403957565334fcaea401a905071cc7580b253c39027f6c5abcd8817d4de",
+    "outputs/step2_1b_v6/fov_overview_wearer_v6.png": "c087694b961cac5c65de7c72c21c34112c190ecb831b11fddb5f24317e6975c4",
+    "outputs/step2_1b_v6/fov_overview_wearer_v6.svg": "b2009ca999ad1661ef617aded4e4a58fb5930d0556da519eb0999dd91010ef8b",
+    "outputs/step2_1b_v6/panels/panel_A.png": "f7abede8283d39d0d718c6f28891705eeec137c6e08141de06343c0945925a92",
+    "outputs/step2_1b_v6/panels/panel_B.png": "10f02265401a60e51078a04f37fc44296686c3be5897a7faf6a0021316c5bd2b",
+    "outputs/step2_1b_v6/panels/panel_C.png": "6aa6bbb091d6b330d3cb93e4aff013c2e26eb7aac31ebc5ff94357739f557c7f",
+    "outputs/step2_1b_v6/panels/panel_D.png": "5066cb1986b173d3a01ebfa4a4c89d6ae43838aaf5d6988e74483dac26165963",
+    "outputs/step2_1b_v6/raw/C0.png": "a8df819c800d8c6b9afdae3e9bd7578e265f616a0593e39263efa7d2685fb9a0",
+    "outputs/step2_1b_v6/raw/C1.png": "0e124338b03cd854b4f1d78a13dd8e5cdac8dd19cbbe9fefffac69889e360ffa",
+    "outputs/step2_1b_v6/raw/C2.png": "069d2410dca724967778a5b17ca995f03803d4240e140654ad578f6074bbe9a0",
+    "outputs/step2_1b_v6/raw/C3.png": "79395282392da881e6746aedd2b181070471324ece9b155301d1428056035d3e",
+    "outputs/step2_1b_v6/raw/C4.png": "dcb987e1316f2eb94eac6088780d5a7724b4a994001bc5a0b318eafe6fd9745e",
+    "outputs/step2_1b_v6/raw/C5.png": "ee5d4d8977c024de1072e010f2bfbe53b775fe5e5d48fb4e4cfc285ad66edf1d",
+    "outputs/step2_1b_v6/raw/C6.png": "33f27f062f89f31200e2b58cea0a5eb9d931de141a6178bacd352d9b3bcf02ed"
+  },
+  "visual_review": {
+    "status": "PASS",
+    "method": "Final PNG layout and rasterized single-page PDF inspected; correct seven camera labels/HV parameters; full frames without overlays"
+  },
+  "native_render_status": "PASS"
+}

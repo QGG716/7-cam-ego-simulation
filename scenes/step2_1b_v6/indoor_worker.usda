@@ -1,0 +1,108 @@
+#usda 1.0
+(defaultPrim="World"
+ metersPerUnit=1
+ upAxis="Z"
+ subLayers=[@../step2_1b_v3/indoor_worker.usda@])
+over "World" {
+over "Rig" {
+over "Sensors" {
+over "C0_front_main" (prepend apiSchemas=["OmniLensDistortionOpenCvPinholeAPI"]) {
+custom double sim:fx = 554.2562584220409
+custom double sim:fy = 569.0412676517196
+custom double sim:hfov = 120.0
+custom double sim:vfov = 87.0
+custom string sim:configSha256 = "5e6cdea8131c7c6db4bf4f82bd86b43ff85bfc1ef28e7b880c83747e8827aa4f"
+uniform token omni:lensdistortion:model = "opencvPinhole"
+float omni:lensdistortion:opencvPinhole:fx = 554.2562584220409
+float omni:lensdistortion:opencvPinhole:fy = 569.0412676517196
+float omni:lensdistortion:opencvPinhole:cx = 960.0
+float omni:lensdistortion:opencvPinhole:cy = 540.0
+int2 omni:lensdistortion:opencvPinhole:imageSize = (1920,1080)
+}
+over "C1_front_left" (prepend apiSchemas=["OmniLensDistortionLutAPI"]) {
+custom double sim:fx = 572.9577951308232
+custom double sim:fy = 620.7042780583919
+custom double sim:hfov = 160.0
+custom double sim:vfov = 120
+custom string sim:configSha256 = "5e6cdea8131c7c6db4bf4f82bd86b43ff85bfc1ef28e7b880c83747e8827aa4f"
+uniform token omni:lensdistortion:model = "lut"
+float omni:lensdistortion:lut:nominalWidth = 1600
+float omni:lensdistortion:lut:nominalHeight = 1300
+float2 omni:lensdistortion:lut:opticalCenter = (800.0,650.0)
+asset omni:lensdistortion:lut:rayEnterDirectionTexture = @../../config/step2_1b_v6/lut/front_enter.exr@
+asset omni:lensdistortion:lut:rayExitPositionTexture = @../../config/step2_1b_v6/lut/front_exit.exr@
+custom float fthetaMaxFov = 200.0
+}
+over "C2_front_right" (prepend apiSchemas=["OmniLensDistortionLutAPI"]) {
+custom double sim:fx = 572.9577951308232
+custom double sim:fy = 620.7042780583919
+custom double sim:hfov = 160.0
+custom double sim:vfov = 120
+custom string sim:configSha256 = "5e6cdea8131c7c6db4bf4f82bd86b43ff85bfc1ef28e7b880c83747e8827aa4f"
+uniform token omni:lensdistortion:model = "lut"
+float omni:lensdistortion:lut:nominalWidth = 1600
+float omni:lensdistortion:lut:nominalHeight = 1300
+float2 omni:lensdistortion:lut:opticalCenter = (800.0,650.0)
+asset omni:lensdistortion:lut:rayEnterDirectionTexture = @../../config/step2_1b_v6/lut/front_enter.exr@
+asset omni:lensdistortion:lut:rayExitPositionTexture = @../../config/step2_1b_v6/lut/front_exit.exr@
+custom float fthetaMaxFov = 200.0
+}
+over "C3_surround_left_up" (prepend apiSchemas=["OmniLensDistortionLutAPI"]) {
+custom double sim:fx = 329.14596741557926
+custom double sim:fy = 413.56352129743635
+custom double sim:hfov = 188
+custom double sim:vfov = 133
+custom string sim:configSha256 = "5e6cdea8131c7c6db4bf4f82bd86b43ff85bfc1ef28e7b880c83747e8827aa4f"
+uniform token omni:lensdistortion:model = "lut"
+float omni:lensdistortion:lut:nominalWidth = 1080
+float omni:lensdistortion:lut:nominalHeight = 960
+float2 omni:lensdistortion:lut:opticalCenter = (540.0,480.0)
+asset omni:lensdistortion:lut:rayEnterDirectionTexture = @../../config/step2_1b_v6/lut/surround_enter.exr@
+asset omni:lensdistortion:lut:rayExitPositionTexture = @../../config/step2_1b_v6/lut/surround_exit.exr@
+custom float fthetaMaxFov = 230.28894893155424
+}
+over "C4_surround_left_down" (prepend apiSchemas=["OmniLensDistortionLutAPI"]) {
+custom double sim:fx = 329.14596741557926
+custom double sim:fy = 413.56352129743635
+custom double sim:hfov = 188
+custom double sim:vfov = 133
+custom string sim:configSha256 = "5e6cdea8131c7c6db4bf4f82bd86b43ff85bfc1ef28e7b880c83747e8827aa4f"
+uniform token omni:lensdistortion:model = "lut"
+float omni:lensdistortion:lut:nominalWidth = 1080
+float omni:lensdistortion:lut:nominalHeight = 960
+float2 omni:lensdistortion:lut:opticalCenter = (540.0,480.0)
+asset omni:lensdistortion:lut:rayEnterDirectionTexture = @../../config/step2_1b_v6/lut/surround_enter.exr@
+asset omni:lensdistortion:lut:rayExitPositionTexture = @../../config/step2_1b_v6/lut/surround_exit.exr@
+custom float fthetaMaxFov = 230.28894893155424
+}
+over "C5_surround_right_up" (prepend apiSchemas=["OmniLensDistortionLutAPI"]) {
+custom double sim:fx = 329.14596741557926
+custom double sim:fy = 413.56352129743635
+custom double sim:hfov = 188
+custom double sim:vfov = 133
+custom string sim:configSha256 = "5e6cdea8131c7c6db4bf4f82bd86b43ff85bfc1ef28e7b880c83747e8827aa4f"
+uniform token omni:lensdistortion:model = "lut"
+float omni:lensdistortion:lut:nominalWidth = 1080
+float omni:lensdistortion:lut:nominalHeight = 960
+float2 omni:lensdistortion:lut:opticalCenter = (540.0,480.0)
+asset omni:lensdistortion:lut:rayEnterDirectionTexture = @../../config/step2_1b_v6/lut/surround_enter.exr@
+asset omni:lensdistortion:lut:rayExitPositionTexture = @../../config/step2_1b_v6/lut/surround_exit.exr@
+custom float fthetaMaxFov = 230.28894893155424
+}
+over "C6_surround_right_down" (prepend apiSchemas=["OmniLensDistortionLutAPI"]) {
+custom double sim:fx = 329.14596741557926
+custom double sim:fy = 413.56352129743635
+custom double sim:hfov = 188
+custom double sim:vfov = 133
+custom string sim:configSha256 = "5e6cdea8131c7c6db4bf4f82bd86b43ff85bfc1ef28e7b880c83747e8827aa4f"
+uniform token omni:lensdistortion:model = "lut"
+float omni:lensdistortion:lut:nominalWidth = 1080
+float omni:lensdistortion:lut:nominalHeight = 960
+float2 omni:lensdistortion:lut:opticalCenter = (540.0,480.0)
+asset omni:lensdistortion:lut:rayEnterDirectionTexture = @../../config/step2_1b_v6/lut/surround_enter.exr@
+asset omni:lensdistortion:lut:rayExitPositionTexture = @../../config/step2_1b_v6/lut/surround_exit.exr@
+custom float fthetaMaxFov = 230.28894893155424
+}
+}
+}
+}

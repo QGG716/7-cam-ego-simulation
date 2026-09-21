@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "design_revision": "SIM-V0.2-vfov130",
+  "design_revision": "SIM-V0.3-hv",
   "status": "PROPOSED_SIMULATION_LAYOUT_NOT_MANUFACTURING_OR_MEASURED_CALIBRATION",
   "units": "mm",
   "frame_convention": {
@@ -77,8 +77,8 @@
         1080
       ],
       "hfov_deg": 120.0,
-      "provenance": "HFOV/resolution inherited from PDF-based baseline; explicit VFOV=130 from current user; independent fx/fy and centered principal point are simulation assumptions, not confirmed physical lens",
-      "vfov_deg": 130.0
+      "provenance": "User update 2026-09-21: H120 V87; independent fx/fy; unchanged resolution and pinhole projection",
+      "vfov_deg": 87
     },
     "front_stereo": {
       "model": "ideal_equidistant",
@@ -87,9 +87,9 @@
         1300
       ],
       "hfov_deg": 160.0,
-      "radial_full_fov_deg": 160.0,
-      "provenance": "resolution chosen at PDF minimum for both cameras; HFOV from PDF; equidistant model and circular cut-off are assumptions, not lens calibration",
-      "vfov_deg": 130.0
+      "provenance": "User update 2026-09-21 and explicit C2 confirmation: C1/C2 H160 V120; ideal equidistant with independent per-axis pixel scales and full rectangular domain.",
+      "vfov_deg": 120,
+      "image_domain": "rectangle"
     },
     "surround": {
       "model": "ideal_equidistant",
@@ -97,9 +97,10 @@
         1080,
         960
       ],
-      "radial_full_fov_deg": 220.0,
-      "image_circle_diameter_px": 960.0,
-      "provenance": "resolution chosen at PDF minimum; 220 comes only from composition image; interpretation as full circular angle with 960 px diameter is an assumption"
+      "provenance": "User update 2026-09-21: C3-C6 H188 V133, replacing the earlier 220-degree circle. Equidistant angular law, independent fx/fy, unchanged 1080x960 resolution; full rectangular domain assumed from H/V specification.",
+      "hfov_deg": 188,
+      "vfov_deg": 133,
+      "image_domain": "rectangle"
     }
   },
   "geometry": {
@@ -235,13 +236,14 @@
     "No opaque lens cap or decorative glass is placed in front of the virtual camera origin; lens refraction, entrance-pupil shift and internal vignetting are not simulated.",
     "No machining holes, tolerances, material, mass, center of mass or PCB design are frozen by this model.",
     "The 220 degree and 1000 IMU image labels do not replace the PDF technical requirements.",
-    "Results apply only to this configuration and its declared optical/geometry assumptions."
+    "Results apply only to this configuration and its declared optical/geometry assumptions.",
+    "Current explicit H/V fisheyes use independent fx/fy in the ideal equidistant mapping and a rectangular image domain; this is a simulation convention, not a measured lens calibration. Historical 220-degree circular interpretation is superseded for C3-C6."
   ],
   "change_provenance": {
     "baseline": "assets/baseline/seven_camera_sim_layout_v01/config/layout_parameters.json",
-    "user_confirmation": "C0/C1/C2 VFOV=130 degrees; this is not a PDF original requirement",
+    "user_confirmation": "2026-09-21: C0 H120 V87; C1/C2 H160 V120 (C2 explicitly confirmed); C3-C6 H188 V133.",
     "structure": "unchanged unmeasured simulation baseline",
-    "composition_image": "220-degree circular interpretation retained; IMUx1000 does not replace 200 Hz"
+    "composition_image": "Historical 220-degree circular interpretation superseded by current user H188/V133; IMUx1000 does not replace 200 Hz"
   },
   "simulation": {
     "rig_world_translation_m": [
@@ -254,5 +256,7 @@
     "pixel_convention": "continuous image edges [0,W] x [0,H]; pixel centers (column+0.5,row+0.5); principal point (W/2,H/2)",
     "mode": "ideal",
     "static_time_seconds": 0.0
-  }
+  },
+  "active_scene": "scenes/step2_1b_v6/indoor_worker.usda",
+  "active_calibration": "config/step2_1b_v6/derived_calibration.json"
 }

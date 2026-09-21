@@ -1,3 +1,22 @@
+# 七目相机新视场与原生图像 - v6
+
+当前活动参数：**C0 H120°×V87°；C1/C2 H160°×V120°；C3/C4/C5/C6 H188°×V133°**。七路已按新参数实际重新渲染，保持原有佩戴位姿、相机外参及分辨率，延续 v5 原图版式。
+
+[最新总图 PNG](outputs/step2_1b_v6/fov_overview_wearer_v6.png) · [PDF](outputs/step2_1b_v6/fov_overview_wearer_v6.pdf) · [SVG](outputs/step2_1b_v6/fov_overview_wearer_v6.svg) · [报告与复现](reports/step2_1b_v6/fov_figure_report.md)
+
+鱼眼保留理想等距角度关系，以独立横纵内参和矩形成像域匹配新 H/V；原生 RTX LUT 执行射线投影。该成像域是仿真假设，并非实测镜头标定。活动配置 `config/rig_sim_v0.2.json` 指向 v6 的场景及派生标定。图片未增加曝光增益、重叠色块或内容修饰。
+
+```powershell
+.venv/Scripts/python.exe scripts/build_fov_figure_v6.py
+.venv/Scripts/python.exe -m unittest discover -s tests -v
+# 已有授权 GPU 工程内重新渲染并回传
+.venv/Scripts/python.exe scripts/run_fov_figure_v6.py
+```
+
+下方为历史阶段说明，所列 130°/220° 参数和旧命令属于对应历史提交。历史结果保留；重现旧阶段请切换对应提交，勿以旧入口覆盖当前配置。
+
+---
+
 # 七目视场外部技术说明图 - Step 2.1b
 
 [查看主图 PNG](outputs/step2_1b/fov_overview_wearer.png) · [PDF](outputs/step2_1b/fov_overview_wearer.pdf) · [SVG](outputs/step2_1b/fov_overview_wearer.svg) · [说明与复现](reports/step2_1b/fov_figure_report.md)
